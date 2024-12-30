@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2af62863-bc5c-495c-9eba-1160df691f6f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="openBrowser_CampusLocation"
+	namespace="BudgetItemAutomationIFM">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Firefox"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://app.ifm360.com/CampusFacilities
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="95c24b45-de07-49ea-b484-24e2432a73a7"
+	name="BudgetItemAutomationIFMRepository"
+	relativepath="BudgetItemAutomationIFMRepository.rxrep">
+		<codegen
+		classname="BudgetItemAutomationIFMRepository"
+		namespace="BudgetItemAutomationIFM">
+		</codegen>
+		<rootfolder
+		id="bf1b39b4-1124-49e8-bfc8-b2f92bc20b58"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		openBrowser_CampusLocation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

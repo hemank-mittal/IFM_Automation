@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c05ce107-e522-425e-b162-927945b8dcd1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="pre_editItem"
+	namespace="BudgetItemAutomationIFM">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="fcce7d95-42fd-4574-a9fa-80a2f6cc8bb7"
+		sx="1578"
+		sy="411"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9c05d3b6-f2a1-4448-ab4d-52e01aa54802"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/?/?/button[@innertext=' Edit ' or @innertext=' Edit']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="95c24b45-de07-49ea-b484-24e2432a73a7"
+	name="BudgetItemAutomationIFMRepository"
+	relativepath="BudgetItemAutomationIFMRepository.rxrep">
+		<codegen
+		classname="BudgetItemAutomationIFMRepository"
+		namespace="BudgetItemAutomationIFM">
+		</codegen>
+		<rootfolder
+		id="bf1b39b4-1124-49e8-bfc8-b2f92bc20b58"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		pre_editItem.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

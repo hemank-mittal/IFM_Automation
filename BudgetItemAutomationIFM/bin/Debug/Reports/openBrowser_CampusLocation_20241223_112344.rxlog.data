@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.25s"
+		durationms="2249"
+		type="root"
+		rid="2bd9236eeba1bf56"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="23-12-2024 11:23:45"
+		timestampiso="2024-12-23T05:53:45"
+		endtime="23-12-2024 11:23:47"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="openBrowser_CampusLocation">
+		<detail>
+			openBrowser_CampusLocation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.046"
+			timeRelativeToTestModuleStartTime="00:02.046"
+			timeWallClock="11:23:47"
+			time="00:02.046"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://app.ifm360.com/CampusFacilities' with browser 'Firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\openBrowser_CampusLocation.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

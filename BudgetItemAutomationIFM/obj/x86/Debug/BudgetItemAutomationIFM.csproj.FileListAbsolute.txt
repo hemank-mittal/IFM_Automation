@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\BudgetItemAutomationIFM.rxtst
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\BudgetItemAutomationIFM.exe.config
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\BudgetItemAutomationIFM.xml
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\BudgetItemAutomationIFM.exe
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\BudgetItemAutomationIFM.pdb
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\obj\x86\Debug\BudgetItemAutomationIFM.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\obj\x86\Debug\BudgetItemAutomationIFM.exe
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\obj\x86\Debug\BudgetItemAutomationIFM.pdb
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\RepositoryImages\BudgetItemAutomationIFMRepositorybf1b39b4.rximgres
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\CloseoutItemAutomationIFM.rxtst
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\BudgetItemAutomationIFM.rxsqc
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\AllModuleGroups.rxtmg
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\ContractTypeAumationIFM.rxtst
+C:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\bin\Debug\FileCategoryAutomationIfm.rxtst

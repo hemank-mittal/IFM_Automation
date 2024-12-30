@@ -1,0 +1,22 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "BudgetItemAutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "CloseoutItemAutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "ContractTypeAumationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "FileCategoryAutomationIfm",
+    "RunConfig": "TestRun"
+  }
+]

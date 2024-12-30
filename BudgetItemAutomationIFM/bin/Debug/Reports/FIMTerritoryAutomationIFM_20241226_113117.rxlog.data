@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="32.26s"
+		durationms="32256"
+		type="root"
+		rid="9e983653342d9bf"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 11:31:17"
+		timestampiso="2024-12-26T06:01:17"
+		endtime="26-12-2024 11:31:49"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="30.78s"
+			durationms="30781"
+			type="test-suite"
+			rid="79e5f554168c31"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="FIMTerritoryAutomationIFM"
+			headertext="FIMTerritoryAutomationIFM"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="30.74s"
+				durationms="30736"
+				type="test-case"
+				rid="5b58e3c950d0cf2"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="itemCount">
+					</param>
+					<param
+						name="itemName">
+					</param>
+					<param
+						name="linkedItem">
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="28.3s"
+					durationms="28301"
+					type="test-module"
+					rid="1206a81ba161c48f"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="createTerritory"
+					displayName="createTerritory"
+					moduleid="2f1ce2c9-44b1-4b48-b539-32e5048cf0d5"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="itemCount"
+							value="">
+						</varbinding>
+						<varbinding
+							name="newTemplateName"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.087"
+						timeRelativeToTestModuleStartTime="00:00.009"
+						timeWallClock="11:31:18"
+						time="00:00.087"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$itemCount = '', $newTemplateName = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.056"
+						timeRelativeToTestModuleStartTime="00:01.978"
+						timeWallClock="11:31:20"
+						time="00:02.056"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.createButtonTag' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//button[@innertext='Create ' or @innertext='Create' or @innertext=' Create ']"
+							itempath=".//button[@innertext='Create ' or @innertext='Create' or @innertext=' Create ']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.createButtonTag"
+							id="45f2aba5c0354581843bfaecca9efb8f"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="112"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.612"
+						timeRelativeToTestModuleStartTime="00:02.534"
+						timeWallClock="11:31:21"
+						time="00:02.612"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+							itempath=".//input[@type='text' and @id>'mat-input-']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+							id="eab7ff035f474a098ef9a31fc7bd81f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="116"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.288"
+						timeRelativeToTestModuleStartTime="00:03.210"
+						timeWallClock="11:31:21"
+						time="00:03.288"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.TitleInputBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+							itempath=".//input[@type='text' and @id>'mat-input-']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+							id="eab7ff035f474a098ef9a31fc7bd81f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="120"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.951"
+						timeRelativeToTestModuleStartTime="00:03.873"
+						timeWallClock="11:31:22"
+						time="00:03.951"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.CustodialAreaManager' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]//span"
+							itempath="tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]//span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.CustodialAreaManager"
+							id="562369cf703049edbcd9b07699470210"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="124"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.589"
+						timeRelativeToTestModuleStartTime="00:04.511"
+						timeWallClock="11:31:23"
+						time="00:04.589"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance' at 104;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							itempath="tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance"
+							id="4129f942b2ce48f2af66e008dbef8132"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="128"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.306"
+						timeRelativeToTestModuleStartTime="00:05.228"
+						timeWallClock="11:31:23"
+						time="00:05.306"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.CustodialAreaManager' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]//span"
+							itempath="tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]//span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.CustodialAreaManager"
+							id="562369cf703049edbcd9b07699470210"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="132"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.973"
+						timeRelativeToTestModuleStartTime="00:05.895"
+						timeWallClock="11:31:24"
+						time="00:05.973"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagSave' at 30;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']//button[@innertext=' Submit ' or @innertext='Submit' or @innertext=' Save ']"
+							itempath=".//button[@innertext=' Submit ' or @innertext='Submit' or @innertext=' Save ']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.ButtonTagSave"
+							id="23e842545a0942f6a9d933c4e641b453"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="136"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.592"
+						timeRelativeToTestModuleStartTime="00:06.514"
+						timeWallClock="11:31:25"
+						time="00:06.592"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i"
+							itempath=".//div[#'page-container']/?/?/i"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FaFaSpinFaSpinner"
+							id="98ce9c4a76f647e0900ef3b484726afb"
+							timeout="30000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTerritory.cs"
+							codeline="140"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.39s"
+					durationms="2394"
+					type="test-module"
+					rid="248280b5ca9d5e"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="validateCreateTerritory"
+					displayName="validateCreateTerritory"
+					moduleid="fc71fce1-d4a3-481d-861a-af6b5d07f4f7"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="itemName"
+							value="test element 12">
+						</varbinding>
+						<varbinding
+							name="visibleName"
+							value="test element 12">
+						</varbinding>
+						<varbinding
+							name="linkedCAM"
+							value="">
+						</varbinding>
+						<varbinding
+							name="visibleCAM"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.382"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="11:31:46"
+						time="00:28.382"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$itemName = 'test element 12', $visibleName = 'test element 12', $linkedCAM = '', $visibleCAM = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.435"
+						timeRelativeToTestModuleStartTime="00:00.053"
+						timeWallClock="11:31:47"
+						time="00:28.435"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="134"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.522"
+						timeRelativeToTestModuleStartTime="00:00.140"
+						timeWallClock="11:31:47"
+						time="00:28.522"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="138"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.057"
+						timeRelativeToTestModuleStartTime="00:00.674"
+						timeWallClock="11:31:47"
+						time="00:29.057"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="142"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.585"
+						timeRelativeToTestModuleStartTime="00:01.203"
+						timeWallClock="11:31:48"
+						time="00:29.585"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 500ms.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="146"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.140"
+						timeRelativeToTestModuleStartTime="00:01.758"
+						timeWallClock="11:31:48"
+						time="00:30.140"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'visibleName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[1]/?"
+							itempath=".//table/tbody/tr[1]/td[1]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag"
+							id="54b25f0f44a74ff19a0370ffe8a806a5"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="149"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.221"
+						timeRelativeToTestModuleStartTime="00:01.838"
+						timeWallClock="11:31:48"
+						time="00:30.221"
+						level="Success"
+						category="User">
+						<message>
+							Literals matched!
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="79"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.261"
+						timeRelativeToTestModuleStartTime="00:01.879"
+						timeWallClock="11:31:48"
+						time="00:30.261"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.secondElement_anyTag' and assigning its value to variable 'visibleCAM'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[2]/?"
+							itempath=".//table/tbody/tr[1]/td[2]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.secondElement_anyTag"
+							id="bfa2b00bc15241aab568ef27bfdbcc0e"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="156"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.331"
+						timeRelativeToTestModuleStartTime="00:01.949"
+						timeWallClock="11:31:48"
+						time="00:30.331"
+						level="Warn"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="83"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.381"
+						timeRelativeToTestModuleStartTime="00:01.999"
+						timeWallClock="11:31:48"
+						time="00:30.381"
+						level="Warn"
+						category="User">
+						<message>
+							associate pm user
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="84"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.429"
+						timeRelativeToTestModuleStartTime="00:02.047"
+						timeWallClock="11:31:49"
+						time="00:30.429"
+						level="Error"
+						category="User">
+						<message>
+							Expected value : Associate PM User and actual value : .
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="85"
+							loglvl="Error">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.469"
+						timeRelativeToTestModuleStartTime="00:02.087"
+						timeWallClock="11:31:49"
+						time="00:30.469"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="163"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.623"
+						timeRelativeToTestModuleStartTime="00:02.240"
+						timeWallClock="11:31:49"
+						time="00:30.623"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTerritory.cs"
+							codeline="168"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

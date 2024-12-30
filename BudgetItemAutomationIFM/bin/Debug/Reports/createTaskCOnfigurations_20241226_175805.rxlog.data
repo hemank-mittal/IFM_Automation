@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.24s"
+		durationms="4244"
+		type="root"
+		rid="3904e7ac19979add"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 17:58:06"
+		timestampiso="2024-12-26T12:28:06"
+		endtime="26-12-2024 17:58:10"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createTaskCOnfigurations">
+		<detail>
+			createTaskCOnfigurations
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.460"
+			timeRelativeToTestModuleStartTime="00:01.460"
+			timeWallClock="17:58:07"
+			time="00:01.460"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemCount, HEXCode, newTemplateName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.480"
+			timeRelativeToTestModuleStartTime="00:01.480"
+			timeWallClock="17:58:07"
+			time="00:01.480"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HEXCodeInput' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				itempath="body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.HEXCodeInput"
+				id="6956bd16f9a345e9a757242502be8971"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.932"
+			timeRelativeToTestModuleStartTime="00:03.932"
+			timeWallClock="17:58:10"
+			time="00:03.932"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '' on item 'ApplicationUnderTest.HEXCodeInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				itempath="body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.HEXCodeInput"
+				id="6956bd16f9a345e9a757242502be8971"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="126"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.985"
+			timeRelativeToTestModuleStartTime="00:03.985"
+			timeWallClock="17:58:10"
+			time="00:03.985"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$HEXCode' with focus on 'ApplicationUnderTest.HEXCodeInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				itempath="body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.HEXCodeInput"
+				id="6956bd16f9a345e9a757242502be8971"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="130"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

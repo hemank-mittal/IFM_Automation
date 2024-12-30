@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.71s"
+		durationms="8710"
+		type="root"
+		rid="3657765d4aa2db8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="24-12-2024 18:40:03"
+		timestampiso="2024-12-24T13:10:03"
+		endtime="24-12-2024 18:40:12"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="editField">
+		<detail>
+			editField
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.131"
+			timeRelativeToTestModuleStartTime="00:02.131"
+			timeWallClock="18:40:05"
+			time="00:02.131"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>oldName, edittedName, CL_Type, editedParentName, editedSiteBuildingRoom, editedFieldType, editedUnit, optionIndex
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.160"
+			timeRelativeToTestModuleStartTime="00:02.160"
+			timeWallClock="18:40:05"
+			time="00:02.160"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ' or @innertext='Edit']"
+				itempath=".//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ' or @innertext='Edit']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.ButtonTagEdit1"
+				id="80258e15f39941bfa93411191602d0b3"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="184"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.883"
+			timeRelativeToTestModuleStartTime="00:03.883"
+			timeWallClock="18:40:07"
+			time="00:03.883"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'TagValue' from item 'ApplicationUnderTest.TitleInputBar' and assigning its value to variable 'oldName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+				itempath=".//input[@type='text' and @id>'mat-input-']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+				id="eab7ff035f474a098ef9a31fc7bd81f9"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="188"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.009"
+			timeRelativeToTestModuleStartTime="00:04.009"
+			timeWallClock="18:40:07"
+			time="00:04.009"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+				itempath=".//input[@type='text' and @id>'mat-input-']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+				id="eab7ff035f474a098ef9a31fc7bd81f9"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="195"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.000"
+			timeRelativeToTestModuleStartTime="00:05.000"
+			timeWallClock="18:40:08"
+			time="00:05.000"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '' on item 'ApplicationUnderTest.TitleInputBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+				itempath=".//input[@type='text' and @id>'mat-input-']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+				id="eab7ff035f474a098ef9a31fc7bd81f9"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="199"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.097"
+			timeRelativeToTestModuleStartTime="00:05.097"
+			timeWallClock="18:40:08"
+			time="00:05.097"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$edittedName' with focus on 'ApplicationUnderTest.TitleInputBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+				itempath=".//input[@type='text' and @id>'mat-input-']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+				id="eab7ff035f474a098ef9a31fc7bd81f9"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="203"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.632"
+			timeRelativeToTestModuleStartTime="00:05.632"
+			timeWallClock="18:40:09"
+			time="00:05.632"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.DropdownBtn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]//tag[@tagname='app-add-field']/div[1]/div[2]/div[1]/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+				itempath="div[2]/div[1]/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.AddEditFieldForm.DropdownBtn"
+				id="7f7e5bc2c06f4e748643667a49a9132d"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="207"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.210"
+			timeRelativeToTestModuleStartTime="00:07.210"
+			timeWallClock="18:40:10"
+			time="00:07.210"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'ApplicationUnderTest.AddEditFieldForm.parentName_dynamic' and assigning its value to variable 'editedParentName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]//tag[@tagname='app-add-field']/div[1]/div[2]/div[1]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+				itempath="div[2]/div[1]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.AddEditFieldForm.parentName_dynamic"
+				id="1fd2a7312a374895aa7567451d841809"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="214"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.272"
+			timeRelativeToTestModuleStartTime="00:07.272"
+			timeWallClock="18:40:10"
+			time="00:07.272"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.MatMdcSelectValueNgTnsC3393473648' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]//tag[@tagname='app-add-field']/div[1]/div[1]/div[3]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]"
+				itempath="div[1]/div[3]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.AddEditFieldForm.MatMdcSelectValueNgTnsC3393473648"
+				id="0b05bd24976a4905adfec5b4fb07023d"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="218"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.983"
+			timeRelativeToTestModuleStartTime="00:07.983"
+			timeWallClock="18:40:11"
+			time="00:07.983"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.MatMdcSelectValueNgTnsC3393473648' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]//tag[@tagname='app-add-field']/div[1]/div[1]/div[3]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]"
+				itempath="div[1]/div[3]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.AddEditFieldForm.MatMdcSelectValueNgTnsC3393473648"
+				id="0b05bd24976a4905adfec5b4fb07023d"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="222"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.711"
+			timeRelativeToTestModuleStartTime="00:08.711"
+			timeWallClock="18:40:12"
+			time="00:08.711"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

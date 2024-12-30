@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.93s"
+		durationms="3928"
+		type="root"
+		rid="132c76abee7542a7"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="24-12-2024 19:08:59"
+		timestampiso="2024-12-24T13:38:59"
+		endtime="24-12-2024 19:09:03"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="editField">
+		<detail>
+			editField
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.035"
+			timeRelativeToTestModuleStartTime="00:02.035"
+			timeWallClock="19:09:01"
+			time="00:02.035"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>oldName, edittedName, CL_Type, editedParentName, editedSiteBuildingRoom, editedFieldType, editedUnit, optionIndex
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.063"
+			timeRelativeToTestModuleStartTime="00:02.063"
+			timeWallClock="19:09:01"
+			time="00:02.063"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.MatMdcSelectValueNgTnsC3393473648' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]//tag[@tagname='app-add-field']/div[1]/div[1]/div[3]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]"
+				itempath="div[1]/div[3]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.AddEditFieldForm.MatMdcSelectValueNgTnsC3393473648"
+				id="0b05bd24976a4905adfec5b4fb07023d"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="184"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.361"
+			timeRelativeToTestModuleStartTime="00:03.361"
+			timeWallClock="19:09:02"
+			time="00:03.361"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'ApplicationUnderTest.CdkOverlayContainer.openDropdown_dynamic' and assigning its value to variable 'editedSiteBuildingRoom'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[4]/?/?/div/tag[2]/span"
+				itempath="div[4]/?/?/div/tag[$optionIndex]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CdkOverlayContainer.openDropdown_dynamic"
+				id="c9e84c31fc7946039ab6254512ee1bd6"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="191"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.419"
+			timeRelativeToTestModuleStartTime="00:03.419"
+			timeWallClock="19:09:02"
+			time="00:03.419"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.openDropdown_dynamic' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[4]/?/?/div/tag[2]/span"
+				itempath="div[4]/?/?/div/tag[$optionIndex]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CdkOverlayContainer.openDropdown_dynamic"
+				id="c9e84c31fc7946039ab6254512ee1bd6"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editField.cs"
+				codeline="195"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

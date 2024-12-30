@@ -1,0 +1,1121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="22.66s"
+		durationms="22656"
+		type="root"
+		rid="2aed0bea3f146f8"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="27-12-2024 16:11:00"
+		timestampiso="2024-12-27T10:41:00"
+		endtime="27-12-2024 16:11:23"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="21.28s"
+			durationms="21275"
+			type="test-suite"
+			rid="d9dd5cd235b6239"
+			totalerrorcount="0"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="TMM_TaskItemAutomationIFM"
+			headertext="TMM_TaskItemAutomationIFM"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="21.24s"
+				durationms="21238"
+				type="test-case"
+				rid="1c3e94deeb10440"
+				totalerrorcount="0"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="itemCount">
+					</param>
+					<param
+						name="itemName">
+					</param>
+					<param
+						name="testDescription">
+						test description
+					</param>
+					<param
+						name="estimateHours">
+						10
+					</param>
+					<param
+						name="assignee">
+					</param>
+					<param
+						name="editedName">
+					</param>
+					<param
+						name="editedDescription">
+					</param>
+					<param
+						name="optionIndex">
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="18.14s"
+					durationms="18144"
+					type="test-module"
+					rid="40de592fcf16fa8"
+					totalerrorcount="0"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="editTaskItem"
+					displayName="editTaskItem"
+					moduleid="381bf380-3dd6-44be-b56d-2c907fd4ba43"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="oldName"
+							value="">
+						</varbinding>
+						<varbinding
+							name="edittedName"
+							value="">
+						</varbinding>
+						<varbinding
+							name="estimateHours"
+							value="10">
+						</varbinding>
+						<varbinding
+							name="optionIndex"
+							value="">
+						</varbinding>
+						<varbinding
+							name="editedAssignee"
+							value="">
+						</varbinding>
+						<varbinding
+							name="editedDescription"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.093"
+						timeRelativeToTestModuleStartTime="00:00.009"
+						timeWallClock="16:11:02"
+						time="00:00.093"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$oldName = '', $edittedName = '', $estimateHours = '10', $optionIndex = '', $editedAssignee = '', $editedDescription = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.167"
+						timeRelativeToTestModuleStartTime="00:00.083"
+						timeWallClock="16:11:02"
+						time="00:00.167"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit_Row2' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody//tr[2]//button[@innertext=' Edit ' or @innertext=' Edit']"
+							itempath=".//table/tbody//tr[2]//button[@innertext=' Edit ' or @innertext=' Edit']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.ButtonTagEdit_Row2"
+							id="9c05d3b6f2a14448ab4d52e01aa54802"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="158"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.843"
+						timeRelativeToTestModuleStartTime="00:01.759"
+						timeWallClock="16:11:03"
+						time="00:01.843"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i"
+							itempath=".//div[#'page-container']/?/?/i"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FaFaSpinFaSpinner"
+							id="98ce9c4a76f647e0900ef3b484726afb"
+							timeout="30000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="162"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.197"
+						timeRelativeToTestModuleStartTime="00:03.113"
+						timeWallClock="16:11:05"
+						time="00:03.197"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+							itempath=".//input[@type='text' and @id>'mat-input-']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+							id="eab7ff035f474a098ef9a31fc7bd81f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="165"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.191"
+						timeRelativeToTestModuleStartTime="00:04.107"
+						timeWallClock="16:11:06"
+						time="00:04.191"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.TitleInputBar' and assigning its value to variable 'oldName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+							itempath=".//input[@type='text' and @id>'mat-input-']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+							id="eab7ff035f474a098ef9a31fc7bd81f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="169"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.300"
+						timeRelativeToTestModuleStartTime="00:04.216"
+						timeWallClock="16:11:06"
+						time="00:04.300"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.TitleInputBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+							itempath=".//input[@type='text' and @id>'mat-input-']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+							id="eab7ff035f474a098ef9a31fc7bd81f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="176"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.424"
+						timeRelativeToTestModuleStartTime="00:04.340"
+						timeWallClock="16:11:06"
+						time="00:04.424"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$edittedName' with focus on 'ApplicationUnderTest.TitleInputBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+							itempath=".//input[@type='text' and @id>'mat-input-']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+							id="eab7ff035f474a098ef9a31fc7bd81f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="180"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.241"
+						timeRelativeToTestModuleStartTime="00:05.157"
+						timeWallClock="16:11:07"
+						time="00:05.241"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Description' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Description"
+							id="91059ccd8dac4bc3a242a6dd83480cbf"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="184"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.308"
+						timeRelativeToTestModuleStartTime="00:06.224"
+						timeWallClock="16:11:08"
+						time="00:06.308"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.Content1.taskItem_Description' and assigning its value to variable 'oldName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Description"
+							id="91059ccd8dac4bc3a242a6dd83480cbf"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="188"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.417"
+						timeRelativeToTestModuleStartTime="00:06.333"
+						timeWallClock="16:11:08"
+						time="00:06.417"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.Content1.taskItem_Description'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Description"
+							id="91059ccd8dac4bc3a242a6dd83480cbf"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="195"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.532"
+						timeRelativeToTestModuleStartTime="00:06.448"
+						timeWallClock="16:11:08"
+						time="00:06.532"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$editedDescription' with focus on 'ApplicationUnderTest.Content1.taskItem_Description'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[2]/div/tag/div[1]/div[2]/?/?/textarea[@required='True']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Description"
+							id="91059ccd8dac4bc3a242a6dd83480cbf"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="199"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.251"
+						timeRelativeToTestModuleStartTime="00:07.167"
+						timeWallClock="16:11:09"
+						time="00:07.251"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_AssigneeDropdown' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div/div/div/tag/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div/div/div/tag/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_AssigneeDropdown"
+							id="67ead509d1a34236a138b4b78676443e"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="203"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.274"
+						timeRelativeToTestModuleStartTime="00:08.190"
+						timeWallClock="16:11:10"
+						time="00:08.274"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Assignee_selected' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/input[@checked='True']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/input[@checked='True']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Assignee_selected"
+							id="fe9e18af13f64343bef54d65a8175a19"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="207"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.524"
+						timeRelativeToTestModuleStartTime="00:09.440"
+						timeWallClock="16:11:11"
+						time="00:09.524"
+						level="Warn"
+						category="User">
+						<message>
+							4
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="289"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.572"
+						timeRelativeToTestModuleStartTime="00:09.488"
+						timeWallClock="16:11:11"
+						time="00:09.572"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.taskItem_Assignee_dynamic' and assigning its value to variable 'editedAssignee'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Assignee_dynamic"
+							id="88b6ab1320a84febb06e1ad827ebfcfa"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="214"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.677"
+						timeRelativeToTestModuleStartTime="00:09.593"
+						timeWallClock="16:11:11"
+						time="00:09.677"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Assignee_dynamic' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Assignee_dynamic"
+							id="88b6ab1320a84febb06e1ad827ebfcfa"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="218"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.805"
+						timeRelativeToTestModuleStartTime="00:10.721"
+						timeWallClock="16:11:12"
+						time="00:10.805"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_AssigneeDropdown' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div/div/div/tag/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div/div/div/tag/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_AssigneeDropdown"
+							id="67ead509d1a34236a138b4b78676443e"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="222"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.858"
+						timeRelativeToTestModuleStartTime="00:11.774"
+						timeWallClock="16:11:13"
+						time="00:11.858"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_EstimatedHour' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_EstimatedHour"
+							id="25d7b8bb477947268e7333fd363cf01a"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="226"
+							itemindex="18"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.889"
+						timeRelativeToTestModuleStartTime="00:12.805"
+						timeWallClock="16:11:14"
+						time="00:12.889"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.Content1.taskItem_EstimatedHour' and assigning its value to variable 'estimateHours'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_EstimatedHour"
+							id="25d7b8bb477947268e7333fd363cf01a"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="230"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.994"
+						timeRelativeToTestModuleStartTime="00:12.910"
+						timeWallClock="16:11:14"
+						time="00:12.994"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.Content1.taskItem_EstimatedHour'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_EstimatedHour"
+							id="25d7b8bb477947268e7333fd363cf01a"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="237"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.095"
+						timeRelativeToTestModuleStartTime="00:13.011"
+						timeWallClock="16:11:15"
+						time="00:13.095"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$estimateHours' with focus on 'ApplicationUnderTest.Content1.taskItem_EstimatedHour'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_EstimatedHour"
+							id="25d7b8bb477947268e7333fd363cf01a"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="241"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.762"
+						timeRelativeToTestModuleStartTime="00:13.678"
+						timeWallClock="16:11:15"
+						time="00:13.762"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Priority' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[2]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[2]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.taskItem_Priority"
+							id="5f64585e0db344c4a1b8e15e80053997"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="245"
+							itemindex="23"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.078"
+						timeRelativeToTestModuleStartTime="00:14.994"
+						timeWallClock="16:11:16"
+						time="00:15.078"
+						level="Warn"
+						category="User">
+						<message>
+							0
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="289"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.113"
+						timeRelativeToTestModuleStartTime="00:15.029"
+						timeWallClock="16:11:17"
+						time="00:15.113"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.singleSelectDropdown_dynamic' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]/div/div/tag[2]/span"
+							itempath="div[2]/div/div/tag[$optionIndex]/span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CdkOverlayContainer.singleSelectDropdown_dynamic"
+							id="1bcb2a4762304e1498de38ac3b2520d8"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="252"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.639"
+						timeRelativeToTestModuleStartTime="00:15.555"
+						timeWallClock="16:11:17"
+						time="00:15.639"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Content1.Save' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[2]/?/?/div/button[@innertext='Save']"
+							itempath="?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[2]/?/?/div/button[@innertext='Save']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.Save"
+							id="81e56ec83a3d4c8bbd57eb75d01cb9e6"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="256"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.573"
+						timeRelativeToTestModuleStartTime="00:16.489"
+						timeWallClock="16:11:18"
+						time="00:16.573"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 1m to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i"
+							itempath=".//div[#'page-container']/?/?/i"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FaFaSpinFaSpinner"
+							id="98ce9c4a76f647e0900ef3b484726afb"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTaskItem.cs"
+							codeline="260"
+							itemindex="27"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="3.04s"
+					durationms="3039"
+					type="test-module"
+					rid="6a999d32d2a484a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="validateCreateTaskItem"
+					displayName="validateCreateTaskItem"
+					moduleid="75334ee3-4c9f-4150-91f6-2cb5d0be7529"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="itemName"
+							value="test 11">
+						</varbinding>
+						<varbinding
+							name="testDescription"
+							value="test">
+						</varbinding>
+						<varbinding
+							name="assignee"
+							value="Associate PM User">
+						</varbinding>
+						<varbinding
+							name="estimatedHours"
+							value="21">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.231"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:11:20"
+						time="00:18.231"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$itemName = 'test 11', $testDescription = 'test', $assignee = 'Associate PM User', $estimatedHours = '21'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.263"
+						timeRelativeToTestModuleStartTime="00:00.032"
+						timeWallClock="16:11:20"
+						time="00:18.263"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="134"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.349"
+						timeRelativeToTestModuleStartTime="00:00.119"
+						timeWallClock="16:11:20"
+						time="00:18.349"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="138"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.158"
+						timeRelativeToTestModuleStartTime="00:00.927"
+						timeWallClock="16:11:21"
+						time="00:19.158"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="142"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.671"
+						timeRelativeToTestModuleStartTime="00:01.440"
+						timeWallClock="16:11:21"
+						time="00:19.671"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 500ms.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="146"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.219"
+						timeRelativeToTestModuleStartTime="00:01.988"
+						timeWallClock="16:11:22"
+						time="00:20.219"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (InnerText=$itemName) on item 'ApplicationUnderTest.firstElement_anyTag'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[1]/?"
+							itempath=".//table/tbody/tr[1]/td[1]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag"
+							id="54b25f0f44a74ff19a0370ffe8a806a5"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="149"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.367"
+						timeRelativeToTestModuleStartTime="00:02.136"
+						timeWallClock="16:11:22"
+						time="00:20.367"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'InnerText' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[1]/?"
+							itempath=".//table/tbody/tr[1]/td[1]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag"
+							id="54b25f0f44a74ff19a0370ffe8a806a5"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="150"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.417"
+						timeRelativeToTestModuleStartTime="00:02.186"
+						timeWallClock="16:11:22"
+						time="00:20.417"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (InnerText=$testDescription) on item 'ApplicationUnderTest.secondElement_anyTag'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[2]/?"
+							itempath=".//table/tbody/tr[1]/td[2]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.secondElement_anyTag"
+							id="bfa2b00bc15241aab568ef27bfdbcc0e"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="153"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.509"
+						timeRelativeToTestModuleStartTime="00:02.279"
+						timeWallClock="16:11:22"
+						time="00:20.509"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'InnerText' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.secondElement_anyTag' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[2]/?"
+							itempath=".//table/tbody/tr[1]/td[2]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.secondElement_anyTag"
+							id="bfa2b00bc15241aab568ef27bfdbcc0e"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="154"
+							loglvl="Success"
+							itemindex="5">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.549"
+						timeRelativeToTestModuleStartTime="00:02.319"
+						timeWallClock="16:11:22"
+						time="00:20.549"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (InnerText=$estimatedHours) on item 'ApplicationUnderTest.thirdElement_anyTag'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[3]/?"
+							itempath=".//table/tbody/tr[1]/td[3]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.thirdElement_anyTag"
+							id="9de5e5f995294891bcba1a13098ae0cc"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="157"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.646"
+						timeRelativeToTestModuleStartTime="00:02.415"
+						timeWallClock="16:11:22"
+						time="00:20.646"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'InnerText' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.thirdElement_anyTag' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[3]/?"
+							itempath=".//table/tbody/tr[1]/td[3]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.thirdElement_anyTag"
+							id="9de5e5f995294891bcba1a13098ae0cc"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="158"
+							loglvl="Success"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.677"
+						timeRelativeToTestModuleStartTime="00:02.446"
+						timeWallClock="16:11:22"
+						time="00:20.677"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (InnerText=$assignee) on item 'ApplicationUnderTest.fourthElement_anyTag'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[4]/?"
+							itempath=".//table/tbody/tr[1]/td[4]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.fourthElement_anyTag"
+							id="43c46f7598eb4977ba5811bd759e46f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="161"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.761"
+						timeRelativeToTestModuleStartTime="00:02.531"
+						timeWallClock="16:11:22"
+						time="00:20.761"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'InnerText' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.fourthElement_anyTag' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[4]/?"
+							itempath=".//table/tbody/tr[1]/td[4]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.fourthElement_anyTag"
+							id="43c46f7598eb4977ba5811bd759e46f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="162"
+							loglvl="Success"
+							itemindex="7">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.794"
+						timeRelativeToTestModuleStartTime="00:02.563"
+						timeWallClock="16:11:22"
+						time="00:20.794"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="165"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.912"
+						timeRelativeToTestModuleStartTime="00:02.681"
+						timeWallClock="16:11:22"
+						time="00:20.912"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskItem.cs"
+							codeline="170"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.14s"
+		durationms="3141"
+		type="root"
+		rid="b94cbd0ca9cf564"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="20-12-2024 14:52:48"
+		timestampiso="2024-12-20T09:22:48"
+		endtime="20-12-2024 14:52:51"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createCampusLocation">
+		<detail>
+			createCampusLocation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.989"
+			timeRelativeToTestModuleStartTime="00:01.989"
+			timeWallClock="14:52:50"
+			time="00:01.989"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.createSpanTag' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']"
+				itempath=".//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.createSpanTag"
+				id="04fc04692096498499621e20c6091969"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCampusLocation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="93381"
+		type="root"
+		rid="133dc919a5816b8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="24-12-2024 18:51:09"
+		timestampiso="2024-12-24T13:21:09"
+		endtime="24-12-2024 18:52:42"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="editCampusLocation">
+		<detail>
+			editCampusLocation
+		</detail>
+		<errormessage>
+			Failed to find item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusType_dropdown'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.057"
+			timeRelativeToTestModuleStartTime="00:02.057"
+			timeWallClock="18:51:11"
+			time="00:02.057"
+			level="Warn"
+			category="Data"
+			errimg="images_editCamp_7d5d9d7a\editCamp_7d5d9d7a_33370f8f_trace.jpg"
+			errthumb="images_editCamp_7d5d9d7a\editCamp_7d5d9d7a_33370f8f_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>editedAddress1, edittedName, oldName, editedAddress2, editedCity, editedCounty, CL_Type, CL_zipcode, CL_state, editedTerritory, optionIndex, CL_country
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.080"
+			timeRelativeToTestModuleStartTime="00:02.080"
+			timeWallClock="18:51:11"
+			time="00:02.080"
+			level="Info"
+			category="Mouse"
+			errimg="images_editCamp_7d5d9d7a\editCamp_7d5d9d7a_33370f8f_trace.jpg"
+			errthumb="images_editCamp_7d5d9d7a\editCamp_7d5d9d7a_33370f8f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.DropdownBtn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]//tag[@tagname='app-add-field']/div[1]/div[2]/div[1]/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+				itempath="div[2]/div[1]/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.AddEditFieldForm.DropdownBtn"
+				id="7f7e5bc2c06f4e748643667a49a9132d"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+				codeline="234"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:33.293"
+			timeRelativeToTestModuleStartTime="01:33.293"
+			timeWallClock="18:52:42"
+			time="01:33.293"
+			level="Error"
+			category="Module"
+			errimg="images_editCamp_7d5d9d7a\editCamp_7d5d9d7a_176cd954_trace.jpg"
+			errthumb="images_editCamp_7d5d9d7a\editCamp_7d5d9d7a_176cd954_trace_thumb.jpg">
+			<message>
+				Failed to find item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusType_dropdown'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[2]//tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]' at step 'descendant-or-self::div[#'scrollele']' after 1070 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.CampusLocationFormFolder.get_campusType_dropdown() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\BudgetItemAutomationIFMRepository.cs:line 4636&#13;&#10;   at BudgetItemAutomationIFM.editCampusLocation.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs:line 238&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+				codeline="238"
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[2]//tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]"
+				itempath="div[2]//tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusType_dropdown"
+				id="04f917d785cd4e44998ab7672593afdb"
+				timeout="90000"
+				failedStep="descendant-or-self::div[#'scrollele']"
+				bestPathPrefix="/dom[@domain='app.ifm360.com']"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

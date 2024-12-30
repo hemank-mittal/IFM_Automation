@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.58s"
+		durationms="3581"
+		type="root"
+		rid="15d61e783e9e2f8f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 18:15:35"
+		timestampiso="2024-12-26T12:45:35"
+		endtime="26-12-2024 18:15:38"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="validateEditItem_Fail">
+		<detail>
+			validateEditItem_Fail
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.566"
+			timeRelativeToTestModuleStartTime="00:01.566"
+			timeWallClock="18:15:36"
+			time="00:01.566"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[@class='swal-overlay swal-overlay--show-modal']/div"
+				itempath="div"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModal"
+				id="460471ed08444d51b812bf90dcc43ebc"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateEditItem_Fail.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.405"
+			timeRelativeToTestModuleStartTime="00:02.405"
+			timeWallClock="18:15:37"
+			time="00:02.405"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModal' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[@class='swal-overlay swal-overlay--show-modal']/div"
+				itempath="div"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModal"
+				id="460471ed08444d51b812bf90dcc43ebc"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateEditItem_Fail.cs"
+				codeline="90"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.406"
+			timeRelativeToTestModuleStartTime="00:02.406"
+			timeWallClock="18:15:37"
+			time="00:02.406"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ButtonTagOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[@class='swal-overlay swal-overlay--show-modal']//button[@innertext='OK']"
+				itempath=".//button[@innertext='OK']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ButtonTagOK"
+				id="81568e3a24d344fb833a9f0d3816b054"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateEditItem_Fail.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.877"
+			timeRelativeToTestModuleStartTime="00:02.877"
+			timeWallClock="18:15:38"
+			time="00:02.877"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.cancelButtonTag' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//button[@innertext='Cancel ' or @innertext='Cancel' or @innertext=' Cancel ']"
+				itempath=".//button[@innertext='Cancel ' or @innertext='Cancel' or @innertext=' Cancel ']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.cancelButtonTag"
+				id="fcb88ea6e8de46aebe7db4bf596a10ce"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateEditItem_Fail.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

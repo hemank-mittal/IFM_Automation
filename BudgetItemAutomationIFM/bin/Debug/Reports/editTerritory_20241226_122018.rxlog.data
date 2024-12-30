@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.5m"
+		durationms="91715"
+		type="root"
+		rid="3835773542115f0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 12:20:19"
+		timestampiso="2024-12-26T06:50:19"
+		endtime="26-12-2024 12:21:51"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="editTerritory">
+		<detail>
+			editTerritory
+		</detail>
+		<errormessage>
+			Failed to find item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.550"
+			timeRelativeToTestModuleStartTime="00:01.550"
+			timeWallClock="12:20:21"
+			time="00:01.550"
+			level="Warn"
+			category="Data"
+			errimg="images_editTerr_ec617997\editTerr_ec617997_51578ea6_trace.jpg"
+			errthumb="images_editTerr_ec617997\editTerr_ec617997_51578ea6_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>oldName, edittedName, editedLinkedItem, optionIndex
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.570"
+			timeRelativeToTestModuleStartTime="00:01.570"
+			timeWallClock="12:20:21"
+			time="00:01.570"
+			level="Info"
+			category="Mouse"
+			errimg="images_editTerr_ec617997\editTerr_ec617997_51578ea6_trace.jpg"
+			errthumb="images_editTerr_ec617997\editTerr_ec617997_51578ea6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[0]/div"
+				itempath="tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[0]/div"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance"
+				id="4129f942b2ce48f2af66e008dbef8132"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTerritory.cs"
+				codeline="132"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:31.643"
+			timeRelativeToTestModuleStartTime="01:31.643"
+			timeWallClock="12:21:51"
+			time="01:31.643"
+			level="Error"
+			category="Module"
+			errimg="images_editTerr_ec617997\editTerr_ec617997_1d2d8c22_trace.jpg"
+			errthumb="images_editTerr_ec617997\editTerr_ec617997_1d2d8c22_trace_thumb.jpg">
+			<message>
+				Failed to find item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='app.ifm360.com']//div[#'content']/tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[0]/div' at step 'descendant-or-self::div[#'content']' after 1315 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.Content1Folder.get_CustodialAreaManager_FirstInstance() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\BudgetItemAutomationIFMRepository.cs:line 4018&#13;&#10;   at BudgetItemAutomationIFM.editTerritory.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTerritory.cs:line 133&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTerritory.cs"
+				codeline="133"
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[0]/div"
+				itempath="tag[@tagname='app-locations']/div/div[2]/div[2]/div[1]/div[2]/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[0]/div"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance"
+				id="4129f942b2ce48f2af66e008dbef8132"
+				timeout="90000"
+				failedStep="descendant-or-self::div[#'content']"
+				bestPathPrefix="/dom[@domain='app.ifm360.com']"
+				loglvl="Error"
+				itemindex="14">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.97s"
+		durationms="1974"
+		type="root"
+		rid="1d342b152914ace0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="23-12-2024 14:03:25"
+		timestampiso="2024-12-23T08:33:25"
+		endtime="23-12-2024 14:03:27"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="validateCL">
+		<detail>
+			validateCL
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.950"
+			timeRelativeToTestModuleStartTime="00:01.950"
+			timeWallClock="14:03:27"
+			time="00:01.950"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemName, campusType, CL_Territory, completeAddress, CL_City, CL_County, _CL_State, CL_Zipcode, tempData, CL_address, completeTerritories, CL_Country
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.972"
+			timeRelativeToTestModuleStartTime="00:01.972"
+			timeWallClock="14:03:27"
+			time="00:01.972"
+			level="Success"
+			category="User">
+			<message>
+				Yes
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="407"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

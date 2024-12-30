@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.96s"
+		durationms="2963"
+		type="root"
+		rid="1a5efc74bd661d5"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="20-12-2024 16:15:56"
+		timestampiso="2024-12-20T10:45:56"
+		endtime="20-12-2024 16:15:59"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createCampusLocation">
+		<detail>
+			createCampusLocation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.515"
+			timeRelativeToTestModuleStartTime="00:01.515"
+			timeWallClock="16:15:58"
+			time="00:01.515"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemCount, newTemplateName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.536"
+			timeRelativeToTestModuleStartTime="00:01.536"
+			timeWallClock="16:15:58"
+			time="00:01.536"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.searchItem_Dropdown' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']/div[1]//input[@type='text' and @placeholder='Search']"
+				itempath=".//input[@type='text' and @placeholder='Search']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.searchItem_Dropdown"
+				id="fb78c4b852564b47ac52f90d456a338c"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCampusLocation.cs"
+				codeline="106"
+				itemindex="33"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

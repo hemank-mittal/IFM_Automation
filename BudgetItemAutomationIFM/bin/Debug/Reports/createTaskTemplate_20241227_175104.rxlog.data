@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.75s"
+		durationms="2751"
+		type="root"
+		rid="1685ef00e299b980"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="27-12-2024 17:51:05"
+		timestampiso="2024-12-27T12:21:05"
+		endtime="27-12-2024 17:51:08"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createTaskTemplate">
+		<detail>
+			createTaskTemplate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.489"
+			timeRelativeToTestModuleStartTime="00:01.489"
+			timeWallClock="17:51:07"
+			time="00:01.489"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemCount, isProject, TaskItemName, newTemplateName, optionIndex
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.508"
+			timeRelativeToTestModuleStartTime="00:01.508"
+			timeWallClock="17:51:07"
+			time="00:01.508"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'spantagInfo' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]/div/div/tag[1]/span"
+				itempath="div[2]/div/div/tag[1]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CdkOverlayContainer.selectDropdown_FirstInstance"
+				id="76ff6ff724bc4b56b92cfbcafdc6ede5"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskTemplate.UserCode.cs"
+				codeline="46"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

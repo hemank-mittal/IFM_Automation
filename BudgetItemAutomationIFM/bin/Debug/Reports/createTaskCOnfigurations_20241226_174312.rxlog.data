@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.64s"
+		durationms="1643"
+		type="root"
+		rid="3945105f2495c59a"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 17:43:13"
+		timestampiso="2024-12-26T12:13:13"
+		endtime="26-12-2024 17:43:15"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createTaskCOnfigurations">
+		<detail>
+			createTaskCOnfigurations
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.619"
+			timeRelativeToTestModuleStartTime="00:01.619"
+			timeWallClock="17:43:15"
+			time="00:01.619"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemCount, HEXCode, newTemplateName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.640"
+			timeRelativeToTestModuleStartTime="00:01.640"
+			timeWallClock="17:43:15"
+			time="00:01.640"
+			level="Warn"
+			category="User">
+			<message>
+				#DAC9BC
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="451"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

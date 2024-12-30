@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fb64a219-5d32-45e4-9091-736d7795ec5e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="editRemoveItem_cancel"
+	namespace="BudgetItemAutomationIFM">
+	</codegen>
+	<variables>
+		<var
+		id="c4ca9219-0b89-4624-a212-815c2f59dc1a"
+		name="deletingItem">
+		</var>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="742bd8e3-4259-42da-b1d4-34de6f46a82d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3ea176a2-3119-49d7-b5a3-36ab7d6f375c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webdocument"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="webdocument"
+				rect="0,106,1920,1043"
+				role="container"
+				snapElem=""
+				uidroot="True"
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						IFM360 | Budget Items
+					</attribute>
+					<attribute
+					name="browsername"
+					type="System.String">
+						Firefox
+					</attribute>
+					<attribute
+					name="browserversion"
+					type="System.String">
+						Firefox/132.0
+					</attribute>
+					<attribute
+					name="domain"
+					type="System.String">
+						app.ifm360.com
+					</attribute>
+					<attribute
+					name="fullscreen"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="page"
+					type="System.String">
+						budgetitems
+					</attribute>
+					<attribute
+					name="pageurl"
+					type="System.String">
+						https://app.ifm360.com/budgetitems
+					</attribute>
+					<attribute
+					name="path"
+					type="System.String">
+						/budgetitems
+					</attribute>
+					<attribute
+					name="state"
+					type="System.String">
+						complete
+					</attribute>
+					<dynamicaction
+					description="Enables the Firefox accessible renderer mode."
+					displayName="EnableAccessibleRenderer">
+					</dynamicaction>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="77479017-56c7-4d14-8d0e-935944c17f6f">
+			</arguments>
+		</invokeactionrecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="34a3bd31-c946-4a96-a2e4-07dea928b2e9"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="98ce9c4a-76f6-47e0-900e-f3b484726afb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, itag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="itag"
+				rect="0,106,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						fa fa-spinner fa-spin
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						fa fa-spin fa-spinner
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c2547361310"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="67a9b65a-fc2c-4cb5-a77a-a37f28fc3804"
+		varname="deletingItem">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c10b7dfe-329d-47fb-94e5-a5ec9efb0962"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="litag"
+				rect="345,605,1483,81"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						list-group-item ml-0 ng-star-inserted
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#32;01 Foundations&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						list-group-item ml-0 ng-star-inserted
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c3849841196"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[3]/ul/li[@innertext=' 01 Foundations ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</getvaluerecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7299c526-b60f-48ad-aebc-0fdb6dbe533b"
+		sx="1700"
+		sy="729"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="764947fd-2fbc-41b4-b57e-1c932182c6f8"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="1683,701,125,50"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn edit p-5 d-block ml-auto bg-dark ng-star-inserted
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#32;Remove&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						bg-dark btn d-block edit ml-auto ng-star-inserted p-5
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c3849841196"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[3]/ul/li[@innertext&gt;' 0112 Col. Foundations &amp; Pile']/button[@innertext=' Remove ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ca5df27b-997c-4a8e-a4a3-851554bffed0">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="95c24b45-de07-49ea-b484-24e2432a73a7"
+	name="BudgetItemAutomationIFMRepository"
+	relativepath="BudgetItemAutomationIFMRepository.rxrep">
+		<codegen
+		classname="BudgetItemAutomationIFMRepository"
+		namespace="BudgetItemAutomationIFM">
+		</codegen>
+		<rootfolder
+		id="bf1b39b4-1124-49e8-bfc8-b2f92bc20b58"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		editRemoveItem_cancel.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

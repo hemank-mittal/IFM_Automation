@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.45s"
+		durationms="5449"
+		type="root"
+		rid="485d854f50cabaa"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="27-12-2024 18:25:56"
+		timestampiso="2024-12-27T12:55:56"
+		endtime="27-12-2024 18:26:01"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createTaskTemplate_Fail">
+		<detail>
+			createTaskTemplate_Fail
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.985"
+			timeRelativeToTestModuleStartTime="00:01.985"
+			timeWallClock="18:25:58"
+			time="00:01.985"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>existingName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.009"
+			timeRelativeToTestModuleStartTime="00:02.009"
+			timeWallClock="18:25:58"
+			time="00:02.009"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.MatContentNgTnsC269005172116' and assigning its value to variable 'existingName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div//tag[@tagname='mat-expansion-panel-header']/span[1]/tag[1]"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div//tag[@tagname='mat-expansion-panel-header']/span[1]/tag[1]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.MatContentNgTnsC269005172116"
+				id="c10976ad56f545c195af62c79c89ed63"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskTemplate_Fail.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.227"
+			timeRelativeToTestModuleStartTime="00:03.227"
+			timeWallClock="18:25:59"
+			time="00:03.227"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagCreate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag/div[1]/?/?/h5/button[@innertext=' Create ']"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag/div[1]/?/?/h5/button[@innertext=' Create ']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.ButtonTagCreate"
+				id="8d634ebf131e4ff598eac5bcc8dd6353"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskTemplate_Fail.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.986"
+			timeRelativeToTestModuleStartTime="00:03.986"
+			timeWallClock="18:26:00"
+			time="00:03.986"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Content1.Text' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag/div[2]/?/?/tag[@tagname='mat-form-field']/div[1]/div[2]/?/?/input[@type='text']"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag/div[2]/?/?/tag[@tagname='mat-form-field']/div[1]/div[2]/?/?/input[@type='text']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.Text"
+				id="d6fd27f1860e4faea01ea4a2b7e0df85"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskTemplate_Fail.cs"
+				codeline="104"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.737"
+			timeRelativeToTestModuleStartTime="00:04.737"
+			timeWallClock="18:26:00"
+			time="00:04.737"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$existingName' with focus on 'ApplicationUnderTest.Content1.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag/div[2]/?/?/tag[@tagname='mat-form-field']/div[1]/div[2]/?/?/input[@type='text']"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag/div[2]/?/?/tag[@tagname='mat-form-field']/div[1]/div[2]/?/?/input[@type='text']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.Text"
+				id="d6fd27f1860e4faea01ea4a2b7e0df85"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskTemplate_Fail.cs"
+				codeline="108"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

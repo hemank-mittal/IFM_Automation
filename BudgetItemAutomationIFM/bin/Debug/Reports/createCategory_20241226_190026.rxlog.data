@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.47s"
+		durationms="3466"
+		type="root"
+		rid="2bf9be3700863ba4"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 19:00:27"
+		timestampiso="2024-12-26T13:30:27"
+		endtime="26-12-2024 19:00:30"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createCategory">
+		<detail>
+			createCategory
+		</detail>
+		<errormessage>
+			Item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.createButtonTag' is no SpanTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.120"
+			timeRelativeToTestModuleStartTime="00:02.120"
+			timeWallClock="19:00:29"
+			time="00:02.120"
+			level="Warn"
+			category="Data"
+			errimg="images_createCa_6db8d081\createCa_6db8d081_2e495f63_trace.jpg"
+			errthumb="images_createCa_6db8d081\createCa_6db8d081_2e495f63_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemCount, newTemplateName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.303"
+			timeRelativeToTestModuleStartTime="00:03.303"
+			timeWallClock="19:00:30"
+			time="00:03.303"
+			level="Warn"
+			category="User"
+			errimg="images_createCa_6db8d081\createCa_6db8d081_dbff93ab_trace.jpg"
+			errthumb="images_createCa_6db8d081\createCa_6db8d081_dbff93ab_trace_thumb.jpg">
+			<message>
+				here 2
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCategory.UserCode.cs"
+				codeline="46"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.365"
+			timeRelativeToTestModuleStartTime="00:03.365"
+			timeWallClock="19:00:30"
+			time="00:03.365"
+			level="Error"
+			category="Module"
+			errimg="images_createCa_6db8d081\createCa_6db8d081_ba627e61_trace.jpg"
+			errthumb="images_createCa_6db8d081\createCa_6db8d081_ba627e61_trace_thumb.jpg">
+			<message>
+				Item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.createButtonTag' is no SpanTag.<br/>The element does not support the required capability 'spantag'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.FindAdapter[T]()&#13;&#10;   at BudgetItemAutomationIFM.createCategory.Mouse_Click_createSpanTag() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCategory.UserCode.cs:line 48&#13;&#10;   at BudgetItemAutomationIFM.createCategory.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCategory.cs:line 106&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCategory.UserCode.cs"
+				codeline="48"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

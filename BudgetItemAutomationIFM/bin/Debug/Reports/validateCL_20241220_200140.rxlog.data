@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.2s"
+		durationms="2199"
+		type="root"
+		rid="cc4c4493af6de54"
+		totalerrorcount="1"
+		totalwarningcount="4"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="20-12-2024 20:01:41"
+		timestampiso="2024-12-20T14:31:41"
+		endtime="20-12-2024 20:01:43"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="validateCL">
+		<detail>
+			validateCL
+		</detail>
+		<errormessage>
+			Index was outside the bounds of the array.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.067"
+			timeRelativeToTestModuleStartTime="00:02.067"
+			timeWallClock="20:01:43"
+			time="00:02.067"
+			level="Warn"
+			category="Data"
+			errimg="images_validate_333c8880\validate_333c8880_75e67298_trace.jpg"
+			errthumb="images_validate_333c8880\validate_333c8880_75e67298_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemName, campusType, CL_Territory
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.087"
+			timeRelativeToTestModuleStartTime="00:02.087"
+			timeWallClock="20:01:43"
+			time="00:02.087"
+			level="Warn"
+			category="User"
+			errimg="images_validate_333c8880\validate_333c8880_75e67298_trace.jpg"
+			errthumb="images_validate_333c8880\validate_333c8880_75e67298_trace_thumb.jpg">
+			<message>
+				aa
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="372"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.087"
+			timeRelativeToTestModuleStartTime="00:02.087"
+			timeWallClock="20:01:43"
+			time="00:02.087"
+			level="Warn"
+			category="User"
+			errimg="images_validate_333c8880\validate_333c8880_75e67298_trace.jpg"
+			errthumb="images_validate_333c8880\validate_333c8880_75e67298_trace_thumb.jpg">
+			<message>
+				aa
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="373"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.088"
+			timeRelativeToTestModuleStartTime="00:02.088"
+			timeWallClock="20:01:43"
+			time="00:02.088"
+			level="Warn"
+			category="User"
+			errimg="images_validate_333c8880\validate_333c8880_75e67298_trace.jpg"
+			errthumb="images_validate_333c8880\validate_333c8880_75e67298_trace_thumb.jpg">
+			<message>
+				aa
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="374"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.091"
+			timeRelativeToTestModuleStartTime="00:02.091"
+			timeWallClock="20:01:43"
+			time="00:02.091"
+			level="Error"
+			category="Module"
+			errimg="images_validate_333c8880\validate_333c8880_75e67298_trace.jpg"
+			errthumb="images_validate_333c8880\validate_333c8880_75e67298_trace_thumb.jpg">
+			<message>
+				Index was outside the bounds of the array.
+			</message>
+			<metainfo
+				stacktrace="   at BudgetItemAutomationIFM.HelperMethodsCollection.stringsToList(String s1, String s2, String s3, String s4, String s5) in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs:line 375
+   at BudgetItemAutomationIFM.validateCL.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs:line 121
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="375"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

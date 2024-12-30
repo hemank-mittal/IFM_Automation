@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.7m"
+		durationms="281497"
+		type="root"
+		rid="323451a90331664"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="24-12-2024 18:42:15"
+		timestampiso="2024-12-24T13:12:15"
+		endtime="24-12-2024 18:46:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="editCampusLocation">
+		<detail>
+			editCampusLocation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.008"
+			timeRelativeToTestModuleStartTime="00:02.008"
+			timeWallClock="18:42:17"
+			time="00:02.008"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>editedAddress1, edittedName, oldName, editedAddress2, editedCity, editedCounty, CL_Type, CL_zipcode, CL_state, editedTerritory, optionIndex, CL_country
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.044"
+			timeRelativeToTestModuleStartTime="00:02.044"
+			timeWallClock="18:42:17"
+			time="00:02.044"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ' or @innertext='Edit']"
+				itempath=".//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ' or @innertext='Edit']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.ButtonTagEdit1"
+				id="80258e15f39941bfa93411191602d0b3"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+				codeline="234"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.803"
+			timeRelativeToTestModuleStartTime="00:03.803"
+			timeWallClock="18:42:19"
+			time="00:03.803"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i"
+				itempath=".//div[#'page-container']/?/?/i"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FaFaSpinFaSpinner"
+				id="98ce9c4a76f647e0900ef3b484726afb"
+				timeout="30000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+				codeline="238"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.992"
+			timeRelativeToTestModuleStartTime="00:04.992"
+			timeWallClock="18:42:20"
+			time="00:04.992"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusNameField' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+				itempath=".//input[@name='campusName']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+				id="38b34aa84962404c90b60784695900ed"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+				codeline="241"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:41.498"
+			timeRelativeToTestModuleStartTime="04:41.498"
+			timeWallClock="18:46:57"
+			time="04:41.498"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

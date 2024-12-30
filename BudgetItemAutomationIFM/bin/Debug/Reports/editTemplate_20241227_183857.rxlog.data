@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.6s"
+		durationms="5604"
+		type="root"
+		rid="be3abc26e8a3148"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="27-12-2024 18:38:58"
+		timestampiso="2024-12-27T13:08:58"
+		endtime="27-12-2024 18:39:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="editTemplate">
+		<detail>
+			editTemplate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.223"
+			timeRelativeToTestModuleStartTime="00:02.223"
+			timeWallClock="18:39:01"
+			time="00:02.223"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Content1.MatExpansionPanelHeader1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/tag[@tagname='mat-expansion-panel-header']"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/tag[@tagname='mat-expansion-panel-header']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.MatExpansionPanelHeader1"
+				id="b9cdd4ad22784faa89234861f593c290"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.903"
+			timeRelativeToTestModuleStartTime="00:03.903"
+			timeWallClock="18:39:02"
+			time="00:03.903"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i"
+				itempath=".//div[#'page-container']/?/?/i"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FaFaSpinFaSpinner"
+				id="98ce9c4a76f647e0900ef3b484726afb"
+				timeout="30000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.891"
+			timeRelativeToTestModuleStartTime="00:04.891"
+			timeWallClock="18:39:03"
+			time="00:04.891"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagEdit1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[1]/button[@innertext=' Edit ']"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[1]/button[@innertext=' Edit ']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.ButtonTagEdit1"
+				id="6a0ea9f18cb24c468484d91658f699b0"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

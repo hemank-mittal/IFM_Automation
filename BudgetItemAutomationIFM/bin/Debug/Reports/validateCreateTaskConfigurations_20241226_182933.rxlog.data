@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.97s"
+		durationms="1972"
+		type="root"
+		rid="6d037dc0be750f8"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 18:29:33"
+		timestampiso="2024-12-26T12:59:33"
+		endtime="26-12-2024 18:29:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="validateCreateTaskConfigurations">
+		<detail>
+			validateCreateTaskConfigurations
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.531"
+			timeRelativeToTestModuleStartTime="00:01.531"
+			timeWallClock="18:29:35"
+			time="00:01.531"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemName, HEXCode, visibleHEXCode
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.550"
+			timeRelativeToTestModuleStartTime="00:01.550"
+			timeWallClock="18:29:35"
+			time="00:01.550"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'TagValue' from item 'ApplicationUnderTest.HEXCodeInput' and assigning its value to variable 'visibleHEXCode'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				itempath="body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.HEXCodeInput"
+				id="6956bd16f9a345e9a757242502be8971"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskConfigurations.cs"
+				codeline="121"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.972"
+			timeRelativeToTestModuleStartTime="00:01.972"
+			timeWallClock="18:29:35"
+			time="00:01.972"
+			level="Warn"
+			category="User">
+			<message>
+				#bbf212
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCreateTaskConfigurations.cs"
+				codeline="125"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

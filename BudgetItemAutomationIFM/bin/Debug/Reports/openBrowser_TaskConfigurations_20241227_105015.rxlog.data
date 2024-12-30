@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.27s"
+		durationms="2268"
+		type="root"
+		rid="1db680327a37133c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="27-12-2024 10:50:16"
+		timestampiso="2024-12-27T05:20:16"
+		endtime="27-12-2024 10:50:19"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="openBrowser_TaskConfigurations">
+		<detail>
+			openBrowser_TaskConfigurations
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.098"
+			timeRelativeToTestModuleStartTime="00:02.098"
+			timeWallClock="10:50:18"
+			time="00:02.098"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://app.ifm360.com/taskConfiguration' with browser 'Firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\openBrowser_TaskConfigurations.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,25 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="FileCategoryAutomationIfm.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AllModuleGroups.rxtmg" />
+    <Element value="HelperMethodsCollection.cs" />
+    <Element value="BudgetItemAutomationIFM.rxtst" />
+    <Element value="FileCategoryAutomationIfm.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.trimStrings(String str, String side)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.compareStrings(String compareWith, String compareTo)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.findTextInList(Adapter element, String compareWith, Boolean wantMatch)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.trimStrings(String str, String side)" />
+      <Element value="BudgetItemAutomationIFM.validateEditAddition.trimStrings(String str)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.trimStrings(String str)" />
+    </Array>
+  </Properties>
+</Properties>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.23s"
+		durationms="2227"
+		type="root"
+		rid="e257f63b02a4ec0"
+		totalerrorcount="0"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="20-12-2024 20:00:29"
+		timestampiso="2024-12-20T14:30:29"
+		endtime="20-12-2024 20:00:31"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="validateCL">
+		<detail>
+			validateCL
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.199"
+			timeRelativeToTestModuleStartTime="00:02.199"
+			timeWallClock="20:00:31"
+			time="00:02.199"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemName, campusType, CL_Territory
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.224"
+			timeRelativeToTestModuleStartTime="00:02.224"
+			timeWallClock="20:00:31"
+			time="00:02.224"
+			level="Warn"
+			category="User">
+			<message>
+				System.String[]
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="372"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.224"
+			timeRelativeToTestModuleStartTime="00:02.224"
+			timeWallClock="20:00:31"
+			time="00:02.224"
+			level="Warn"
+			category="User">
+			<message>
+				System.String[]
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="375"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

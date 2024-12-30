@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.97s"
+		durationms="6969"
+		type="root"
+		rid="265d25d8703a7f5a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 17:02:47"
+		timestampiso="2024-12-26T11:32:47"
+		endtime="26-12-2024 17:02:54"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="sort_dTable_Ascending_Column2">
+		<detail>
+			sort_dTable_Ascending_Column2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.949"
+			timeRelativeToTestModuleStartTime="00:05.949"
+			timeWallClock="17:02:53"
+			time="00:05.949"
+			level="Info"
+			category="Validation">
+			<message>
+				Checking if sorting is set to 'ascending'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//table[#'dt-table']//th[2]"
+				itempath=".//table[#'dt-table']//th[2]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.dTableHeader2"
+				id="a21212824174466fa178d6c51bfeb9d5"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\sort_dTable_Ascending_Column2.UserCode.cs"
+				codeline="41"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.953"
+			timeRelativeToTestModuleStartTime="00:05.953"
+			timeWallClock="17:02:53"
+			time="00:05.953"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'thtagInfo' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//table[#'dt-table']//th[2]"
+				itempath=".//table[#'dt-table']//th[2]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.dTableHeader2"
+				id="a21212824174466fa178d6c51bfeb9d5"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\sort_dTable_Ascending_Column2.UserCode.cs"
+				codeline="43"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.638"
+			timeRelativeToTestModuleStartTime="00:06.638"
+			timeWallClock="17:02:54"
+			time="00:06.638"
+			level="Success"
+			category="Validation">
+			<message>
+				Checking if sorting is set to 'ascending'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//table[#'dt-table']//th[2]"
+				itempath=".//table[#'dt-table']//th[2]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.dTableHeader2"
+				id="a21212824174466fa178d6c51bfeb9d5"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\sort_dTable_Ascending_Column2.UserCode.cs"
+				codeline="41"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.639"
+			timeRelativeToTestModuleStartTime="00:06.639"
+			timeWallClock="17:02:54"
+			time="00:06.639"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (aria-sort='ascending') on item 'ApplicationUnderTest.dTableHeader2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//table[#'dt-table']//th[2]"
+				itempath=".//table[#'dt-table']//th[2]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.dTableHeader2"
+				id="a21212824174466fa178d6c51bfeb9d5"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\sort_dTable_Ascending_Column2.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.695"
+			timeRelativeToTestModuleStartTime="00:06.695"
+			timeWallClock="17:02:54"
+			time="00:06.695"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'aria-sort' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.dTableHeader2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//table[#'dt-table']//th[2]"
+				itempath=".//table[#'dt-table']//th[2]"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.dTableHeader2"
+				id="a21212824174466fa178d6c51bfeb9d5"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\sort_dTable_Ascending_Column2.cs"
+				codeline="86"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.967"
+			timeRelativeToTestModuleStartTime="00:06.967"
+			timeWallClock="17:02:54"
+			time="00:06.967"
+			level="Success"
+			category="User">
+			<message>
+				The column is correctly sorted.
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="243"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AllModuleGroups.rxtmg" />
+    <Element value="HelperMethodsCollection.cs" />
+    <Element value="TMM_TaskItemAutomationIFM.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="BudgetItemAutomationIFM.createTaskTemplate.Mouse_Click_selectDropdown_FirstInstance(RepoItemInfo spantagInfo, Boolean isProjectType)" />
+      <Element value="BudgetItemAutomationIFM.createTaskTemplate.Mouse_Click_selectDropdown_FirstInstance(RepoItemInfo spantagInfo, Boolean isProjectType)" />
+      <Element value="BudgetItemAutomationIFM.createTaskTemplate.Mouse_Click_selectDropdown_FirstInstance(RepoItemInfo spantagInfo, Boolean isProjectType, Int32 optionIndex)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.confirmSorting(Adapter element, String index, Boolean isDescending, Boolean isInteger)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.confirmSorting(Adapter element, String index, Boolean isInteger, Boolean isDescending)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getEditedNumber(Int32 oldNumber)" />
+    </Array>
+  </Properties>
+</Properties>

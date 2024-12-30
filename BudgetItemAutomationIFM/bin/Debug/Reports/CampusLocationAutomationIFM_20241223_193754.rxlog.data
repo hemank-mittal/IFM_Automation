@@ -1,0 +1,1552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="29.86s"
+		durationms="29862"
+		type="root"
+		rid="9970e986badb48"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="23-12-2024 19:37:54"
+		timestampiso="2024-12-23T14:07:54"
+		endtime="23-12-2024 19:38:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="28.41s"
+			durationms="28408"
+			type="test-suite"
+			rid="c4e0ef4bf6cff7"
+			totalerrorcount="1"
+			totalwarningcount="3"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="CampusLocationAutomationIFM"
+			headertext="CampusLocationAutomationIFM"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="28.35s"
+				durationms="28354"
+				type="test-case"
+				rid="1f3a6b7aa1e6b829"
+				totalerrorcount="1"
+				totalwarningcount="3"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="itemCount">
+					</param>
+					<param
+						name="itemName">
+					</param>
+					<param
+						name="editedName">
+					</param>
+					<param
+						name="addressLine1">
+						AddressLine1
+					</param>
+					<param
+						name="addressLine2">
+						AddressLine2
+					</param>
+					<param
+						name="City">
+						myCity
+					</param>
+					<param
+						name="zipcode">
+						3336666
+					</param>
+					<param
+						name="County">
+						myCounty
+					</param>
+					<param
+						name="Country">
+						India
+					</param>
+					<param
+						name="State">
+					</param>
+					<param
+						name="Territories">
+					</param>
+					<param
+						name="Territory1">
+					</param>
+					<param
+						name="Territory2">
+					</param>
+					<param
+						name="campusType">
+					</param>
+					<param
+						name="temp">
+					</param>
+					<param
+						name="optionIndex">
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="25.78s"
+					durationms="25778"
+					type="test-module"
+					rid="d4361eebcce894d"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="editCampusLocation"
+					displayName="editCampusLocation"
+					moduleid="4ca5153f-e951-4243-a4f5-cdf739fe4aa2"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="editedAddress1"
+							value="AddressLine1">
+						</varbinding>
+						<varbinding
+							name="editedAddress2"
+							value="AddressLine2">
+						</varbinding>
+						<varbinding
+							name="edittedName"
+							value="">
+						</varbinding>
+						<varbinding
+							name="oldName"
+							value="">
+						</varbinding>
+						<varbinding
+							name="editedCity"
+							value="myCity">
+						</varbinding>
+						<varbinding
+							name="editedCounty"
+							value="myCounty">
+						</varbinding>
+						<varbinding
+							name="optionIndex"
+							value="">
+						</varbinding>
+						<varbinding
+							name="CL_zipcode"
+							value="3336666">
+						</varbinding>
+						<varbinding
+							name="CL_Type"
+							value="">
+						</varbinding>
+						<varbinding
+							name="CL_country"
+							value="India">
+						</varbinding>
+						<varbinding
+							name="CL_state"
+							value="">
+						</varbinding>
+						<varbinding
+							name="editedTerritory"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.098"
+						timeRelativeToTestModuleStartTime="00:00.009"
+						timeWallClock="19:37:55"
+						time="00:00.098"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$editedAddress1 = 'AddressLine1', $editedAddress2 = 'AddressLine2', $edittedName = '', $oldName = '', $editedCity = 'myCity', $editedCounty = 'myCounty', $optionIndex = '', $CL_zipcode = '3336666', $CL_Type = '', $CL_country = 'India', $CL_state = '', $editedTerritory = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.156"
+						timeRelativeToTestModuleStartTime="00:00.068"
+						timeWallClock="19:37:56"
+						time="00:00.156"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at 85;26.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ']"
+							itempath=".//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.ButtonTagEdit1"
+							id="80258e15f39941bfa93411191602d0b3"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="234"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.586"
+						timeRelativeToTestModuleStartTime="00:02.498"
+						timeWallClock="19:37:58"
+						time="00:02.586"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i"
+							itempath=".//div[#'page-container']/?/?/i"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FaFaSpinFaSpinner"
+							id="98ce9c4a76f647e0900ef3b484726afb"
+							timeout="30000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="238"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.992"
+						timeRelativeToTestModuleStartTime="00:03.904"
+						timeWallClock="19:37:59"
+						time="00:03.992"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusNameField' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+							itempath=".//input[@name='campusName']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+							id="38b34aa84962404c90b60784695900ed"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="241"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.828"
+						timeRelativeToTestModuleStartTime="00:04.740"
+						timeWallClock="19:38:00"
+						time="00:04.828"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.campusNameField' and assigning its value to variable 'oldName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+							itempath=".//input[@name='campusName']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+							id="38b34aa84962404c90b60784695900ed"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="245"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.947"
+						timeRelativeToTestModuleStartTime="00:04.859"
+						timeWallClock="19:38:00"
+						time="00:04.947"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.campusNameField'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+							itempath=".//input[@name='campusName']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+							id="38b34aa84962404c90b60784695900ed"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="252"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.068"
+						timeRelativeToTestModuleStartTime="00:04.980"
+						timeWallClock="19:38:00"
+						time="00:05.068"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$edittedName' with focus on 'ApplicationUnderTest.CampusLocationForm.campusNameField'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+							itempath=".//input[@name='campusName']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+							id="38b34aa84962404c90b60784695900ed"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="256"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.693"
+						timeRelativeToTestModuleStartTime="00:05.605"
+						timeWallClock="19:38:01"
+						time="00:05.693"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.DropdownBtn' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[2]/div/div[1]//span"
+							itempath="div[2]/div/div[1]//span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.DropdownBtn"
+							id="c440c72fc1db462786a754f88e7c0e18"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="260"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.704"
+						timeRelativeToTestModuleStartTime="00:06.616"
+						timeWallClock="19:38:02"
+						time="00:06.704"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.CLType_Dynamic' and assigning its value to variable 'CL_Type'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[2]//tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							itempath="div[2]//tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.CLType_Dynamic"
+							id="a2919e86a40a4cf6aeaf3d93b000665f"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="267"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.822"
+						timeRelativeToTestModuleStartTime="00:06.734"
+						timeWallClock="19:38:02"
+						time="00:06.822"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.CLType_Dynamic' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[2]//tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							itempath="div[2]//tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.CLType_Dynamic"
+							id="a2919e86a40a4cf6aeaf3d93b000665f"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="271"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.766"
+						timeRelativeToTestModuleStartTime="00:07.678"
+						timeWallClock="19:38:03"
+						time="00:07.766"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress1']"
+							itempath=".//input[@name='campusAddress1']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine1Field"
+							id="d6e7d25086c348ec8b9472455b542f9e"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="275"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.650"
+						timeRelativeToTestModuleStartTime="00:08.562"
+						timeWallClock="19:38:04"
+						time="00:08.650"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field' and assigning its value to variable 'oldName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress1']"
+							itempath=".//input[@name='campusAddress1']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine1Field"
+							id="d6e7d25086c348ec8b9472455b542f9e"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="279"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.782"
+						timeRelativeToTestModuleStartTime="00:08.694"
+						timeWallClock="19:38:04"
+						time="00:08.782"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress1']"
+							itempath=".//input[@name='campusAddress1']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine1Field"
+							id="d6e7d25086c348ec8b9472455b542f9e"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="286"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.901"
+						timeRelativeToTestModuleStartTime="00:08.813"
+						timeWallClock="19:38:04"
+						time="00:08.901"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$editedAddress1' with focus on 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress1']"
+							itempath=".//input[@name='campusAddress1']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine1Field"
+							id="d6e7d25086c348ec8b9472455b542f9e"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="290"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.449"
+						timeRelativeToTestModuleStartTime="00:09.361"
+						timeWallClock="19:38:05"
+						time="00:09.449"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress2']"
+							itempath=".//input[@name='campusAddress2']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine2Field"
+							id="7615821667df49808e15e03a85bc5df7"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="294"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.247"
+						timeRelativeToTestModuleStartTime="00:10.159"
+						timeWallClock="19:38:06"
+						time="00:10.247"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field' and assigning its value to variable 'oldName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress2']"
+							itempath=".//input[@name='campusAddress2']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine2Field"
+							id="7615821667df49808e15e03a85bc5df7"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="298"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.358"
+						timeRelativeToTestModuleStartTime="00:10.270"
+						timeWallClock="19:38:06"
+						time="00:10.358"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress2']"
+							itempath=".//input[@name='campusAddress2']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine2Field"
+							id="7615821667df49808e15e03a85bc5df7"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="305"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.490"
+						timeRelativeToTestModuleStartTime="00:10.402"
+						timeWallClock="19:38:06"
+						time="00:10.490"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$editedAddress2' with focus on 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusAddress2']"
+							itempath=".//input[@name='campusAddress2']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.AddressLine2Field"
+							id="7615821667df49808e15e03a85bc5df7"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="309"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.083"
+						timeRelativeToTestModuleStartTime="00:10.995"
+						timeWallClock="19:38:06"
+						time="00:11.083"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.cityField' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCity']"
+							itempath=".//input[@name='campusCity']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.cityField"
+							id="ae992ac007744f69848879b23c6b51da"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="313"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.863"
+						timeRelativeToTestModuleStartTime="00:11.775"
+						timeWallClock="19:38:07"
+						time="00:11.863"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.cityField' and assigning its value to variable 'oldName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCity']"
+							itempath=".//input[@name='campusCity']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.cityField"
+							id="ae992ac007744f69848879b23c6b51da"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="317"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.984"
+						timeRelativeToTestModuleStartTime="00:11.896"
+						timeWallClock="19:38:07"
+						time="00:11.984"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.cityField'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCity']"
+							itempath=".//input[@name='campusCity']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.cityField"
+							id="ae992ac007744f69848879b23c6b51da"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="324"
+							itemindex="24"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.106"
+						timeRelativeToTestModuleStartTime="00:12.018"
+						timeWallClock="19:38:07"
+						time="00:12.106"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$editedCity' with focus on 'ApplicationUnderTest.CampusLocationForm.cityField'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCity']"
+							itempath=".//input[@name='campusCity']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.cityField"
+							id="ae992ac007744f69848879b23c6b51da"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="328"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.528"
+						timeRelativeToTestModuleStartTime="00:12.440"
+						timeWallClock="19:38:08"
+						time="00:12.528"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.CampusZipcode' and assigning its value to variable 'CL_zipcode'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[6]/tag/div[1]/div[2]/?/?/input[@name='campusZipcode']"
+							itempath="div[6]/tag/div[1]/div[2]/?/?/input[@name='campusZipcode']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.CampusZipcode"
+							id="eb43c3466c044ece8438cfdedfab5c49"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="332"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.634"
+						timeRelativeToTestModuleStartTime="00:12.546"
+						timeWallClock="19:38:08"
+						time="00:12.634"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountyField' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCounty']"
+							itempath=".//input[@name='campusCounty']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusCountyField"
+							id="0af48e6b2a6345f7b73aba4be7d675ec"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="336"
+							itemindex="27"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.444"
+						timeRelativeToTestModuleStartTime="00:13.356"
+						timeWallClock="19:38:09"
+						time="00:13.444"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.campusCountyField' and assigning its value to variable 'oldName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCounty']"
+							itempath=".//input[@name='campusCounty']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusCountyField"
+							id="0af48e6b2a6345f7b73aba4be7d675ec"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="340"
+							itemindex="28"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.554"
+						timeRelativeToTestModuleStartTime="00:13.466"
+						timeWallClock="19:38:09"
+						time="00:13.554"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.campusCountyField'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCounty']"
+							itempath=".//input[@name='campusCounty']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusCountyField"
+							id="0af48e6b2a6345f7b73aba4be7d675ec"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="347"
+							itemindex="30"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.654"
+						timeRelativeToTestModuleStartTime="00:13.566"
+						timeWallClock="19:38:09"
+						time="00:13.654"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$editedCounty' with focus on 'ApplicationUnderTest.CampusLocationForm.campusCountyField'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusCounty']"
+							itempath=".//input[@name='campusCounty']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusCountyField"
+							id="0af48e6b2a6345f7b73aba4be7d675ec"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="351"
+							itemindex="31"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.288"
+						timeRelativeToTestModuleStartTime="00:14.200"
+						timeWallClock="19:38:10"
+						time="00:14.288"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountryDropdown' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[8]//span"
+							itempath="div[8]//span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusCountryDropdown"
+							id="f137123ff51f43a5bd3c993c9cc8c1c8"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="355"
+							itemindex="32"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.246"
+						timeRelativeToTestModuleStartTime="00:16.158"
+						timeWallClock="19:38:12"
+						time="00:16.246"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic' and assigning its value to variable 'CL_country'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[8]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							itempath="div[8]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic"
+							id="632d9b1ea62e452585a34fd8a2de4745"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="362"
+							itemindex="34"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.358"
+						timeRelativeToTestModuleStartTime="00:16.270"
+						timeWallClock="19:38:12"
+						time="00:16.358"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[8]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div"
+							itempath="div[8]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic"
+							id="632d9b1ea62e452585a34fd8a2de4745"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="366"
+							itemindex="35"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.178"
+						timeRelativeToTestModuleStartTime="00:17.090"
+						timeWallClock="19:38:13"
+						time="00:17.178"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusStateDropdown' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+							itempath="div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusStateDropdown"
+							id="4d3bff4e6e4945879cd18989dc02c94c"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="370"
+							itemindex="36"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.282"
+						timeRelativeToTestModuleStartTime="00:19.194"
+						timeWallClock="19:38:15"
+						time="00:19.282"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' and assigning its value to variable 'CL_state'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[2]/div"
+							itempath="div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusState_dynamic"
+							id="77da17790fa343e3b2c7b8755858ddd3"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="377"
+							itemindex="38"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.394"
+						timeRelativeToTestModuleStartTime="00:19.306"
+						timeWallClock="19:38:15"
+						time="00:19.394"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[2]/div"
+							itempath="div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusState_dynamic"
+							id="77da17790fa343e3b2c7b8755858ddd3"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="381"
+							itemindex="39"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.297"
+						timeRelativeToTestModuleStartTime="00:20.209"
+						timeWallClock="19:38:16"
+						time="00:20.297"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[10]//div/div[1]/span"
+							itempath="div[10]//div/div[1]/span"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown"
+							id="0e2ba5e0c94e4881a8f15f75abe54d89"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="385"
+							itemindex="40"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.353"
+						timeRelativeToTestModuleStartTime="00:21.265"
+						timeWallClock="19:38:17"
+						time="00:21.353"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Checked' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/input[@checked='True']"
+							itempath="div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/input[@checked='True']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusTerritory_Checked"
+							id="78f502f70dd7445480d572e721ec8363"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="392"
+							itemindex="42"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.348"
+						timeRelativeToTestModuleStartTime="00:22.260"
+						timeWallClock="19:38:18"
+						time="00:22.348"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic' and assigning its value to variable 'editedTerritory'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[2]/div"
+							itempath="div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic"
+							id="a8574f54efe148958eeb58b53d3666f3"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="396"
+							itemindex="43"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.467"
+						timeRelativeToTestModuleStartTime="00:22.379"
+						timeWallClock="19:38:18"
+						time="00:22.467"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[2]/div"
+							itempath="div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic"
+							id="a8574f54efe148958eeb58b53d3666f3"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="400"
+							itemindex="44"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.397"
+						timeRelativeToTestModuleStartTime="00:23.309"
+						timeWallClock="19:38:19"
+						time="00:23.397"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//?/?/button[@innertext='Save']"
+							itempath="?/?/button[@innertext='Save']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.Save"
+							id="78f23a1bfa97402d8a0d79fbe256389b"
+							timeout="90000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="404"
+							itemindex="45"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.179"
+						timeRelativeToTestModuleStartTime="00:24.091"
+						timeWallClock="19:38:20"
+						time="00:24.179"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i"
+							itempath=".//div[#'page-container']/?/?/i"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FaFaSpinFaSpinner"
+							id="98ce9c4a76f647e0900ef3b484726afb"
+							timeout="30000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation.cs"
+							codeline="408"
+							itemindex="46"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.53s"
+					durationms="2528"
+					type="test-module"
+					rid="8c478592637599e"
+					totalerrorcount="1"
+					totalwarningcount="3"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="validateCL"
+					displayName="validateCL"
+					moduleid="eb4fb2a6-c2fe-4fc5-af82-89fc7f3a4ea9"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="itemName"
+							value="test 11">
+						</varbinding>
+						<varbinding
+							name="CL_City"
+							value="A">
+						</varbinding>
+						<varbinding
+							name="CL_Zipcode"
+							value="0">
+						</varbinding>
+						<varbinding
+							name="CL_County"
+							value="Not sure">
+						</varbinding>
+						<varbinding
+							name="CL_Country"
+							value="Afghanistan">
+						</varbinding>
+						<varbinding
+							name="_CL_State"
+							value="Badghis">
+						</varbinding>
+						<varbinding
+							name="CL_Territory"
+							value="test  9">
+						</varbinding>
+						<varbinding
+							name="completeTerritories"
+							value="test  9">
+						</varbinding>
+						<varbinding
+							name="campusType"
+							value="test 1">
+						</varbinding>
+						<varbinding
+							name="completeAddress"
+							value="">
+						</varbinding>
+						<varbinding
+							name="tempData"
+							value="">
+						</varbinding>
+						<varbinding
+							name="CL_address"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.871"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="19:38:21"
+						time="00:25.871"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$itemName = 'test 11', $CL_City = 'A', $CL_Zipcode = '0', $CL_County = 'Not sure', $CL_Country = 'Afghanistan', $_CL_State = 'Badghis', $CL_Territory = 'test  9', $completeTerritories = 'test  9', $campusType = 'test 1', $completeAddress = '', $tempData = '', $CL_address = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.930"
+						timeRelativeToTestModuleStartTime="00:00.060"
+						timeWallClock="19:38:21"
+						time="00:25.930"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="236"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.019"
+						timeRelativeToTestModuleStartTime="00:00.149"
+						timeWallClock="19:38:21"
+						time="00:26.019"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="240"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.648"
+						timeRelativeToTestModuleStartTime="00:00.778"
+						timeWallClock="19:38:22"
+						time="00:26.648"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="244"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.068"
+						timeRelativeToTestModuleStartTime="00:01.197"
+						timeWallClock="19:38:22"
+						time="00:27.068"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="248"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.413"
+						timeRelativeToTestModuleStartTime="00:01.543"
+						timeWallClock="19:38:23"
+						time="00:27.413"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (InnerText=$itemName) on item 'ApplicationUnderTest.firstElement_anyTag'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[1]/?"
+							itempath=".//table/tbody/tr[1]/td[1]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag"
+							id="54b25f0f44a74ff19a0370ffe8a806a5"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="251"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.512"
+						timeRelativeToTestModuleStartTime="00:01.642"
+						timeWallClock="19:38:23"
+						time="00:27.512"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'InnerText' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[1]/?"
+							itempath=".//table/tbody/tr[1]/td[1]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag"
+							id="54b25f0f44a74ff19a0370ffe8a806a5"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="252"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.553"
+						timeRelativeToTestModuleStartTime="00:01.683"
+						timeWallClock="19:38:23"
+						time="00:27.553"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (InnerText=$campusType) on item 'ApplicationUnderTest.secondElement_anyTag'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[2]/?"
+							itempath=".//table/tbody/tr[1]/td[2]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.secondElement_anyTag"
+							id="bfa2b00bc15241aab568ef27bfdbcc0e"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="255"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.636"
+						timeRelativeToTestModuleStartTime="00:01.766"
+						timeWallClock="19:38:23"
+						time="00:27.636"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'InnerText' of element for item 'BudgetItemAutomationIFMRepository.ApplicationUnderTest.secondElement_anyTag' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[2]/?"
+							itempath=".//table/tbody/tr[1]/td[2]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.secondElement_anyTag"
+							id="bfa2b00bc15241aab568ef27bfdbcc0e"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="256"
+							loglvl="Success"
+							itemindex="5">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.672"
+						timeRelativeToTestModuleStartTime="00:01.802"
+						timeWallClock="19:38:23"
+						time="00:27.672"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.integratedCLAddress' and assigning its value to variable 'completeAddress'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[3]"
+							itempath=".//table/tbody/tr[1]/td[3]"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.integratedCLAddress"
+							id="55f86d078cf94b6b8f30f1fbd7e270d4"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="259"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.765"
+						timeRelativeToTestModuleStartTime="00:01.894"
+						timeWallClock="19:38:23"
+						time="00:27.765"
+						level="Warn"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="380"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.800"
+						timeRelativeToTestModuleStartTime="00:01.930"
+						timeWallClock="19:38:23"
+						time="00:27.800"
+						level="Warn"
+						category="User">
+						<message>
+							random a not sure afghanistan badghis 0
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="83"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.833"
+						timeRelativeToTestModuleStartTime="00:01.963"
+						timeWallClock="19:38:23"
+						time="00:27.833"
+						level="Warn"
+						category="User">
+						<message>
+							a not sure afghanistan badghis 0
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="84"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.867"
+						timeRelativeToTestModuleStartTime="00:01.997"
+						timeWallClock="19:38:23"
+						time="00:27.867"
+						level="Error"
+						category="User">
+						<message>
+							Expected value :  A Not sure Afghanistan Badghis 0 and actual value :  random A Not sure Afghanistan Badghis 0 .
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="85"
+							loglvl="Error">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.900"
+						timeRelativeToTestModuleStartTime="00:02.030"
+						timeWallClock="19:38:23"
+						time="00:27.900"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'InnerText' from item 'ApplicationUnderTest.fourthElement_anyTag' and assigning its value to variable 'CL_Territory'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[4]/?"
+							itempath=".//table/tbody/tr[1]/td[4]/?"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.fourthElement_anyTag"
+							id="43c46f7598eb4977ba5811bd759e46f9"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="269"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.980"
+						timeRelativeToTestModuleStartTime="00:02.109"
+						timeWallClock="19:38:23"
+						time="00:27.980"
+						level="Success"
+						category="User">
+						<message>
+							Literals matched!
+						</message>
+						<metainfo
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+							codeline="79"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.017"
+						timeRelativeToTestModuleStartTime="00:02.147"
+						timeWallClock="19:38:23"
+						time="00:28.017"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="276"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.123"
+						timeRelativeToTestModuleStartTime="00:02.253"
+						timeWallClock="19:38:24"
+						time="00:28.123"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='app.ifm360.com']//input[@type='text' and @placeholder='Search']"
+							itempath=".//input[@type='text' and @placeholder='Search']"
+							fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.searchBar"
+							id="da6a5edafad945b1b917fa12306d3461"
+							timeout="60000"
+							codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\validateCL.cs"
+							codeline="281"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

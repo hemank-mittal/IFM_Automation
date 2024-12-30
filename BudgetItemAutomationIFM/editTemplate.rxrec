@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="33d2a853-b2fa-41c2-986a-e863daf45b40"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="editTemplate"
+	namespace="BudgetItemAutomationIFM">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="896c84ab-a364-4369-b478-c586f543c79d"
+		sx="1089"
+		sy="609"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b9cdd4ad-2278-4faa-8923-4861f593c290"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="True"
+				index="0"
+				prefcap="webelement"
+				rect="-31676,-31602,1543,60"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						mat-expansion-panel-header mat-focus-indicator ng-tns-c2690051721-41 ng-tns-c1859850774-40 mat-expansion-toggle-indicator-after ng-star-inserted
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						mat-expansion-panel-header-13
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						mat-expansion-panel-header mat-expansion-toggle-indicator-after ng-star-inserted ng-tns-c1859850774-40 ng-tns-c2690051721-41
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						mat-expansion-panel-header
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c3849841196"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-controls"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-disabled"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-expanded"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/tag[@tagname='mat-expansion-panel-header']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="34a3bd31-c946-4a96-a2e4-07dea928b2e9"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="98ce9c4a-76f6-47e0-900e-f3b484726afb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, itag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="itag"
+				rect="0,106,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						fa fa-spinner fa-spin
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						fa fa-spin fa-spinner
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c2547361310"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="731650a4-f53f-4fb8-962c-d0f7266e6daa"
+		sx="1743"
+		sy="483"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6a0ea9f1-8cb2-4c46-8484-d91658f699b0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="1"
+				prefcap="buttontag"
+				rect="1703,448,125,50"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn edit ml-2 mt-2 ng-star-inserted
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#32;Edit&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn edit ml-2 mt-2 ng-star-inserted
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c3849841196"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[1]/button[@innertext=' Edit ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="262f498d-e6ea-493f-a366-75183773c7fd">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADUAYgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigApV+9SUq/eoAdRRRQAUUUUAVrn/WD6VFUtz/rB9KioAKKKKALd
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFVp2llk8iIFRjLPjt7U2NZLWVYwGeFjgdyp/woAt0UUUAFKv3qSlX71A
+DqKKKACiiigCtc/6wfSoqluf9YPpUVABRRRQBbooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+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
+z6Tf98n/AArWurqO4nhtbdxJJ5qu+3kKqkMc4+gH1NX8j3/KleXRlctN/HG/zf6HNeXdf8+k3/fJ
+/wAKPLuv+fSb/vk/4V0uR7/lRke/5UXn3HyYf/n3+L/zOa8u6/59Jv8Avk/4UeXdf8+k3/fJ/wAK
+6XI9/wAqMj3/ACovPuHJh/8An3+L/wAzmvLuv+fSb/vk/wCFHl3X/PpN/wB8n/CulyPf8qMj3/Ki
+8+4cmH/59/i/8zmvLuv+fSb/AL5P+FOlSZ7YRLYzK24MXIJzweOnvXR5Hv8AlSg5pPmas2XTdKnL
+mhDX1YUUUUzMKT+P8KWk/j/CgBaKKKACiiigCtc/6wfSoqluf9YPpUVABRRRQBeooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKqf2ZaBmZI2j3dRHIyD8
+gQKt0UAQ29nb2xzDEqt0LdWP1J5NTUUUAFFFFABRRRQAUUUUAFJ/EPpS0n8Q+lAC0UUUAFJ/H+FL
+Sfx/hQAtFFFABRRRQBWuf9YPpUVS3P8ArB9KioAKKKKAL1FFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFJ/EPpS0n8Q
++lAC0UUUAFJ/H+FLSfx/hQAtFFFABRRRQBWuf9YPpUVS3P8ArB9KioAKKKKAL1FFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFJ/EPpS0n8Q+lAC0UUUAFJ/H+FLSfx/hQAtFFFABRRRQBWuf9YPpUVS3P8ArB9KioAKKKKA
+LuB7/nRge/50tFACYHv+dGB7/nS0UAJge/50YHv+dLRQAmB7/nRge/50tFACYHv+dGB7/nS0UAJg
+e/50YHv+dLRQAmB7/nRge/50tFACYHv+dGB7/nS0UAJge/50YHv+dLRQAmB7/nRge/50tFACYHv+
+dGB7/nS0UAJge/50YHv+dLRQAmB7/nRge/50tFACYHv+dGB7/nS0UAJge/50YHv+dLRQAmB7/nRg
+e/50tFACYHv+dGB7/nS0UAJge/50YHv+dLRQAmB7/nRjDD6UtJ/EPpQAtFFFABSfx/hS0n8f4UAL
+RRRQAUUUUAVrn/WD6VFUtz/rB9KioAKKKKAL1FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFJ/EPpRRQAtFFFABSfx/
+hRRQAtFFFABRRRQBWuf9YPpUVFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="95c24b45-de07-49ea-b484-24e2432a73a7"
+	name="BudgetItemAutomationIFMRepository"
+	relativepath="BudgetItemAutomationIFMRepository.rxrep">
+		<codegen
+		classname="BudgetItemAutomationIFMRepository"
+		namespace="BudgetItemAutomationIFM">
+		</codegen>
+		<rootfolder
+		id="bf1b39b4-1124-49e8-bfc8-b2f92bc20b58"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		editTemplate.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

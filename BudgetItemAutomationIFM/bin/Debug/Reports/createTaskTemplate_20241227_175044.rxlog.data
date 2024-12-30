@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.55s"
+		durationms="1549"
+		type="root"
+		rid="5115c652f706e20"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="27-12-2024 17:50:45"
+		timestampiso="2024-12-27T12:20:45"
+		endtime="27-12-2024 17:50:47"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createTaskTemplate">
+		<detail>
+			createTaskTemplate
+		</detail>
+		<errormessage>
+			Failed to convert value for argument 'isProjectType'. The value '' was not recognized as a valid 'Boolean'
+Parameter name: isProjectType
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.469"
+			timeRelativeToTestModuleStartTime="00:01.469"
+			timeWallClock="17:50:47"
+			time="00:01.469"
+			level="Warn"
+			category="Data"
+			errimg="images_createTa_3ddd81de\createTa_3ddd81de_9d42ae54_trace.jpg"
+			errthumb="images_createTa_3ddd81de\createTa_3ddd81de_9d42ae54_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemCount, isProject, TaskItemName, newTemplateName, optionIndex
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.489"
+			timeRelativeToTestModuleStartTime="00:01.489"
+			timeWallClock="17:50:47"
+			time="00:01.489"
+			level="Error"
+			category="Module"
+			errimg="images_createTa_3ddd81de\createTa_3ddd81de_9d42ae54_trace.jpg"
+			errthumb="images_createTa_3ddd81de\createTa_3ddd81de_9d42ae54_trace_thumb.jpg">
+			<message>
+				Failed to convert value for argument 'isProjectType'. The value '' was not recognized as a valid 'Boolean'<br/>Parameter name: isProjectType
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Libs.ValueConverterImpl.ArgumentFromString[T](String argName, String value)
+   at Ranorex.Core.ValueConverter.ArgumentFromString[T](String argNamename, String value)
+   at BudgetItemAutomationIFM.createTaskTemplate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskTemplate.cs:line 140
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskTemplate.cs"
+				codeline="140"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

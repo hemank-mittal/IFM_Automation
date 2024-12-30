@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.15s"
+		durationms="6150"
+		type="root"
+		rid="13cd2947dff7d030"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="26-12-2024 18:02:59"
+		timestampiso="2024-12-26T12:32:59"
+		endtime="26-12-2024 18:03:05"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createTaskCOnfigurations">
+		<detail>
+			createTaskCOnfigurations
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.523"
+			timeRelativeToTestModuleStartTime="00:01.523"
+			timeWallClock="18:03:00"
+			time="00:01.523"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>itemCount, HEXCode, newTemplateName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.362"
+			timeRelativeToTestModuleStartTime="00:02.362"
+			timeWallClock="18:03:01"
+			time="00:02.362"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.createButtonTag' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//button[@innertext='Create ' or @innertext='Create' or @innertext=' Create ']"
+				itempath=".//button[@innertext='Create ' or @innertext='Create' or @innertext=' Create ']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.createButtonTag"
+				id="45f2aba5c0354581843bfaecca9efb8f"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="125"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.950"
+			timeRelativeToTestModuleStartTime="00:02.950"
+			timeWallClock="18:03:02"
+			time="00:02.950"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+				itempath=".//input[@type='text' and @id>'mat-input-']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+				id="eab7ff035f474a098ef9a31fc7bd81f9"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="129"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.631"
+			timeRelativeToTestModuleStartTime="00:03.631"
+			timeWallClock="18:03:02"
+			time="00:03.631"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.TitleInputBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//input[@type='text' and @id>'mat-input-']"
+				itempath=".//input[@type='text' and @id>'mat-input-']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.TitleInputBar"
+				id="eab7ff035f474a098ef9a31fc7bd81f9"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="133"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.263"
+			timeRelativeToTestModuleStartTime="00:04.263"
+			timeWallClock="18:03:03"
+			time="00:04.263"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.EBtnEControlEDropdownBtnEIconBt' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//tag[#'docreview']/div/div[1]/div/div[2]/div/div[1]/div/div[2]/?/?/div/button[@aria-label='dropdownbutton']"
+				itempath="div[2]/div/div[1]/div/div[2]/?/?/div/button[@aria-label='dropdownbutton']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.EBtnEControlEDropdownBtnEIconBt"
+				id="6f3509f05d234e9ab633dceff5c7169a"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="137"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.934"
+			timeRelativeToTestModuleStartTime="00:04.934"
+			timeWallClock="18:03:04"
+			time="00:04.934"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HEXCodeInput' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				itempath="body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.HEXCodeInput"
+				id="6956bd16f9a345e9a757242502be8971"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="141"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.413"
+			timeRelativeToTestModuleStartTime="00:05.413"
+			timeWallClock="18:03:04"
+			time="00:05.413"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '' on item 'ApplicationUnderTest.HEXCodeInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				itempath="body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.HEXCodeInput"
+				id="6956bd16f9a345e9a757242502be8971"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="148"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.456"
+			timeRelativeToTestModuleStartTime="00:05.456"
+			timeWallClock="18:03:04"
+			time="00:05.456"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$HEXCode' with focus on 'ApplicationUnderTest.HEXCodeInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				itempath="body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.HEXCodeInput"
+				id="6956bd16f9a345e9a757242502be8971"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="152"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.690"
+			timeRelativeToTestModuleStartTime="00:05.690"
+			timeWallClock="18:03:04"
+			time="00:05.690"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Apply' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[4]/?/?/button[@title='Apply']"
+				itempath="body/div[4]/div/div[4]/?/?/button[@title='Apply']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Apply"
+				id="e78456aafc6e4caaba38592652f28af0"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createTaskCOnfigurations.cs"
+				codeline="156"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.54s"
+		durationms="6538"
+		type="root"
+		rid="20cf85e301f85b98"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="27-12-2024 18:39:28"
+		timestampiso="2024-12-27T13:09:28"
+		endtime="27-12-2024 18:39:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="EditTemplate_addItem">
+		<detail>
+			EditTemplate_addItem
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.189"
+			timeRelativeToTestModuleStartTime="00:02.189"
+			timeWallClock="18:39:30"
+			time="00:02.189"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>optionIndex, addedItem
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.213"
+			timeRelativeToTestModuleStartTime="00:02.213"
+			timeWallClock="18:39:30"
+			time="00:02.213"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']"
+				itempath="/dom[@domain='app.ifm360.com']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Self"
+				id="3ea176a2311949d7b5a336ab7d6f375c"
+				timeout="30000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate_addItem.cs"
+				codeline="104"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.847"
+			timeRelativeToTestModuleStartTime="00:03.847"
+			timeWallClock="18:39:32"
+			time="00:03.847"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Content1.MatMdcFormFieldInfixNgTnsC1205077' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[2]/tag/div[1]/div[2]/div"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[2]/tag/div[1]/div[2]/div"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.MatMdcFormFieldInfixNgTnsC1205077"
+				id="aeeacf41f7454baabcb92b0e38c5a4f8"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate_addItem.cs"
+				codeline="108"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.846"
+			timeRelativeToTestModuleStartTime="00:04.846"
+			timeWallClock="18:39:33"
+			time="00:04.846"
+			level="Warn"
+			category="User">
+			<message>
+				24
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\HelperMethodsCollection.cs"
+				codeline="357"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.858"
+			timeRelativeToTestModuleStartTime="00:04.858"
+			timeWallClock="18:39:33"
+			time="00:04.858"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.selectableOption' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]/div/div/tag[1]/span"
+				itempath="body/div[2]/div[2]/div/div/tag[$optionIndex]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.selectableOption"
+				id="6afd94a2058548029293de8d7ca5ccd2"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate_addItem.cs"
+				codeline="115"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.382"
+			timeRelativeToTestModuleStartTime="00:05.382"
+			timeWallClock="18:39:34"
+			time="00:05.382"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'ApplicationUnderTest.selectableOption' and assigning its value to variable 'addedItem'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']/body/div[2]/div[2]/div/div/tag[1]/span"
+				itempath="body/div[2]/div[2]/div/div/tag[$optionIndex]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.selectableOption"
+				id="6afd94a2058548029293de8d7ca5ccd2"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate_addItem.cs"
+				codeline="119"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.531"
+			timeRelativeToTestModuleStartTime="00:05.531"
+			timeWallClock="18:39:34"
+			time="00:05.531"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectP1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div/?/?/tag[@tagname='mat-accordion']/tag[1]/div/div/div[2]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span"
+				itempath="?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div/?/?/tag[@tagname='mat-accordion']/tag[1]/div/div/div[2]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectP1"
+				id="34ba99c268614678883c24bf4ce0431c"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editTemplate_addItem.cs"
+				codeline="123"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.81s"
+		durationms="6808"
+		type="root"
+		rid="2e4319634926f5e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="24-12-2024 11:10:52"
+		timestampiso="2024-12-24T05:40:52"
+		endtime="24-12-2024 11:10:59"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="editCampusLocation_Fail">
+		<detail>
+			editCampusLocation_Fail
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.059"
+			timeRelativeToTestModuleStartTime="00:02.059"
+			timeWallClock="11:10:54"
+			time="00:02.059"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>existingName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.081"
+			timeRelativeToTestModuleStartTime="00:02.081"
+			timeWallClock="11:10:54"
+			time="00:02.081"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'existingName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//table/tbody/tr[1]/td[1]/?"
+				itempath=".//table/tbody/tr[1]/td[1]/?"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.firstElement_anyTag"
+				id="54b25f0f44a74ff19a0370ffe8a806a5"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation_Fail.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.611"
+			timeRelativeToTestModuleStartTime="00:03.611"
+			timeWallClock="11:10:56"
+			time="00:03.611"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ']"
+				itempath=".//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.ButtonTagEdit1"
+				id="80258e15f39941bfa93411191602d0b3"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation_Fail.cs"
+				codeline="97"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.271"
+			timeRelativeToTestModuleStartTime="00:04.271"
+			timeWallClock="11:10:57"
+			time="00:04.271"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusNameField' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+				itempath=".//input[@name='campusName']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+				id="38b34aa84962404c90b60784695900ed"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation_Fail.cs"
+				codeline="101"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.289"
+			timeRelativeToTestModuleStartTime="00:05.289"
+			timeWallClock="11:10:58"
+			time="00:05.289"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.campusNameField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+				itempath=".//input[@name='campusName']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+				id="38b34aa84962404c90b60784695900ed"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation_Fail.cs"
+				codeline="105"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.475"
+			timeRelativeToTestModuleStartTime="00:05.475"
+			timeWallClock="11:10:58"
+			time="00:05.475"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$existingName' with focus on 'ApplicationUnderTest.CampusLocationForm.campusNameField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///input[@name='campusName']"
+				itempath=".//input[@name='campusName']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.campusNameField"
+				id="38b34aa84962404c90b60784695900ed"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation_Fail.cs"
+				codeline="109"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.163"
+			timeRelativeToTestModuleStartTime="00:06.163"
+			timeWallClock="11:10:59"
+			time="00:06.163"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//?/?/button[@innertext='Save']"
+				itempath="?/?/button[@innertext='Save']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.CampusLocationForm.Save"
+				id="78f23a1bfa97402d8a0d79fbe256389b"
+				timeout="90000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\editCampusLocation_Fail.cs"
+				codeline="113"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4s"
+		durationms="4001"
+		type="root"
+		rid="c4555337d1c360"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="LENOVO"
+		rxversion="10.1.0.0"
+		host="DESKTOP-EK5OUNG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3520x1200"
+		timestamp="20-12-2024 14:52:12"
+		timestampiso="2024-12-20T09:22:12"
+		endtime="20-12-2024 14:52:16"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createCampusLocation">
+		<detail>
+			createCampusLocation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.282"
+			timeRelativeToTestModuleStartTime="00:02.282"
+			timeWallClock="14:52:14"
+			time="00:02.282"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.createSpanTag' at 7;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='app.ifm360.com']//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']"
+				itempath=".//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']"
+				fullname="BudgetItemAutomationIFMRepository.ApplicationUnderTest.createSpanTag"
+				id="04fc04692096498499621e20c6091969"
+				timeout="60000"
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCampusLocation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.434"
+			timeRelativeToTestModuleStartTime="00:03.434"
+			timeWallClock="14:52:15"
+			time="00:03.434"
+			level="Warn"
+			category="Click"
+			errimg="images_createCa_1f4a9ac1\createCa_d13b80d7_rxlog.jpg"
+			errthumb="images_createCa_1f4a9ac1\createCa_d13b80d7_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\LENOVO\Documents\Ranorex\RanorexStudio Projects\BudgetItemAutomationIFM\BudgetItemAutomationIFM\createCampusLocation.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>
