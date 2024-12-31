@@ -134,6 +134,10 @@
 					</var>
 				</databinding>
 			</modulegroup>
+			<smartfoldernode
+			id="d7a2fa69-b342-45c8-8c7c-be3fb0a24ffa"
+			name="projectType">
+			</smartfoldernode>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -157,26 +161,30 @@
 							name="ValidateProjectTypes">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="a976506f-5f1f-49fc-9ede-ab61e6eb89b7"
-						name="createCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="c3f40add-8156-48a4-90f3-f0458a51c695"
-						name="createCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="614c5367-4be7-43bc-8bc1-20b54e42b064"
-						name="editCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="d46632d7-e9f4-4cba-93c1-b6832c471e62"
-						name="editCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="6aa7ee91-ecfc-46af-b454-1549c8f7b563"
-						name="sortDTable_Column1">
-						</modulegroup>
+						<smartfoldernode
+						id="d7a2fa69-b342-45c8-8c7c-be3fb0a24ffa"
+						name="projectType">
+							<modulegroup
+							id="a976506f-5f1f-49fc-9ede-ab61e6eb89b7"
+							name="createCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="c3f40add-8156-48a4-90f3-f0458a51c695"
+							name="createCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="614c5367-4be7-43bc-8bc1-20b54e42b064"
+							name="editCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="d46632d7-e9f4-4cba-93c1-b6832c471e62"
+							name="editCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="6aa7ee91-ecfc-46af-b454-1549c8f7b563"
+							name="sortDTable_Column1">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="3d90caf4-fcf8-46ed-b9f1-54b6ae905371"
 						name="teardown">
@@ -201,6 +209,9 @@
 			</testcontainer>
 			<testcontainer
 			id="cd503f55-83de-44ef-895c-53465e7a470d">
+			</testcontainer>
+			<testcontainer
+			id="d7a2fa69-b342-45c8-8c7c-be3fb0a24ffa">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

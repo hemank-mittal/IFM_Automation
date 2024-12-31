@@ -528,6 +528,9 @@
       <UserCode>true</UserCode>
       <id>e2df82ee-2be9-4dca-a965-6a368ec6b9d8</id>
     </Compile>
+    <Compile Include="globalParameters.cs">
+      <id>7292754e-f93c-4871-8333-59554c0e4b9c</id>
+    </Compile>
     <Compile Include="navigateToCloseoutTemplates.cs">
       <BoundTo>4c46e316-7afc-449e-999a-cfe3df9e749b</BoundTo>
       <DependentUpon>navigateToCloseoutTemplates.rxrec</DependentUpon>

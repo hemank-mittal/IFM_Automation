@@ -842,6 +842,12 @@
 			id="f6f2c40e-8d0b-4c9d-a0b8-7b35c04058ab"
 			name="BudgetItemAutomationIFM"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="browserName"
+					value="Chrome">
+					</param>
+				</parameters>
 			</testcase>
 			<modulegroup
 			id="fbdb39eb-fdc2-435f-99bd-1444ae6e2af7"

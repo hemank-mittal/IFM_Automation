@@ -31,6 +31,19 @@ namespace BudgetItemAutomationIFM
         // You can use the "Insert New User Code Method" functionality from the context menu,
         // to add a new method with the attribute [UserCodeMethod].
         
+        
+        /// <summary>
+        /// This is a placeholder text. Please describe the purpose of the
+        /// user code method here. The method is published to the user code library
+        /// within a user code collection.
+        /// </summary>
+        [UserCodeMethod]
+        public static string getBrowserName()
+        {
+//        	Report.Warn(globalParameters.browserName);
+        	return globalParameters.browserName;
+        }
+        
         /// <summary>
         /// The method checks for the count of items in the list, and provides a string (Name) with the index 
         /// of item to be inserted.

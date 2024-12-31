@@ -41,6 +41,7 @@ namespace BudgetItemAutomationIFM
         /// </summary>
         public OpenBrowser_FundingSources()
         {
+            browserName = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace BudgetItemAutomationIFM
         }
 
 #region Variables
+
+        string _browserName;
+
+        /// <summary>
+        /// Gets or sets the value of variable browserName.
+        /// </summary>
+        [TestVariable("0ad588be-6089-420c-add5-a131da7147f0")]
+        public string browserName
+        {
+            get { return _browserName; }
+            set { _browserName = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,11 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://app.ifm360.com/fundingSource' with browser 'Firefox' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://app.ifm360.com/fundingSource", "Firefox", "", false, false, false, false, false, false, false, true);
+            browserName = HelperMethodsCollection.getBrowserName();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://app.ifm360.com/fundingSource' with browser specified by variable $browserName in normal mode.", new RecordItemIndex(1));
+            Host.Current.OpenBrowser("https://app.ifm360.com/fundingSource", browserName, "", false, false, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

@@ -2,6 +2,10 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<smartfoldernode
+			id="003d7d78-6f44-43ad-9452-345f08d8fd61"
+			name="serviceType">
+			</smartfoldernode>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -157,26 +161,30 @@
 							name="ValidateServiceType">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="fc2a6044-5efe-47e1-a231-d17e3417a71e"
-						name="createCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="8471e78f-482c-4286-bb52-1191657bb7d4"
-						name="createCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="e23cdadf-adaf-434f-a32d-844d6a945d7a"
-						name="editCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="e0026bd1-089d-44fe-9398-2c3f41f88b56"
-						name="editCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="e26230cb-e583-45d4-9de4-6974a04c8d3d"
-						name="sortDTable_Column1">
-						</modulegroup>
+						<smartfoldernode
+						id="003d7d78-6f44-43ad-9452-345f08d8fd61"
+						name="serviceType">
+							<modulegroup
+							id="fc2a6044-5efe-47e1-a231-d17e3417a71e"
+							name="createCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="8471e78f-482c-4286-bb52-1191657bb7d4"
+							name="createCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="e23cdadf-adaf-434f-a32d-844d6a945d7a"
+							name="editCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="e0026bd1-089d-44fe-9398-2c3f41f88b56"
+							name="editCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="e26230cb-e583-45d4-9de4-6974a04c8d3d"
+							name="sortDTable_Column1">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="2cdf02ad-93fd-4288-9a8e-5996de6cd7db"
 						name="teardown">
@@ -196,6 +204,9 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="003d7d78-6f44-43ad-9452-345f08d8fd61">
+			</testcontainer>
 			<testcontainer
 			id="5eb17568-f678-4239-b5b0-37b5817b9311">
 			</testcontainer>

@@ -135,6 +135,10 @@
 			ref="c13eef75-be59-4315-a950-0d9a4ef11943"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="b322c95b-588b-433f-ba36-ad5af4bfef1c"
+			name="statusReportType">
+			</smartfoldernode>
 			<modulegroup
 			id="b7f6bbff-9cc6-425f-86da-751618603843"
 			name="createStatusReportType_Failure_ExistingName"
@@ -207,34 +211,38 @@
 							name="ValidateStatusType">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="3e879f58-81c6-4349-82d8-41071b6498c2"
-						name="createStatusReportType_Success">
-						</modulegroup>
-						<modulegroup
-						id="b7f6bbff-9cc6-425f-86da-751618603843"
-						name="createStatusReportType_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="5ec4cceb-2b2a-4aec-9a66-b4e0026070fd"
-						name="editStatusReportType_Name_Success">
-						</modulegroup>
-						<modulegroup
-						id="d8864371-ad0f-4af6-94a4-e8d2d64f010a"
-						name="editStatusReportType_Name_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="500166f5-49e6-4455-bb28-6242ac66d5a6"
-						name="editStatusReportType_Description_Success">
-						</modulegroup>
-						<modulegroup
-						id="11e17746-3c56-4e36-855c-70e233011143"
-						name="sortingItems_Column1">
-						</modulegroup>
-						<modulegroup
-						id="bff5449b-e503-4ebd-abc6-c199017959b1"
-						name="sortingItems_Column2">
-						</modulegroup>
+						<smartfoldernode
+						id="b322c95b-588b-433f-ba36-ad5af4bfef1c"
+						name="statusReportType">
+							<modulegroup
+							id="3e879f58-81c6-4349-82d8-41071b6498c2"
+							name="createStatusReportType_Success">
+							</modulegroup>
+							<modulegroup
+							id="b7f6bbff-9cc6-425f-86da-751618603843"
+							name="createStatusReportType_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="5ec4cceb-2b2a-4aec-9a66-b4e0026070fd"
+							name="editStatusReportType_Name_Success">
+							</modulegroup>
+							<modulegroup
+							id="d8864371-ad0f-4af6-94a4-e8d2d64f010a"
+							name="editStatusReportType_Name_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="500166f5-49e6-4455-bb28-6242ac66d5a6"
+							name="editStatusReportType_Description_Success">
+							</modulegroup>
+							<modulegroup
+							id="11e17746-3c56-4e36-855c-70e233011143"
+							name="sortingItems_Column1">
+							</modulegroup>
+							<modulegroup
+							id="bff5449b-e503-4ebd-abc6-c199017959b1"
+							name="sortingItems_Column2">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="ada9d390-014f-47e6-959e-15a510b8528f"
 						name="teardown">
@@ -259,6 +267,9 @@
 			</testcontainer>
 			<testcontainer
 			id="735f1fd9-6dd5-4482-b8c4-ec816ce3ae3f">
+			</testcontainer>
+			<testcontainer
+			id="b322c95b-588b-433f-ba36-ad5af4bfef1c">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

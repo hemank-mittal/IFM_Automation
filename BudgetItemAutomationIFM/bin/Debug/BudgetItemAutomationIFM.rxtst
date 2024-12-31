@@ -16,9 +16,21 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="09eac785-ea54-4aca-b7e9-c7c941c24266"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
+				<description>
+					<![CDATA[BLOCKER!!]]>
+				</description>
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
+					variablename="itemName">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="0ad1f168-ef92-4481-8c0b-6de2c0f0b91c"
@@ -37,6 +49,14 @@
 			id="1582c61d-3527-4048-8541-c97afd3d3a66"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
+					variablename="itemName">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="197ece0b-89c7-446e-93ef-7b7cd3829af7"
@@ -294,6 +314,14 @@
 			id="5d3ddd94-ffe0-41b5-9eba-67de8940b16b"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
+					variablename="itemName">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testmodule
 			id="65f066d5-ac5f-4353-821c-86b0c72c95f7"
@@ -447,9 +475,13 @@
 			ref="339618f3-981e-4243-a427-8cdd60f658dc">
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="9c969a26-816f-42e9-89f3-88d36d7297ff"
 			name="editCategory_1_Failure_ExistingName"
 			ref="e14f40d3-a52a-49b7-af05-229539725c22">
+				<description>
+					<![CDATA[BLOCKER!!]]>
+				</description>
 				<databinding>
 					<var
 					dataname="itemCount"
@@ -510,9 +542,21 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="b67bb804-38ed-4d85-94da-d8480a9e3fa5"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
+				<description>
+					<![CDATA[BLOCKER!!]]>
+				</description>
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
+					variablename="itemName">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="bbd1f6d4-3214-4765-9c1c-196e9d094799"
@@ -584,9 +628,13 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="c9ba160d-6cb4-4505-8b0b-d3211126157f"
 			name="editCategory_1_Failure_ExistingName"
 			ref="e14f40d3-a52a-49b7-af05-229539725c22">
+				<description>
+					<![CDATA[BLOCKER!!]]>
+				</description>
 				<databinding>
 					<var
 					dataname="itemCount"
@@ -707,6 +755,14 @@
 			id="de9cb26d-22bf-4ab0-9f9a-5761f6514295"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
+					variablename="itemName">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testcase
 			id="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
@@ -766,9 +822,13 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="f1cab0a7-3017-49ab-a1cb-943bf7bd9a86"
 			name="createCategory_1_Failure_ExistingName"
 			ref="4924d16d-f457-4b32-a8fd-0a9d2d2cd43b">
+				<description>
+					<![CDATA[BLOCKER!!]]>
+				</description>
 				<databinding>
 					<var
 					dataname="itemCount"
@@ -782,6 +842,12 @@
 			id="f6f2c40e-8d0b-4c9d-a0b8-7b35c04058ab"
 			name="BudgetItemAutomationIFM"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="browserName"
+					value="Chrome">
+					</param>
+				</parameters>
 			</testcase>
 			<modulegroup
 			id="fbdb39eb-fdc2-435f-99bd-1444ae6e2af7"
@@ -795,9 +861,13 @@
 			type="Recording">
 			</testmodule>
 			<modulegroup
+			enabled="False"
 			id="fef4390e-69f7-4ab3-aacc-3c373ee8a90c"
 			name="createCategory_1_Failure_ExistingName"
 			ref="4924d16d-f457-4b32-a8fd-0a9d2d2cd43b">
+				<description>
+					<![CDATA[BLOCKER!!]]>
+				</description>
 				<databinding>
 					<var
 					dataname="itemCount"

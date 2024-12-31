@@ -2,6 +2,10 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<smartfoldernode
+			id="04399973-ab34-4de8-bf93-7fc5797a4481"
+			name="territory">
+			</smartfoldernode>
 			<teardown
 			id="051362c2-5b2e-457b-ac8d-9b0c1b95d367"
 			name="teardown">
@@ -208,30 +212,34 @@
 							name="validateFIMTerritory">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="4259fe1e-b0ee-495c-9dcc-654d519f9474"
-						name="createTerritory_Success">
-						</modulegroup>
-						<modulegroup
-						id="97feeeb1-4211-43dc-96fa-a44a9c9e275e"
-						name="createTerritory_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="fe314269-95d3-4f08-a8d8-93f14304898b"
-						name="editTerritory_Success">
-						</modulegroup>
-						<modulegroup
-						id="e65c4405-de08-4185-ae25-a952a7a2cbd7"
-						name="editTerritory_Failure">
-						</modulegroup>
-						<modulegroup
-						id="c4883d08-54a4-4bf6-9bba-b5e84ed19a23"
-						name="sortDTable_Column1">
-						</modulegroup>
-						<modulegroup
-						id="74165fff-b869-4f43-94b6-14613f880606"
-						name="sortDTable_Column2">
-						</modulegroup>
+						<smartfoldernode
+						id="04399973-ab34-4de8-bf93-7fc5797a4481"
+						name="territory">
+							<modulegroup
+							id="4259fe1e-b0ee-495c-9dcc-654d519f9474"
+							name="createTerritory_Success">
+							</modulegroup>
+							<modulegroup
+							id="97feeeb1-4211-43dc-96fa-a44a9c9e275e"
+							name="createTerritory_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="fe314269-95d3-4f08-a8d8-93f14304898b"
+							name="editTerritory_Success">
+							</modulegroup>
+							<modulegroup
+							id="e65c4405-de08-4185-ae25-a952a7a2cbd7"
+							name="editTerritory_Failure">
+							</modulegroup>
+							<modulegroup
+							id="c4883d08-54a4-4bf6-9bba-b5e84ed19a23"
+							name="sortDTable_Column1">
+							</modulegroup>
+							<modulegroup
+							id="74165fff-b869-4f43-94b6-14613f880606"
+							name="sortDTable_Column2">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="051362c2-5b2e-457b-ac8d-9b0c1b95d367"
 						name="teardown">
@@ -251,6 +259,9 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="04399973-ab34-4de8-bf93-7fc5797a4481">
+			</testcontainer>
 			<testcontainer
 			id="d1a369f2-bea2-4889-8b86-16d30461f373">
 			</testcontainer>

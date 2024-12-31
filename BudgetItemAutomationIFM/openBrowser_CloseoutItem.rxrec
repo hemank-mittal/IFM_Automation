@@ -23,8 +23,31 @@ mode="Global">
 	namespace="BudgetItemAutomationIFM">
 	</codegen>
 	<variables>
+		<var
+		id="1b9038ac-1750-44ba-84c2-76e01b4c96f1"
+		name="browserName">
+		</var>
 	</variables>
 	<recorditems>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="getBrowserName"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="browserName">
+				</binding>
+			</bindings>
+			<arguments
+			id="b0631ace-58ae-40a0-8524-03554d426102">
+			</arguments>
+		</userrecorditem>
 		<openwebsiterecorditem
 		args=""
 		browser="Firefox"
@@ -41,6 +64,10 @@ mode="Global">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="BrowserName"
+				variable="browserName">
+				</binding>
 			</bindings>
 			<url>
 				https://app.ifm360.com/closeout

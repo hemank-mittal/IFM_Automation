@@ -33,5 +33,16 @@ namespace BudgetItemAutomationIFM
             // Your recording specific initialization code goes here.
         }
 
+        public void Validate_secondRow_FirstElement(RepoItemInfo unknownInfo, string record1)
+        {
+        	string record2;
+        	
+        	if (Validate.Exists(unknownInfo))
+        	{
+        		record2 = repo.ApplicationUnderTest.secondRow_FirstElement.Element.GetAttributeValueText("InnerText");
+        		HelperMethodsCollection.compareStringsNotEqual(record1, record2);
+        	}
+        }
+
     }
 }

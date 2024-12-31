@@ -46,6 +46,10 @@
 			ref="a0c4e367-c260-4274-8e48-90df0fa2510d"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="a5e68ed8-9910-426e-8025-ff106c6cd590"
+			name="campusType">
+			</smartfoldernode>
 			<modulegroup
 			id="b1417efc-008f-4bc3-af99-d4a216463a5d"
 			name="createCategory_1_Success"
@@ -167,26 +171,30 @@
 							name="validateCampusType">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="b1417efc-008f-4bc3-af99-d4a216463a5d"
-						name="createCategory_1_Success">
-						</modulegroup>
-						<modulegroup
-						id="e37c6ef6-928e-48e6-9f05-d6a92b81e021"
-						name="createCategory_1_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="37dbc644-7fe5-4ada-93d4-9ec11935fecf"
-						name="editCategory_1_Success">
-						</modulegroup>
-						<modulegroup
-						id="b5bdfa54-b91f-4943-ac01-49ca1d4bfe20"
-						name="editCategory_1_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="6227928c-c6fb-4a2b-b5d1-f7dd6bee9014"
-						name="sortingItems_Column1">
-						</modulegroup>
+						<smartfoldernode
+						id="a5e68ed8-9910-426e-8025-ff106c6cd590"
+						name="campusType">
+							<modulegroup
+							id="b1417efc-008f-4bc3-af99-d4a216463a5d"
+							name="createCategory_1_Success">
+							</modulegroup>
+							<modulegroup
+							id="e37c6ef6-928e-48e6-9f05-d6a92b81e021"
+							name="createCategory_1_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="37dbc644-7fe5-4ada-93d4-9ec11935fecf"
+							name="editCategory_1_Success">
+							</modulegroup>
+							<modulegroup
+							id="b5bdfa54-b91f-4943-ac01-49ca1d4bfe20"
+							name="editCategory_1_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="6227928c-c6fb-4a2b-b5d1-f7dd6bee9014"
+							name="sortingItems_Column1">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="822da461-238e-4276-bbd0-068de300c8de"
 						name="teardown">
@@ -206,6 +214,9 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="a5e68ed8-9910-426e-8025-ff106c6cd590">
+			</testcontainer>
 			<testcontainer
 			id="bb83f717-f0c7-4798-aa64-eaa7aeb4406d">
 			</testcontainer>

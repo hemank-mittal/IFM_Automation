@@ -33,6 +33,21 @@ rxversion="10.1">
 						name="newTemplateName"
 						variableref="499513eb-bb88-4c5c-b6ba-bc1b66f7f27c">
 						</modulevariable>
+						<modulevariable
+						moduleref="85f3dbc5-7544-47da-a72c-b2d07965e3e0"
+						name="itemName"
+						variableref="07dafca6-b53b-4f24-adc7-f11a5186a683">
+						</modulevariable>
+						<modulevariable
+						moduleref="85f3dbc5-7544-47da-a72c-b2d07965e3e0"
+						name="firstRecord"
+						variableref="cd3b1444-ffd5-412c-8bc5-65d16febb40f">
+						</modulevariable>
+						<modulevariable
+						moduleref="85f3dbc5-7544-47da-a72c-b2d07965e3e0"
+						name="secondRecord"
+						variableref="0dae9b11-0cf4-4a63-8a76-94e637a800b1">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="bd25ee9c-e8aa-4cd6-a989-7aede206b910"
@@ -761,6 +776,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="8f477be0-fa4b-4496-9543-c2895aae64f8">
 						</modulevariable>
+						<modulevariable
+						moduleref="e96f3198-a0c3-4698-8704-e040ab343d43"
+						name="itemName"
+						variableref="03c672c8-68c8-455a-b175-7f71a4844343">
+						</modulevariable>
+						<modulevariable
+						moduleref="e96f3198-a0c3-4698-8704-e040ab343d43"
+						name="firstRecord"
+						variableref="5381f94a-8162-4b61-988b-b1760b96a44d">
+						</modulevariable>
+						<modulevariable
+						moduleref="e96f3198-a0c3-4698-8704-e040ab343d43"
+						name="secondRecord"
+						variableref="42305d6f-da17-4d55-b81a-fbcb1a5183a6">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="c24f7527-d78b-4b05-a6ca-32a48eee10ed"
@@ -985,6 +1015,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="24374c84-3df3-4765-9099-48cb9840aed7">
 						</modulevariable>
+						<modulevariable
+						moduleref="ad85d92e-55b7-42bd-aa9c-a2801e1befe5"
+						name="itemName"
+						variableref="6c566900-2898-4a45-ab43-d16b51a2b749">
+						</modulevariable>
+						<modulevariable
+						moduleref="ad85d92e-55b7-42bd-aa9c-a2801e1befe5"
+						name="firstRecord"
+						variableref="57917390-3859-4bc7-be01-e9f1577a725f">
+						</modulevariable>
+						<modulevariable
+						moduleref="ad85d92e-55b7-42bd-aa9c-a2801e1befe5"
+						name="secondRecord"
+						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -1072,12 +1117,53 @@ rxversion="10.1">
 						name="existingName"
 						variableref="d65ef4cf-4991-4aaf-a161-cb307ca52d4b">
 						</modulevariable>
+						<modulevariable
+						moduleref="3391a58a-0c15-49e2-97d6-821f132da0e8"
+						name="itemName"
+						variableref="dfb890c3-5f3b-486a-b79c-711f5d4dd7ef">
+						</modulevariable>
+						<modulevariable
+						moduleref="3391a58a-0c15-49e2-97d6-821f132da0e8"
+						name="firstRecord"
+						variableref="140344fe-2266-4121-9cc9-b56e77cbafa3">
+						</modulevariable>
+						<modulevariable
+						moduleref="3391a58a-0c15-49e2-97d6-821f132da0e8"
+						name="secondRecord"
+						variableref="a48de8e3-ecd8-45b8-891e-66a6f3f508b4">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
 			id="362289a2-2a69-4d31-b78c-8ff2836eb4c6"
 			name="editBudgetCategory_Failure_sameName">
+				<groupvariables>
+					<groupvariable
+					id="fa619092-7df5-42d3-a928-eb6f32860385"
+					name="itemName">
+						<modulevariable
+						moduleref="e070be74-a0a6-4e67-bf24-2195909d7c4d"
+						name="itemName"
+						variableref="864c18e5-1477-47d1-950c-5b74b6c2c384">
+						</modulevariable>
+						<modulevariable
+						moduleref="b0dad4b6-12fe-41c3-ade3-77e85034586c"
+						name="itemName"
+						variableref="6c566900-2898-4a45-ab43-d16b51a2b749">
+						</modulevariable>
+						<modulevariable
+						moduleref="b0dad4b6-12fe-41c3-ade3-77e85034586c"
+						name="firstRecord"
+						variableref="57917390-3859-4bc7-be01-e9f1577a725f">
+						</modulevariable>
+						<modulevariable
+						moduleref="b0dad4b6-12fe-41c3-ade3-77e85034586c"
+						name="secondRecord"
+						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
 			id="372db0ac-72d8-4a78-845d-6511ff11e2e6"
@@ -1405,6 +1491,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="08c89fa8-ea9b-4215-a905-04c611a6ff2a">
 						</modulevariable>
+						<modulevariable
+						moduleref="574e5dd8-5086-449b-9331-27d1b9d216e1"
+						name="itemName"
+						variableref="6c566900-2898-4a45-ab43-d16b51a2b749">
+						</modulevariable>
+						<modulevariable
+						moduleref="574e5dd8-5086-449b-9331-27d1b9d216e1"
+						name="firstRecord"
+						variableref="57917390-3859-4bc7-be01-e9f1577a725f">
+						</modulevariable>
+						<modulevariable
+						moduleref="574e5dd8-5086-449b-9331-27d1b9d216e1"
+						name="secondRecord"
+						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -1659,6 +1760,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="08c89fa8-ea9b-4215-a905-04c611a6ff2a">
 						</modulevariable>
+						<modulevariable
+						moduleref="6b12a43d-937c-47a6-b1b1-49e9070cd1dd"
+						name="itemName"
+						variableref="03c672c8-68c8-455a-b175-7f71a4844343">
+						</modulevariable>
+						<modulevariable
+						moduleref="6b12a43d-937c-47a6-b1b1-49e9070cd1dd"
+						name="firstRecord"
+						variableref="5381f94a-8162-4b61-988b-b1760b96a44d">
+						</modulevariable>
+						<modulevariable
+						moduleref="6b12a43d-937c-47a6-b1b1-49e9070cd1dd"
+						name="secondRecord"
+						variableref="42305d6f-da17-4d55-b81a-fbcb1a5183a6">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -1730,6 +1846,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="0f39fbc3-cab3-4720-8395-89bc99ea397a">
 						</modulevariable>
+						<modulevariable
+						moduleref="5f544e25-cdc0-4f1d-9051-f1cad480dddd"
+						name="itemName"
+						variableref="e1f8bffd-1af2-42b9-bca1-36491431df20">
+						</modulevariable>
+						<modulevariable
+						moduleref="5f544e25-cdc0-4f1d-9051-f1cad480dddd"
+						name="firstRecord"
+						variableref="e93ec0a2-eb42-4826-a474-d6e976474d0d">
+						</modulevariable>
+						<modulevariable
+						moduleref="5f544e25-cdc0-4f1d-9051-f1cad480dddd"
+						name="secondRecord"
+						variableref="12ca68fc-4e91-4ea4-b687-0780a02aaee6">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -1737,6 +1868,12 @@ rxversion="10.1">
 			id="5f379dad-6c31-479c-a34a-e65e11ce93d1"
 			name="HitSaveButton_1"
 			ref="9e3eef50-2139-45ee-a360-578b1e026f00"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="5f544e25-cdc0-4f1d-9051-f1cad480dddd"
+			name="validateTaskConfiguration_Fail"
+			ref="a7646de4-b8d6-4ff6-b823-af6c8d19e6ab"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1923,6 +2060,21 @@ rxversion="10.1">
 						moduleref="f7ec580a-d501-4868-8a66-36560cacd551"
 						name="existingName"
 						variableref="748ad799-4bbb-4407-96b3-fa66d7f8d2d8">
+						</modulevariable>
+						<modulevariable
+						moduleref="4c0cc903-a94e-41d0-bd3e-e4b754105939"
+						name="itemName"
+						variableref="03c672c8-68c8-455a-b175-7f71a4844343">
+						</modulevariable>
+						<modulevariable
+						moduleref="4c0cc903-a94e-41d0-bd3e-e4b754105939"
+						name="firstRecord"
+						variableref="5381f94a-8162-4b61-988b-b1760b96a44d">
+						</modulevariable>
+						<modulevariable
+						moduleref="4c0cc903-a94e-41d0-bd3e-e4b754105939"
+						name="secondRecord"
+						variableref="42305d6f-da17-4d55-b81a-fbcb1a5183a6">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -2386,6 +2538,21 @@ rxversion="10.1">
 						moduleref="5d89799b-af7a-4054-9773-f257facfa7d6"
 						name="existingName"
 						variableref="edf22efe-d07c-47fe-8833-71a30867e5bc">
+						</modulevariable>
+						<modulevariable
+						moduleref="32d8f519-eed8-474f-8273-bfe018317cfd"
+						name="itemName"
+						variableref="3ee40233-c554-4379-8c65-ad47473dbb08">
+						</modulevariable>
+						<modulevariable
+						moduleref="32d8f519-eed8-474f-8273-bfe018317cfd"
+						name="firstRecord"
+						variableref="a9a0df5b-e973-43eb-9600-1c0469d97842">
+						</modulevariable>
+						<modulevariable
+						moduleref="32d8f519-eed8-474f-8273-bfe018317cfd"
+						name="secondRecord"
+						variableref="25bab0ba-25af-4b34-84ab-ad19a2fc5e16">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -2888,6 +3055,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="d904146b-181b-4bab-8d84-b29676d95a1b">
 						</modulevariable>
+						<modulevariable
+						moduleref="7284b9ff-1461-4260-85fc-41e7d2b76f07"
+						name="itemName"
+						variableref="9910fe6b-36b5-4162-9e4a-9e967203b0e9">
+						</modulevariable>
+						<modulevariable
+						moduleref="7284b9ff-1461-4260-85fc-41e7d2b76f07"
+						name="firstRecord"
+						variableref="66e0fa4b-4d41-40bd-82d1-bce833163c38">
+						</modulevariable>
+						<modulevariable
+						moduleref="7284b9ff-1461-4260-85fc-41e7d2b76f07"
+						name="secondRecord"
+						variableref="413fd7e2-e8a2-4fbc-a21a-f380be183969">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -3009,6 +3191,21 @@ rxversion="10.1">
 						name="existingItem"
 						variableref="93256325-cdbb-45b2-9f8a-3576bf5e4aa7">
 						</modulevariable>
+						<modulevariable
+						moduleref="41577423-457d-48f2-8566-f7f214b9a61f"
+						name="itemName"
+						variableref="03c672c8-68c8-455a-b175-7f71a4844343">
+						</modulevariable>
+						<modulevariable
+						moduleref="41577423-457d-48f2-8566-f7f214b9a61f"
+						name="firstRecord"
+						variableref="5381f94a-8162-4b61-988b-b1760b96a44d">
+						</modulevariable>
+						<modulevariable
+						moduleref="41577423-457d-48f2-8566-f7f214b9a61f"
+						name="secondRecord"
+						variableref="42305d6f-da17-4d55-b81a-fbcb1a5183a6">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -3075,6 +3272,21 @@ rxversion="10.1">
 						moduleref="4b7608a1-0339-4694-a54d-f99b5700cee5"
 						name="existingName"
 						variableref="30e085d9-5bd3-4648-a1d4-6e372bbd515d">
+						</modulevariable>
+						<modulevariable
+						moduleref="6988c63e-8ca0-4164-a449-b0006db2c26d"
+						name="itemName"
+						variableref="33bf2e67-5bac-4ec1-ae33-e9844b451ccd">
+						</modulevariable>
+						<modulevariable
+						moduleref="6988c63e-8ca0-4164-a449-b0006db2c26d"
+						name="firstRecord"
+						variableref="5bccb1fb-923b-44f7-9b34-8c9d2664149e">
+						</modulevariable>
+						<modulevariable
+						moduleref="6988c63e-8ca0-4164-a449-b0006db2c26d"
+						name="secondRecord"
+						variableref="86f00746-40f8-48db-869a-8f035675e2c8">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -3235,6 +3447,21 @@ rxversion="10.1">
 						name="existingItem"
 						variableref="93256325-cdbb-45b2-9f8a-3576bf5e4aa7">
 						</modulevariable>
+						<modulevariable
+						moduleref="09fbe18b-8d02-4638-b801-8759316854e3"
+						name="itemName"
+						variableref="6c566900-2898-4a45-ab43-d16b51a2b749">
+						</modulevariable>
+						<modulevariable
+						moduleref="09fbe18b-8d02-4638-b801-8759316854e3"
+						name="firstRecord"
+						variableref="57917390-3859-4bc7-be01-e9f1577a725f">
+						</modulevariable>
+						<modulevariable
+						moduleref="09fbe18b-8d02-4638-b801-8759316854e3"
+						name="secondRecord"
+						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -3372,6 +3599,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="e747deb3-7932-4745-b343-9a1b3b178bb0">
 						</modulevariable>
+						<modulevariable
+						moduleref="7ccbd7e2-4bd5-4f21-8511-fd465f72695f"
+						name="itemName"
+						variableref="07dafca6-b53b-4f24-adc7-f11a5186a683">
+						</modulevariable>
+						<modulevariable
+						moduleref="7ccbd7e2-4bd5-4f21-8511-fd465f72695f"
+						name="firstRecord"
+						variableref="cd3b1444-ffd5-412c-8bc5-65d16febb40f">
+						</modulevariable>
+						<modulevariable
+						moduleref="7ccbd7e2-4bd5-4f21-8511-fd465f72695f"
+						name="secondRecord"
+						variableref="0dae9b11-0cf4-4a63-8a76-94e637a800b1">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -3401,6 +3643,21 @@ rxversion="10.1">
 						moduleref="1cd38801-ba4c-46ae-8f65-e7f2ae1ba7bb"
 						name="existingName"
 						variableref="d904146b-181b-4bab-8d84-b29676d95a1b">
+						</modulevariable>
+						<modulevariable
+						moduleref="2e74a9e4-6113-412c-adbe-97040ec10c0b"
+						name="itemName"
+						variableref="9910fe6b-36b5-4162-9e4a-9e967203b0e9">
+						</modulevariable>
+						<modulevariable
+						moduleref="2e74a9e4-6113-412c-adbe-97040ec10c0b"
+						name="firstRecord"
+						variableref="66e0fa4b-4d41-40bd-82d1-bce833163c38">
+						</modulevariable>
+						<modulevariable
+						moduleref="2e74a9e4-6113-412c-adbe-97040ec10c0b"
+						name="secondRecord"
+						variableref="413fd7e2-e8a2-4fbc-a21a-f380be183969">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -3583,6 +3840,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="8cb1e7b5-c5a7-4777-bebc-1cccc1a8c451">
 						</modulevariable>
+						<modulevariable
+						moduleref="88c16c17-9c7e-44c2-80dd-7d6c57c4a514"
+						name="itemName"
+						variableref="6c566900-2898-4a45-ab43-d16b51a2b749">
+						</modulevariable>
+						<modulevariable
+						moduleref="88c16c17-9c7e-44c2-80dd-7d6c57c4a514"
+						name="firstRecord"
+						variableref="57917390-3859-4bc7-be01-e9f1577a725f">
+						</modulevariable>
+						<modulevariable
+						moduleref="88c16c17-9c7e-44c2-80dd-7d6c57c4a514"
+						name="secondRecord"
+						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
@@ -3602,12 +3874,6 @@ rxversion="10.1">
 			id="fa54c208-dcac-4cf8-a46a-797f9788a3f5"
 			name="editItem"
 			ref="7c3c270f-c9d4-46e9-8bf1-eca91c9eeae3"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="fab0ebd8-2ee9-4e88-a93b-245afa605653"
-			name="validateEditItem_Fail"
-			ref="540b0bce-7ecf-4fef-8594-5642d50b55a6"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -4508,8 +4774,8 @@ rxversion="10.1">
 					name="editTaskConfigurations_Fail">
 					</testmodule>
 					<testmodule
-					id="fab0ebd8-2ee9-4e88-a93b-245afa605653"
-					name="validateEditItem_Fail">
+					id="5f544e25-cdc0-4f1d-9051-f1cad480dddd"
+					name="validateTaskConfiguration_Fail">
 					</testmodule>
 				</modulegroupdef>
 				<modulegroupdef

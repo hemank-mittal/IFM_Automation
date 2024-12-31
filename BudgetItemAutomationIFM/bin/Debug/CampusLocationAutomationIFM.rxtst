@@ -228,6 +228,10 @@
 					</var>
 				</databinding>
 			</modulegroup>
+			<smartfoldernode
+			id="d15161c7-8b27-4b2d-9ad1-18c263d38b33"
+			name="campusLocation">
+			</smartfoldernode>
 			<modulegroup
 			id="d975ed6a-d8ff-470a-9e62-6b9204133e70"
 			name="createCampusLocation_Failure_ExistingName"
@@ -454,38 +458,42 @@
 							name="validateCampusLocation">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="dab74907-9155-4670-ba9b-844e4b08908a"
-						name="createCampusLocation_Success">
-						</modulegroup>
-						<modulegroup
-						id="d975ed6a-d8ff-470a-9e62-6b9204133e70"
-						name="createCampusLocation_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="9512b1b5-5052-46fe-8fa0-36304a76486e"
-						name="editCampusLocation_Success">
-						</modulegroup>
-						<modulegroup
-						id="c2f09e0b-aabb-4c12-8bb8-4a70abe549d0"
-						name="editCampusLocation_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="ed0b566b-a688-4f4d-be71-83cc2f7cf79b"
-						name="sortingItems_Column1">
-						</modulegroup>
-						<modulegroup
-						id="ac1bd9f1-cc24-4d97-8194-9d7cf879166b"
-						name="sortingItems_Column2">
-						</modulegroup>
-						<modulegroup
-						id="835a606a-15c2-4f10-87ec-56db52f49d6d"
-						name="sortingItems_Column3">
-						</modulegroup>
-						<modulegroup
-						id="11c290cd-f455-4bc8-800f-8426fcf9a19c"
-						name="sortingItems_Column4">
-						</modulegroup>
+						<smartfoldernode
+						id="d15161c7-8b27-4b2d-9ad1-18c263d38b33"
+						name="campusLocation">
+							<modulegroup
+							id="dab74907-9155-4670-ba9b-844e4b08908a"
+							name="createCampusLocation_Success">
+							</modulegroup>
+							<modulegroup
+							id="d975ed6a-d8ff-470a-9e62-6b9204133e70"
+							name="createCampusLocation_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="9512b1b5-5052-46fe-8fa0-36304a76486e"
+							name="editCampusLocation_Success">
+							</modulegroup>
+							<modulegroup
+							id="c2f09e0b-aabb-4c12-8bb8-4a70abe549d0"
+							name="editCampusLocation_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="ed0b566b-a688-4f4d-be71-83cc2f7cf79b"
+							name="sortingItems_Column1">
+							</modulegroup>
+							<modulegroup
+							id="ac1bd9f1-cc24-4d97-8194-9d7cf879166b"
+							name="sortingItems_Column2">
+							</modulegroup>
+							<modulegroup
+							id="835a606a-15c2-4f10-87ec-56db52f49d6d"
+							name="sortingItems_Column3">
+							</modulegroup>
+							<modulegroup
+							id="11c290cd-f455-4bc8-800f-8426fcf9a19c"
+							name="sortingItems_Column4">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="47e3737a-e2a6-4cdd-a9b0-a54547ffaeb5"
 						name="teardown">
@@ -510,6 +518,9 @@
 			</testcontainer>
 			<testcontainer
 			id="362c868b-0a1e-4761-a7e7-82954c6afdf5">
+			</testcontainer>
+			<testcontainer
+			id="d15161c7-8b27-4b2d-9ad1-18c263d38b33">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

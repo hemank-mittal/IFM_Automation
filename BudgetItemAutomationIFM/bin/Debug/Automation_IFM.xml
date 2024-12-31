@@ -194,6 +194,26 @@
             The seventhElement_anyTag item info.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.secondRow_FirstElement">
+            <summary>
+            The secondRow_FirstElement item.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.secondRow_FirstElementInfo">
+            <summary>
+            The secondRow_FirstElement item info.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.secondRow_secondElement">
+            <summary>
+            The secondRow_secondElement item.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.secondRow_secondElementInfo">
+            <summary>
+            The secondRow_secondElement item info.
+            </summary>
+        </member>
         <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.integratedCLAddress">
             <summary>
             The integratedCLAddress item.
@@ -4487,6 +4507,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:BudgetItemAutomationIFM.globalParameters">
+            <summary>
+            Description of globalParameters.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.navigateToCloseoutTemplates">
              <summary>
             The navigateToCloseoutTemplates recording.
@@ -4838,6 +4863,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_CampusLocation.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_CampusType">
              <summary>
             The openBrowser_CampusType recording.
@@ -4875,6 +4905,11 @@
         <member name="P:BudgetItemAutomationIFM.openBrowser_CampusType.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_CampusType.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_Configurations">
@@ -4916,6 +4951,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_Configurations.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_ContractType">
              <summary>
             The openBrowser_ContractType recording.
@@ -4953,6 +4993,11 @@
         <member name="P:BudgetItemAutomationIFM.openBrowser_ContractType.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_ContractType.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_FileCategory">
@@ -4994,6 +5039,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_FileCategory.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_FundingSources">
              <summary>
             The OpenBrowser_FundingSources recording.
@@ -5033,6 +5083,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_FundingSources.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_InvoiceCategory">
              <summary>
             The OpenBrowser_InvoiceCategory recording.
@@ -5070,6 +5125,11 @@
         <member name="P:BudgetItemAutomationIFM.OpenBrowser_InvoiceCategory.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_InvoiceCategory.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_Organisations">
@@ -5460,6 +5520,11 @@
         <member name="P:BudgetItemAutomationIFM.openBrowser_Territory.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_Territory.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.preCreateCampusLocation">
@@ -6324,6 +6389,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.editItem_sameName.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.editRemoveItem_cancel">
              <summary>
             The editRemoveItem_cancel recording.
@@ -6588,6 +6658,13 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getBrowserName">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getNewCreateItem(System.Int32,System.String)">
             <summary>
             The method checks for the count of items in the list, and provides a string (Name) with the index 
@@ -6602,6 +6679,13 @@
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.compareStrings(System.String,System.String)">
             <summary>
             This method is used to compare strings when the strings may need some trimming before comparing.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.compareStringsNotEqual(System.String,System.String)">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
             </summary>
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.trimStrings(System.String,System.String)">
@@ -7165,6 +7249,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_CloseoutItem">
              <summary>
             The openBrowser_CloseoutItem recording.
@@ -7202,6 +7291,11 @@
         <member name="P:BudgetItemAutomationIFM.openBrowser_CloseoutItem.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_CloseoutItem.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.pre_editItem">
@@ -8053,6 +8147,21 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.validateCampusLocation_Fail.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateCampusLocation_Fail.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateCampusLocation_Fail.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.validateCampusType">
              <summary>
             The validateCampusType recording.
@@ -8347,6 +8456,21 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.validateCreateCloseoutItem_ExistingName.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateCreateCloseoutItem_ExistingName.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateCreateCloseoutItem_ExistingName.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.ValidateCreateCategory_2_Fail">
              <summary>
             The validateCreateCategory_2_Fail recording.
@@ -8384,6 +8508,21 @@
         <member name="P:BudgetItemAutomationIFM.ValidateCreateCategory_2_Fail.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.ValidateCreateCategory_2_Fail.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.ValidateCreateCategory_2_Fail.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.ValidateCreateCategory_2_Fail.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.validateCreatedBudgetItem">
@@ -9300,6 +9439,21 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.validateEditItem_ExistingName.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateEditItem_ExistingName.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateEditItem_ExistingName.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.validateEditItem_Fail">
              <summary>
             The validateEditItem_Fail recording.
@@ -9337,6 +9491,21 @@
         <member name="P:BudgetItemAutomationIFM.validateEditItem_Fail.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateEditItem_Fail.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateEditItem_Fail.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateEditItem_Fail.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.ValidateEditItem_Name_Failure">
@@ -9633,6 +9802,21 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.validateFundingSource_ExistingItem.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateFundingSource_ExistingItem.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateFundingSource_ExistingItem.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.ValidateInvoiceCategory">
              <summary>
             The ValidateInvoiceCategory recording.
@@ -9709,6 +9893,21 @@
         <member name="P:BudgetItemAutomationIFM.validateItem_ExistingName.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateItem_ExistingName.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateItem_ExistingName.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateItem_ExistingName.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.validateNotDeleted">
@@ -10124,6 +10323,60 @@
         <member name="P:BudgetItemAutomationIFM.validateTaskConfigurations.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BudgetItemAutomationIFM.validateTaskConfiguration_Fail">
+             <summary>
+            The validateTaskConfiguration_Fail recording.
+             </summary>
+        </member>
+        <member name="F:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.repo">
+            <summary>
+            Holds an instance of the BudgetItemAutomationIFMRepository repository.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.itemName">
+            <summary>
+            Gets or sets the value of variable itemName.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.firstRecord">
+            <summary>
+            Gets or sets the value of variable firstRecord.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateTaskConfiguration_Fail.secondRecord">
+            <summary>
+            Gets or sets the value of variable secondRecord.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.validateTaskItem">

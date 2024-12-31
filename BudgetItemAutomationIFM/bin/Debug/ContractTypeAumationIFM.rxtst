@@ -108,6 +108,10 @@
 			ref="71b43d88-dcc6-4b58-b604-a7f1ea055f08"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="f6fc90ef-38ed-4a24-850b-fd1f03e75856"
+			name="contractType">
+			</smartfoldernode>
 			<modulegroup
 			id="f7d7bb14-9ada-41a0-9c08-eb94b7a7f6ea"
 			name="editCategory_2_Failure_ExistingName"
@@ -157,26 +161,30 @@
 							name="validateContractType">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="8189e158-579b-4644-abe7-0226533eec70"
-						name="createCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="b2b8bd91-5b43-40b5-8bd4-5d2875da7ea1"
-						name="createCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="f9e3d94f-4f18-409f-a450-f19525b1697a"
-						name="editCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="f7d7bb14-9ada-41a0-9c08-eb94b7a7f6ea"
-						name="editCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="1fc0d6db-b0df-4bab-bb26-0b80563dc021"
-						name="sortDTable_Column1">
-						</modulegroup>
+						<smartfoldernode
+						id="f6fc90ef-38ed-4a24-850b-fd1f03e75856"
+						name="contractType">
+							<modulegroup
+							id="8189e158-579b-4644-abe7-0226533eec70"
+							name="createCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="b2b8bd91-5b43-40b5-8bd4-5d2875da7ea1"
+							name="createCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="f9e3d94f-4f18-409f-a450-f19525b1697a"
+							name="editCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="f7d7bb14-9ada-41a0-9c08-eb94b7a7f6ea"
+							name="editCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="1fc0d6db-b0df-4bab-bb26-0b80563dc021"
+							name="sortDTable_Column1">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="18dd3ffc-749d-44ab-829c-06b92a339456"
 						name="teardown">
@@ -201,6 +209,9 @@
 			</testcontainer>
 			<testcontainer
 			id="48b53d11-c1e7-464e-a7ab-a67d09a786aa">
+			</testcontainer>
+			<testcontainer
+			id="f6fc90ef-38ed-4a24-850b-fd1f03e75856">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

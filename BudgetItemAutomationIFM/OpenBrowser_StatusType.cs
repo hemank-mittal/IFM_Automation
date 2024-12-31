@@ -41,6 +41,7 @@ namespace BudgetItemAutomationIFM
         /// </summary>
         public OpenBrowser_StatusType()
         {
+            browserName = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace BudgetItemAutomationIFM
         }
 
 #region Variables
+
+        string _browserName;
+
+        /// <summary>
+        /// Gets or sets the value of variable browserName.
+        /// </summary>
+        [TestVariable("2fcc3c84-8ed7-4b92-a978-4c9acf5fb88a")]
+        public string browserName
+        {
+            get { return _browserName; }
+            set { _browserName = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,11 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://app.ifm360.com/statusTypeCategory' with browser 'Firefox' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://app.ifm360.com/statusTypeCategory", "Firefox", "", false, false, false, false, false, false, false, true);
+            browserName = HelperMethodsCollection.getBrowserName();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://app.ifm360.com/statusTypeCategory' with browser specified by variable $browserName in normal mode.", new RecordItemIndex(1));
+            Host.Current.OpenBrowser("https://app.ifm360.com/statusTypeCategory", browserName, "", false, false, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

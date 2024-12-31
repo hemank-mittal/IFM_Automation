@@ -134,6 +134,10 @@
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="f70a9e0a-1cce-42f3-b1e8-784767973106"
+			name="fileCategory">
+			</smartfoldernode>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -157,26 +161,30 @@
 							name="ValidateFileCategoryPage">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="3ec9b977-0740-4bf9-b2b9-58daf7756ecb"
-						name="createCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="5bdaa960-4b73-4af8-9617-f6645b07be00"
-						name="createCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="5bd2d6be-d072-4631-a029-0b5f4a7928aa"
-						name="editCategory_2_Success">
-						</modulegroup>
-						<modulegroup
-						id="45bbd5f9-35e8-4840-aa30-7e540be80796"
-						name="editCategory_2_Failure_ExistingName">
-						</modulegroup>
-						<modulegroup
-						id="31de7a49-e085-4a5a-9a1a-9c6b738c7494"
-						name="sortingItems_Column1">
-						</modulegroup>
+						<smartfoldernode
+						id="f70a9e0a-1cce-42f3-b1e8-784767973106"
+						name="fileCategory">
+							<modulegroup
+							id="3ec9b977-0740-4bf9-b2b9-58daf7756ecb"
+							name="createCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="5bdaa960-4b73-4af8-9617-f6645b07be00"
+							name="createCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="5bd2d6be-d072-4631-a029-0b5f4a7928aa"
+							name="editCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="45bbd5f9-35e8-4840-aa30-7e540be80796"
+							name="editCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="31de7a49-e085-4a5a-9a1a-9c6b738c7494"
+							name="sortingItems_Column1">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="19011400-84a9-408e-99a2-48fae3b4cab4"
 						name="teardown">
@@ -201,6 +209,9 @@
 			</testcontainer>
 			<testcontainer
 			id="d48a3dca-a2f5-4afe-8f31-b1f6ee3252cb">
+			</testcontainer>
+			<testcontainer
+			id="f70a9e0a-1cce-42f3-b1e8-784767973106">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
