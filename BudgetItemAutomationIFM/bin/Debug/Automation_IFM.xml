@@ -5171,6 +5171,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_Organisations.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_PaymentApplication">
              <summary>
             The OpenBrowser_PaymentApplication recording.
@@ -5208,6 +5213,11 @@
         <member name="P:BudgetItemAutomationIFM.OpenBrowser_PaymentApplication.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_PaymentApplication.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.Openbrowser_Programs">
@@ -5249,6 +5259,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.Openbrowser_Programs.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_ProjectType">
              <summary>
             The OpenBrowser_ProjectType recording.
@@ -5286,6 +5301,11 @@
         <member name="P:BudgetItemAutomationIFM.OpenBrowser_ProjectType.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_ProjectType.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_RequestReason">
@@ -5327,6 +5347,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_RequestReason.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_ServiceType">
              <summary>
             The OpenBrowser_ServiceType recording.
@@ -5364,6 +5389,11 @@
         <member name="P:BudgetItemAutomationIFM.OpenBrowser_ServiceType.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_ServiceType.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.OpenBrowser_StatusType">
@@ -5405,6 +5435,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.OpenBrowser_StatusType.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_TaskConfigurations">
              <summary>
             The openBrowser_TaskConfigurations recording.
@@ -5444,6 +5479,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_TaskConfigurations.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_TaskItem">
              <summary>
             The openBrowser_TaskItem recording.
@@ -5481,6 +5521,11 @@
         <member name="P:BudgetItemAutomationIFM.openBrowser_TaskItem.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_TaskItem.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_Territory">

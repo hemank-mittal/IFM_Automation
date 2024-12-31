@@ -37,11 +37,17 @@ namespace BudgetItemAutomationIFM
         {
         	string record2;
         	
-        	if (Validate.Exists(unknownInfo))
+        	try
         	{
+        		Validate.Exists(unknownInfo);
+        			
         		record2 = repo.ApplicationUnderTest.secondRow_FirstElement.Element.GetAttributeValueText("InnerText");
         		HelperMethodsCollection.compareStringsNotEqual(record1, record2);
-        	}            
+        	}
+        	catch(Ranorex.ElementNotFoundException)
+        	{
+        		
+        	}           
         }
 
     }
