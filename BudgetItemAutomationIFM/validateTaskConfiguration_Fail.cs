@@ -160,19 +160,15 @@ namespace BudgetItemAutomationIFM
             firstRecord = repo.ApplicationUnderTest.secondElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.secondRow_secondElement' and assigning its value to variable 'secondRecord'.", repo.ApplicationUnderTest.secondRow_secondElementInfo, new RecordItemIndex(11));
-            secondRecord = repo.ApplicationUnderTest.secondRow_secondElement.Element.GetAttributeValueText("InnerText");
+            Validate_secondRow_FirstElement(firstRecord, ".//table/tbody/tr[2]/td[1]/?");
             Delay.Milliseconds(0);
             
-            HelperMethodsCollection.compareStringsNotEqual(firstRecord, secondRecord);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(12));
             Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.searchBar.PressKeys("{Back}");
             Delay.Milliseconds(0);
             

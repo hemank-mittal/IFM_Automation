@@ -1077,24 +1077,6 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 			<arguments
 			id="c2b5d4b1-52c4-4c0b-a49f-57b56a128d49">
 				<argument
-				argname="unknownInfo"
-				id="0d0dca47-6081-44e5-a422-6ba42d0b0375">
-					<argvaluetype>
-						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
-					</argvaluetype>
-					<argvalue>
-					</argvalue>
-					<info
-					id="718956f8-2990-4073-8d56-831bcf0f6f9d"
-					sourcename="ItemRecorderEditor">
-						<path>
-							/dom[@domain='app.ifm360.com']//table/tbody/tr[2]/td[1]/?
-						</path>
-						<robustPath>
-						</robustPath>
-					</info>
-				</argument>
-				<argument
 				argname="record1"
 				id="16e374fd-b659-456e-aa45-27e2984ccd93"
 				variable="firstRecord">
@@ -1102,6 +1084,16 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 						System.String
 					</argvaluetype>
 					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="elementInfoItemRxPath"
+				id="6561c4e3-f76f-4d38-99a2-619543f2003d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						.//table/tbody/tr[2]/td[1]/?
 					</argvalue>
 				</argument>
 			</arguments>

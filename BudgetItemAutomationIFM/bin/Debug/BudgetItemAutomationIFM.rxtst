@@ -141,6 +141,7 @@
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="33bee380-1988-4f6c-a26f-d5d9f8d26337"
 			name="createCategory_1_Success"
 			ref="75959af0-1a0f-4a16-89bb-231af492bbca">
@@ -227,6 +228,7 @@
 			name="setup">
 			</setup>
 			<testmodule
+			enabled="False"
 			id="43012643-2699-44f5-be1d-ba33322f4304"
 			name="OpenBrowser"
 			ref="ef3e0388-fcc5-4f18-af9f-c592ecfe7afe"
@@ -324,6 +326,7 @@
 				</databinding>
 			</modulegroup>
 			<testmodule
+			enabled="False"
 			id="65f066d5-ac5f-4353-821c-86b0c72c95f7"
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
@@ -335,6 +338,7 @@
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="751016f4-6cfb-48ee-87c0-e088aa2b02b8"
 			name="editCategory_1_Failure_ExistingName"
 			ref="e14f40d3-a52a-49b7-af05-229539725c22">
@@ -357,6 +361,7 @@
 			name="teardown">
 			</teardown>
 			<modulegroup
+			enabled="False"
 			id="78a05797-d9ce-4409-9868-b9b42b1c2d50"
 			name="editCategory_1_Success"
 			ref="dc69b6d8-dd44-46b6-a29a-0c6dbfcfdbcf">
@@ -386,6 +391,7 @@
 			name="CmGcCode">
 			</smartfoldernode>
 			<testmodule
+			enabled="False"
 			id="85975f1b-f6be-4d39-b900-5b20595779c0"
 			name="navigateToCsiDivisionCode"
 			ref="f1966cd7-b0d5-4989-a8b4-e11f16da004a"
@@ -752,6 +758,7 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="de9cb26d-22bf-4ab0-9f9a-5761f6514295"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
@@ -850,11 +857,13 @@
 				</parameters>
 			</testcase>
 			<modulegroup
+			enabled="False"
 			id="fbdb39eb-fdc2-435f-99bd-1444ae6e2af7"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<testmodule
+			enabled="False"
 			id="fd787cf6-3844-4c18-9322-c6f19115dd7f"
 			name="ValidateBudgetItemPage"
 			ref="83b55475-9ce9-45de-bdde-96cfece1fc8b"
@@ -1159,24 +1168,6 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="221ef077-3f15-4089-b20b-b337ad23d521">
-			</testcontainer>
-			<testcontainer
-			id="22951822-6a3c-4b0e-af1e-f70a24bcd58c">
-			</testcontainer>
-			<testcontainer
-			id="2ed077a8-23b3-4edf-bbfc-990c2e892b7d">
-			</testcontainer>
-			<testcontainer
-			id="826324a9-b9f4-4d46-87bd-4c6a944c85ee">
-			</testcontainer>
-			<testcontainer
-			id="89ec788a-fe77-42e6-b3f3-9f57b6324472">
-			</testcontainer>
-			<testcontainer
-			id="8d40eae0-9172-485b-9721-8527cc350db6">
-			</testcontainer>
 			<testcontainer
 			id="e354fe98-d8f2-4eed-9bbf-efe2468e110e">
 			</testcontainer>

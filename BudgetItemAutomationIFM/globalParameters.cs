@@ -15,6 +15,6 @@ namespace BudgetItemAutomationIFM
 	/// </summary>
 	public class globalParameters
 	{
-		public static string browserName = "Chrome";
+		public static string browserName = "Firefox";
 	}
 }

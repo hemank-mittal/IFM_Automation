@@ -1171,10 +1171,10 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 			</info>
 		</getvaluerecorditem>
 		<userrecorditem
-		classname="HelperMethodsCollection"
+		classname="validateFundingSource_ExistingItem"
 		enabled="True"
-		isexternaltestmethod="True"
-		methodname="compareStringsNotEqual"
+		isexternaltestmethod="False"
+		methodname="Validate_secondRow_FirstElement"
 		namespace="BudgetItemAutomationIFM"
 		optional="False">
 			<comment>
@@ -1182,10 +1182,10 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 			<bindings>
 			</bindings>
 			<arguments
-			id="bbb50d03-5764-4ae1-9651-d8cc33d99956">
+			id="c2b5d4b1-52c4-4c0b-a49f-57b56a128d49">
 				<argument
-				argname="compareWith"
-				id="363e4613-aeee-4740-8510-3b3c57d80c53"
+				argname="record1"
+				id="16e374fd-b659-456e-aa45-27e2984ccd93"
 				variable="firstRecord">
 					<argvaluetype>
 						System.String
@@ -1194,13 +1194,13 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 					</argvalue>
 				</argument>
 				<argument
-				argname="compareTo"
-				id="04b510c4-0ce0-43b6-8844-30bb84ece9e2"
-				variable="secondRecord">
+				argname="elementInfoItemRxPath"
+				id="6561c4e3-f76f-4d38-99a2-619543f2003d">
 					<argvaluetype>
 						System.String
 					</argvaluetype>
 					<argvalue>
+						.//table/tbody/tr[2]/td[1]/?
 					</argvalue>
 				</argument>
 			</arguments>
