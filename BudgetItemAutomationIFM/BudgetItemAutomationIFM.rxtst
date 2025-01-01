@@ -180,7 +180,7 @@
 			</modulegroup>
 			<modulegroup
 			id="39d5b716-0811-4370-bb87-51b49e8b2a58"
-			name="createBudgetItem"
+			name="createBudgetItem_Success"
 			ref="c9ae20a2-33a3-44c4-a0c7-542315b963da">
 				<databinding>
 					<var
@@ -560,7 +560,7 @@
 			</modulegroup>
 			<modulegroup
 			id="bbd1f6d4-3214-4765-9c1c-196e9d094799"
-			name="createTemplate"
+			name="createTemplate_Success"
 			ref="bd653dac-a6a8-4c66-94fe-59b9c1f5cae7">
 				<databinding>
 					<var
@@ -645,12 +645,12 @@
 				</databinding>
 			</modulegroup>
 			<testsuite
-			ReportTime="RelativeToTestSuiteStartTime"
+			ReportTime="WallClock"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
 			VideoFps="15"
-			VideoRecordingMode="Off"
+			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
 			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
@@ -909,7 +909,7 @@
 							</testmodule>
 							<modulegroup
 							id="39d5b716-0811-4370-bb87-51b49e8b2a58"
-							name="createBudgetItem">
+							name="createBudgetItem_Success">
 							</modulegroup>
 							<modulegroup
 							id="a43c6999-1277-46d2-bdac-e8173e007f08"
@@ -953,7 +953,7 @@
 							</testmodule>
 							<modulegroup
 							id="bbd1f6d4-3214-4765-9c1c-196e9d094799"
-							name="createTemplate">
+							name="createTemplate_Success">
 							</modulegroup>
 							<modulegroup
 							id="8e8a3509-805b-4d25-a4e8-0ba0e1370f30"

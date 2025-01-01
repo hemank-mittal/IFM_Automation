@@ -116,32 +116,35 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
             itemCount = ValueConverter.ToString(HelperMethodsCollection.getNumberOfRecordsFromFooter(repo.ApplicationUnderTest.showingNumberOfRecords));
             Delay.Milliseconds(0);
             
             newTemplateName = HelperMethodsCollection.getNewCreateItem(ValueConverter.ArgumentFromString<int>("nextCount", itemCount), "item");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportType' at Center.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportTypeInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportType' at Center.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportTypeInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportType.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(4));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2' at 390;13.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2Info, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2' at 390;13.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2Info, new RecordItemIndex(5));
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2.Click("390;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2'.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2Info, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2'.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2Info, new RecordItemIndex(6));
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3' at 164;11.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3Info, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3' at 164;11.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3Info, new RecordItemIndex(7));
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3.Click("164;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$descriptionText' with focus on 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3'.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3Info, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$descriptionText' with focus on 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3'.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3Info, new RecordItemIndex(8));
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text3.PressKeys(descriptionText);
             Delay.Milliseconds(0);
             

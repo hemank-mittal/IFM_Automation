@@ -181,94 +181,97 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
             itemCount = ValueConverter.ToString(HelperMethodsCollection.getNumberOfRecordsFromFooter(repo.ApplicationUnderTest.showingNumberOfRecords));
             Delay.Milliseconds(0);
             
             newTemplateName = HelperMethodsCollection.getNewCreateItem(ValueConverter.ArgumentFromString<int>("nextCount", itemCount), "item");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.createSpanTag' at Center.", repo.ApplicationUnderTest.createSpanTagInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.createSpanTag' at Center.", repo.ApplicationUnderTest.createSpanTagInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.createSpanTag.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(4));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.TitleInputBar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.TitleInputBar.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.DropdownBtn' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.DropdownBtnInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.DropdownBtn' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.DropdownBtnInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.AddEditFieldForm.DropdownBtn.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstance' and assigning its value to variable 'parentName'.", repo.ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstanceInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstance' and assigning its value to variable 'parentName'.", repo.ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstanceInfo, new RecordItemIndex(8));
             parentName = repo.ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstance.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstance' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstanceInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstance' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstanceInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.AddEditFieldForm.parentItem_FirstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.SiteBuildingRoom' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.SiteBuildingRoomInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.SiteBuildingRoom' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.SiteBuildingRoomInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.AddEditFieldForm.SiteBuildingRoom.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' and assigning its value to variable 'siteBuildingRoom'.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' and assigning its value to variable 'siteBuildingRoom'.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(11));
             siteBuildingRoom = repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(12));
             repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(13));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.fieldTypeDropdpown' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.fieldTypeDropdpownInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.fieldTypeDropdpown' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.fieldTypeDropdpownInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.AddEditFieldForm.fieldTypeDropdpown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstance' and assigning its value to variable 'fieldType'.", repo.ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstanceInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstance' and assigning its value to variable 'fieldType'.", repo.ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstanceInfo, new RecordItemIndex(15));
             fieldType = repo.ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstance.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstance' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstanceInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstance' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstanceInfo, new RecordItemIndex(16));
             repo.ApplicationUnderTest.CdkOverlayContainer.fieldType_FirstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.unitDropdown' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.unitDropdownInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.unitDropdown' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.unitDropdownInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.AddEditFieldForm.unitDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' and assigning its value to variable 'unitType'.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' and assigning its value to variable 'unitType'.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(18));
             unitType = repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.MatOption1' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1Info, new RecordItemIndex(19));
             repo.ApplicationUnderTest.CdkOverlayContainer.MatOption1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.sequenceNumber' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.sequenceNumberInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.sequenceNumber' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.sequenceNumberInfo, new RecordItemIndex(20));
             repo.ApplicationUnderTest.AddEditFieldForm.sequenceNumber.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$sequenceNumber' with focus on 'ApplicationUnderTest.AddEditFieldForm.sequenceNumber'.", repo.ApplicationUnderTest.AddEditFieldForm.sequenceNumberInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$sequenceNumber' with focus on 'ApplicationUnderTest.AddEditFieldForm.sequenceNumber'.", repo.ApplicationUnderTest.AddEditFieldForm.sequenceNumberInfo, new RecordItemIndex(21));
             repo.ApplicationUnderTest.AddEditFieldForm.sequenceNumber.PressKeys(sequenceNumber);
             Delay.Milliseconds(0);
             
             isGroup = Mouse_Click_Checkbox(repo.ApplicationUnderTest.AddEditFieldForm.CheckboxInfo, ValueConverter.ArgumentFromString<bool>("isGroup", "False"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.SaveButton' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.SaveButtonInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.SaveButton' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.SaveButtonInfo, new RecordItemIndex(23));
             repo.ApplicationUnderTest.CdkOverlayContainer.SaveButton.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(24));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
         }

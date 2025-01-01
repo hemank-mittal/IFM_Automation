@@ -166,6 +166,9 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
             itemCount = ValueConverter.ToString(HelperMethodsCollection.getNumberOfRecordsFromFooter(repo.ApplicationUnderTest.showingNumberOfRecords));
             Delay.Milliseconds(0);
             
@@ -175,69 +178,69 @@ namespace BudgetItemAutomationIFM
             Mouse_Click_createSpanTag();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(4));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.TitleInputBar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.TitleInputBar.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.TitleInputBar' and assigning its value to variable 'TaskItemName'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.TitleInputBar' and assigning its value to variable 'TaskItemName'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(7));
             TaskItemName = repo.ApplicationUnderTest.TitleInputBar.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Description' at Center.", repo.ApplicationUnderTest.Content1.taskItem_DescriptionInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Description' at Center.", repo.ApplicationUnderTest.Content1.taskItem_DescriptionInfo, new RecordItemIndex(8));
             repo.ApplicationUnderTest.Content1.taskItem_Description.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$testDescription' with focus on 'ApplicationUnderTest.Content1.taskItem_Description'.", repo.ApplicationUnderTest.Content1.taskItem_DescriptionInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$testDescription' with focus on 'ApplicationUnderTest.Content1.taskItem_Description'.", repo.ApplicationUnderTest.Content1.taskItem_DescriptionInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.Content1.taskItem_Description.PressKeys(testDescription);
             Delay.Milliseconds(0);
             
             Mouse_Click_isProjectTask(repo.ApplicationUnderTest.Content1.isProjectTaskInfo, ValueConverter.ArgumentFromString<bool>("isProjectType", isProject));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_AssigneeDropdown' at Center.", repo.ApplicationUnderTest.Content1.taskItem_AssigneeDropdownInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_AssigneeDropdown' at Center.", repo.ApplicationUnderTest.Content1.taskItem_AssigneeDropdownInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.Content1.taskItem_AssigneeDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstance' and assigning its value to variable 'assignee'.", repo.ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstanceInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstance' and assigning its value to variable 'assignee'.", repo.ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstanceInfo, new RecordItemIndex(12));
             assignee = repo.ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstance.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstance' at Center.", repo.ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstanceInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstance' at Center.", repo.ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstanceInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.Content1.taskItem_Assignee_FirstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_AssigneeDropdown' at Center.", repo.ApplicationUnderTest.Content1.taskItem_AssigneeDropdownInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_AssigneeDropdown' at Center.", repo.ApplicationUnderTest.Content1.taskItem_AssigneeDropdownInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.Content1.taskItem_AssigneeDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_EstimatedHour' at Center.", repo.ApplicationUnderTest.Content1.taskItem_EstimatedHourInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_EstimatedHour' at Center.", repo.ApplicationUnderTest.Content1.taskItem_EstimatedHourInfo, new RecordItemIndex(15));
             repo.ApplicationUnderTest.Content1.taskItem_EstimatedHour.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$estimateHours' with focus on 'ApplicationUnderTest.Content1.taskItem_EstimatedHour'.", repo.ApplicationUnderTest.Content1.taskItem_EstimatedHourInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$estimateHours' with focus on 'ApplicationUnderTest.Content1.taskItem_EstimatedHour'.", repo.ApplicationUnderTest.Content1.taskItem_EstimatedHourInfo, new RecordItemIndex(16));
             repo.ApplicationUnderTest.Content1.taskItem_EstimatedHour.PressKeys(estimateHours);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Priority' at Center.", repo.ApplicationUnderTest.Content1.taskItem_PriorityInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.taskItem_Priority' at Center.", repo.ApplicationUnderTest.Content1.taskItem_PriorityInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.Content1.taskItem_Priority.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.selectDropdown_FirstInstance' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.selectDropdown_FirstInstanceInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CdkOverlayContainer.selectDropdown_FirstInstance' at Center.", repo.ApplicationUnderTest.CdkOverlayContainer.selectDropdown_FirstInstanceInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.CdkOverlayContainer.selectDropdown_FirstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Save' at Center.", repo.ApplicationUnderTest.Content1.SaveInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Save' at Center.", repo.ApplicationUnderTest.Content1.SaveInfo, new RecordItemIndex(19));
             repo.ApplicationUnderTest.Content1.Save.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(60000), new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(60000), new RecordItemIndex(20));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(60000);
             
         }

@@ -2981,7 +2981,7 @@ rxversion="10.1">
 			</testmodule>
 			<modulegroupdef
 			id="bd653dac-a6a8-4c66-94fe-59b9c1f5cae7"
-			name="createTemplate">
+			name="createTemplate_Success">
 				<groupvariables>
 					<groupvariable
 					id="19c134ca-6f9e-4b6e-ae83-86673c5d8d78"
@@ -3114,7 +3114,7 @@ rxversion="10.1">
 			</testmodule>
 			<modulegroupdef
 			id="c9ae20a2-33a3-44c4-a0c7-542315b963da"
-			name="createBudgetItem">
+			name="createBudgetItem_Success">
 				<groupvariables>
 					<groupvariable
 					defaultvalue="ModuleGroupDefaultValue"
@@ -4151,7 +4151,7 @@ rxversion="10.1">
 				</modulegroupdef>
 				<modulegroupdef
 				id="c9ae20a2-33a3-44c4-a0c7-542315b963da"
-				name="createBudgetItem">
+				name="createBudgetItem_Success">
 					<testmodule
 					id="30ac1023-cade-4053-917d-f281a10ed7b3"
 					name="Pre_createItem">
@@ -4263,7 +4263,7 @@ rxversion="10.1">
 				</modulegroupdef>
 				<modulegroupdef
 				id="bd653dac-a6a8-4c66-94fe-59b9c1f5cae7"
-				name="createTemplate">
+				name="createTemplate_Success">
 					<testmodule
 					id="3aab8bd5-9d35-4d9b-952a-b61b21d16f20"
 					name="CreateTemplate">

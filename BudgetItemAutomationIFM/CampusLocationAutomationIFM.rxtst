@@ -412,12 +412,12 @@
 				</description>
 			</modulegroup>
 			<testsuite
-			ReportTime="RelativeToTestSuiteStartTime"
+			ReportTime="WallClock"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
 			VideoFps="15"
-			VideoRecordingMode="Off"
+			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
 			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"

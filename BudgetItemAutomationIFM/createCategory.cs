@@ -103,6 +103,9 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
             itemCount = ValueConverter.ToString(HelperMethodsCollection.getNumberOfRecordsFromFooter(repo.ApplicationUnderTest.showingNumberOfRecords));
             Delay.Milliseconds(0);
             
@@ -112,11 +115,11 @@ namespace BudgetItemAutomationIFM
             Mouse_Click_createSpanTag();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Text1' at Center.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Text1' at Center.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Content1.Text1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.Text1'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.Text1'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(5));
             repo.ApplicationUnderTest.Content1.Text1.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             

@@ -127,32 +127,35 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
             itemCount = ValueConverter.ToString(HelperMethodsCollection.getItemsCount(repo.ApplicationUnderTest.Content1.MatAccordion));
             Delay.Milliseconds(0);
             
             newTemplateName = HelperMethodsCollection.getNewCreateItem(ValueConverter.ArgumentFromString<int>("nextCount", itemCount), "template");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagCreate' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagCreateInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagCreate' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagCreateInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.Content1.ButtonTagCreate.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Text' at Center.", repo.ApplicationUnderTest.Content1.TextInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Text' at Center.", repo.ApplicationUnderTest.Content1.TextInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Content1.Text.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.Text'.", repo.ApplicationUnderTest.Content1.TextInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.Text'.", repo.ApplicationUnderTest.Content1.TextInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.Content1.Text.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Path' from item 'ApplicationUnderTest' and assigning its value to variable 'pagePath'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Path' from item 'ApplicationUnderTest' and assigning its value to variable 'pagePath'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(6));
             pagePath = repo.ApplicationUnderTest.Self.Element.GetAttributeValueText("Path");
             Delay.Milliseconds(0);
             
             tagName = HelperMethodsCollection.getTagNameForTab(pagePath);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtnInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtnInfo, new RecordItemIndex(8));
             repo.ApplicationUnderTest.Content1.DropdownBtn.Click();
             Delay.Milliseconds(0);
             
@@ -162,7 +165,7 @@ namespace BudgetItemAutomationIFM
             Mouse_Click_SecondInstance(pagePath);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtnInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtnInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.Content1.DropdownBtn.Click();
             Delay.Milliseconds(0);
             

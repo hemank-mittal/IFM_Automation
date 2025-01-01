@@ -55,7 +55,7 @@
 			</testmodule>
 			<modulegroup
 			id="3b3caa28-e96b-4802-9a04-57f1d5a2dee8"
-			name="createTemplate"
+			name="createTemplate_Success"
 			ref="bd653dac-a6a8-4c66-94fe-59b9c1f5cae7">
 				<databinding>
 					<var
@@ -489,7 +489,7 @@
 							</testmodule>
 							<modulegroup
 							id="3b3caa28-e96b-4802-9a04-57f1d5a2dee8"
-							name="createTemplate">
+							name="createTemplate_Success">
 							</modulegroup>
 							<modulegroup
 							id="51b66a70-bb04-4027-99e8-354e4ce7ade8"
