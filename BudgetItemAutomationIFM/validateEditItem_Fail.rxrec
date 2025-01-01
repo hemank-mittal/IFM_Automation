@@ -984,10 +984,10 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 			</info>
 		</getvaluerecorditem>
 		<userrecorditem
-		classname="validateEditItem_Fail"
+		classname="HelperMethodsCollection"
 		enabled="True"
-		isexternaltestmethod="False"
-		methodname="Validate_secondRow_FirstElement"
+		isexternaltestmethod="True"
+		methodname="compareSecondRecord_IfExist"
 		namespace="BudgetItemAutomationIFM"
 		optional="False">
 			<comment>
@@ -995,10 +995,10 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 			<bindings>
 			</bindings>
 			<arguments
-			id="c2b5d4b1-52c4-4c0b-a49f-57b56a128d49">
+			id="12de7364-7279-4014-8c6c-8da96dabf321">
 				<argument
 				argname="record1"
-				id="16e374fd-b659-456e-aa45-27e2984ccd93"
+				id="a9722c8f-1401-4f62-bced-9a626ea18dcc"
 				variable="firstRecord">
 					<argvaluetype>
 						System.String
@@ -1008,7 +1008,7 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 				</argument>
 				<argument
 				argname="elementInfoItemRxPath"
-				id="6561c4e3-f76f-4d38-99a2-619543f2003d">
+				id="40ca1463-92c9-48ba-9012-68ebc243c50a">
 					<argvaluetype>
 						System.String
 					</argvaluetype>

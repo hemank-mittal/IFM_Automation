@@ -160,7 +160,7 @@ namespace BudgetItemAutomationIFM
             firstRecord = repo.ApplicationUnderTest.secondElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Validate_secondRow_FirstElement(firstRecord, ".//table/tbody/tr[2]/td[1]/?");
+            HelperMethodsCollection.compareSecondRecord_IfExist(firstRecord, ".//table/tbody/tr[2]/td[1]/?");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(12));

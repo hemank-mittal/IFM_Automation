@@ -32,29 +32,5 @@ namespace BudgetItemAutomationIFM
         {
             // Your recording specific initialization code goes here.
         }
-
-        public void Validate_secondRow_FirstElement(RepoItemInfo unknownInfo, string record1)
-        {
-        	string record2;
-        	
-        	if (unknownInfo.Exists(1000))
-        	{
-        		record2 = repo.ApplicationUnderTest.secondRow_FirstElement.Element.GetAttributeValueText("InnerText");
-        		HelperMethodsCollection.compareStringsNotEqual(record1, record2);
-        	}
-        }
-
-        public void Validate_secondRow_FirstElement(string record1, string elementInfoItemRxPath)
-        {
-        	
-        	Element record2Info;
-        	
-        	if (Host.Local.TryFindSingle(elementInfoItemRxPath, 1000, out record2Info))
-        	{
-        		string record2 = record2Info.GetAttributeValueText("InnerText");
-        		HelperMethodsCollection.compareStringsNotEqual(record1, record2);
-        	}
-        }
-
     }
 }

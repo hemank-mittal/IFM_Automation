@@ -46,6 +46,7 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="1582c61d-3527-4048-8541-c97afd3d3a66"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
@@ -136,12 +137,12 @@
 				</parameters>
 			</smartfoldernode>
 			<modulegroup
+			enabled="False"
 			id="302a9314-7129-43c9-ade2-3d34b7e4c362"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="33bee380-1988-4f6c-a26f-d5d9f8d26337"
 			name="createCategory_1_Success"
 			ref="75959af0-1a0f-4a16-89bb-231af492bbca">
@@ -205,6 +206,7 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="3c6d0db1-e375-4c9f-82d8-36832c3dc746"
 			name="editCategory_1_Success"
 			ref="dc69b6d8-dd44-46b6-a29a-0c6dbfcfdbcf">
@@ -264,6 +266,7 @@
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="50685a45-53b9-47e1-b7ef-a7f3eaade31f"
 			name="createCategory_1_Success"
 			ref="75959af0-1a0f-4a16-89bb-231af492bbca">
@@ -338,7 +341,6 @@
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="751016f4-6cfb-48ee-87c0-e088aa2b02b8"
 			name="editCategory_1_Failure_ExistingName"
 			ref="e14f40d3-a52a-49b7-af05-229539725c22">
@@ -361,7 +363,6 @@
 			name="teardown">
 			</teardown>
 			<modulegroup
-			enabled="False"
 			id="78a05797-d9ce-4409-9868-b9b42b1c2d50"
 			name="editCategory_1_Success"
 			ref="dc69b6d8-dd44-46b6-a29a-0c6dbfcfdbcf">
@@ -391,7 +392,6 @@
 			name="CmGcCode">
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="85975f1b-f6be-4d39-b900-5b20595779c0"
 			name="navigateToCsiDivisionCode"
 			ref="f1966cd7-b0d5-4989-a8b4-e11f16da004a"
@@ -739,12 +739,14 @@
 				</databinding>
 			</modulegroup>
 			<testmodule
+			enabled="False"
 			id="d746c434-f396-4610-9edf-624300160945"
 			name="navigateToCategories"
 			ref="c7e7feb1-2bf5-4bad-8941-a93402876ecb"
 			type="Recording">
 			</testmodule>
 			<modulegroup
+			enabled="False"
 			id="da784d56-2ae8-49a8-9e85-805942d5456d"
 			name="editCategory_1_Failure_ExistingName"
 			ref="e14f40d3-a52a-49b7-af05-229539725c22">
@@ -758,7 +760,6 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="de9cb26d-22bf-4ab0-9f9a-5761f6514295"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
@@ -857,7 +858,6 @@
 				</parameters>
 			</testcase>
 			<modulegroup
-			enabled="False"
 			id="fbdb39eb-fdc2-435f-99bd-1444ae6e2af7"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
@@ -1169,10 +1169,10 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="e354fe98-d8f2-4eed-9bbf-efe2468e110e">
+			id="221ef077-3f15-4089-b20b-b337ad23d521">
 			</testcontainer>
 			<testcontainer
-			id="edd94374-cc94-46c2-aa94-6f5cc119f7b1">
+			id="e354fe98-d8f2-4eed-9bbf-efe2468e110e">
 			</testcontainer>
 			<testcontainer
 			id="f6f2c40e-8d0b-4c9d-a0b8-7b35c04058ab">

@@ -6826,6 +6826,13 @@
             within a user code collection.
             </summary>
         </member>
+        <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.compareSecondRecord_IfExist(System.String,System.String)">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.hitCancelButton_edit">
              <summary>
             The hitCancelButton_edit recording.
