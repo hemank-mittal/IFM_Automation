@@ -1263,6 +1263,21 @@ rxversion="10.1">
 						name="existingName"
 						variableref="ebf111a8-c5a6-4501-b2d0-55e4af585299">
 						</modulevariable>
+						<modulevariable
+						moduleref="616c2aa3-fe65-4e4a-978a-f38ec6b23f1e"
+						name="itemName"
+						variableref="6c566900-2898-4a45-ab43-d16b51a2b749">
+						</modulevariable>
+						<modulevariable
+						moduleref="616c2aa3-fe65-4e4a-978a-f38ec6b23f1e"
+						name="firstRecord"
+						variableref="57917390-3859-4bc7-be01-e9f1577a725f">
+						</modulevariable>
+						<modulevariable
+						moduleref="616c2aa3-fe65-4e4a-978a-f38ec6b23f1e"
+						name="secondRecord"
+						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>

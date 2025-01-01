@@ -767,92 +767,92 @@ RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 				</robustPath>
 			</info>
 		</getvaluerecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<keysequenceitem
+		KeySequence="{Escape}"
+		duration="20ms"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
 		optional="False"
-		searchpropertyid="88c93d9b-5998-49f4-8f0e-fd6a01f9b392"
-		sx="644"
-		sy="544"
-		warnoutofbounds="False">
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="72266d6b-0714-4879-b5c6-fccf6761d80c">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="34ba99c2-6861-4678-883c-24bf4ce0431c"
+			id="3ea176a2-3119-49d7-b5a3-36ab7d6f375c"
 			sourcename="Recorder">
 				<element
-				capabilities="webelement, spantag"
+				capabilities="webdocument"
 				dontcache="True"
 				enabled="True"
 				flavor="firefoxweb"
 				hasfocus="False"
 				index="0"
-				prefcap="spantag"
-				rect="345,538,1,27"
-				role="unknown"
+				prefcap="webdocument"
+				rect="0,85,1920,1075"
+				role="container"
 				snapElem=""
+				uidroot="True"
 				valid="True"
 				visible="True">
 					<attribute
-					name="class"
+					name="caption"
 					type="System.String">
-						mat-mdc-select-placeholder mat-mdc-select-min-line ng-tns-c3393473648-70 ng-star-inserted
+						IFM360 | Budget Items
 					</attribute>
 					<attribute
-					name="draggable"
+					name="browsername"
 					type="System.String">
+						Firefox
+					</attribute>
+					<attribute
+					name="browserversion"
+					type="System.String">
+						Firefox/133.0
+					</attribute>
+					<attribute
+					name="domain"
+					type="System.String">
+						app.ifm360.com
+					</attribute>
+					<attribute
+					name="fullscreen"
+					type="System.Boolean">
 						False
 					</attribute>
 					<attribute
-					name="hidden"
+					name="page"
 					type="System.String">
-						False
+						budgetitems
 					</attribute>
 					<attribute
-					name="innertext"
+					name="pageurl"
 					type="System.String">
+						https://app.ifm360.com/budgetitems
 					</attribute>
 					<attribute
-					name="safeclass"
+					name="path"
 					type="System.String">
-						mat-mdc-select-min-line mat-mdc-select-placeholder ng-star-inserted ng-tns-c3393473648-70
+						/budgetitems
 					</attribute>
 					<attribute
-					name="tagname"
+					name="state"
 					type="System.String">
-						span
+						complete
 					</attribute>
+					<dynamicaction
+					description="Enables the Firefox accessible renderer mode."
+					displayName="EnableAccessibleRenderer">
+					</dynamicaction>
 				</element>
 				<path>
-					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div/?/?/tag[@tagname='mat-accordion']/tag[1]/div/div/div[2]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span
+					/dom[@domain='app.ifm360.com']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
-			<helperscreenshot
-			guid="f193cc64-c69b-4518-a484-af1c3166efdf">
-				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAeAB4DASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKytY
-RZLqxRxlWcgj2ytatZmq/wDH9p//AF0/qtTPY3w/8RfP8hujosd1fIgwquAB7ZatWszSv+P7UP8A
-rp/Vq06IbBiP4j+X5BWZqv8Ax/af/wBdP6rWnWZqv/H9p/8A10/qtE9gw/8AE+/8g0r/AI/tQ/66
-f1atOszSv+P6/wD+un9WrTohsGI/ifd+R//Z
-			</helperscreenshot>
-		</mouseitem>
+		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="95c24b45-de07-49ea-b484-24e2432a73a7"

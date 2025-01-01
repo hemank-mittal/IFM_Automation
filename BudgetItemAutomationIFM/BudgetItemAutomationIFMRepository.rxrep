@@ -1544,7 +1544,7 @@ name="BudgetItemAutomationIFMRepository">
 			refimgid="14a54aef-307f-441c-ad24-fc789b39b43d"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='app.ifm360.com']/body/div[2]/div[2]/div/div/tag[$optionIndex]/span
+				/dom[@domain='app.ifm360.com']/body//div[@role='listbox']/tag[$optionIndex]/span
 			</item>
 			<item
 			addcaps="unknown,webelement,ptag"
@@ -1644,7 +1644,7 @@ name="BudgetItemAutomationIFMRepository">
 			refimgid="43bdd30d-19d8-40ee-abf6-0f599b0ffb07"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='app.ifm360.com']/body/div[2]/div[2]/div/div
+				/dom[@domain='app.ifm360.com']/body//div[@role='listbox']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -2426,7 +2426,7 @@ name="BudgetItemAutomationIFMRepository">
 			refimgid="ded0e288-5af3-44fd-805f-479629db8bc9"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='app.ifm360.com']/body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input
+				/dom[@domain='app.ifm360.com']/body//label[@innertext='HEX']/preceding-sibling::input
 			</item>
 			<item
 			addcaps="button,webelement,buttontag"

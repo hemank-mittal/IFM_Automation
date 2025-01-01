@@ -319,7 +319,7 @@ namespace BudgetItemAutomationIFM
                 _tableheader_column3Info = new RepoItemInfo(this, "TableHeader_Column3", ".//tag[#'docreview']/div/div[2]/table//th[3]", "", 30000, null, "2e568285-2393-4d7a-8adb-27962a59e438");
                 _tableheader_column4Info = new RepoItemInfo(this, "TableHeader_Column4", ".//tag[#'docreview']/div/div[2]/table//th[4]", "", 30000, null, "0edc8a7e-1195-4618-af92-97c916ec473e");
                 _tabledataInfo = new RepoItemInfo(this, "tableData", ".//tag[#'docreview']//table/tbody", "element", 30000, null, "d047581e-cf71-4e3c-b62a-360815c8eaab");
-                _selectableoptionInfo = new RepoItemInfo(this, "selectableOption", "body/div[2]/div[2]/div/div/tag[$optionIndex]/span", "", 30000, null, "6afd94a2-0585-4802-9293-de8d7ca5ccd2");
+                _selectableoptionInfo = new RepoItemInfo(this, "selectableOption", "body//div[@role='listbox']/tag[$optionIndex]/span", "", 30000, null, "6afd94a2-0585-4802-9293-de8d7ca5ccd2");
                 _itemdata_titleInfo = new RepoItemInfo(this, "ItemData_Title", ".//div[#'document']/div/div[1]/div[1]/div[1]/p", "", 30000, null, "32cdaa27-8e7b-41e7-8d3f-fdbc5d5c7b8b");
                 _itemdata_parentitemInfo = new RepoItemInfo(this, "ItemData_ParentItem", ".//div[#'document']/div/div[1]/div[1]/div[2]/p", "", 30000, null, "45c07053-2814-4dcf-a018-5a7833578198");
                 _itemdata_specificationsecitonInfo = new RepoItemInfo(this, "ItemData_SpecificationSeciton", ".//div[#'document']/div/div[1]/div[1]/div[3]/p", "", 30000, null, "7114f59f-3636-4464-9aba-994e9a00218b");
@@ -329,7 +329,7 @@ namespace BudgetItemAutomationIFM
                 _itemdata_descriptionInfo = new RepoItemInfo(this, "ItemData_Description", ".//div[#'document']/div/div[1]/div[2]/div[3]/p", "", 30000, null, "a5dd80c3-1637-47cb-9c66-22ce84525bcf");
                 _closeoutitemdropdown_firstinstanceInfo = new RepoItemInfo(this, "CloseOutItemDropdown_FirstInstance", "body/div[2]/div[2]/div/div/tag[1]/div", "", 30000, null, "6e7f0b8f-4311-4c22-b589-d0ecd7eadccf");
                 _closeoutitemdropdown_secondinstanceInfo = new RepoItemInfo(this, "CloseOutItemDropdown_SecondInstance", "body/div[2]/div[2]/div/div/tag[2]/div", "", 30000, null, "2b50c9dd-c6a2-4edf-bda5-07b294bfed3d");
-                _editdropdownlistInfo = new RepoItemInfo(this, "editDropdownList", "body/div[2]/div[2]/div/div", "", 30000, null, "ca312b26-a44b-451f-a577-58000ac9a2bc");
+                _editdropdownlistInfo = new RepoItemInfo(this, "editDropdownList", "body//div[@role='listbox']", "", 30000, null, "ca312b26-a44b-451f-a577-58000ac9a2bc");
                 _createspantagInfo = new RepoItemInfo(this, "createSpanTag", ".//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']", "", 30000, null, "04fc0469-2096-4984-9962-1e20c6091969");
                 _createbuttontagInfo = new RepoItemInfo(this, "createButtonTag", ".//button[@innertext='Create ' or @innertext='Create' or @innertext=' Create ']", "", 30000, null, "45f2aba5-c035-4581-843b-faecca9efb8f");
                 _cancelspantagInfo = new RepoItemInfo(this, "cancelSpanTag", ".//button/span[@innertext='Cancel ' or @innertext='Cancel' or @innertext=' Cancel ']", "", 30000, null, "9d7575b1-ac02-4676-ac24-91d1e230dd40");
@@ -349,7 +349,7 @@ namespace BudgetItemAutomationIFM
                 _submitInfo = new RepoItemInfo(this, "Submit", ".//form[#'paymentApplicationTemplateData']//button[@innertext='Submit']", "", 30000, null, "85e65ca1-bf02-4164-bfd7-96c92d752c5a");
                 _backInfo = new RepoItemInfo(this, "Back", ".//form[#'paymentApplicationTemplateData']//button[@innertext='Back']", "", 30000, null, "c1298fe8-a534-4f1a-a4dc-67058b2df7bd");
                 _buttontagedit2Info = new RepoItemInfo(this, "ButtonTagEdit2", ".//table[#'dt-table']/tbody/tr[2]/?/?/button[@innertext=' Edit ']", "", 30000, null, "3d723195-61e1-4e56-a1f4-592f6b8bae2c");
-                _hexcodeinputInfo = new RepoItemInfo(this, "HEXCodeInput", "body/div[4]/div/div[3]/div/div[1]/label[@innertext='HEX']/preceding-sibling::input", "", 30000, null, "6956bd16-f9a3-45e9-a757-242502be8971");
+                _hexcodeinputInfo = new RepoItemInfo(this, "HEXCodeInput", "body//label[@innertext='HEX']/preceding-sibling::input", "", 30000, null, "6956bd16-f9a3-45e9-a757-242502be8971");
                 _applyInfo = new RepoItemInfo(this, "Apply", "body/div[4]/div/div[4]/?/?/button[@title='Apply']", "", 30000, null, "e78456aa-fc6e-4caa-ba38-592652f28af0");
                 _cancelInfo = new RepoItemInfo(this, "Cancel", "body/div[4]/div/div[4]/?/?/button[@title='Cancel']", "", 30000, null, "14e3763d-a2f6-4ee5-862f-b391a8ffaeab");
                 _buttontagedit3Info = new RepoItemInfo(this, "ButtonTagEdit3", ".//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ']", "", 30000, null, "a7e0238e-cd27-4d2a-aac6-906cf944093d");

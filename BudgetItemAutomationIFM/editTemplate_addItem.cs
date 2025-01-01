@@ -120,8 +120,9 @@ namespace BudgetItemAutomationIFM
             addedItem = repo.ApplicationUnderTest.selectableOption.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectP1' at Center.", repo.ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectP1Info, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectP1.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Escape}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(5));
+            repo.ApplicationUnderTest.Self.EnsureVisible();
+            Keyboard.Press("{Escape}");
             Delay.Milliseconds(0);
             
         }

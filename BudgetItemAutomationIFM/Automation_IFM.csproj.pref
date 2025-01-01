@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="AllModuleGroups.rxtmg" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AllModuleGroups.rxtmg" />
     <Element value="HelperMethodsCollection.cs" />
-    <Element value="TMM_TaskItemAutomationIFM.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
