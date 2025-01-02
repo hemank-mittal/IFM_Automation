@@ -79,21 +79,25 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column1' at Center.", repo.ApplicationUnderTest.TableHeader_Column1Info, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 9999 units.", new RecordItemIndex(0));
+            Mouse.ScrollWheel(9999);
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column1' at Center.", repo.ApplicationUnderTest.TableHeader_Column1Info, new RecordItemIndex(1));
             repo.ApplicationUnderTest.TableHeader_Column1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(2));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='descending') on item 'ApplicationUnderTest.TableHeader_Column1'.", repo.ApplicationUnderTest.TableHeader_Column1Info, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='descending') on item 'ApplicationUnderTest.TableHeader_Column1'.", repo.ApplicationUnderTest.TableHeader_Column1Info, new RecordItemIndex(3));
             Validate.AttributeEqual(repo.ApplicationUnderTest.TableHeader_Column1Info, "aria-sort", "descending");
             Delay.Milliseconds(100);
             
             HelperMethodsCollection.confirmSorting(repo.ApplicationUnderTest.tableData, "1", ValueConverter.ArgumentFromString<bool>("isDescending", "True"), ValueConverter.ArgumentFromString<bool>("isInteger", "False"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column1' at Center.", repo.ApplicationUnderTest.TableHeader_Column1Info, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column1' at Center.", repo.ApplicationUnderTest.TableHeader_Column1Info, new RecordItemIndex(5));
             repo.ApplicationUnderTest.TableHeader_Column1.Click();
             Delay.Milliseconds(0);
             

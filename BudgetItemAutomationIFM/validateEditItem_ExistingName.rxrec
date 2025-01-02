@@ -1351,7 +1351,7 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 			<arguments
 			id="12de7364-7279-4014-8c6c-8da96dabf321">
 				<argument
-				argname="elementRxPath"
+				argname="record1"
 				id="a9722c8f-1401-4f62-bced-9a626ea18dcc"
 				variable="firstRecord">
 					<argvaluetype>
@@ -1361,7 +1361,7 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 					</argvalue>
 				</argument>
 				<argument
-				argname="record1"
+				argname="elementInfoItemRxPath"
 				id="40ca1463-92c9-48ba-9012-68ebc243c50a">
 					<argvaluetype>
 						System.String

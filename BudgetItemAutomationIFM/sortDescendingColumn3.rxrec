@@ -29,6 +29,17 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
+		<mousewheelitem
+		delta="9999"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
 		<mouseitem
 		action="Click"
 		button="Left"

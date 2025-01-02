@@ -525,10 +525,82 @@ FFFABRRRQAUUUUAFFFFAH//Z
 					<argvalue>
 					</argvalue>
 					<info
-					id="e0c7e6e5-da34-4097-a63b-ef4116a9e58c"
+					id="ca312b26-a44b-451f-a577-58000ac9a2bc"
 					sourcename="RepositoryEditor">
+						<element
+						capabilities="webelement, divtag"
+						dontcache="True"
+						enabled="True"
+						flavor="firefoxweb"
+						hasfocus="False"
+						index="0"
+						prefcap="divtag"
+						rect="-30920,-31557,782,275"
+						role="unknown"
+						snapElem=""
+						valid="True"
+						visible="True">
+							<attribute
+							name="class"
+							type="System.String">
+								ng-trigger ng-trigger-transformPanel ng-tns-c3393473648-78 mat-mdc-select-panel mdc-menu-surface mdc-menu-surface--open mat-primary ng-star-inserted
+							</attribute>
+							<attribute
+							name="draggable"
+							type="System.String">
+								False
+							</attribute>
+							<attribute
+							name="hidden"
+							type="System.String">
+								False
+							</attribute>
+							<attribute
+							name="id"
+							type="System.String">
+								mat-select-12-panel
+							</attribute>
+							<attribute
+							name="innertext"
+							type="System.String">
+							</attribute>
+							<attribute
+							name="safeclass"
+							type="System.String">
+								mat-mdc-select-panel mat-primary mdc-menu-surface ng-star-inserted ng-tns-c3393473648-78 ng-trigger ng-trigger-transformPanel
+							</attribute>
+							<attribute
+							name="tagname"
+							type="System.String">
+								div
+							</attribute>
+							<dynamicattribute
+							description="Dynamic HTML attribute."
+							name="aria-labelledby"
+							readonly="False"
+							type="System.String">
+							</dynamicattribute>
+							<dynamicattribute
+							description="Dynamic HTML attribute."
+							name="aria-multiselectable"
+							readonly="False"
+							type="System.String">
+							</dynamicattribute>
+							<dynamicattribute
+							description="Dynamic HTML attribute."
+							name="role"
+							readonly="False"
+							type="System.String">
+							</dynamicattribute>
+							<dynamicattribute
+							description="Dynamic HTML attribute."
+							name="tabindex"
+							readonly="False"
+							type="System.String">
+							</dynamicattribute>
+						</element>
 						<path>
-							/dom[@domain='app.ifm360.com']/body//div[2]/div/div
+							/dom[@domain='app.ifm360.com']/body//div[@role='listbox']
 						</path>
 						<robustPath>
 						</robustPath>
@@ -553,10 +625,10 @@ FFFABRRRQAUUUUAFFFFAH//Z
 			<bindings>
 			</bindings>
 			<info
-			id="ef5fba90-e51f-455c-809c-e74defd97dec"
+			id="6afd94a2-0585-4802-9293-de8d7ca5ccd2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='app.ifm360.com']/body/div[3]/div[2]/div/div/tag[$optionIndex]/span
+					/dom[@domain='app.ifm360.com']/body//div[@role='listbox']/tag[$optionIndex]/span
 				</path>
 				<robustPath>
 				</robustPath>

@@ -192,6 +192,11 @@ namespace BudgetItemAutomationIFM
         	
         	else if (oldName.Contains("edited"))
         	{
+        		if (oldName.Trim() == "edited")
+        		{
+        			return oldName + " 2";
+        		}
+        		
         		var newValue = oldName.Replace(" edited", "");
         	   	
         	   	return newValue;
@@ -335,12 +340,12 @@ namespace BudgetItemAutomationIFM
         public static int getDifferentOption(Adapter element)
         {
         	IList<InputTag> opts_input = element.FindDescendants<InputTag>();
-        	string isChecked = null;        	        
+        	string isChecked = null;        	               	
         	
         	if (opts_input.Count == 0)
         	{
         		IList<WebElement> opts_webElement = element.FindDescendants<WebElement>();
-        		isChecked = opts_webElement[0].GetAttributeValue<string>("aria-selected");        		
+        		isChecked = opts_webElement[0].GetAttributeValue<string>("aria-selected");     		
         	}
         	else if (opts_input.Count == 1)
         	{
@@ -348,7 +353,7 @@ namespace BudgetItemAutomationIFM
         	}
         	else if (opts_input.Count > 1)
         	{
-        		isChecked = opts_input[0].GetAttributeValue<string>("Checked");
+        		isChecked = opts_input[0].GetAttributeValue<string>("Checked");        	
         	}  
         	
         	if (isChecked == "True" || isChecked == "true")
@@ -387,18 +392,34 @@ namespace BudgetItemAutomationIFM
         [UserCodeMethod]
         public static int selectDifferentOption(Adapter element)
         {
-        	IList<WebElement> opts = element.FindDescendants<WebElement>();
+        	IList<InputTag> opts_input = element.FindDescendants<InputTag>();        	
         	
-        	foreach (var i in opts)
+        	if (opts_input.Count == 0)
         	{
-        		if (i.GetAttributeValue<string>("aria-disabled") == "false" && i.GetAttributeValue<string>("aria-selected") == "false")
+        		IList<WebElement> opts_webElement = element.FindDescendants<WebElement>();
+        		
+        		foreach (var i in opts_webElement)
+	        	{
+	        		if (i.GetAttributeValue<string>("aria-disabled") == "false" && i.GetAttributeValue<string>("aria-selected") == "false")
+	        		{
+	//        			var x = i.FindChild<SpanTag>();
+	//        			Report.Warn(x.InnerText.ToString());
+	
+	        			return (opts_webElement.IndexOf(i) + 1);
+	        		}
+	        	}
+        	}
+
+			foreach (var i in opts_input)
+        	{
+        		if (i.GetAttributeValue<string>("checked") == "false" || i.GetAttributeValue<string>("checked") == "False")
         		{
 //        			var x = i.FindChild<SpanTag>();
 //        			Report.Warn(x.InnerText.ToString());
 
-        			return (opts.IndexOf(i) + 1);
+        			return (opts_input.IndexOf(i) + 1);
         		}
-        	}
+        	}        	
         	
         	return 0;
         }
@@ -507,9 +528,9 @@ namespace BudgetItemAutomationIFM
         [UserCodeMethod]
         public static void compareSecondRecord_IfExist(string record1, string elementInfoItemRxPath)
         {
-        	Element record2Info;
+        	Element record2Info;       	
         	
-        	if (Host.Local.TryFindSingle(elementInfoItemRxPath, 1000, out record2Info))
+        	if (Host.Local.TryFindSingle(elementInfoItemRxPath, 5000, out record2Info))
         	{
         		string record2 = record2Info.GetAttributeValueText("InnerText");
         		HelperMethodsCollection.compareStringsNotEqual(record1, record2);

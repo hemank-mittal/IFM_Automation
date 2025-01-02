@@ -2032,6 +2032,16 @@ name="BudgetItemAutomationIFMRepository">
 					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span
 				</item>
 				<item
+				addcaps="unknown,webelement,spantag"
+				capname="ultag"
+				id="e4f92273-46f2-4933-82ac-4487d05b2bb4"
+				name="campusState_Dropdown"
+				refimgid="388084c0-4d66-4b83-9488-9294b41edf97"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]
+				</item>
+				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
 				id="e3dac484-2daf-4028-aa90-62de6c6ca246"
@@ -2434,10 +2444,9 @@ name="BudgetItemAutomationIFMRepository">
 			id="e78456aa-fc6e-4caa-ba38-592652f28af0"
 			name="Apply"
 			refimgid="d0257146-a954-4126-a275-138b1db2ee89"
-			refpath="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[4]/div/button[@title='Apply']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='app.ifm360.com']/body/div[4]/div/div[4]/?/?/button[@title='Apply']
+				/dom[@domain='app.ifm360.com']/body//button[@title='Apply']
 			</item>
 			<item
 			addcaps="button,webelement,buttontag"
@@ -2445,10 +2454,9 @@ name="BudgetItemAutomationIFMRepository">
 			id="14e3763d-a2f6-4ee5-862f-b391a8ffaeab"
 			name="Cancel"
 			refimgid="d13c5225-8621-4551-bd80-abb7f8fdd5b9"
-			refpath="/dom[@domain='app.ifm360.com']/body/div[4]/div/div[4]/div/button[@title='Cancel']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='app.ifm360.com']/body/div[4]/div/div[4]/?/?/button[@title='Cancel']
+				/dom[@domain='app.ifm360.com']/body//button[@title='Cancel']
 			</item>
 			<item
 			addcaps="button,webelement,buttontag"

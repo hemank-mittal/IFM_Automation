@@ -257,8 +257,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.TitleInputBar.PressKeys(edittedName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddEditFieldForm.DropdownBtn' at Center.", repo.ApplicationUnderTest.AddEditFieldForm.DropdownBtnInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.AddEditFieldForm.DropdownBtn.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.DropdownBtn' at Center.", repo.ApplicationUnderTest.CampusLocationForm.DropdownBtnInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.CampusLocationForm.DropdownBtn.Click();
             Delay.Milliseconds(0);
             
             optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusType_dropdown));
@@ -371,7 +371,7 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.CampusLocationForm.campusStateDropdown.Click();
             Delay.Milliseconds(0);
             
-            optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusCountry_Dropdown));
+            optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusState_Dropdown));
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' and assigning its value to variable 'CL_state'.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(38));
@@ -386,7 +386,7 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown.Click();
             Delay.Milliseconds(0);
             
-            optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_dropdown));
+            optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_dropdown));
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Checked' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_CheckedInfo, new RecordItemIndex(42));
@@ -401,11 +401,15 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.", repo.ApplicationUnderTest.CampusLocationForm.SaveInfo, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdownInfo, new RecordItemIndex(45));
+            repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.", repo.ApplicationUnderTest.CampusLocationForm.SaveInfo, new RecordItemIndex(46));
             repo.ApplicationUnderTest.CampusLocationForm.Save.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(47));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
         }

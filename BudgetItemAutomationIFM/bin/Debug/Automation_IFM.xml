@@ -2209,6 +2209,16 @@
             The campusStateDropdown item info.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.CampusLocationFormFolder.campusState_Dropdown">
+            <summary>
+            The campusState_Dropdown item.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.CampusLocationFormFolder.campusState_DropdownInfo">
+            <summary>
+            The campusState_Dropdown item info.
+            </summary>
+        </member>
         <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.CampusLocationFormFolder.campusState_FirstInstance">
             <summary>
             The campusState_FirstInstance item.

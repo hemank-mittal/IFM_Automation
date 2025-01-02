@@ -233,9 +233,13 @@
 			name="campusLocation">
 			</smartfoldernode>
 			<modulegroup
+			enabled="False"
 			id="d975ed6a-d8ff-470a-9e62-6b9204133e70"
 			name="createCampusLocation_Failure_ExistingName"
 			ref="056bd16c-fa4a-4e45-a423-f63308bb0e1e">
+				<description>
+					<![CDATA[BLOCKER!!!]]>
+				</description>
 				<databinding>
 					<var
 					dataname="itemName"
@@ -312,9 +316,13 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="dab74907-9155-4670-ba9b-844e4b08908a"
 			name="createCampusLocation_Success"
 			ref="a844c8e7-a4d3-4923-a837-37d835c509f7">
+				<description>
+					<![CDATA[BLOCKER!!!]]>
+				</description>
 				<databinding>
 					<var
 					dataname="itemCount"

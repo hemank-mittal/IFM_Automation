@@ -92,18 +92,22 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column3' at Center.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 9999 units.", new RecordItemIndex(0));
+            Mouse.ScrollWheel(9999);
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column3' at Center.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(1));
             repo.ApplicationUnderTest.TableHeader_Column3.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='descending') on item 'ApplicationUnderTest.TableHeader_Column3'.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='descending') on item 'ApplicationUnderTest.TableHeader_Column3'.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(2));
             Validate.AttributeEqual(repo.ApplicationUnderTest.TableHeader_Column3Info, "aria-sort", "descending");
             Delay.Milliseconds(100);
             
             HelperMethodsCollection.confirmSorting(repo.ApplicationUnderTest.tableData, "3", ValueConverter.ArgumentFromString<bool>("isDescending", "True"), ValueConverter.ArgumentFromString<bool>("isInteger", isInteger));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column3' at Center.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TableHeader_Column3' at Center.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(4));
             repo.ApplicationUnderTest.TableHeader_Column3.Click();
             Delay.Milliseconds(0);
             

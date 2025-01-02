@@ -8,6 +8,19 @@
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
 			</testmodule>
+			<modulegroup
+			id="379bb977-0144-43f7-9d37-7dda49f3f603"
+			name="editCategory_2_Failure_ExistingName"
+			ref="d0b067dd-a00d-497e-ac19-0486e4b6a4ce">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="43088958-8f56-41da-8ded-77977be5009f"
+					variableid="68afc10a-4d6f-4b70-b45b-c52d264026b4"
+					variablename="ModuleGroupitemName">
+					</var>
+				</databinding>
+			</modulegroup>
 			<teardown
 			id="3c8bc19f-397e-4e04-99f1-961a2915fcaf"
 			name="teardown">
@@ -54,6 +67,19 @@
 			name="RequestReasonAutomationIFM"
 			reportlevel="Info;20">
 			</testcase>
+			<modulegroup
+			id="a3b71abb-bfc2-4c87-aa97-7df70e190f13"
+			name="createCategory_2_Failure_ExistingName"
+			ref="576207c4-0e83-484a-9a85-4b16e1e7fe5c">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="43088958-8f56-41da-8ded-77977be5009f"
+					variableid="8863c63e-3ff9-4630-bd0f-2737837cdcc7"
+					variablename="ModuleGroupitemName">
+					</var>
+				</databinding>
+			</modulegroup>
 			<testmodule
 			id="a42c8e9c-5a36-4b57-a809-10d6064410bf"
 			name="OpenBrowser_RequestReason"
@@ -66,19 +92,6 @@
 			ref="5763eee4-b404-4706-8b05-344390925563"
 			type="Recording">
 			</testmodule>
-			<modulegroup
-			id="b4c971f6-8509-45ac-a972-619a4488b1eb"
-			name="createCategory_1_Failure_ExistingName"
-			ref="4924d16d-f457-4b32-a8fd-0a9d2d2cd43b">
-				<databinding>
-					<var
-					dataname="itemName"
-					datasourceid="43088958-8f56-41da-8ded-77977be5009f"
-					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
-					variablename="ModuleGroupitemName">
-					</var>
-				</databinding>
-			</modulegroup>
 			<modulegroup
 			id="b8be3bc5-1f9e-46c9-b45c-ba7dfd78d252"
 			name="sortingItems_Column1"
@@ -125,19 +138,6 @@
 					</var>
 				</databinding>
 			</modulegroup>
-			<modulegroup
-			id="dc863968-c933-4125-a44f-3032235a77e1"
-			name="editCategory_1_Failure_ExistingName"
-			ref="e14f40d3-a52a-49b7-af05-229539725c22">
-				<databinding>
-					<var
-					dataname="itemName"
-					datasourceid="43088958-8f56-41da-8ded-77977be5009f"
-					variableid="d13b58b2-941f-4673-a472-699ffada4948"
-					variablename="ModuleGroupitemName">
-					</var>
-				</databinding>
-			</modulegroup>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -169,16 +169,16 @@
 							name="createCategory_2_Success">
 							</modulegroup>
 							<modulegroup
-							id="b4c971f6-8509-45ac-a972-619a4488b1eb"
-							name="createCategory_1_Failure_ExistingName">
+							id="a3b71abb-bfc2-4c87-aa97-7df70e190f13"
+							name="createCategory_2_Failure_ExistingName">
 							</modulegroup>
 							<modulegroup
 							id="c9210ee9-5180-4448-b953-e749d738031a"
 							name="editCategory_2_Success">
 							</modulegroup>
 							<modulegroup
-							id="dc863968-c933-4125-a44f-3032235a77e1"
-							name="editCategory_1_Failure_ExistingName">
+							id="379bb977-0144-43f7-9d37-7dda49f3f603"
+							name="editCategory_2_Failure_ExistingName">
 							</modulegroup>
 							<modulegroup
 							id="b8be3bc5-1f9e-46c9-b45c-ba7dfd78d252"

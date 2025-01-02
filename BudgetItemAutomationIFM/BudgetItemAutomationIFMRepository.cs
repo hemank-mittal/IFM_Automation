@@ -350,8 +350,8 @@ namespace BudgetItemAutomationIFM
                 _backInfo = new RepoItemInfo(this, "Back", ".//form[#'paymentApplicationTemplateData']//button[@innertext='Back']", "", 30000, null, "c1298fe8-a534-4f1a-a4dc-67058b2df7bd");
                 _buttontagedit2Info = new RepoItemInfo(this, "ButtonTagEdit2", ".//table[#'dt-table']/tbody/tr[2]/?/?/button[@innertext=' Edit ']", "", 30000, null, "3d723195-61e1-4e56-a1f4-592f6b8bae2c");
                 _hexcodeinputInfo = new RepoItemInfo(this, "HEXCodeInput", "body//label[@innertext='HEX']/preceding-sibling::input", "", 30000, null, "6956bd16-f9a3-45e9-a757-242502be8971");
-                _applyInfo = new RepoItemInfo(this, "Apply", "body/div[4]/div/div[4]/?/?/button[@title='Apply']", "", 30000, null, "e78456aa-fc6e-4caa-ba38-592652f28af0");
-                _cancelInfo = new RepoItemInfo(this, "Cancel", "body/div[4]/div/div[4]/?/?/button[@title='Cancel']", "", 30000, null, "14e3763d-a2f6-4ee5-862f-b391a8ffaeab");
+                _applyInfo = new RepoItemInfo(this, "Apply", "body//button[@title='Apply']", "", 30000, null, "e78456aa-fc6e-4caa-ba38-592652f28af0");
+                _cancelInfo = new RepoItemInfo(this, "Cancel", "body//button[@title='Cancel']", "", 30000, null, "14e3763d-a2f6-4ee5-862f-b391a8ffaeab");
                 _buttontagedit3Info = new RepoItemInfo(this, "ButtonTagEdit3", ".//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ']", "", 30000, null, "a7e0238e-cd27-4d2a-aac6-906cf944093d");
                 _buttontageditInfo = new RepoItemInfo(this, "ButtonTagEdit", ".//tag[#'docreview']//table/tbody/tr[2]/td[5]/?/?/button[@innertext=' Edit ']", "", 30000, null, "1aeeb39e-318f-4776-812b-07781aede8c7");
             }
@@ -5204,6 +5204,7 @@ namespace BudgetItemAutomationIFM
             RepoItemInfo _campuscountry_firstinstanceInfo;
             RepoItemInfo _campuscountry_dynamicInfo;
             RepoItemInfo _campusstatedropdownInfo;
+            RepoItemInfo _campusstate_dropdownInfo;
             RepoItemInfo _campusstate_firstinstanceInfo;
             RepoItemInfo _campusstate_dynamicInfo;
             RepoItemInfo _campusnamefieldInfo;
@@ -5237,6 +5238,7 @@ namespace BudgetItemAutomationIFM
                 _campuscountry_firstinstanceInfo = new RepoItemInfo(this, "campusCountry_FirstInstance", "div[8]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/div[@innertext=$CL_country]", "", 30000, null, "6ee04168-9298-4230-9e6f-e748303a086d");
                 _campuscountry_dynamicInfo = new RepoItemInfo(this, "campusCountry_dynamic", "div[8]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div", "", 30000, null, "632d9b1e-a62e-4525-85a3-4fd8a2de4745");
                 _campusstatedropdownInfo = new RepoItemInfo(this, "campusStateDropdown", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span", "", 30000, null, "4d3bff4e-6e49-4587-9cd1-8989dc02c94c");
+                _campusstate_dropdownInfo = new RepoItemInfo(this, "campusState_Dropdown", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]", "", 30000, null, "e4f92273-46f2-4933-82ac-4487d05b2bb4");
                 _campusstate_firstinstanceInfo = new RepoItemInfo(this, "campusState_FirstInstance", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div", "", 30000, null, "e3dac484-2daf-4028-aa90-62de6c6ca246");
                 _campusstate_dynamicInfo = new RepoItemInfo(this, "campusState_dynamic", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div", "", 30000, null, "77da1779-0fa3-43e3-b2c7-b8755858ddd3");
                 _campusnamefieldInfo = new RepoItemInfo(this, "campusNameField", ".//input[@name='campusName']", "element", 30000, null, "38b34aa8-4962-404c-90b6-0784695900ed");
@@ -5654,6 +5656,30 @@ namespace BudgetItemAutomationIFM
                 get
                 {
                     return _campusstatedropdownInfo;
+                }
+            }
+
+            /// <summary>
+            /// The campusState_Dropdown item.
+            /// </summary>
+            [RepositoryItem("e4f92273-46f2-4933-82ac-4487d05b2bb4")]
+            public virtual Ranorex.UlTag campusState_Dropdown
+            {
+                get
+                {
+                    return _campusstate_dropdownInfo.CreateAdapter<Ranorex.UlTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The campusState_Dropdown item info.
+            /// </summary>
+            [RepositoryItemInfo("e4f92273-46f2-4933-82ac-4487d05b2bb4")]
+            public virtual RepoItemInfo campusState_DropdownInfo
+            {
+                get
+                {
+                    return _campusstate_dropdownInfo;
                 }
             }
 

@@ -171,6 +171,9 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.searchBar.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(10));
+            Delay.Duration(500, false);
+            
         }
 
 #region Image Feature Data

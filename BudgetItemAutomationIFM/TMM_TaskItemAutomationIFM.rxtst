@@ -391,7 +391,7 @@
 					variablename="ModuleGroupoptionIndex">
 					</var>
 					<var
-					dataname="projectType_TaskItem"
+					dataname="nonProjectType_TaskItem"
 					datasourceid="dcce5714-d511-4702-96a7-025a9dc5e848"
 					variableid="a409cb67-25b3-42d7-a638-7c843851a188"
 					variablename="ModuleGroupprojectType_TaskItem">

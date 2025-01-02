@@ -92,10 +92,14 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 9999 units.", new RecordItemIndex(0));
+            Mouse.ScrollWheel(9999);
+            Delay.Milliseconds(300);
+            
             Mouse_Click_TableHeader(repo.ApplicationUnderTest.TableHeader_Column3Info);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='ascending') on item 'ApplicationUnderTest.TableHeader_Column3'.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='ascending') on item 'ApplicationUnderTest.TableHeader_Column3'.", repo.ApplicationUnderTest.TableHeader_Column3Info, new RecordItemIndex(2));
             Validate.AttributeEqual(repo.ApplicationUnderTest.TableHeader_Column3Info, "aria-sort", "ascending");
             Delay.Milliseconds(100);
             

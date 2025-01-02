@@ -79,18 +79,22 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.dTableHeader2' at Center.", repo.ApplicationUnderTest.dTableHeader2Info, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 9999 units.", new RecordItemIndex(0));
+            Mouse.ScrollWheel(9999);
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.dTableHeader2' at Center.", repo.ApplicationUnderTest.dTableHeader2Info, new RecordItemIndex(1));
             repo.ApplicationUnderTest.dTableHeader2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='descending') on item 'ApplicationUnderTest.dTableHeader2'.", repo.ApplicationUnderTest.dTableHeader2Info, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='descending') on item 'ApplicationUnderTest.dTableHeader2'.", repo.ApplicationUnderTest.dTableHeader2Info, new RecordItemIndex(2));
             Validate.AttributeEqual(repo.ApplicationUnderTest.dTableHeader2Info, "aria-sort", "descending");
             Delay.Milliseconds(100);
             
             HelperMethodsCollection.confirmSorting(repo.ApplicationUnderTest.dTableBody, "2", ValueConverter.ArgumentFromString<bool>("isDescending", "True"), ValueConverter.ArgumentFromString<bool>("isInteger", "False"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.dTableHeader2' at Center.", repo.ApplicationUnderTest.dTableHeader2Info, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.dTableHeader2' at Center.", repo.ApplicationUnderTest.dTableHeader2Info, new RecordItemIndex(4));
             repo.ApplicationUnderTest.dTableHeader2.Click();
             Delay.Milliseconds(0);
             

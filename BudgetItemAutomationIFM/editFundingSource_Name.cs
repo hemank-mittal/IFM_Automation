@@ -178,11 +178,11 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.MatMdcSelectMinLineMatMdcSelectP1.Click();
             Delay.Milliseconds(0);
             
-            optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.fundingSource_CategoryOptions));
+            optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.editDropdownList));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.fundingCategory_dynamicIndex' at Center.", repo.ApplicationUnderTest.fundingCategory_dynamicIndexInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.fundingCategory_dynamicIndex.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.selectableOption' at Center.", repo.ApplicationUnderTest.selectableOptionInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.selectableOption.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.MatMdcSelectMinLineMatMdcSelectP' and assigning its value to variable 'linkedCategory'.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.MatMdcSelectMinLineMatMdcSelectPInfo, new RecordItemIndex(8));

@@ -25,6 +25,17 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<mousewheelitem
+		delta="9999"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
 		<userrecorditem
 		classname="sort_dTable_Ascending_Column2"
 		enabled="True"
