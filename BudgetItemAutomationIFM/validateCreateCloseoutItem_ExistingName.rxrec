@@ -1139,26 +1139,6 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 				</robustPath>
 			</info>
 		</getvaluerecorditem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="fc0efa46-71eb-4279-a02d-3ff2398a156f"
-		varname="secondRecord">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="718956f8-2990-4073-8d56-831bcf0f6f9d"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='app.ifm360.com']//table/tbody/tr[2]/td[1]/?
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</getvaluerecorditem>
 		<userrecorditem
 		classname="HelperMethodsCollection"
 		enabled="True"
