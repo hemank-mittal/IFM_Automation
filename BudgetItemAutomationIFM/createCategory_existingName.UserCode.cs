@@ -35,6 +35,8 @@ namespace BudgetItemAutomationIFM
 
         public void Mouse_Click_createSpanTag()
         {
+        	Mouse.ScrollWheel(9999);
+        	
         	if (repo.ApplicationUnderTest.createSpanTagInfo.Exists(1000))
         	{
         		var buttonToClick = repo.ApplicationUnderTest.createSpanTagInfo;

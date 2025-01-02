@@ -97,8 +97,7 @@ namespace BudgetItemAutomationIFM
             existingName = HelperMethodsCollection.trimStrings(existingName, "both");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagCreate' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagCreateInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Content1.ButtonTagCreate.Click();
+            Mouse_Click_createSpanTag();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Text' at Center.", repo.ApplicationUnderTest.Content1.TextInfo, new RecordItemIndex(3));

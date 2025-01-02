@@ -92,156 +92,21 @@ mode="Global">
 				</argument>
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		classname="createStatsReportType_Fail"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="cd7caa58-f181-425b-a678-de612e4ed84b"
-		sx="1702"
-		sy="346"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_createSpanTag"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="2a1b922c-a1ad-49da-b34c-0c41834a094f"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, buttontag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="0"
-				prefcap="buttontag"
-				rect="1682,315,83,45"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						btn btn-dialog font-w-300 btn-create ng-star-inserted
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Create
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						btn btn-create btn-dialog font-w-300 ng-star-inserted
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						button
-					</attribute>
-					<attribute
-					name="autofocus"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="disabled"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="type"
-					type="System.String">
-						submit
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="_ngcontent-ng-c3224495490"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='app.ifm360.com']//tag[#'docreview']/div/div[1]/div/div[1]/div[3]/button[@innertext='Create']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<helperscreenshot
-			guid="15196d63-8b33-4202-80dd-8872f52ede73">
-				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABfAW4DASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
-ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
-KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqPyIf+eUf/fIo8iH/nlH/wB8igCSio/I
-h/55R/8AfIo8iH/nlH/3yKAJKKj8iH/nlH/3yKPIh/55R/8AfIoAkoqPyIf+eUf/AHyKPIh/55R/
-98igCSio/Ih/55R/98ijyIf+eUf/AHyKAJKKj8iH/nlH/wB8ijyIf+eUf/fIoAkoqPyIf+eUf/fI
-o8iH/nlH/wB8igCSio/Ih/55R/8AfIo8iH/nlH/3yKAJKr3F9bWzhJpNrEZxtJ4/CpPIh/55J/3y
-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
-			</helperscreenshot>
-		</mouseitem>
+			<arguments
+			id="bcc5e51c-7f73-4e33-be11-e24b906bfa9e">
+			</arguments>
+		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

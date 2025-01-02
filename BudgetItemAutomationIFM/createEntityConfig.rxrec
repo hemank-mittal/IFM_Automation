@@ -203,76 +203,21 @@ mode="Global">
 				</argument>
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		classname="createEntityConfig"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="6e010d4a-0cb5-4ed1-a2a9-2572a718a65b"
-		sx="725"
-		sy="501"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_createSpanTag"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="04fc0469-2096-4984-9962-1e20c6091969"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="1"
-				prefcap="spantag"
-				rect="-30261,-31678,48,20"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						mdc-button__label
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Create
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						mdc-button__label
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-				</element>
-				<path>
-					/dom[@domain='app.ifm360.com']//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
+			<arguments
+			id="bcc5e51c-7f73-4e33-be11-e24b906bfa9e">
+			</arguments>
+		</userrecorditem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"

@@ -49,97 +49,21 @@ mode="Global">
 				</robustPath>
 			</info>
 		</getvaluerecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		classname="createTaskConfigurations_Fail"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="50f4faf1-a96a-4463-b0ee-c78a1d1b0f2a"
-		sx="1760"
-		sy="242"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_createSpanTag"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="45f2aba5-c035-4581-843b-faecca9efb8f"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, buttontag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="0"
-				prefcap="buttontag"
-				rect="-30267,-31747,67,37"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						btn btn-dialog font-w-300 btn-create-slidebar
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Create
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						btn btn-create-slidebar btn-dialog font-w-300
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						button
-					</attribute>
-					<attribute
-					name="autofocus"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="disabled"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="type"
-					type="System.String">
-						submit
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="_ngcontent-ng-c3110720332"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='app.ifm360.com']//button[@innertext='Create ' or @innertext='Create' or @innertext=' Create ']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
+			<arguments
+			id="bcc5e51c-7f73-4e33-be11-e24b906bfa9e">
+			</arguments>
+		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

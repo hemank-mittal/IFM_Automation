@@ -46,7 +46,6 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="1582c61d-3527-4048-8541-c97afd3d3a66"
 			name="editBudgetCategory_Failure_sameName"
 			ref="362289a2-2a69-4d31-b78c-8ff2836eb4c6">
@@ -137,7 +136,6 @@
 				</parameters>
 			</smartfoldernode>
 			<modulegroup
-			enabled="False"
 			id="302a9314-7129-43c9-ade2-3d34b7e4c362"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
@@ -182,7 +180,7 @@
 			</modulegroup>
 			<modulegroup
 			id="39d5b716-0811-4370-bb87-51b49e8b2a58"
-			name="createBudgetItem"
+			name="createBudgetItem_Success"
 			ref="c9ae20a2-33a3-44c4-a0c7-542315b963da">
 				<databinding>
 					<var
@@ -206,7 +204,6 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="3c6d0db1-e375-4c9f-82d8-36832c3dc746"
 			name="editCategory_1_Success"
 			ref="dc69b6d8-dd44-46b6-a29a-0c6dbfcfdbcf">
@@ -230,7 +227,6 @@
 			name="setup">
 			</setup>
 			<testmodule
-			enabled="False"
 			id="43012643-2699-44f5-be1d-ba33322f4304"
 			name="OpenBrowser"
 			ref="ef3e0388-fcc5-4f18-af9f-c592ecfe7afe"
@@ -266,7 +262,6 @@
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="50685a45-53b9-47e1-b7ef-a7f3eaade31f"
 			name="createCategory_1_Success"
 			ref="75959af0-1a0f-4a16-89bb-231af492bbca">
@@ -329,7 +324,6 @@
 				</databinding>
 			</modulegroup>
 			<testmodule
-			enabled="False"
 			id="65f066d5-ac5f-4353-821c-86b0c72c95f7"
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
@@ -566,7 +560,7 @@
 			</modulegroup>
 			<modulegroup
 			id="bbd1f6d4-3214-4765-9c1c-196e9d094799"
-			name="createTemplate"
+			name="createTemplate_Success"
 			ref="bd653dac-a6a8-4c66-94fe-59b9c1f5cae7">
 				<databinding>
 					<var
@@ -651,12 +645,12 @@
 				</databinding>
 			</modulegroup>
 			<testsuite
-			ReportTime="RelativeToTestSuiteStartTime"
+			ReportTime="WallClock"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
 			VideoFps="15"
-			VideoRecordingMode="Off"
+			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
 			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
@@ -739,14 +733,12 @@
 				</databinding>
 			</modulegroup>
 			<testmodule
-			enabled="False"
 			id="d746c434-f396-4610-9edf-624300160945"
 			name="navigateToCategories"
 			ref="c7e7feb1-2bf5-4bad-8941-a93402876ecb"
 			type="Recording">
 			</testmodule>
 			<modulegroup
-			enabled="False"
 			id="da784d56-2ae8-49a8-9e85-805942d5456d"
 			name="editCategory_1_Failure_ExistingName"
 			ref="e14f40d3-a52a-49b7-af05-229539725c22">
@@ -863,7 +855,6 @@
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
 			</modulegroup>
 			<testmodule
-			enabled="False"
 			id="fd787cf6-3844-4c18-9322-c6f19115dd7f"
 			name="ValidateBudgetItemPage"
 			ref="83b55475-9ce9-45de-bdde-96cfece1fc8b"
@@ -918,7 +909,7 @@
 							</testmodule>
 							<modulegroup
 							id="39d5b716-0811-4370-bb87-51b49e8b2a58"
-							name="createBudgetItem">
+							name="createBudgetItem_Success">
 							</modulegroup>
 							<modulegroup
 							id="a43c6999-1277-46d2-bdac-e8173e007f08"
@@ -962,7 +953,7 @@
 							</testmodule>
 							<modulegroup
 							id="bbd1f6d4-3214-4765-9c1c-196e9d094799"
-							name="createTemplate">
+							name="createTemplate_Success">
 							</modulegroup>
 							<modulegroup
 							id="8e8a3509-805b-4d25-a4e8-0ba0e1370f30"
@@ -1172,7 +1163,25 @@
 			id="221ef077-3f15-4089-b20b-b337ad23d521">
 			</testcontainer>
 			<testcontainer
+			id="22951822-6a3c-4b0e-af1e-f70a24bcd58c">
+			</testcontainer>
+			<testcontainer
+			id="2ed077a8-23b3-4edf-bbfc-990c2e892b7d">
+			</testcontainer>
+			<testcontainer
+			id="826324a9-b9f4-4d46-87bd-4c6a944c85ee">
+			</testcontainer>
+			<testcontainer
+			id="89ec788a-fe77-42e6-b3f3-9f57b6324472">
+			</testcontainer>
+			<testcontainer
+			id="8d40eae0-9172-485b-9721-8527cc350db6">
+			</testcontainer>
+			<testcontainer
 			id="e354fe98-d8f2-4eed-9bbf-efe2468e110e">
+			</testcontainer>
+			<testcontainer
+			id="edd94374-cc94-46c2-aa94-6f5cc119f7b1">
 			</testcontainer>
 			<testcontainer
 			id="f6f2c40e-8d0b-4c9d-a0b8-7b35c04058ab">

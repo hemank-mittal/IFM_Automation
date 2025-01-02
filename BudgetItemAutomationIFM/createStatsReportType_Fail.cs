@@ -110,8 +110,7 @@ namespace BudgetItemAutomationIFM
             existingName = HelperMethodsCollection.trimStrings(existingName, "both");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportType' at Center.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportTypeInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.CreateButton_StatusReportType.Click();
+            Mouse_Click_createSpanTag();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2' at Center.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.Text2Info, new RecordItemIndex(3));

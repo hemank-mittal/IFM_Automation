@@ -88,149 +88,21 @@ mode="Global">
 				</argument>
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		classname="createTaskTemplate_Fail"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="e5690357-2bfe-44b6-a1b8-9edb64467a94"
-		sx="1754"
-		sy="285"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_createSpanTag"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="8d634ebf-131e-4ff5-98ea-c5bcc8dd6353"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, buttontag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="0"
-				prefcap="buttontag"
-				rect="1736,266,125,50"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						btn edit p-5 float-right d-block ng-star-inserted
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						&#32;Create&#32;
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						btn d-block edit float-right ng-star-inserted p-5
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						button
-					</attribute>
-					<attribute
-					name="autofocus"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="disabled"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="type"
-					type="System.String">
-						submit
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="_ngcontent-ng-c3849841196"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag[@tagname='app-budget-template']/div[1]/?/?/h5[@innertext=' Templates ']/button[@innertext=' Create ']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<helperscreenshot
-			guid="e819db5b-f4a5-4eed-a4a6-b47a48ebb297">
-				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
-D//Z
-			</helperscreenshot>
-		</mouseitem>
+			<arguments
+			id="bcc5e51c-7f73-4e33-be11-e24b906bfa9e">
+			</arguments>
+		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

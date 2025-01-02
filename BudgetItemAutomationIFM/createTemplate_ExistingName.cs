@@ -90,8 +90,7 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagCreate' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagCreateInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Content1.ButtonTagCreate.Click();
+            Mouse_Click_createSpanTag();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.MatContentNgTnsC269005172116' and assigning its value to variable 'existingName'.", repo.ApplicationUnderTest.Content1.MatContentNgTnsC269005172116Info, new RecordItemIndex(1));

@@ -90,8 +90,7 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.createSpanTag' at Center.", repo.ApplicationUnderTest.createSpanTagInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.createSpanTag.Click();
+            Mouse_Click_createSpanTag();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.DropdownBtn' at Center.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.DropdownBtnInfo, new RecordItemIndex(1));

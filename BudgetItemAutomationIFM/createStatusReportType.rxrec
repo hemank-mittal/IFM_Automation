@@ -183,97 +183,22 @@ mode="Global">
 				</argument>
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		autogenmethod="True"
+		classname="createStatusReportType"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="c9de6629-cdee-4e69-99cd-1abb82bcb5dc"
-		sx="1644"
-		sy="403"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_createSpanTag"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="2a1b922c-a1ad-49da-b34c-0c41834a094f"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, buttontag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="True"
-				index="0"
-				prefcap="buttontag"
-				rect="1682,315,83,45"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						btn btn-dialog font-w-300 btn-create ng-star-inserted
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Create
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						btn btn-create btn-dialog font-w-300 ng-star-inserted
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						button
-					</attribute>
-					<attribute
-					name="autofocus"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="disabled"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="type"
-					type="System.String">
-						submit
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="_ngcontent-ng-c3224495490"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='app.ifm360.com']//tag[#'docreview']/div/div[1]/div/div[1]/div[3]/button[@innertext='Create']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
+			<arguments
+			id="bcc5e51c-7f73-4e33-be11-e24b906bfa9e">
+			</arguments>
+		</userrecorditem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"

@@ -46,5 +46,25 @@ namespace BudgetItemAutomationIFM
 			return "No";        	
         }
 
+        public void Mouse_Click_createSpanTag()
+        {
+        	Mouse.ScrollWheel(9999);
+        	
+        	if (repo.ApplicationUnderTest.createSpanTagInfo.Exists(1000))
+        	{
+        		var buttonToClick = repo.ApplicationUnderTest.createSpanTagInfo;
+        		buttonToClick.FindAdapter<SpanTag>().Click();
+        	}
+        	else if (repo.ApplicationUnderTest.createButtonTagInfo.Exists(1000))
+            {
+            	var buttonToClick = repo.ApplicationUnderTest.createButtonTagInfo;
+        		buttonToClick.FindAdapter<ButtonTag>().Click();
+            }
+        	else
+        	{
+        		Report.Error("Something seems wrong. The 'Create' button not found.");
+        	}
+        }
+
     }
 }

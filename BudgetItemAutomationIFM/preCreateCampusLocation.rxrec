@@ -179,32 +179,21 @@ mode="Global">
 				</argument>
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		classname="preCreateCampusLocation"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="100aac48-a664-49db-8cd7-131150e626b8"
-		sx="1744"
-		sy="257"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_createSpanTag"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="04fc0469-2096-4984-9962-1e20c6091969"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='app.ifm360.com']//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
+			<arguments
+			id="bcc5e51c-7f73-4e33-be11-e24b906bfa9e">
+			</arguments>
+		</userrecorditem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
