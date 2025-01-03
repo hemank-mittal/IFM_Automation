@@ -118,8 +118,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             
-            addedItem = HelperMethodsCollection.trimStrings(addedItem, "both");
-            Delay.Milliseconds(0);
+            //addedItem = HelperMethodsCollection.trimStrings(addedItem, "both");
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.addedItemToTemplate' and assigning its value to variable 'compareTo'.", repo.ApplicationUnderTest.Content1.addedItemToTemplateInfo, new RecordItemIndex(2));
             compareTo = repo.ApplicationUnderTest.Content1.addedItemToTemplate.Element.GetAttributeValueText("InnerText");

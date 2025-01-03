@@ -41,6 +41,9 @@ namespace BudgetItemAutomationIFM
         /// </summary>
         public ValidatePaymentApplication()
         {
+            a = "";
+            optionIndex = "";
+            CL_State = "";
         }
 
         /// <summary>
@@ -52,6 +55,40 @@ namespace BudgetItemAutomationIFM
         }
 
 #region Variables
+
+        string _a;
+
+        /// <summary>
+        /// Gets or sets the value of variable a.
+        /// </summary>
+        [TestVariable("61c01fc0-8b08-4b36-95a7-b2fe5ef40bc6")]
+        public string a
+        {
+            get { return _a; }
+            set { _a = value; }
+        }
+
+        string _CL_State;
+
+        /// <summary>
+        /// Gets or sets the value of variable CL_State.
+        /// </summary>
+        [TestVariable("5b74743a-c368-48d9-a3e8-7e55959187e8")]
+        public string CL_State
+        {
+            get { return _CL_State; }
+            set { _CL_State = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable optionIndex.
+        /// </summary>
+        [TestVariable("6ec2aaa5-271f-4943-98ac-029d57bb7a07")]
+        public string optionIndex
+        {
+            get { return repo.optionIndex; }
+            set { repo.optionIndex = value; }
+        }
 
 #endregion
 
@@ -79,13 +116,26 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
+            //Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Path='/paymentApplication') on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
+            //Validate.AttributeEqual(repo.ApplicationUnderTest.SelfInfo, "Path", "/paymentApplication");
+            //Delay.Milliseconds(0);
+            
+            optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusState_Dropdown));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Path='/paymentApplication') on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.SelfInfo, "Path", "/paymentApplication");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' and assigning its value to variable 'CL_State'.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(3));
+            CL_State = repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamic.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamic.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Warn, "User", CL_State, new RecordItemIndex(5));
             
         }
 

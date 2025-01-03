@@ -231,185 +231,187 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at Center.", repo.ApplicationUnderTest.ButtonTagEdit1Info, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at Center.", repo.ApplicationUnderTest.ButtonTagEdit1Info, new RecordItemIndex(1));
             repo.ApplicationUnderTest.ButtonTagEdit1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(2));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.TitleInputBar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.TitleInputBar' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.TitleInputBar' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(4));
             oldName = repo.ApplicationUnderTest.TitleInputBar.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
             edittedName = HelperMethodsCollection.getEdittedName(oldName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.TitleInputBar.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$edittedName' with focus on 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$edittedName' with focus on 'ApplicationUnderTest.TitleInputBar'.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.TitleInputBar.PressKeys(edittedName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.DropdownBtn' at Center.", repo.ApplicationUnderTest.CampusLocationForm.DropdownBtnInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.DropdownBtn' at Center.", repo.ApplicationUnderTest.CampusLocationForm.DropdownBtnInfo, new RecordItemIndex(8));
             repo.ApplicationUnderTest.CampusLocationForm.DropdownBtn.Click();
             Delay.Milliseconds(0);
             
             optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusType_dropdown));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.CLType_Dynamic' and assigning its value to variable 'CL_Type'.", repo.ApplicationUnderTest.CampusLocationForm.CLType_DynamicInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.CLType_Dynamic' and assigning its value to variable 'CL_Type'.", repo.ApplicationUnderTest.CampusLocationForm.CLType_DynamicInfo, new RecordItemIndex(10));
             CL_Type = repo.ApplicationUnderTest.CampusLocationForm.CLType_Dynamic.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.CLType_Dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.CLType_DynamicInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.CLType_Dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.CLType_DynamicInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.CampusLocationForm.CLType_Dynamic.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field' at Center.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field' at Center.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.CampusLocationForm.AddressLine1Field.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(13));
             oldName = repo.ApplicationUnderTest.CampusLocationForm.AddressLine1Field.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
             editedAddress1 = HelperMethodsCollection.getEdittedName(oldName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(15));
             repo.ApplicationUnderTest.CampusLocationForm.AddressLine1Field.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedAddress1' with focus on 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedAddress1' with focus on 'ApplicationUnderTest.CampusLocationForm.AddressLine1Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine1FieldInfo, new RecordItemIndex(16));
             repo.ApplicationUnderTest.CampusLocationForm.AddressLine1Field.PressKeys(editedAddress1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field' at Center.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field' at Center.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.CampusLocationForm.AddressLine2Field.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(18));
             oldName = repo.ApplicationUnderTest.CampusLocationForm.AddressLine2Field.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
             editedAddress2 = HelperMethodsCollection.getEdittedName(oldName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(20));
             repo.ApplicationUnderTest.CampusLocationForm.AddressLine2Field.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedAddress2' with focus on 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedAddress2' with focus on 'ApplicationUnderTest.CampusLocationForm.AddressLine2Field'.", repo.ApplicationUnderTest.CampusLocationForm.AddressLine2FieldInfo, new RecordItemIndex(21));
             repo.ApplicationUnderTest.CampusLocationForm.AddressLine2Field.PressKeys(editedAddress2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.cityField' at Center.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.cityField' at Center.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(22));
             repo.ApplicationUnderTest.CampusLocationForm.cityField.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.cityField' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.cityField' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(23));
             oldName = repo.ApplicationUnderTest.CampusLocationForm.cityField.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
             editedCity = HelperMethodsCollection.getEdittedName(oldName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.cityField'.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.cityField'.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(25));
             repo.ApplicationUnderTest.CampusLocationForm.cityField.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedCity' with focus on 'ApplicationUnderTest.CampusLocationForm.cityField'.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedCity' with focus on 'ApplicationUnderTest.CampusLocationForm.cityField'.", repo.ApplicationUnderTest.CampusLocationForm.cityFieldInfo, new RecordItemIndex(26));
             repo.ApplicationUnderTest.CampusLocationForm.cityField.PressKeys(editedCity);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.CampusZipcode' and assigning its value to variable 'CL_zipcode'.", repo.ApplicationUnderTest.CampusLocationForm.CampusZipcodeInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.CampusZipcode' and assigning its value to variable 'CL_zipcode'.", repo.ApplicationUnderTest.CampusLocationForm.CampusZipcodeInfo, new RecordItemIndex(27));
             CL_zipcode = repo.ApplicationUnderTest.CampusLocationForm.CampusZipcode.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountyField' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountyField' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(28));
             repo.ApplicationUnderTest.CampusLocationForm.campusCountyField.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.campusCountyField' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.CampusLocationForm.campusCountyField' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(29));
             oldName = repo.ApplicationUnderTest.CampusLocationForm.campusCountyField.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
             editedCounty = HelperMethodsCollection.getEdittedName(oldName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.campusCountyField'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.campusCountyField'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(31));
             repo.ApplicationUnderTest.CampusLocationForm.campusCountyField.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedCounty' with focus on 'ApplicationUnderTest.CampusLocationForm.campusCountyField'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$editedCounty' with focus on 'ApplicationUnderTest.CampusLocationForm.campusCountyField'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountyFieldInfo, new RecordItemIndex(32));
             repo.ApplicationUnderTest.CampusLocationForm.campusCountyField.PressKeys(editedCounty);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountryDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusCountryDropdownInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountryDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusCountryDropdownInfo, new RecordItemIndex(33));
             repo.ApplicationUnderTest.CampusLocationForm.campusCountryDropdown.Click();
             Delay.Milliseconds(0);
             
             optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusCountry_Dropdown));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic' and assigning its value to variable 'CL_country'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamicInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic' and assigning its value to variable 'CL_country'.", repo.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamicInfo, new RecordItemIndex(35));
             CL_country = repo.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamicInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamicInfo, new RecordItemIndex(36));
             repo.ApplicationUnderTest.CampusLocationForm.campusCountry_dynamic.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusStateDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusStateDropdownInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusStateDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusStateDropdownInfo, new RecordItemIndex(37));
             repo.ApplicationUnderTest.CampusLocationForm.campusStateDropdown.Click();
             Delay.Milliseconds(0);
             
             optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusState_Dropdown));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' and assigning its value to variable 'CL_state'.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' and assigning its value to variable 'CL_state'.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(39));
             CL_state = repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamic.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(40));
             repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamic.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdownInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdownInfo, new RecordItemIndex(41));
             repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown.Click();
             Delay.Milliseconds(0);
             
             optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_dropdown));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Checked' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_CheckedInfo, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Checked' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_CheckedInfo, new RecordItemIndex(43));
             repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_Checked.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic' and assigning its value to variable 'editedTerritory'.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_DynamicInfo, new RecordItemIndex(43));
-            editedTerritory = repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_DynamicInfo, new RecordItemIndex(44));
             repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_Dynamic.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdownInfo, new RecordItemIndex(45));
+            editedTerritory = HelperMethodsCollection.getCommaSeperatedString_FromRepo("/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/input[@checked='True']");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdownInfo, new RecordItemIndex(46));
             repo.ApplicationUnderTest.CampusLocationForm.campusTerritoryDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.", repo.ApplicationUnderTest.CampusLocationForm.SaveInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.", repo.ApplicationUnderTest.CampusLocationForm.SaveInfo, new RecordItemIndex(47));
             repo.ApplicationUnderTest.CampusLocationForm.Save.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(47));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(48));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
         }

@@ -23,11 +23,23 @@ mode="Global">
 	namespace="BudgetItemAutomationIFM">
 	</codegen>
 	<variables>
+		<var
+		id="61c01fc0-8b08-4b36-95a7-b2fe5ef40bc6"
+		name="a">
+		</var>
+		<var
+		id="6ec2aaa5-271f-4943-98ac-029d57bb7a07"
+		name="optionIndex">
+		</var>
+		<var
+		id="5b74743a-c368-48d9-a3e8-7e55959187e8"
+		name="CL_State">
+		</var>
 	</variables>
 	<recorditems>
 		<invokeactionrecorditem
 		action="WaitForDocumentLoaded"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="742bd8e3-4259-42da-b1d4-34de6f46a82d">
 			<comment>
@@ -113,7 +125,7 @@ mode="Global">
 		</invokeactionrecorditem>
 		<validationitem
 		action="AttributeEqual"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="a2a46d7a-a871-4cf2-96f9-f5131dcab92d">
 			<comment>
@@ -200,6 +212,105 @@ mode="Global">
 				/paymentApplication
 			</matchvalue>
 		</validationitem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="getDifferentOption"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="optionIndex">
+				</binding>
+			</bindings>
+			<arguments
+			id="5c02bcbd-4524-45c8-9616-b3ef7c8bea53">
+				<argument
+				argname="element"
+				id="2c213b53-624d-439d-b44f-07edb2798165">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="e4f92273-46f2-4933-82ac-4487d05b2bb4"
+					sourcename="RepositoryEditor">
+						<path>
+							/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="fa4ad4f2-db42-471f-8ef3-eb264d5cd78b"
+		varname="CL_State">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="77da1779-0fa3-43e3-b2c7-b8755858ddd3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</getvaluerecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="934eb165-f2fd-499c-9f1b-c995659da093"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="77da1779-0fa3-43e3-b2c7-b8755858ddd3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Warn;30"
+		searchpropertyid="c86d26cf-14ff-4736-af0f-998d4dd8c962">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="CL_State">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="95c24b45-de07-49ea-b484-24e2432a73a7"

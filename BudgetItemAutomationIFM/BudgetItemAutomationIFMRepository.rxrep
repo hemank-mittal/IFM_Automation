@@ -522,7 +522,7 @@ name="BudgetItemAutomationIFMRepository">
 				refimgid="74fafc32-f1a5-40e6-a25d-f8cd18768f58"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[3]/ul/li[@innertext=' '+$addedItem]
+					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[3]/ul/li[@innertext=$addedItem or @innertext=' '+$addedItem or @innertext=' '+$addedItem+' ']
 				</item>
 				<item
 				addcaps="unknown,webelement"
@@ -2054,12 +2054,13 @@ name="BudgetItemAutomationIFMRepository">
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
+				capnameuser="webelement"
 				id="77da1779-0fa3-43e3-b2c7-b8755858ddd3"
 				name="campusState_dynamic"
 				refimgid="b7a16cd6-ddcf-4679-a293-097103d27eb0"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div
+					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div?
 				</item>
 				<item
 				capname="inputtag"
@@ -2130,10 +2131,9 @@ name="BudgetItemAutomationIFMRepository">
 				id="78f23a1b-fa97-402d-8a0d-79fbe256389b"
 				name="Save"
 				refimgid="66347693-d2ee-40b0-98bd-0896be35e06c"
-				refpath="/dom[@domain='app.ifm360.com']//div[#'scrollele']/div/div/div/form/div[2]/div/button[@innertext='Save']"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//?/?/button[@innertext='Save']
+					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']///button[@innertext='Save' or @innertext=' Save ']
 				</item>
 				<basepath>
 					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//

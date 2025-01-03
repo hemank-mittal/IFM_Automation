@@ -1,44 +1,29 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="TMM_TaskItemAutomationIFM.rxtst" />
+    <Element value="HelperMethodsCollection.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="TMM_TaskItemAutomationIFM.rxtst" />
-    <Element value="TMM_TaskConfigurationsAutomationIFM.rxtst" />
-    <Element value="StatusReportTypeAutomationIFM.rxtst" />
-    <Element value="ServiceTypeAutomationIFM.rxtst" />
-    <Element value="RequestReasonAutomationIFM.rxtst" />
-    <Element value="ProjectTypeAutomationIFM.rxtst" />
-    <Element value="ProgramsAutomationIFM.rxtst" />
-    <Element value="PaymentApplicationAutomationIFM.rxtst" />
-    <Element value="OM_OrganisationsAutomationIFM.rxtst" />
-    <Element value="InvoiceCategoryAutomationIFM.rxtst" />
-    <Element value="FundingSourcesAutomationIFM.rxtst" />
-    <Element value="FIMTerritoryAutomationIFM.rxtst" />
-    <Element value="FIMConfigurationsAutomationIFM.rxtst" />
-    <Element value="FileCategoryAutomationIfm.rxtst" />
-    <Element value="CostEventAutomationIFM.rxtst" />
-    <Element value="ContractTypeAumationIFM.rxtst" />
-    <Element value="CloseoutItemAutomationIFM.rxtst" />
-    <Element value="CampusTypeAutomationIFM.rxtst" />
-    <Element value="AllModuleGroups.rxtmg" />
-    <Element value="createTaskTemplate.rxrec" />
-    <Element value="editTemplate_addItem.rxrec" />
-    <Element value="BudgetItemAutomationIFM.rxtst" />
+    <Element value="editCampusLocation.rxrec" />
     <Element value="CampusLocationAutomationIFM.rxtst" />
+    <Element value="validateCreateCloseoutItem_ExistingName.rxrec" />
+    <Element value="AllModuleGroups.rxtmg" />
+    <Element value="HelperMethodsCollection.cs" />
+    <Element value="TMM_TaskItemAutomationIFM.rxtst" />
+    <Element value="CloseoutItemAutomationIFM.rxtst" />
+    <Element value="createCloseoutItem_existingItem.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.selectDifferentOption(Adapter element)" />
       <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.compareSecondRecord_IfExist(String elementRxPath, String record1)" />
       <Element value="BudgetItemAutomationIFM.validateEditItem_Fail.Validate_secondRow_FirstElement(String record1, String elementInfoItemName)" />
       <Element value="BudgetItemAutomationIFM.createTaskTemplate.Mouse_Click_selectDropdown_FirstInstance(RepoItemInfo spantagInfo, Boolean isProjectType)" />
       <Element value="BudgetItemAutomationIFM.createTaskTemplate.Mouse_Click_selectDropdown_FirstInstance(RepoItemInfo spantagInfo, Boolean isProjectType, Int32 optionIndex)" />
       <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.confirmSorting(Adapter element, String index, Boolean isDescending, Boolean isInteger)" />
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.confirmSorting(Adapter element, String index, Boolean isInteger, Boolean isDescending)" />
     </Array>
   </Properties>
 </Properties>

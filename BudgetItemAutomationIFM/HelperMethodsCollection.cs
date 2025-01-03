@@ -87,6 +87,10 @@ namespace BudgetItemAutomationIFM
         [UserCodeMethod]
         public static void compareStrings(string compareWith, string compareTo)
         {
+        	if (string.IsNullOrEmpty(compareTo) || string.IsNullOrEmpty(compareWith))
+        	{
+        		Report.Info("No data passed to compare.");
+        	}
         	if(compareWith.ToLower().Trim() == compareTo.ToLower().Trim())
         	{
         		Report.Success("Literals matched!");
@@ -95,8 +99,21 @@ namespace BudgetItemAutomationIFM
         	{
         		Report.Warn(compareWith.ToLower().Trim());
         		Report.Warn(compareTo.ToLower().Trim());
+        		Report.Warn(compareTo);
+        		Report.Warn(compareWith);
         		Report.Error("Expected value : " + compareTo + " and actual value : " + compareWith + ".");
 //        		Report.Failure("Some issue occured in verifying the item creation.");
+
+				var x = compareWith.ToLower().Trim();
+				var y = compareTo.ToLower().Trim();
+				for (var i=0; i<x.Length; i++)
+				{
+//					if (x[i] == y[i])
+//					{
+//						continue;
+//					}
+					Report.Warn("Here is to : " + x[i] + " on index and with : " + y[i] + " on index : " + i.ToString());
+				}
         	}
         }
         
@@ -337,7 +354,7 @@ namespace BudgetItemAutomationIFM
         /// the code runs. So the alternate is 1st option and 2nd option for now.
         /// </summary>
         [UserCodeMethod]
-        public static int getDifferentOption(Adapter element)
+        public static Int64 getDifferentOption(Adapter element)
         {
         	IList<InputTag> opts_input = element.FindDescendants<InputTag>();
         	string isChecked = null;        	               	
@@ -345,7 +362,13 @@ namespace BudgetItemAutomationIFM
         	if (opts_input.Count == 0)
         	{
         		IList<WebElement> opts_webElement = element.FindDescendants<WebElement>();
-        		isChecked = opts_webElement[0].GetAttributeValue<string>("aria-selected");     		
+        		
+        		if (opts_webElement[0].GetAttributeValue<string>("tagvalue") == "0")
+        		{
+        			return 1;
+        		}
+        		isChecked = opts_webElement[0].GetAttributeValue<string>("aria-selected"); 	
+        		Report.Warn(opts_webElement[0].GetAttributeValue<string>("tagvalue"));        		
         	}
         	else if (opts_input.Count == 1)
         	{
@@ -455,12 +478,12 @@ namespace BudgetItemAutomationIFM
         [UserCodeMethod]
         public static string concatStrings6(string s1, string s2, string s3, string s4, string s5, string s6)
         {        	
-        	var l1 = s1.Split(' ');
-        	var tempList = l1.Concat(s2.Split(' '));
-        	tempList = tempList.Concat(s3.Split(' '));
-        	tempList = tempList.Concat(s4.Split(' '));
-        	tempList = tempList.Concat(s5.Split(' '));
-			tempList = tempList.Concat(s6.Split(' '));
+        	var l1 = string.IsNullOrEmpty(s1) ? new string[0] : s1.Trim().Split(' ');
+        	var tempList = string.IsNullOrEmpty(s2) ? l1 : l1.Concat(s2.Trim().Split(' '));
+        	tempList = string.IsNullOrEmpty(s3) ? tempList : tempList.Concat(s3.Trim().Split(' '));
+        	tempList = string.IsNullOrEmpty(s4) ? tempList : tempList.Concat(s4.Trim().Split(' '));
+        	tempList = string.IsNullOrEmpty(s5) ? tempList : tempList.Concat(s5.Trim().Split(' '));
+			tempList = string.IsNullOrEmpty(s6) ? tempList : tempList.Concat(s6.Trim().Split(' '));
         	
 			var finalList = tempList.Cast<string>().ToArray();			
 			
@@ -535,6 +558,29 @@ namespace BudgetItemAutomationIFM
         		string record2 = record2Info.GetAttributeValueText("InnerText");
         		HelperMethodsCollection.compareStringsNotEqual(record1, record2);
         	}
+        }
+        
+        /// <summary>
+        /// This is a placeholder text. Please describe the purpose of the
+        /// user code method here. The method is published to the user code library
+        /// within a user code collection.
+        /// </summary>
+        [UserCodeMethod]
+        public static string getCommaSeperatedString_FromRepo(string elementPath)
+        {
+        	var x = Host.Local.Find<InputTag>(elementPath);
+        	List<string> strElements = new List<string>();
+        	
+        	foreach (var i in x)
+        	{
+        		strElements.Add(i.NextSibling.InnerText.ToString());        		
+        	}
+        	
+        	strElements.Sort();
+        	
+        	string result = string.Join(",", strElements);
+        	Report.Warn(result);
+        	return result;
         }
     }
 }

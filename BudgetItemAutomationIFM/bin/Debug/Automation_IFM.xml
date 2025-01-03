@@ -6843,6 +6843,13 @@
             within a user code collection.
             </summary>
         </member>
+        <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getCommaSeperatedString_FromRepo(System.String)">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
         <member name="T:BudgetItemAutomationIFM.hitCancelButton_edit">
              <summary>
             The hitCancelButton_edit recording.
@@ -10151,6 +10158,21 @@
         <member name="P:BudgetItemAutomationIFM.ValidatePaymentApplication.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.ValidatePaymentApplication.a">
+            <summary>
+            Gets or sets the value of variable a.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.ValidatePaymentApplication.CL_State">
+            <summary>
+            Gets or sets the value of variable CL_State.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.ValidatePaymentApplication.optionIndex">
+            <summary>
+            Gets or sets the value of variable optionIndex.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.ValidatePrograms">

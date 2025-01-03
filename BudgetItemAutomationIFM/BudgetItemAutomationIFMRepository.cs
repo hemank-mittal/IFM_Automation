@@ -2678,7 +2678,7 @@ namespace BudgetItemAutomationIFM
                 _mataccordionInfo = new RepoItemInfo(this, "MatAccordion", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']", "", 30000, null, "3966d00c-3aa0-4ca7-a2bd-cad793d31c12");
                 _latesttemplateInfo = new RepoItemInfo(this, "latestTemplate", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div/?/?/tag[@tagname='mat-accordion']/tag/tag[@tagname='mat-expansion-panel-header']/span[1]/tag[@innertext=' '+$newTemplateName+' ']", "", 30000, null, "15eaec00-c61b-4fba-9c15-b1982f7e140f");
                 _buttontagsaveInfo = new RepoItemInfo(this, "ButtonTagSave", ".//button[@innertext=' Submit ' or @innertext='Submit' or @innertext=' Save ' or @innertext=' Saved ']", "", 30000, null, "23e84254-5a09-42f6-a9d9-33c4e641b453");
-                _addeditemtotemplateInfo = new RepoItemInfo(this, "addedItemToTemplate", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[3]/ul/li[@innertext=' '+$addedItem]", "", 30000, null, "d31134cc-6542-4dc9-81b0-cf99c31fba9a");
+                _addeditemtotemplateInfo = new RepoItemInfo(this, "addedItemToTemplate", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[3]/ul/li[@innertext=$addedItem or @innertext=' '+$addedItem or @innertext=' '+$addedItem+' ']", "", 30000, null, "d31134cc-6542-4dc9-81b0-cf99c31fba9a");
                 _matexpansionpanelheader1Info = new RepoItemInfo(this, "MatExpansionPanelHeader1", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/tag[@tagname='mat-expansion-panel-header']", "", 30000, null, "b9cdd4ad-2278-4faa-8923-4861f593c290");
                 _buttontagedit1Info = new RepoItemInfo(this, "ButtonTagEdit1", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div//tag[@tagname='mat-accordion']/tag[1]/div/div/div[1]/button[@innertext=' Edit ']", "", 30000, null, "6a0ea9f1-8cb2-4c46-8484-d91658f699b0");
                 _matmdcselectminlinematmdcselectp1Info = new RepoItemInfo(this, "MatMdcSelectMinLineMatMdcSelectP1", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div/?/?/tag[@tagname='mat-accordion']/tag[1]/div/div/div[2]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span", "", 30000, null, "34ba99c2-6861-4678-883c-24bf4ce0431c");
@@ -5240,7 +5240,7 @@ namespace BudgetItemAutomationIFM
                 _campusstatedropdownInfo = new RepoItemInfo(this, "campusStateDropdown", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[1]/span", "", 30000, null, "4d3bff4e-6e49-4587-9cd1-8989dc02c94c");
                 _campusstate_dropdownInfo = new RepoItemInfo(this, "campusState_Dropdown", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]", "", 30000, null, "e4f92273-46f2-4933-82ac-4487d05b2bb4");
                 _campusstate_firstinstanceInfo = new RepoItemInfo(this, "campusState_FirstInstance", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[1]/div", "", 30000, null, "e3dac484-2daf-4028-aa90-62de6c6ca246");
-                _campusstate_dynamicInfo = new RepoItemInfo(this, "campusState_dynamic", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div", "", 30000, null, "77da1779-0fa3-43e3-b2c7-b8755858ddd3");
+                _campusstate_dynamicInfo = new RepoItemInfo(this, "campusState_dynamic", "div[9]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div?", "", 30000, null, "77da1779-0fa3-43e3-b2c7-b8755858ddd3");
                 _campusnamefieldInfo = new RepoItemInfo(this, "campusNameField", ".//input[@name='campusName']", "element", 30000, null, "38b34aa8-4962-404c-90b6-0784695900ed");
                 _addressline1fieldInfo = new RepoItemInfo(this, "AddressLine1Field", ".//input[@name='campusAddress1']", "element", 30000, null, "d6e7d250-86c3-48ec-8b94-72455b542f9e");
                 _addressline2fieldInfo = new RepoItemInfo(this, "AddressLine2Field", ".//input[@name='campusAddress2']", "element", 30000, null, "76158216-67df-4980-8e15-e03a85bc5df7");
@@ -5248,7 +5248,7 @@ namespace BudgetItemAutomationIFM
                 _campuscountyfieldInfo = new RepoItemInfo(this, "campusCountyField", ".//input[@name='campusCounty']", "element", 30000, null, "0af48e6b-2a63-45f7-b73a-ba4be7d675ec");
                 _searchitem_dropdownInfo = new RepoItemInfo(this, "searchItem_Dropdown", ".//input[@type='text' and @placeholder='Search' and @visible='true']", "", 30000, null, "fb78c4b8-5256-4b47-ac52-f90d456a338c");
                 _submitbuttonInfo = new RepoItemInfo(this, "submitButton", ".//button[@innertext='Submit']", "element", 30000, null, "1930fe53-b495-48ac-8058-0b10a692432e");
-                _saveInfo = new RepoItemInfo(this, "Save", "?/?/button[@innertext='Save']", "", 30000, null, "78f23a1b-fa97-402d-8a0d-79fbe256389b");
+                _saveInfo = new RepoItemInfo(this, "Save", ".//button[@innertext='Save' or @innertext=' Save ']", "", 30000, null, "78f23a1b-fa97-402d-8a0d-79fbe256389b");
             }
 
             /// <summary>
@@ -5711,11 +5711,11 @@ namespace BudgetItemAutomationIFM
             /// The campusState_dynamic item.
             /// </summary>
             [RepositoryItem("77da1779-0fa3-43e3-b2c7-b8755858ddd3")]
-            public virtual Ranorex.DivTag campusState_dynamic
+            public virtual Ranorex.WebElement campusState_dynamic
             {
                 get
                 {
-                    return _campusstate_dynamicInfo.CreateAdapter<Ranorex.DivTag>(true);
+                    return _campusstate_dynamicInfo.CreateAdapter<Ranorex.WebElement>(true);
                 }
             }
 

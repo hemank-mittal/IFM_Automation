@@ -73,6 +73,75 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="34a3bd31-c946-4a96-a2e4-07dea928b2e9"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="98ce9c4a-76f6-47e0-900e-f3b484726afb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, itag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="itag"
+				rect="0,106,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						fa fa-spinner fa-spin
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						fa fa-spin fa-spinner
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c2547361310"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -2632,26 +2701,6 @@ BRRRQAUUUUAf/9k=
 				</robustPath>
 			</info>
 		</mouseitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="c829edee-aa0f-4be5-9f79-6437fadefdb1"
-		varname="editedTerritory">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a8574f54-efe1-4895-8eeb-58b53d3666f3"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li[$optionIndex]/div
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</getvaluerecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -2678,6 +2727,35 @@ BRRRQAUUUUAf/9k=
 				</robustPath>
 			</info>
 		</mouseitem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="getCommaSeperatedString_FromRepo"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="editedTerritory">
+				</binding>
+			</bindings>
+			<arguments
+			id="2c0b3a7e-4d03-402f-84f8-06d4fa8252a0">
+				<argument
+				argname="elementPath"
+				id="f207fa5b-3942-4f91-8a8c-079089028f39">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						/dom[@domain='app.ifm360.com']//div[#'scrollele']//form[@action='https://app.ifm360.com/CampusFacilities']//div[10]/?/?/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/input[@checked='True']
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

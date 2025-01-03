@@ -118,50 +118,53 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModal'.", repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModalInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModal'.", repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModalInfo, new RecordItemIndex(1));
             Validate.AttributeEqual(repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.SwalModalInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='This name is being used for an existing Budget Template. Please revise the entry.') on item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ThisNameIsBeingUsedForAnExisting'.", repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ThisNameIsBeingUsedForAnExistingInfo, new RecordItemIndex(1));
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='This name is being used for an existing Budget Template. Please revise the entry.') on item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ThisNameIsBeingUsedForAnExisting'.", repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ThisNameIsBeingUsedForAnExistingInfo, new RecordItemIndex(2));
             //Validate.AttributeEqual(repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ThisNameIsBeingUsedForAnExistingInfo, "InnerText", "This name is being used for an existing Budget Template. Please revise the entry.");
             //Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ButtonTagOK' at Center.", repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ButtonTagOKInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ButtonTagOK' at Center.", repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ButtonTagOKInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.SwalOverlaySwalOverlayShowModal.ButtonTagOK.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagCancel2' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagCancel2Info, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagCancel2' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagCancel2Info, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Content1.ButtonTagCancel2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.searchBar.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.searchBar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.searchBar.PressKeys(itemName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(8));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'firstRecord'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'firstRecord'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(9));
             firstRecord = repo.ApplicationUnderTest.firstElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareSecondRecord_IfExist(firstRecord, ".//table/tbody/tr[2]/td[1]/?");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(11));
             Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.searchBar.PressKeys("{Back}");
             Delay.Milliseconds(0);
             

@@ -126,7 +126,7 @@ mode="Global">
 		</invokeactionrecorditem>
 		<userrecorditem
 		classname="HelperMethodsCollection"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="True"
 		methodname="trimStrings"
 		namespace="BudgetItemAutomationIFM"
