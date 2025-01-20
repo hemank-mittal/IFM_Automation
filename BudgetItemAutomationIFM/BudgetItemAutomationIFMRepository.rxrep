@@ -1230,10 +1230,9 @@ name="BudgetItemAutomationIFMRepository">
 				id="81e56ec8-3a3d-4c8b-bd57-eb75d01cb9e6"
 				name="Save"
 				refimgid="9c596d75-267c-4be7-aaba-f5b08a708086"
-				refpath="/dom[@domain='app.ifm360.com']//div[#'content']/tag[@tagname='app-task-items']/tag/div/tag[1]/div/div/div/tag/div[1]/tag/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form/div[2]/div/div/button[@innertext='Save']"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[2]/?/?/div/button[@innertext='Save']
+					/dom[@domain='app.ifm360.com']//div[#'content']/?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[2]/?/?/div/button[@innertext='Save' or @innertext=' Save ']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -2479,6 +2478,14 @@ name="BudgetItemAutomationIFMRepository">
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='app.ifm360.com']//tag[#'docreview']//table/tbody/tr[2]/td[5]/?/?/button[@innertext=' Edit ']
+			</item>
+			<item
+			capname="webelement"
+			id="5c5ecdb7-33cc-405b-a489-9f8500e3bdc1"
+			name="itemCreatedMessageToaster"
+			robustPath="/dom[@domain='app.ifm360.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='app.ifm360.com']//tag[@tagname='mat-snack-bar-container']
 			</item>
 			<basepath>
 				/dom[@domain='app.ifm360.com']

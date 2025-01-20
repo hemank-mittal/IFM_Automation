@@ -103,7 +103,10 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.latestTemplate' and assigning its value to variable 'elementNameShown'.", repo.ApplicationUnderTest.Content1.latestTemplateInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.itemCreatedMessageToaster'", repo.ApplicationUnderTest.itemCreatedMessageToasterInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.itemCreatedMessageToasterInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.latestTemplate' and assigning its value to variable 'elementNameShown'.", repo.ApplicationUnderTest.Content1.latestTemplateInfo, new RecordItemIndex(1));
             elementNameShown = repo.ApplicationUnderTest.Content1.latestTemplate.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             

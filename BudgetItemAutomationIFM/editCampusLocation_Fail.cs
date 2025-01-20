@@ -90,34 +90,37 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'existingName'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'existingName'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(1));
             existingName = repo.ApplicationUnderTest.firstElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at Center.", repo.ApplicationUnderTest.ButtonTagEdit1Info, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit1' at Center.", repo.ApplicationUnderTest.ButtonTagEdit1Info, new RecordItemIndex(2));
             repo.ApplicationUnderTest.ButtonTagEdit1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(3));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusNameField' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusNameFieldInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusNameField' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusNameFieldInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.CampusLocationForm.campusNameField.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.campusNameField'.", repo.ApplicationUnderTest.CampusLocationForm.campusNameFieldInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.CampusLocationForm.campusNameField'.", repo.ApplicationUnderTest.CampusLocationForm.campusNameFieldInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.CampusLocationForm.campusNameField.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$existingName' with focus on 'ApplicationUnderTest.CampusLocationForm.campusNameField'.", repo.ApplicationUnderTest.CampusLocationForm.campusNameFieldInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$existingName' with focus on 'ApplicationUnderTest.CampusLocationForm.campusNameField'.", repo.ApplicationUnderTest.CampusLocationForm.campusNameFieldInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.CampusLocationForm.campusNameField.PressKeys(existingName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.", repo.ApplicationUnderTest.CampusLocationForm.SaveInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.Save' at Center.", repo.ApplicationUnderTest.CampusLocationForm.SaveInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.CampusLocationForm.Save.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(8));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
         }

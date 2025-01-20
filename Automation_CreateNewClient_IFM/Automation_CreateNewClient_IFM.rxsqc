@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Automation_CreateNewClient_IFM",
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,479 @@
+﻿<repository
+id="14ce9526-40f5-42c9-9377-97eab6a932f0"
+name="Automation_CreateNewClient_IFMRepository">
+	<codegen
+	classname="Automation_CreateNewClient_IFMRepository"
+	namespace="Automation_CreateNewClient_IFM">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7ae95323-625e-4743-971c-9ed2db8022f1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="14a6e319-a859-4670-a664-90c9547152eb"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="3e64190b-8604-41c4-b26d-a8daca23ae29"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="d115f21e-799c-4b71-82a4-cc9b26d2c380"
+			name="ButtonTagRegister"
+			refimgid="0ef9717b-d2ee-49a3-8cdc-7f71b8ec4f1f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//div[#'content']/tag[@tagname='app-signups']/div/div[1]/?/?/button[@innertext=' Register ']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b78de202-e1cd-41e1-aa48-1e534b8b10e6"
+			isrooted="True"
+			name="RegisterForm"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="6dea0a7f-f344-4acd-80a7-8b30282f57f3"
+				name="Firstname"
+				refimgid="31638d74-7e85-4d9f-8e9f-d45c4d30295d"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']/?/?/form[@action&lt;'.ifm360.com/product/signups/register']/div[1]/div[1]/tag/div[1]/div[2]/?/?/input[@name='firstname']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="700a2651-c4aa-457a-80a5-24cade555e25"
+				name="Lastname"
+				refimgid="3bb61705-8e58-4e40-b332-0d3132d4a75e"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']/?/?/form[@action&lt;'.ifm360.com/product/signups/register']/div[1]/div[2]/tag/div[1]/div[2]/?/?/input[@name='lastname']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="f58c8831-54fe-4313-8fb9-bb26cb03ac1c"
+				name="Email"
+				refimgid="4d113256-b05d-4404-a794-d93ca4a6f1e7"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']/?/?/form[@action&lt;'.ifm360.com/product/signups/register']/div[1]/div[3]/tag/div[1]/div[2]/?/?/input[@name='email']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="3d05ac9c-c849-4c6a-83ba-3f7e9115bdcc"
+				name="Company"
+				refimgid="f926d4a3-75e3-49f2-8328-21315116da98"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']/?/?/form[@action&lt;'.ifm360.com/product/signups/register']/div[1]/div[4]/tag/div[1]/div[2]/?/?/input[@name='company']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']/?/?/form[@action&lt;'.ifm360.com/product/signups/register']/div[1]
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="0f11208a-0f2c-4f6a-9dac-73e4cd8bebf8"
+			name="ButtonTagSubmit"
+			refimgid="f962cfce-4cd2-42f0-a642-22f119b9417f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//div[#'content']/?/?/form[@action&lt;'.ifm360.com/product/signups/register']//button[@innertext=' Submit ']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="19bffdbd-9650-4904-989b-8cc65c02d1c1"
+			name="createSpanTag"
+			refimgid="8fd89b75-9699-44e5-9a67-18066ad63a2f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//button/span[@innertext='Create ' or @innertext='Create' or @innertext=' Create ' and @class='mdc-button__label']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="button"
+			id="bdfb60b4-8a27-4172-bb86-4b1ca0f055bb"
+			name="createButtonTag"
+			refimgid="14532327-370f-458b-9128-317db0d0d3fa"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//button[@innertext='Create ' or @innertext='Create' or @innertext=' Create ']
+			</item>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="4695c564-6ea8-4016-b9f9-40a05d8b2f1b"
+			name="FaFaSpinFaSpinner"
+			refimgid="1f2f2f82-56f5-436b-bf22-9e667ec3b64b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//div[#'page-container']/?/?/i
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="divtag"
+			id="55b28b6e-2e59-436d-a940-95325e811d3e"
+			name="showingNumberOfRecords"
+			refimgid="1d3b5a4c-2450-4815-8c25-db4552844c52"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//div[@innertext&gt;'Showing']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="27369443-7174-47af-8ab0-a810da0d9224"
+			name="Searchbox"
+			refimgid="816d9b34-49ce-4e2d-acf5-d58757d86b6a"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//input[#'searchbox']
+			</item>
+			<folder
+			addcaps="unknown,webelement,tabletag"
+			capname="table"
+			id="024e8b7b-5415-40db-b40e-5b4706c27f9c"
+			isrooted="True"
+			name="clientTable"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="46b8cdcf-8b30-4f0a-96b1-e0a2713206de"
+				name="row1_column5"
+				refimgid="17b6c859-927f-452b-ad8b-651438348e29"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//table[#'docreview']/tbody/tr[1]/td[5]
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="unknown"
+				id="79df63f0-07c6-4f65-a230-ef5420e6e114"
+				name="row1_column4"
+				refimgid="74a91193-6cac-4a49-b453-df4536c7dae3"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//table[#'docreview']/tbody/tr[1]/td[4]/?
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="unknown"
+				id="5a69ca78-83e1-4288-8790-c0d8870e6c63"
+				name="row1_column3"
+				refimgid="88a47983-bbc6-4b8e-a934-b9c615f33e56"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//table[#'docreview']/tbody/tr[1]/td[3]/?
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="unknown"
+				id="e60ecf06-e313-46b6-9ac1-61e6be72bcb3"
+				name="row1_column2"
+				refimgid="a9407d7a-962e-4ed7-976a-6c6a9f82ec5b"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//table[#'docreview']/tbody/tr[1]/td[2]/?
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="unknown"
+				id="cc0bb8c9-882c-4337-8409-9cf495b36ab9"
+				name="row1_column1"
+				refimgid="16f3c6e3-eb07-4108-9d0d-edbb2afc0efa"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//table[#'docreview']/tbody/tr[1]/td[1]/?
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="55288db2-1e27-4b8d-af45-ac77b7fe38c7"
+				name="AutestingAtyopmailCom"
+				refimgid="84da29be-6d30-4224-9f4c-dc49ba0ea6cd"
+				refpath="/dom[@domain='test.ifm360.com']//table[#'docreview']/tbody/tr[4]/td[@innertext='autesting@yopmail.com']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//table[#'docreview']//td[@innertext='autesting@yopmail.com']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'.ifm360.com']//table[#'docreview']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e891a7b5-4292-484b-be7f-7fa4a60d5e6f"
+			name="MatMdcFocusIndicator"
+			refimgid="355604d3-3279-4a44-b610-31055cebaf15"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//div[#'header']/ul/li/a[@href='javascript:;']/span[3]
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="aa347467-4c2f-47de-a765-b050a96c9370"
+			name="Javascript"
+			refimgid="9ae33f58-0e04-441b-967c-b3f11a947f36"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']/body/div/div[2]/div/div/div/div/a[3]
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="f763c05e-5117-4ca9-ad9a-419e47a9e269"
+			isrooted="True"
+			name="HttpsAppIfm360ComLogin"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="a0a28285-e18f-4b06-9166-b3dc5521a845"
+				name="Username"
+				refimgid="f628b738-c3e3-40bd-b3a0-8e785f426826"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']//form[@action&lt;'.ifm360.com/login']/div[1]/input[@name='username']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="bb92a1c6-9368-4f37-975a-5fa0db377163"
+				name="Password"
+				refimgid="b6f22dfd-46e7-4cf2-8848-d979a1144807"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']//form[@action&lt;'.ifm360.com/login']/div[2]/input[@name='password']
+				</item>
+				<item
+				addcaps="button,webelement,buttontag"
+				capname="buttontag"
+				id="710dd2aa-45a7-414d-93c1-98fc184df5b6"
+				name="SignMeIn"
+				refimgid="a0602543-6817-4579-b6dc-5bd7128d0437"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']//form[@action&lt;'.ifm360.com/login']/div[3]/button[@innertext='Sign me in ' or @innertext=' Sign me in ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="635faf35-4215-4a84-90b8-abccf70915d0"
+				name="ForgotPassword"
+				refimgid="74808d2f-5318-40f9-ab53-8f1d0bdf7b4a"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']//form[@action&lt;'.ifm360.com/login']/div[4]/a[@innertext='Forgot Password']
+				</item>
+				<item
+				addcaps="button,webelement,buttontag"
+				capname="buttontag"
+				id="5431f05f-3dd9-46a1-8a14-6b9795b580ef"
+				name="ButtonTagSignMeIn"
+				refimgid="22da6fb4-903d-4dc4-bd7b-4e6e857eb964"
+				refpath="/dom[@domain='test.ifm360.com']//div[#'content']/tag[@tagname='app-login']/div/div[2]/form/div[3]/button[@innertext=' Sign me in ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']//form[@action&lt;'.ifm360.com/login']/div[3]/button[@innertext=' Sign me in ']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="4a746fb7-8bef-4e2c-ba4a-36fdc0eed5a3"
+				name="VisibilityOff"
+				refimgid="d857fb9f-c3da-4c9a-a266-225e52d0a6d1"
+				refpath="/dom[@domain='test.ifm360.com']//div[#'content']/tag[@tagname='app-login']/div/div[2]/form/div[2]/tag[@innertext='visibility_off']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']//form[@action&lt;'.ifm360.com/login']/div[2]/tag[@innertext='visibility_off']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'.ifm360.com']//div[#'content']//form[@action&lt;'.ifm360.com/login']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,smalltag"
+			capname="smalltag"
+			id="d7b98da5-3eda-4b71-a10f-98d7b41cf338"
+			name="assignedRole"
+			refimgid="71499f5f-36a2-4aa8-811e-206258f82b51"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//div[#'page-container']/tag[@tagname='sidebar']/div[1]/ul[1]//small
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="473cd856-c23e-4c99-ae0d-b7d6aedccd62"
+			name="Angular5"
+			refimgid="0b3d6941-b372-481e-b8ec-24b4db8218fa"
+			refpath="/dom[@domain='test.ifm360.com']/body"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']/body
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f5a2dfb5-82fb-490b-817f-a7b3630258f9"
+			name="LoaderNgStarInserted"
+			refimgid="96885905-11b3-487c-8fcf-a0603b37f569"
+			refpath="/dom[@domain='test.ifm360.com']//div[#'page-container']/div[3]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'.ifm360.com']//div[#'page-container']/div[3]
+			</item>
+			<basepath>
+				/dom[@domain&lt;'.ifm360.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="4409717e-2e05-4fa9-ad28-57af4ffde513"
+		isrooted="True"
+		name="YOPmailDisposableEmailAddressPage"
+		refimgid="6bf4f03c-f151-49a1-84af-0867e1bc0b6e"
+		refpath="/dom[@domain='yopmail.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3e5b7e49-51e7-49ab-b3e5-f20395a0a07f"
+			name="Login"
+			refimgid="e046cfb8-5dfb-4bd1-bafa-61394104b19f"
+			refpath="/dom[@domain='yopmail.com']//input[#'login']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='yopmail.com']//input[#'login']
+			</item>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="630b87b3-7544-4114-9d34-de88c10073ad"
+			name="SomeITag"
+			refimgid="6d2da8eb-c9e8-4efa-9385-d0bb1646699f"
+			refpath="/dom[@domain='yopmail.com']//div[#'refreshbut']/button/i[@innertext='']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='yopmail.com']//div[#'refreshbut']/button[@title='Check Inbox @yopmail.com']/i[@innertext='']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="6aed4dc1-5a40-4d8e-92e5-e218569d1784"
+			name="MailTitle"
+			refimgid="b9b7fd07-8d41-40cb-8c33-c953ba2516ef"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='yopmail.com']//iframe[#'ifmail']/?/?/header/div[3]/div[@innertext&lt;'provisioned successfully']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="ptag"
+			id="633329bf-b781-4630-ab08-8c30da4aa271"
+			name="credentialsText"
+			refimgid="b9b7fd07-8d41-40cb-8c33-c953ba2516ef"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='yopmail.com']//iframe[#'ifmail']//div[#'mail']/?/?/p[?'Password : ']
+			</item>
+			<basepath>
+				/dom[@domain='yopmail.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6b89e4f9-1305-4f26-b923-9ca6464d695c"
+		isrooted="True"
+		name="InsecureConnectionPasswordWarningIn"
+		refpath="/form[@title='Insecure connection password warning in Firefox | Firefox Help — Mozilla Firefox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="74aac900-5106-44bd-811f-33b2da3ba45c"
+			name="MozillaCompositorWindowClass"
+			refimgid="a3b8fef0-ff9f-4354-adad-ff67cd6a1e99"
+			refpath="/form[@title>'Insecure connection password']/element[@class='MozillaCompositorWindowClass']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Insecure connection password']/element[@class='MozillaCompositorWindowClass']
+			</item>
+			<basepath>
+				/form[@title&gt;'Insecure connection password']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKqSURBVDhPlZFpSJRRFIYHf0W2DC2kIqhEZFZo
+mOM4456O45Ja7kpW6o+s1NAIwkBsgQhEC1qhlDYKjAqzIAyVCI2IxLLQdNQZl1DJDYVKvqczS1DR
+D3vhci93ec77nqtarJTphEnH8v/F13iY2gnjscmOrcVLMUfU8iUGG2TMCP1hasfRn+LC2n0Lt12m
+reuFRt2gbVPEBy30hcKowT4sO2RO8nQc20WJh5ozrnBpFZzzR7kc/O6hb7+6QTv4sKPsFpONOdAr
+EFM4DETKOhrFEt/veC6Aoo1Q7gFn18EVgdxzpSmlhWehYzTpv9Cos9AQ2wrvg+BTBPQYUHp/i0P+
+VijdAHXuUO8JN8XNXRfm7uh5YJjiUeQ4/bXl8jAE2sPgrUTpMaL0RdXaAZnboUAgt92gwQteeMNr
+P4aeHuTa7u/Uxc1wQ2eCjgB4qYfn0tQu6cXHWFSjzmXhJOggQyB5ArnuSbmhhaNpZo7nTnE6e47q
+hCnOB3VD62Zo9pNC8iOdOpRXCUj9CiciJFe8kNOkwhEf9gU+ITexnbzsTxSnmzhh+MxpvzfSG3F2
+S4NyX2I065ivT+6yRZjzToUw6a5RMiZrGajSkKV7TGb0c/ZGt1CkaeZayEU4KS5rAuFOAD+uGhmp
+3l1oA/Q6F7cpAbGgj4Id8lVxwcwVaqiKOsupiBq6k1IgR9yVbYNKmau0fDuWLvYrnGwAlUfYEvOK
+Qhb8EyFQGhQsDYoUUIw4skZLlO8TZ6TLKNAxm5SOKSO72v7YoTy3nI2DKw4wvyXNBrI5CooWmLiy
+xrP2SaATXnsY9y2wZ/9bVsjQ8iJM6jyG3bOY2ZTKrM8uJtanYl6zn5GVh+hUH5bKv6z/SxKncm2+
+vte5pG14WQnWYVlaOt3mXFy53C15teOWQyrVT+j11hpMipD2AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

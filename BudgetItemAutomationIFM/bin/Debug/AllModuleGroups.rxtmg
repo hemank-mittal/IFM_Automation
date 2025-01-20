@@ -3481,6 +3481,12 @@ rxversion="10.1">
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
+			id="e25112c9-d6b8-4595-a26b-c7738754200d"
+			name="newItemName_IfExists"
+			ref="d536bcfb-c597-41ef-a764-641b2ac2bb57"
+			type="UserCode">
+			</testmodule>
+			<testmodule
 			id="e2a26697-9587-430c-85d6-9c9fa5d4b38d"
 			name="fillData_fundingSource"
 			ref="5566deb0-b86b-4980-ac0f-48d0ba0b4108"
@@ -3601,6 +3607,12 @@ rxversion="10.1">
 			name="HitSaveButton_1"
 			ref="9e3eef50-2139-45ee-a360-578b1e026f00"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="eed346b7-8e7f-487a-a0e1-998344e0b83d"
+			name="newItemName_IfExists"
+			ref="d536bcfb-c597-41ef-a764-641b2ac2bb57"
+			type="UserCode">
 			</testmodule>
 			<modulegroupdef
 			id="ef73eac8-5a6f-4071-a20a-0475b8ba19bd"
@@ -3961,6 +3973,10 @@ rxversion="10.1">
 					name="HitSaveButton_1">
 					</testmodule>
 					<testmodule
+					id="e25112c9-d6b8-4595-a26b-c7738754200d"
+					name="newItemName_IfExists">
+					</testmodule>
+					<testmodule
 					id="71bdc142-207b-4d8f-a312-3f19b9567021"
 					name="validateCreatedItem">
 					</testmodule>
@@ -3975,6 +3991,10 @@ rxversion="10.1">
 					<testmodule
 					id="d12a8d92-5142-4676-a152-ba90ca7ed78b"
 					name="HitSaveButton_2">
+					</testmodule>
+					<testmodule
+					id="eed346b7-8e7f-487a-a0e1-998344e0b83d"
+					name="newItemName_IfExists">
 					</testmodule>
 					<testmodule
 					id="82c6d24d-dfa5-4f3a-b573-f23e78bdd130"

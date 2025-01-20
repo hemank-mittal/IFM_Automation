@@ -24,29 +24,29 @@ namespace BudgetItemAutomationIFM
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The shareFile recording.
+    ///The validateCostEvent recording.
     /// </summary>
-    [TestModule("ff7d1614-fe95-4aff-b5a6-3cc16e9986ee", ModuleType.Recording, 1)]
-    public partial class shareFile : ITestModule
+    [TestModule("aaac8896-dfe8-4b5f-af72-99bbc583ed1e", ModuleType.Recording, 1)]
+    public partial class validateCostEvent : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BudgetItemAutomationIFMRepository repository.
         /// </summary>
         public static BudgetItemAutomationIFMRepository repo = BudgetItemAutomationIFMRepository.Instance;
 
-        static shareFile instance = new shareFile();
+        static validateCostEvent instance = new validateCostEvent();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public shareFile()
+        public validateCostEvent()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static shareFile Instance
+        public static validateCostEvent Instance
         {
             get { return instance; }
         }
@@ -79,7 +79,12 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            HelperMethodsCollection.checkFileDownload("asd");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Path='/costevent') on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.SelfInfo, "Path", "/costevent");
             Delay.Milliseconds(0);
             
         }

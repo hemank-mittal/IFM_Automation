@@ -367,7 +367,7 @@ KKACiiigBF+6PpS0UUAFI33T9KKKAFHSiiigAooooAD0NR0UUAFFFFAH/9k=
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		edit_removeBudgetItem.UserCode.cs
+		editTemplate_removeItem.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

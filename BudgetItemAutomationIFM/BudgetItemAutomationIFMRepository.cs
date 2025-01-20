@@ -276,6 +276,7 @@ namespace BudgetItemAutomationIFM
             RepoItemInfo _cancelInfo;
             RepoItemInfo _buttontagedit3Info;
             RepoItemInfo _buttontageditInfo;
+            RepoItemInfo _itemcreatedmessagetoasterInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -354,6 +355,7 @@ namespace BudgetItemAutomationIFM
                 _cancelInfo = new RepoItemInfo(this, "Cancel", "body//button[@title='Cancel']", "", 30000, null, "14e3763d-a2f6-4ee5-862f-b391a8ffaeab");
                 _buttontagedit3Info = new RepoItemInfo(this, "ButtonTagEdit3", ".//tag[#'docreview']//table/tbody/tr[2]/?/?/button[@innertext=' Edit ']", "", 30000, null, "a7e0238e-cd27-4d2a-aac6-906cf944093d");
                 _buttontageditInfo = new RepoItemInfo(this, "ButtonTagEdit", ".//tag[#'docreview']//table/tbody/tr[2]/td[5]/?/?/button[@innertext=' Edit ']", "", 30000, null, "1aeeb39e-318f-4776-812b-07781aede8c7");
+                _itemcreatedmessagetoasterInfo = new RepoItemInfo(this, "itemCreatedMessageToaster", ".//tag[@tagname='mat-snack-bar-container']", "element", 30000, null, "5c5ecdb7-33cc-405b-a489-9f8500e3bdc1");
             }
 
             /// <summary>
@@ -1917,6 +1919,30 @@ namespace BudgetItemAutomationIFM
             }
 
             /// <summary>
+            /// The itemCreatedMessageToaster item.
+            /// </summary>
+            [RepositoryItem("5c5ecdb7-33cc-405b-a489-9f8500e3bdc1")]
+            public virtual Ranorex.WebElement itemCreatedMessageToaster
+            {
+                get
+                {
+                    return _itemcreatedmessagetoasterInfo.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The itemCreatedMessageToaster item info.
+            /// </summary>
+            [RepositoryItemInfo("5c5ecdb7-33cc-405b-a489-9f8500e3bdc1")]
+            public virtual RepoItemInfo itemCreatedMessageToasterInfo
+            {
+                get
+                {
+                    return _itemcreatedmessagetoasterInfo;
+                }
+            }
+
+            /// <summary>
             /// The FundingWrapperNgStarInsertedRow folder.
             /// </summary>
             [RepositoryFolder("c1f5320d-bb3d-4351-996e-214111616de8")]
@@ -2747,7 +2773,7 @@ namespace BudgetItemAutomationIFM
                 _taskitem_assignee_selectedInfo = new RepoItemInfo(this, "taskItem_Assignee_selected", "?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]//tag[@tagname='app-create-task-item-drawer']/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[3]/div/tag[@tagname='ng-multiselect-dropdown']/div/div[2]/ul[2]/li/input[@checked='True']", "", 30000, null, "fe9e18af-13f6-4343-bef5-4d65a8175a19");
                 _taskitem_estimatedhourInfo = new RepoItemInfo(this, "taskItem_EstimatedHour", "?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[1]/tag/div[1]/div[2]/?/?/input[@type='number']", "", 30000, null, "25d7b8bb-4779-4726-8e73-33fd363cf01a");
                 _taskitem_priorityInfo = new RepoItemInfo(this, "taskItem_Priority", "?/?/tag[@tagname='mat-tab-group']/div/tag[1]/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/?/?/form[@action='https://app.ifm360.com/taskItems']/div[1]/div[4]/div[2]/tag/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span", "", 30000, null, "5f64585e-0db3-44c4-a1b8-e15e80053997");
-                _saveInfo = new RepoItemInfo(this, "Save", "?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[2]/?/?/div/button[@innertext='Save']", "", 30000, null, "81e56ec8-3a3d-4c8b-bd57-eb75d01cb9e6");
+                _saveInfo = new RepoItemInfo(this, "Save", "?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-item']/div[1]/?/?/tag[@tagname='mat-drawer']/div/div/tag/div/div[2]/div/form[@action='https://app.ifm360.com/taskItems']/div[2]/?/?/div/button[@innertext='Save' or @innertext=' Save ']", "", 30000, null, "81e56ec8-3a3d-4c8b-bd57-eb75d01cb9e6");
                 _matmdcselectvaluengtnsc3393473648Info = new RepoItemInfo(this, "MatMdcSelectValueNgTnsC3393473648", "?/?/tag[@tagname='mat-tab-group']/div//tag[@tagname='app-task-template']/div[2]/div/tag[3]/div[1]/div[2]/div/tag[@tagname='mat-select']/div/div[1]", "", 30000, null, "57eeffb8-05ca-4ff0-a75f-705ed2670c45");
                 _matmdcselectminlinematmdcselectpInfo = new RepoItemInfo(this, "MatMdcSelectMinLineMatMdcSelectP", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/div/tag/div[2]/div/tag[4]/div[1]/div[2]/?/?/tag[@tagname='mat-select']/div/div[1]/span", "", 30000, null, "cd7df4d6-8bf0-4aa3-8b9f-105eb55b6dbf");
                 _buttontagsave2Info = new RepoItemInfo(this, "ButtonTagSave2", "?/?/tag[@tagname='mat-tab-group']/div/tag[2]/div/div/?/?/tag[@tagname='app-task-template']/div[2]/div/div[2]/button[@innertext=' Save ']", "", 30000, null, "56293993-22ca-4113-b402-f331871658be");

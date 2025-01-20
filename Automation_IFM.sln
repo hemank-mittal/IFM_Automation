@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation_IFM", "BudgetItemAutomationIFM\Automation_IFM.csproj", "{ACDE8D52-E638-4017-88D7-895F490CB84E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "referenceProject_IFM", "referenceProject_IFM\referenceProject_IFM.csproj", "{18E0017D-13E9-441F-B450-BD3C156720B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation_CreateNewClient_IFM", "Automation_CreateNewClient_IFM\Automation_CreateNewClient_IFM.csproj", "{1F9B4987-2111-4943-A289-5AB789AFD91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterProject", "MasterProject\MasterProject.csproj", "{B69ACAA7-BFF7-4AC5-A495-D4CB11CD7178}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +25,13 @@ Global
 		{ACDE8D52-E638-4017-88D7-895F490CB84E}.Debug|x86.ActiveCfg = Debug|x86
 		{ACDE8D52-E638-4017-88D7-895F490CB84E}.Release|x86.Build.0 = Release|x86
 		{ACDE8D52-E638-4017-88D7-895F490CB84E}.Release|x86.ActiveCfg = Release|x86
-		{18E0017D-13E9-441F-B450-BD3C156720B5}.Debug|x86.Build.0 = Debug|x86
-		{18E0017D-13E9-441F-B450-BD3C156720B5}.Debug|x86.ActiveCfg = Debug|x86
-		{18E0017D-13E9-441F-B450-BD3C156720B5}.Release|x86.Build.0 = Release|x86
-		{18E0017D-13E9-441F-B450-BD3C156720B5}.Release|x86.ActiveCfg = Release|x86
+		{1F9B4987-2111-4943-A289-5AB789AFD91D}.Debug|x86.Build.0 = Debug|x86
+		{1F9B4987-2111-4943-A289-5AB789AFD91D}.Debug|x86.ActiveCfg = Debug|x86
+		{1F9B4987-2111-4943-A289-5AB789AFD91D}.Release|x86.Build.0 = Release|x86
+		{1F9B4987-2111-4943-A289-5AB789AFD91D}.Release|x86.ActiveCfg = Release|x86
+		{B69ACAA7-BFF7-4AC5-A495-D4CB11CD7178}.Debug|x86.Build.0 = Debug|x86
+		{B69ACAA7-BFF7-4AC5-A495-D4CB11CD7178}.Debug|x86.ActiveCfg = Debug|x86
+		{B69ACAA7-BFF7-4AC5-A495-D4CB11CD7178}.Release|x86.Build.0 = Release|x86
+		{B69ACAA7-BFF7-4AC5-A495-D4CB11CD7178}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

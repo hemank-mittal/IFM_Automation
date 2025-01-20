@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MasterProject"
+      id="e4ecd300-8fa9-431f-b481-4dad3db02196"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MasterProject"
+      id="e4ecd300-8fa9-431f-b481-4dad3db02196"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

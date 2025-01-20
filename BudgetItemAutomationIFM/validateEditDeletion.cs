@@ -92,13 +92,16 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.itemCreatedMessageToaster'", repo.ApplicationUnderTest.itemCreatedMessageToasterInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.itemCreatedMessageToasterInfo.WaitForNotExists(30000);
+            
             //validationNotExist();
             //Delay.Milliseconds(0);
             
             HelperMethodsCollection.findTextInList(repo.ApplicationUnderTest.Content1.linkedItemsList, removedItem, ValueConverter.ArgumentFromString<bool>("wantMatch", "False"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.MatExpansionPanelHeader1' at Center.", repo.ApplicationUnderTest.Content1.MatExpansionPanelHeader1Info, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.MatExpansionPanelHeader1' at Center.", repo.ApplicationUnderTest.Content1.MatExpansionPanelHeader1Info, new RecordItemIndex(3));
             repo.ApplicationUnderTest.Content1.MatExpansionPanelHeader1.Click();
             Delay.Milliseconds(0);
             

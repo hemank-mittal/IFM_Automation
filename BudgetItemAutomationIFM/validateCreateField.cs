@@ -261,46 +261,49 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.itemCreatedMessageToaster'", repo.ApplicationUnderTest.itemCreatedMessageToasterInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.itemCreatedMessageToasterInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.searchBar.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.searchBar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.searchBar.PressKeys(itemName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(4));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'visibleItemName'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.firstElement_anyTag' and assigning its value to variable 'visibleItemName'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(5));
             visibleItemName = repo.ApplicationUnderTest.firstElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.secondElement_anyTag' and assigning its value to variable 'visibleUnitType'.", repo.ApplicationUnderTest.secondElement_anyTagInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.secondElement_anyTag' and assigning its value to variable 'visibleUnitType'.", repo.ApplicationUnderTest.secondElement_anyTagInfo, new RecordItemIndex(6));
             visibleUnitType = repo.ApplicationUnderTest.secondElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.thirdElement_anyTag' and assigning its value to variable 'visibleFieldType'.", repo.ApplicationUnderTest.thirdElement_anyTagInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.thirdElement_anyTag' and assigning its value to variable 'visibleFieldType'.", repo.ApplicationUnderTest.thirdElement_anyTagInfo, new RecordItemIndex(7));
             visibleFieldType = repo.ApplicationUnderTest.thirdElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.fourthElement_anyTag' and assigning its value to variable 'visibleSiteBuildingRoom'.", repo.ApplicationUnderTest.fourthElement_anyTagInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.fourthElement_anyTag' and assigning its value to variable 'visibleSiteBuildingRoom'.", repo.ApplicationUnderTest.fourthElement_anyTagInfo, new RecordItemIndex(8));
             visibleSiteBuildingRoom = repo.ApplicationUnderTest.fourthElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.fifthhElement_anyTag' and assigning its value to variable 'visiblesequenceNumber'.", repo.ApplicationUnderTest.fifthhElement_anyTagInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.fifthhElement_anyTag' and assigning its value to variable 'visiblesequenceNumber'.", repo.ApplicationUnderTest.fifthhElement_anyTagInfo, new RecordItemIndex(9));
             visiblesequenceNumber = repo.ApplicationUnderTest.fifthhElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.sixthElement_anyTag' and assigning its value to variable 'visibleParentName'.", repo.ApplicationUnderTest.sixthElement_anyTagInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.sixthElement_anyTag' and assigning its value to variable 'visibleParentName'.", repo.ApplicationUnderTest.sixthElement_anyTagInfo, new RecordItemIndex(10));
             visibleParentName = repo.ApplicationUnderTest.sixthElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.seventhElement_anyTag' and assigning its value to variable 'visibleIsGroup'.", repo.ApplicationUnderTest.seventhElement_anyTagInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.seventhElement_anyTag' and assigning its value to variable 'visibleIsGroup'.", repo.ApplicationUnderTest.seventhElement_anyTagInfo, new RecordItemIndex(11));
             visibleIsGroup = repo.ApplicationUnderTest.seventhElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
@@ -325,12 +328,12 @@ namespace BudgetItemAutomationIFM
             HelperMethodsCollection.compareStrings(visibleIsGroup, isGroup);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(19));
             Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(20));
             repo.ApplicationUnderTest.searchBar.PressKeys("{Back}");
             Delay.Milliseconds(0);
             

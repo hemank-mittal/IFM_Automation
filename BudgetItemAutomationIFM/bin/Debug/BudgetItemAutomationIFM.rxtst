@@ -324,6 +324,12 @@
 				</databinding>
 			</modulegroup>
 			<testmodule
+			id="65d8a8b8-41f2-4367-9da3-bbc8ac410bde"
+			name="newItemName_IfExists"
+			ref="d536bcfb-c597-41ef-a764-641b2ac2bb57"
+			type="UserCode">
+			</testmodule>
+			<testmodule
 			id="65f066d5-ac5f-4353-821c-86b0c72c95f7"
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
@@ -1140,6 +1146,10 @@
 							name="sortingItems_Column1">
 							</modulegroup>
 						</smartfoldernode>
+						<testmodule
+						id="65d8a8b8-41f2-4367-9da3-bbc8ac410bde"
+						name="newItemName_IfExists">
+						</testmodule>
 						<teardown
 						id="778c9f51-eb1c-43e0-83f7-171fa572fb56"
 						name="teardown">

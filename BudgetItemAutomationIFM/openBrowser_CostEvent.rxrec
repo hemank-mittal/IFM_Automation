@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="ff7d1614-fe95-4aff-b5a6-3cc16e9986ee"
+id="73f4683b-e593-4bae-af03-dde1f77316eb"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,37 +19,60 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="shareFile"
+	classname="openBrowser_CostEvent"
 	namespace="BudgetItemAutomationIFM">
 	</codegen>
 	<variables>
+		<var
+		id="a2450ac2-0093-4ebb-a13f-9c4db57e0b27"
+		name="browserName">
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
 		classname="HelperMethodsCollection"
 		enabled="True"
 		isexternaltestmethod="True"
-		methodname="checkFileDownload"
+		methodname="getBrowserName"
 		namespace="BudgetItemAutomationIFM"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="browserName">
+				</binding>
 			</bindings>
 			<arguments
-			id="1e2193d8-b1bf-4631-92f8-9ab985c220c8">
-				<argument
-				argname="fileFormat"
-				id="ba33fbb4-1ba2-4d63-93ec-f367c55d6098">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-						asd
-					</argvalue>
-				</argument>
+			id="b0631ace-58ae-40a0-8524-03554d426102">
 			</arguments>
 		</userrecorditem>
+		<openwebsiterecorditem
+		args=""
+		browser="Firefox"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="BrowserName"
+				variable="browserName">
+				</binding>
+			</bindings>
+			<url>
+				https://app.ifm360.com/costevent
+			</url>
+		</openwebsiterecorditem>
 	</recorditems>
 	<repository
 	id="95c24b45-de07-49ea-b484-24e2432a73a7"
@@ -66,7 +89,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		shareFile.UserCode.cs
+		openBrowser_CostEvent.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

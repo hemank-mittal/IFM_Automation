@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0a9ed084-ac74-4cd5-a6ae-de4a4be3d8d5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="closeMailTab"
+	namespace="Automation_CreateNewClient_IFM">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="7321d703-f865-4c6f-b6b3-f621d82c3cbe">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4409717e-2e05-4fa9-ad28-57af4ffde513"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='yopmail.com']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="14ce9526-40f5-42c9-9377-97eab6a932f0"
+	name="Automation_CreateNewClient_IFMRepository"
+	relativepath="Automation_CreateNewClient_IFMRepository.rxrep">
+		<codegen
+		classname="Automation_CreateNewClient_IFMRepository"
+		namespace="Automation_CreateNewClient_IFM">
+		</codegen>
+		<rootfolder
+		id="7ae95323-625e-4743-971c-9ed2db8022f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		closeMailTab.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

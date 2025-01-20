@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="MasterProjectRepository"
+id="5f90472a-c5a0-4ac2-8e23-65f5be4db274">
+  <codegen
+  classname="MasterProjectRepository"
+  namespace="MasterProject"/>
+  <rootfolder
+  name="Root"
+  id="2fc2b8b0-2944-48b2-98c9-a6ae41f0990e"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

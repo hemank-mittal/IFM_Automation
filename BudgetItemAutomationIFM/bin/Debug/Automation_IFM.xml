@@ -744,6 +744,16 @@
             The ButtonTagEdit item info.
             </summary>
         </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.itemCreatedMessageToaster">
+            <summary>
+            The itemCreatedMessageToaster item.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.itemCreatedMessageToasterInfo">
+            <summary>
+            The itemCreatedMessageToaster item info.
+            </summary>
+        </member>
         <member name="P:BudgetItemAutomationIFM.BudgetItemAutomationIFMRepositoryFolders.ApplicationUnderTestAppFolder.FundingWrapperNgStarInsertedRow">
             <summary>
             The FundingWrapperNgStarInsertedRow folder.
@@ -4834,6 +4844,24 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:BudgetItemAutomationIFM.newItemName_IfExists">
+            <summary>
+            Description of newItemName_IfExists.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.newItemName_IfExists.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.newItemName_IfExists.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="T:BudgetItemAutomationIFM.openBrowser_CampusLocation">
              <summary>
             The openBrowser_CampusLocation recording.
@@ -5006,6 +5034,50 @@
             </summary>
         </member>
         <member name="P:BudgetItemAutomationIFM.openBrowser_ContractType.browserName">
+            <summary>
+            Gets or sets the value of variable browserName.
+            </summary>
+        </member>
+        <member name="T:BudgetItemAutomationIFM.openBrowser_CostEvent">
+             <summary>
+            The openBrowser_CostEvent recording.
+             </summary>
+        </member>
+        <member name="F:BudgetItemAutomationIFM.openBrowser_CostEvent.repo">
+            <summary>
+            Holds an instance of the BudgetItemAutomationIFMRepository repository.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.openBrowser_CostEvent.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.openBrowser_CostEvent.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BudgetItemAutomationIFM.openBrowser_CostEvent.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.openBrowser_CostEvent.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.openBrowser_CostEvent.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_CostEvent.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.openBrowser_CostEvent.browserName">
             <summary>
             Gets or sets the value of variable browserName.
             </summary>
@@ -6715,9 +6787,7 @@
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getBrowserName">
             <summary>
-            This is a placeholder text. Please describe the purpose of the
-            user code method here. The method is published to the user code library
-            within a user code collection.
+            This method simply fetched the value of "browserName" global parameter for further use.
             </summary>
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getNewCreateItem(System.Int32,System.String)">
@@ -6738,21 +6808,12 @@
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.compareStringsNotEqual(System.String,System.String)">
             <summary>
-            This is a placeholder text. Please describe the purpose of the
-            user code method here. The method is published to the user code library
-            within a user code collection.
+            This method is created to confirm if the passed strings are not equal.
             </summary>
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.trimStrings(System.String,System.String)">
             <summary>
             This method is used to trim strings, created an user method since it is not possible without coding.
-            </summary>
-        </member>
-        <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.validationNotExist(Ranorex.Adapter)">
-            <summary>
-            This method is still under-construction.
-            Creating this method to check if some element does NOT exist, since the default timeout for 
-            NotExists Validation takes 1.5 minutes.
             </summary>
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getNumberOfRecordsFromFooter(Ranorex.Adapter)">
@@ -6776,12 +6837,6 @@
             This method is to check if the data is correctly sorted, the way it is intended to be.
             </summary>
         </member>
-        <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.checkFileDownload(System.String)">
-            <summary>
-            This method is still work-in-progress. 
-            I am creating this method to verify if a file is downloaded in your system or not.
-            </summary>
-        </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getDifferentOption(Ranorex.Adapter)">
             <summary>
             This method is for the case where a different option from dropdown is to be selected every time
@@ -6800,18 +6855,9 @@
             and the one must be selected which is not selected yet.
             </summary>
         </member>
-        <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.validateActiveInactive">
-            <summary>
-            This is a placeholder text. Please describe the purpose of the
-            user code method here. The method is published to the user code library
-            within a user code collection.
-            </summary>
-        </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.generateRandomString">
             <summary>
-            This is a placeholder text. Please describe the purpose of the
-            user code method here. The method is published to the user code library
-            within a user code collection.
+            This method generates a random string with no constraints.
             </summary>
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.concatStrings6(System.String,System.String,System.String,System.String,System.String,System.String)">
@@ -6831,16 +6877,14 @@
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getEditedNumber(System.Int32)">
             <summary>
-            This is a placeholder text. Please describe the purpose of the
-            user code method here. The method is published to the user code library
-            within a user code collection.
+            This method is used to get edited number. This method keeps increamenting the old number by 7 till the number gets becomes
+            a multiple of 10, then it devides the number by 10 as decreament.
             </summary>
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.compareSecondRecord_IfExist(System.String,System.String)">
             <summary>
-            This is a placeholder text. Please describe the purpose of the
-            user code method here. The method is published to the user code library
-            within a user code collection.
+            This method checks if there is a second record fetched on searching for some item, if found, it compares the first and second
+            item. They should NOT be equal.
             </summary>
         </member>
         <member name="M:BudgetItemAutomationIFM.HelperMethodsCollection.getCommaSeperatedString_FromRepo(System.String)">
@@ -7580,45 +7624,6 @@
         <member name="P:BudgetItemAutomationIFM.SearchCategory_Find.searchItem">
             <summary>
             Gets or sets the value of variable searchItem.
-            </summary>
-        </member>
-        <member name="T:BudgetItemAutomationIFM.shareFile">
-             <summary>
-            The shareFile recording.
-             </summary>
-        </member>
-        <member name="F:BudgetItemAutomationIFM.shareFile.repo">
-            <summary>
-            Holds an instance of the BudgetItemAutomationIFMRepository repository.
-            </summary>
-        </member>
-        <member name="M:BudgetItemAutomationIFM.shareFile.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:BudgetItemAutomationIFM.shareFile.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:BudgetItemAutomationIFM.shareFile.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:BudgetItemAutomationIFM.shareFile.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:BudgetItemAutomationIFM.shareFile.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:BudgetItemAutomationIFM.shareFile.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:BudgetItemAutomationIFM.SortAscendingColumn1">
@@ -8482,6 +8487,45 @@
             </summary>
         </member>
         <member name="P:BudgetItemAutomationIFM.validateContractType.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BudgetItemAutomationIFM.validateCostEvent">
+             <summary>
+            The validateCostEvent recording.
+             </summary>
+        </member>
+        <member name="F:BudgetItemAutomationIFM.validateCostEvent.repo">
+            <summary>
+            Holds an instance of the BudgetItemAutomationIFMRepository repository.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateCostEvent.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateCostEvent.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BudgetItemAutomationIFM.validateCostEvent.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateCostEvent.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BudgetItemAutomationIFM.validateCostEvent.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BudgetItemAutomationIFM.validateCostEvent.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>

@@ -21,7 +21,7 @@ using Ranorex.Core.Testing;
 
 namespace BudgetItemAutomationIFM
 {
-    class Program
+    public class Program
     {
         [STAThread]
         public static int Main(string[] args)
@@ -36,7 +36,7 @@ namespace BudgetItemAutomationIFM
 
             try
             {
-                error = TestSuiteRunner.Run(typeof(Program), Environment.CommandLine);
+                error = TestSuiteRunner.Run(typeof(Program), Environment.CommandLine);                               
             }
             catch (Exception e)
             {

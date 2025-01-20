@@ -127,10 +127,10 @@
       <id>aa7aabe9-0a47-4d2f-8c0f-220b95ce1b26</id>
     </Compile>
     <Compile Include="BudgetItemAutomationIFMRepository.cs">
-      <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
       <DependentUpon>BudgetItemAutomationIFMRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>9248d938-1300-4805-b8f8-b40336d8478b</id>
+      <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
     </Compile>
     <Compile Include="CloseBrowser.cs">
       <BoundTo>0a9fdb24-ce2d-4769-b4b1-a1b63036054f</BoundTo>
@@ -627,6 +627,9 @@
       <UserCode>true</UserCode>
       <id>81ad3946-1141-42d3-9f4b-a1350a97f767</id>
     </Compile>
+    <Compile Include="newItemName_IfExists.cs">
+      <id>a2147f33-bbd3-4f6f-8a58-aacacfc53669</id>
+    </Compile>
     <Compile Include="openBrowser_CampusLocation.cs">
       <BoundTo>9d74e75a-656d-4aaf-9840-b5cda6c3f88a</BoundTo>
       <DependentUpon>openBrowser_CampusLocation.rxrec</DependentUpon>
@@ -674,6 +677,18 @@
       <DependentUpon>openBrowser_ContractType.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>c5a3743f-4df9-4e82-ac2c-f820707f1f24</id>
+    </Compile>
+    <Compile Include="openBrowser_CostEvent.cs">
+      <BoundTo>ce493e45-df12-4c33-a1f6-5a2f780edc0c</BoundTo>
+      <DependentUpon>openBrowser_CostEvent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d1afc0ea-10c5-4251-8643-b84e6201ad1c</id>
+    </Compile>
+    <Compile Include="openBrowser_CostEvent.UserCode.cs">
+      <BoundTo>ce493e45-df12-4c33-a1f6-5a2f780edc0c</BoundTo>
+      <DependentUpon>openBrowser_CostEvent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f2c046b-55b7-42fd-bf06-dfc044184a3b</id>
     </Compile>
     <Compile Include="OpenBrowser_FileCategory.cs">
       <BoundTo>f05e4b34-7147-45d7-9348-11ecd5792416</BoundTo>
@@ -1341,18 +1356,6 @@
       <UserCode>true</UserCode>
       <id>d44e12c2-97a2-4968-b8c5-6a310de7227a</id>
     </Compile>
-    <Compile Include="shareFile.cs">
-      <BoundTo>2ce1b8e1-75b3-4045-83cc-441564d18373</BoundTo>
-      <DependentUpon>shareFile.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>b33a5e19-a311-4049-8a58-bfdc931ca8e7</id>
-    </Compile>
-    <Compile Include="shareFile.UserCode.cs">
-      <BoundTo>2ce1b8e1-75b3-4045-83cc-441564d18373</BoundTo>
-      <DependentUpon>shareFile.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>8f3c4131-9793-47c7-af13-3c7194ea2d14</id>
-    </Compile>
     <Compile Include="sortAscendingColumn1.cs">
       <BoundTo>35fa8c7c-7424-4f62-a472-540a61dbf7ff</BoundTo>
       <DependentUpon>sortAscendingColumn1.rxrec</DependentUpon>
@@ -1592,6 +1595,18 @@
       <DependentUpon>validateContractType.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7a6a33eb-3f07-415e-baac-9713496b408a</id>
+    </Compile>
+    <Compile Include="validateCostEvent.cs">
+      <BoundTo>b80365d4-6205-42ad-9931-1559f77cd105</BoundTo>
+      <DependentUpon>validateCostEvent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6995b6ec-6db3-461c-bc3e-29bbbab8ff28</id>
+    </Compile>
+    <Compile Include="validateCostEvent.UserCode.cs">
+      <BoundTo>b80365d4-6205-42ad-9931-1559f77cd105</BoundTo>
+      <DependentUpon>validateCostEvent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>71b72eba-7dc4-4f02-bc43-30f3d610b2a2</id>
     </Compile>
     <Compile Include="validateCreateCloseoutItem_ExistingName.cs">
       <BoundTo>3395167c-f8b2-4c2a-b02a-050e5496e506</BoundTo>
@@ -2175,10 +2190,10 @@
       <id>992d6946-ee69-4e8d-9e18-ed4c583cf56f</id>
     </Content>
     <None Include="BudgetItemAutomationIFMRepository.rximg">
-      <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
       <DependentUpon>BudgetItemAutomationIFMRepository.rxrep</DependentUpon>
       <imageblob>true</imageblob>
       <id>5ee98fe4-a935-43b7-ad3f-fcb9abe60024</id>
+      <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
     </None>
     <None Include="BudgetItemAutomationIFMRepository.rxrep">
       <id>716783e7-f9bb-4589-a05c-ce00baa19da4</id>
@@ -2409,6 +2424,11 @@
       <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
       <id>c4453209-abda-4f98-acd4-7b302dceb32e</id>
       <recordtableid>71b43d88-dcc6-4b58-b604-a7f1ea055f08</recordtableid>
+    </None>
+    <None Include="openBrowser_CostEvent.rxrec">
+      <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
+      <id>ce493e45-df12-4c33-a1f6-5a2f780edc0c</id>
+      <recordtableid>73f4683b-e593-4bae-af03-dde1f77316eb</recordtableid>
     </None>
     <None Include="OpenBrowser_FileCategory.rxrec">
       <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
@@ -2685,11 +2705,6 @@
       <id>a1d9d55f-bd8a-4178-bcdb-ffa75ae73a50</id>
       <recordtableid>58b96334-ad71-42cc-bbe0-f3757c435233</recordtableid>
     </None>
-    <None Include="shareFile.rxrec">
-      <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
-      <id>2ce1b8e1-75b3-4045-83cc-441564d18373</id>
-      <recordtableid>ff7d1614-fe95-4aff-b5a6-3cc16e9986ee</recordtableid>
-    </None>
     <None Include="sortAscendingColumn1.rxrec">
       <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
       <id>35fa8c7c-7424-4f62-a472-540a61dbf7ff</id>
@@ -2789,6 +2804,11 @@
       <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
       <id>29366bc8-8655-4a54-adf1-8d76876d0c40</id>
       <recordtableid>625d3a9d-2935-4504-b8c2-2633a526252d</recordtableid>
+    </None>
+    <None Include="validateCostEvent.rxrec">
+      <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>
+      <id>b80365d4-6205-42ad-9931-1559f77cd105</id>
+      <recordtableid>aaac8896-dfe8-4b5f-af72-99bbc583ed1e</recordtableid>
     </None>
     <None Include="validateCreateCloseoutItem_ExistingName.rxrec">
       <BoundTo>716783e7-f9bb-4589-a05c-ce00baa19da4</BoundTo>

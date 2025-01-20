@@ -116,26 +116,13 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
-            //repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Path='/paymentApplication') on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
-            //Validate.AttributeEqual(repo.ApplicationUnderTest.SelfInfo, "Path", "/paymentApplication");
-            //Delay.Milliseconds(0);
-            
-            optionIndex = ValueConverter.ToString(HelperMethodsCollection.getDifferentOption(repo.ApplicationUnderTest.CampusLocationForm.campusState_Dropdown));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' and assigning its value to variable 'CL_State'.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(3));
-            CL_State = repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamic.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Path='/paymentApplication') on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.SelfInfo, "Path", "/paymentApplication");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusState_dynamic' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamicInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.CampusLocationForm.campusState_dynamic.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Warn, "User", CL_State, new RecordItemIndex(5));
             
         }
 

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="05b0cb5c-d02b-4997-b4fd-f1aa12d1290e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Automation_CreateNewClient_IFM">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="a05f8188-3544-4344-83b6-db1ff1b45ae5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="14a6e319-a859-4670-a664-90c9547152eb"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='firefox']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="14ce9526-40f5-42c9-9377-97eab6a932f0"
+	name="Automation_CreateNewClient_IFMRepository"
+	relativepath="Automation_CreateNewClient_IFMRepository.rxrep">
+		<codegen
+		classname="Automation_CreateNewClient_IFMRepository"
+		namespace="Automation_CreateNewClient_IFM">
+		</codegen>
+		<rootfolder
+		id="7ae95323-625e-4743-971c-9ed2db8022f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

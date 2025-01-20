@@ -233,30 +233,33 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.itemCreatedMessageToaster'", repo.ApplicationUnderTest.itemCreatedMessageToasterInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.itemCreatedMessageToasterInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.searchBar.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.searchBar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.searchBar.PressKeys(itemName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(4));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$itemName) on item 'ApplicationUnderTest.firstElement_anyTag'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$itemName) on item 'ApplicationUnderTest.firstElement_anyTag'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(5));
             Validate.AttributeEqual(repo.ApplicationUnderTest.firstElement_anyTagInfo, "InnerText", itemName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$campusType) on item 'ApplicationUnderTest.secondElement_anyTag'.", repo.ApplicationUnderTest.secondElement_anyTagInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$campusType) on item 'ApplicationUnderTest.secondElement_anyTag'.", repo.ApplicationUnderTest.secondElement_anyTagInfo, new RecordItemIndex(6));
             Validate.AttributeEqual(repo.ApplicationUnderTest.secondElement_anyTagInfo, "InnerText", campusType);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.integratedCLAddress' and assigning its value to variable 'completeAddress'.", repo.ApplicationUnderTest.integratedCLAddressInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.integratedCLAddress' and assigning its value to variable 'completeAddress'.", repo.ApplicationUnderTest.integratedCLAddressInfo, new RecordItemIndex(7));
             completeAddress = repo.ApplicationUnderTest.integratedCLAddress.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
@@ -266,23 +269,23 @@ namespace BudgetItemAutomationIFM
             HelperMethodsCollection.compareStrings(completeAddress, tempData);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.fourthElement_anyTag' and assigning its value to variable 'CL_Territory'.", repo.ApplicationUnderTest.fourthElement_anyTagInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.fourthElement_anyTag' and assigning its value to variable 'CL_Territory'.", repo.ApplicationUnderTest.fourthElement_anyTagInfo, new RecordItemIndex(10));
             CL_Territory = repo.ApplicationUnderTest.fourthElement_anyTag.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(CL_Territory, completeTerritories);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(12));
             Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.searchBar.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(14));
             Delay.Duration(300, false);
             
         }

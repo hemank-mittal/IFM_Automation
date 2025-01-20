@@ -2,21 +2,21 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<smartfoldernode
+			id="260f51eb-c6eb-43d6-9117-b91d9f72a5de"
+			name="CostEventReason">
+			</smartfoldernode>
 			<testmodule
 			enabled="False"
-			id="1238c2e3-c3b9-4a12-8e37-5ff62ad18084"
-			name="validateContractType"
-			ref="625d3a9d-2935-4504-b8c2-2633a526252d"
+			id="2d92fad6-95cf-4504-8932-7d1e94c16dfd"
+			name="openBrowser_CostEvent"
+			ref="73f4683b-e593-4bae-af03-dde1f77316eb"
 			type="Recording">
 			</testmodule>
 			<modulegroup
-			enabled="False"
 			id="306285c4-5ec7-48da-a92a-0cefaf23ef4d"
 			name="createCategory_2_Success"
 			ref="3231743b-bdf7-456e-9d89-a3e5c82eb301">
-				<description>
-					<![CDATA[BLOCKER!!!]]>
-				</description>
 				<databinding>
 					<var
 					dataname="itemCount"
@@ -37,17 +37,56 @@
 			name="CostEventAutomationIFM"
 			reportlevel="Info;20">
 			</testcase>
+			<modulegroup
+			enabled="False"
+			id="3a11f6f1-ed7c-49ed-8f1e-895279b67793"
+			name="editCategory_2_Failure_ExistingName"
+			ref="d0b067dd-a00d-497e-ac19-0486e4b6a4ce">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="aa198a53-ce62-4aca-a5e5-0abb20b92b77"
+					variableid="68afc10a-4d6f-4b70-b45b-c52d264026b4"
+					variablename="ModuleGroupitemName">
+					</var>
+				</databinding>
+			</modulegroup>
+			<modulegroup
+			id="504bd144-d734-4c8e-a00d-86884c2aa1f7"
+			name="sortDTable_Column1"
+			ref="3b137bc0-4d04-4df7-88b6-c04bed638147">
+			</modulegroup>
 			<setup
 			id="535f11ae-d2e1-42c8-bec8-861a6b8748f9"
 			name="setup">
 			</setup>
-			<testmodule
+			<modulegroup
 			enabled="False"
-			id="783240dd-1f0d-4bc0-8aa7-7ef89fd60868"
-			name="openBrowser_ContractType"
-			ref="71b43d88-dcc6-4b58-b604-a7f1ea055f08"
-			type="Recording">
-			</testmodule>
+			id="6423a5d3-16dc-40f1-bd17-a4b182d9e2d3"
+			name="createCategory_2_Failure_ExistingName"
+			ref="576207c4-0e83-484a-9a85-4b16e1e7fe5c">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="aa198a53-ce62-4aca-a5e5-0abb20b92b77"
+					variableid="8863c63e-3ff9-4630-bd0f-2737837cdcc7"
+					variablename="ModuleGroupitemName">
+					</var>
+				</databinding>
+			</modulegroup>
+			<modulegroup
+			id="6c0cc701-01bd-499c-9bef-06997780947b"
+			name="editCategory_2_Success"
+			ref="d2a8eb44-fbce-4fb3-8f8b-8b78a7618c58">
+				<databinding>
+					<var
+					dataname="itemName"
+					datasourceid="aa198a53-ce62-4aca-a5e5-0abb20b92b77"
+					variableid="abc652f3-a61b-4409-93cf-ac5b7780b2cb"
+					variablename="ModuleGroupitemName">
+					</var>
+				</databinding>
+			</modulegroup>
 			<testcase
 			id="aa198a53-ce62-4aca-a5e5-0abb20b92b77"
 			name="TestCase">
@@ -67,6 +106,13 @@
 			id="b192a31c-f4c5-41e8-a089-20dfb98b140a"
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="d78d317a-dc44-433c-9320-0fb0269ebc9a"
+			name="validateCostEvent"
+			ref="aaac8896-dfe8-4b5f-af72-99bbc583ed1e"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -112,18 +158,38 @@
 						id="535f11ae-d2e1-42c8-bec8-861a6b8748f9"
 						name="setup">
 							<testmodule
-							id="783240dd-1f0d-4bc0-8aa7-7ef89fd60868"
-							name="openBrowser_ContractType">
+							id="2d92fad6-95cf-4504-8932-7d1e94c16dfd"
+							name="openBrowser_CostEvent">
 							</testmodule>
 							<testmodule
-							id="1238c2e3-c3b9-4a12-8e37-5ff62ad18084"
-							name="validateContractType">
+							id="d78d317a-dc44-433c-9320-0fb0269ebc9a"
+							name="validateCostEvent">
 							</testmodule>
 						</setup>
-						<modulegroup
-						id="306285c4-5ec7-48da-a92a-0cefaf23ef4d"
-						name="createCategory_2_Success">
-						</modulegroup>
+						<smartfoldernode
+						id="260f51eb-c6eb-43d6-9117-b91d9f72a5de"
+						name="CostEventReason">
+							<modulegroup
+							id="306285c4-5ec7-48da-a92a-0cefaf23ef4d"
+							name="createCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="6423a5d3-16dc-40f1-bd17-a4b182d9e2d3"
+							name="createCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="6c0cc701-01bd-499c-9bef-06997780947b"
+							name="editCategory_2_Success">
+							</modulegroup>
+							<modulegroup
+							id="3a11f6f1-ed7c-49ed-8f1e-895279b67793"
+							name="editCategory_2_Failure_ExistingName">
+							</modulegroup>
+							<modulegroup
+							id="504bd144-d734-4c8e-a00d-86884c2aa1f7"
+							name="sortDTable_Column1">
+							</modulegroup>
+						</smartfoldernode>
 						<teardown
 						id="e7e40d58-d69f-416c-80c1-1d412e6a355c"
 						name="teardown">
@@ -143,6 +209,15 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="260f51eb-c6eb-43d6-9117-b91d9f72a5de">
+			</testcontainer>
+			<testcontainer
+			id="37896ff2-0447-40ef-aebf-b915499034d9">
+			</testcontainer>
+			<testcontainer
+			id="aa198a53-ce62-4aca-a5e5-0abb20b92b77">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

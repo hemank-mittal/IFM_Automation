@@ -33,9 +33,7 @@ namespace BudgetItemAutomationIFM
         
         
         /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
+        /// This method simply fetched the value of "browserName" global parameter for further use.
         /// </summary>
         [UserCodeMethod]
         public static string getBrowserName()
@@ -53,7 +51,11 @@ namespace BudgetItemAutomationIFM
         {
         	string newItem = null;
         	
-        	if(itemType.ToLower() == "item")
+        	if(itemType.ToLower() == "email")
+        	{
+        		newItem = "testEmail" + nextCount.ToString() + ".IFM@yopmail.com";
+        	}
+        	else if(itemType.ToLower() == "item")
         	{
         		newItem = "test item " + nextCount.ToString();
         	}
@@ -99,28 +101,13 @@ namespace BudgetItemAutomationIFM
         	{
         		Report.Warn(compareWith.ToLower().Trim());
         		Report.Warn(compareTo.ToLower().Trim());
-        		Report.Warn(compareTo);
-        		Report.Warn(compareWith);
         		Report.Error("Expected value : " + compareTo + " and actual value : " + compareWith + ".");
 //        		Report.Failure("Some issue occured in verifying the item creation.");
-
-				var x = compareWith.ToLower().Trim();
-				var y = compareTo.ToLower().Trim();
-				for (var i=0; i<x.Length; i++)
-				{
-//					if (x[i] == y[i])
-//					{
-//						continue;
-//					}
-					Report.Warn("Here is to : " + x[i] + " on index and with : " + y[i] + " on index : " + i.ToString());
-				}
         	}
         }
         
         /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
+        /// This method is created to confirm if the passed strings are not equal.
         /// </summary>
         [UserCodeMethod]
         public static void compareStringsNotEqual(string compareWith, string compareTo)
@@ -154,28 +141,7 @@ namespace BudgetItemAutomationIFM
         	}
         	
         	return str.Trim();
-        }
-        
-        /// <summary>
-        /// This method is still under-construction.
-        /// Creating this method to check if some element does NOT exist, since the default timeout for 
-        /// NotExists Validation takes 1.5 minutes.
-        /// </summary>
-        [UserCodeMethod]
-        public static void validationNotExist(Adapter element)
-        {
-//        	var element = repo.ApplicationUnderTest.Content1.LiTag0112ColFoundationsPileCaps1;
-//        	Report.Warn(element.GetPath().ToString());
-        	
-        	try
-        	{
-        		Validate.NotExists(element.GetPath(), 10000, "Element removed successfully");
-        	}
-        	catch (Ranorex.ElementNotFoundException)
-		    {
-        		Report.Failure("Element " + element + " does exist. It means something went wrong. Please check the inputs again.");
-		    }
-        }
+        }       
                 
         /// <summary>
         /// The method takes in an SpanTag Element, and from its innertext, fetches the largest number.
@@ -332,22 +298,7 @@ namespace BudgetItemAutomationIFM
 	            }
             }
             
-        }        
-        
-        /// <summary>
-        /// This method is still work-in-progress. 
-        /// I am creating this method to verify if a file is downloaded in your system or not.
-        /// </summary>
-        [UserCodeMethod]
-        public static void checkFileDownload(string fileFormat)
-        {
-        	bool fileExists = false;
-        	
-        	string username=Environment.UserName;
-        	string filePath = "C:\\Users\\" + username + "\\Downloads";
-        	
-        	System.Diagnostics.Process.Start(filePath);
-        }
+        }                
         
         /// <summary>
         /// This method is for the case where a different option from dropdown is to be selected every time
@@ -424,10 +375,7 @@ namespace BudgetItemAutomationIFM
         		foreach (var i in opts_webElement)
 	        	{
 	        		if (i.GetAttributeValue<string>("aria-disabled") == "false" && i.GetAttributeValue<string>("aria-selected") == "false")
-	        		{
-	//        			var x = i.FindChild<SpanTag>();
-	//        			Report.Warn(x.InnerText.ToString());
-	
+	        		{	
 	        			return (opts_webElement.IndexOf(i) + 1);
 	        		}
 	        	}
@@ -437,9 +385,6 @@ namespace BudgetItemAutomationIFM
         	{
         		if (i.GetAttributeValue<string>("checked") == "false" || i.GetAttributeValue<string>("checked") == "False")
         		{
-//        			var x = i.FindChild<SpanTag>();
-//        			Report.Warn(x.InnerText.ToString());
-
         			return (opts_input.IndexOf(i) + 1);
         		}
         	}        	
@@ -448,20 +393,7 @@ namespace BudgetItemAutomationIFM
         }
         
         /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
-        /// </summary>
-        [UserCodeMethod]
-        public static void validateActiveInactive()
-        {
-        	
-        }
-        
-        /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
+        /// This method generates a random string with no constraints.
         /// </summary>
         [UserCodeMethod]
         public static void generateRandomString()
@@ -520,9 +452,8 @@ namespace BudgetItemAutomationIFM
         }
         
         /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
+        /// This method is used to get edited number. This method keeps increamenting the old number by 7 till the number gets becomes
+        /// a multiple of 10, then it devides the number by 10 as decreament.
         /// </summary>
         [UserCodeMethod]
         public static int getEditedNumber(int oldNumber)
@@ -544,9 +475,8 @@ namespace BudgetItemAutomationIFM
         }
         
         /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
+        /// This method checks if there is a second record fetched on searching for some item, if found, it compares the first and second
+        /// item. They should NOT be equal.
         /// </summary>
         [UserCodeMethod]
         public static void compareSecondRecord_IfExist(string record1, string elementInfoItemRxPath)
@@ -581,6 +511,6 @@ namespace BudgetItemAutomationIFM
         	string result = string.Join(",", strElements);
         	Report.Warn(result);
         	return result;
-        }
+        }        
     }
 }

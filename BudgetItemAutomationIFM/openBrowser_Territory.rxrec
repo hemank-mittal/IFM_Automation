@@ -26,6 +26,7 @@ mode="Global">
 		<var
 		id="e05ed17c-96bd-454b-9c96-8a6b4d3cb781"
 		name="browserName">
+			Firefox
 		</var>
 	</variables>
 	<recorditems>

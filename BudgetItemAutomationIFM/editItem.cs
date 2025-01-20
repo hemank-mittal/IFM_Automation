@@ -105,26 +105,29 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit_Row2' at Center.", repo.ApplicationUnderTest.ButtonTagEdit_Row2Info, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(60000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(60000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonTagEdit_Row2' at Center.", repo.ApplicationUnderTest.ButtonTagEdit_Row2Info, new RecordItemIndex(1));
             repo.ApplicationUnderTest.ButtonTagEdit_Row2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Text1' at Center.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Text1' at Center.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(2));
             repo.ApplicationUnderTest.Content1.Text1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.Content1.Text1' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.Content1.Text1' and assigning its value to variable 'oldName'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(3));
             oldName = repo.ApplicationUnderTest.Content1.Text1.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
             edittedName = HelperMethodsCollection.getEdittedName(oldName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.Content1.Text1'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.Content1.Text1'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(5));
             repo.ApplicationUnderTest.Content1.Text1.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$edittedName' with focus on 'ApplicationUnderTest.Content1.Text1'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$edittedName' with focus on 'ApplicationUnderTest.Content1.Text1'.", repo.ApplicationUnderTest.Content1.Text1Info, new RecordItemIndex(6));
             repo.ApplicationUnderTest.Content1.Text1.PressKeys(edittedName);
             Delay.Milliseconds(0);
             

@@ -41,7 +41,7 @@ namespace BudgetItemAutomationIFM
         /// </summary>
         public openBrowser_Territory()
         {
-            browserName = "";
+            browserName = "Firefox";
         }
 
         /// <summary>

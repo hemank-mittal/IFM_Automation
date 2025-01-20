@@ -114,25 +114,28 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.itemCreatedMessageToaster'", repo.ApplicationUnderTest.itemCreatedMessageToasterInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.itemCreatedMessageToasterInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             
             //addedItem = HelperMethodsCollection.trimStrings(addedItem, "both");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.addedItemToTemplate' and assigning its value to variable 'compareTo'.", repo.ApplicationUnderTest.Content1.addedItemToTemplateInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.addedItemToTemplate' and assigning its value to variable 'compareTo'.", repo.ApplicationUnderTest.Content1.addedItemToTemplateInfo, new RecordItemIndex(3));
             compareTo = repo.ApplicationUnderTest.Content1.addedItemToTemplate.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(addedItem, compareTo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Content1.addedItemToTemplate'.", repo.ApplicationUnderTest.Content1.addedItemToTemplateInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Content1.addedItemToTemplate'.", repo.ApplicationUnderTest.Content1.addedItemToTemplateInfo, new RecordItemIndex(5));
             Validate.Exists(repo.ApplicationUnderTest.Content1.addedItemToTemplateInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.MatExpansionPanelHeader1' at Center.", repo.ApplicationUnderTest.Content1.MatExpansionPanelHeader1Info, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.MatExpansionPanelHeader1' at Center.", repo.ApplicationUnderTest.Content1.MatExpansionPanelHeader1Info, new RecordItemIndex(6));
             repo.ApplicationUnderTest.Content1.MatExpansionPanelHeader1.Click();
             Delay.Milliseconds(0);
             

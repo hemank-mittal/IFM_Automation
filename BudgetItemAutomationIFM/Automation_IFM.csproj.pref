@@ -1,29 +1,19 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="HelperMethodsCollection.cs" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="editCampusLocation.rxrec" />
-    <Element value="CampusLocationAutomationIFM.rxtst" />
-    <Element value="validateCreateCloseoutItem_ExistingName.rxrec" />
-    <Element value="AllModuleGroups.rxtmg" />
-    <Element value="HelperMethodsCollection.cs" />
-    <Element value="TMM_TaskItemAutomationIFM.rxtst" />
-    <Element value="CloseoutItemAutomationIFM.rxtst" />
-    <Element value="createCloseoutItem_existingItem.rxrec" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData">
     <Properties name="customTool">
+      <fileNames value="" />
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getCommaSeperatedString_FromRepo(String elementPath)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getListFromRepo(String elementPath)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getListFromRepo(Adapter element)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getDifferentOption(Adapter element)" />
       <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.selectDifferentOption(Adapter element)" />
       <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.compareSecondRecord_IfExist(String elementRxPath, String record1)" />
-      <Element value="BudgetItemAutomationIFM.validateEditItem_Fail.Validate_secondRow_FirstElement(String record1, String elementInfoItemName)" />
-      <Element value="BudgetItemAutomationIFM.createTaskTemplate.Mouse_Click_selectDropdown_FirstInstance(RepoItemInfo spantagInfo, Boolean isProjectType)" />
-      <Element value="BudgetItemAutomationIFM.createTaskTemplate.Mouse_Click_selectDropdown_FirstInstance(RepoItemInfo spantagInfo, Boolean isProjectType, Int32 optionIndex)" />
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.confirmSorting(Adapter element, String index, Boolean isDescending, Boolean isInteger)" />
     </Array>
   </Properties>
 </Properties>

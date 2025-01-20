@@ -118,7 +118,7 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            //HelperMethodsCollection.validationNotExist(repo.ApplicationUnderTest.DivTagBudgetCategotyHasBeenUpdated);
+            //validationNotExist(repo.ApplicationUnderTest.DivTagBudgetCategotyHasBeenUpdated);
             //Delay.Milliseconds(0);
             
             //Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ApplicationUnderTest.DivTagBudgetCategotyHasBeenUpdated'.", repo.ApplicationUnderTest.DivTagBudgetCategotyHasBeenUpdatedInfo, new RecordItemIndex(1));

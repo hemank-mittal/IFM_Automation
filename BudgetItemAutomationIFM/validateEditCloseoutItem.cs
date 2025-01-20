@@ -261,83 +261,86 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.itemCreatedMessageToaster'", repo.ApplicationUnderTest.itemCreatedMessageToasterInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.itemCreatedMessageToasterInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.searchBar.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.searchBar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTitle' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTitle' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.searchBar.PressKeys(newTitle);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.searchBar.PressKeys("");
             Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$newTitle) on item 'ApplicationUnderTest.firstElement_anyTag'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$newTitle) on item 'ApplicationUnderTest.firstElement_anyTag'.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(5));
             Validate.AttributeEqual(repo.ApplicationUnderTest.firstElement_anyTagInfo, "InnerText", newTitle);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.firstElement_anyTag' at Center.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.firstElement_anyTag' at Center.", repo.ApplicationUnderTest.firstElement_anyTagInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.firstElement_anyTag.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(7));
             repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_Title' and assigning its value to variable 'visibleTitle'.", repo.ApplicationUnderTest.ItemData_TitleInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_Title' and assigning its value to variable 'visibleTitle'.", repo.ApplicationUnderTest.ItemData_TitleInfo, new RecordItemIndex(8));
             visibleTitle = repo.ApplicationUnderTest.ItemData_Title.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(visibleTitle, newTitle);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_ParentItem' and assigning its value to variable 'visibleParentitem'.", repo.ApplicationUnderTest.ItemData_ParentItemInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_ParentItem' and assigning its value to variable 'visibleParentitem'.", repo.ApplicationUnderTest.ItemData_ParentItemInfo, new RecordItemIndex(10));
             visibleParentitem = repo.ApplicationUnderTest.ItemData_ParentItem.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(visibleParentitem, newParentName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_SpecificationSeciton' and assigning its value to variable 'visibleSpecificationSection'.", repo.ApplicationUnderTest.ItemData_SpecificationSecitonInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_SpecificationSeciton' and assigning its value to variable 'visibleSpecificationSection'.", repo.ApplicationUnderTest.ItemData_SpecificationSecitonInfo, new RecordItemIndex(12));
             visibleSpecificationSection = repo.ApplicationUnderTest.ItemData_SpecificationSeciton.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(visibleSpecificationSection, newSpecificationSection);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_Drawing' and assigning its value to variable 'visibleDrawing'.", repo.ApplicationUnderTest.ItemData_DrawingInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_Drawing' and assigning its value to variable 'visibleDrawing'.", repo.ApplicationUnderTest.ItemData_DrawingInfo, new RecordItemIndex(14));
             visibleDrawing = repo.ApplicationUnderTest.ItemData_Drawing.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(visibleDrawing, newDrawing);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_CsiDivisionCode' and assigning its value to variable 'visibleCsiDivisionCode'.", repo.ApplicationUnderTest.ItemData_CsiDivisionCodeInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_CsiDivisionCode' and assigning its value to variable 'visibleCsiDivisionCode'.", repo.ApplicationUnderTest.ItemData_CsiDivisionCodeInfo, new RecordItemIndex(16));
             visibleCsiDivisionCode = repo.ApplicationUnderTest.ItemData_CsiDivisionCode.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(visibleCsiDivisionCode, newCsiDivisionCode);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_UniformatCode' and assigning its value to variable 'visibleUniformatCode'.", repo.ApplicationUnderTest.ItemData_UniformatCodeInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_UniformatCode' and assigning its value to variable 'visibleUniformatCode'.", repo.ApplicationUnderTest.ItemData_UniformatCodeInfo, new RecordItemIndex(18));
             visibleUniformatCode = repo.ApplicationUnderTest.ItemData_UniformatCode.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(visibleUniformatCode, newUniformatCode);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_Description' and assigning its value to variable 'visibleDescription'.", repo.ApplicationUnderTest.ItemData_DescriptionInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.ItemData_Description' and assigning its value to variable 'visibleDescription'.", repo.ApplicationUnderTest.ItemData_DescriptionInfo, new RecordItemIndex(20));
             visibleDescription = repo.ApplicationUnderTest.ItemData_Description.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(visibleDescription, newDescription);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagBack' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagBackInfo, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagBack' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagBackInfo, new RecordItemIndex(22));
             repo.ApplicationUnderTest.Content1.ButtonTagBack.Click();
             Delay.Milliseconds(0);
             
