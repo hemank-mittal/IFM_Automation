@@ -55,6 +55,16 @@ namespace BudgetItemAutomationIFM
 #region Variables
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable existingName.
         /// </summary>
         [TestVariable("6927a6f3-c55a-43e4-8752-3ae9996e4cf2")]
@@ -125,8 +135,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.CdkOverlayContainer.selectDropdown_FirstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(9));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectP' at Center.", repo.ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectPInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.Content1.MatMdcSelectMinLineMatMdcSelectP.Click();
@@ -144,8 +154,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Content1.ButtonTagSave1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(14));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
         }
 

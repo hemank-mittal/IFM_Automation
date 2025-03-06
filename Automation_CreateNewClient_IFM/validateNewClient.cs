@@ -172,7 +172,7 @@ namespace Automation_CreateNewClient_IFM
             repo.ApplicationUnderTest.Searchbox.PressKeys(Email);
             Delay.Milliseconds(0);
             
-            newClientName = BudgetItemAutomationIFM.HelperMethodsCollection.concatStrings6(firstName, lastName, "", "", "", "");
+            newClientName = BudgetItemAutomationIFM.HelperMethodsCollection.concatStrings_spaces(firstName, lastName, "", "", "", "");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$newClientName) on item 'ApplicationUnderTest.clientTable.row1_column1'.", repo.ApplicationUnderTest.clientTable.row1_column1Info, new RecordItemIndex(5));

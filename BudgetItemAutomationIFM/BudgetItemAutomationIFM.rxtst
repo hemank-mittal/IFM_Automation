@@ -13,6 +13,12 @@
 					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -30,6 +36,12 @@
 					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
 					variablename="itemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="043e50d1-02a6-48c0-9f95-ae746262a5e7"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -43,6 +55,12 @@
 					variableid="d13b58b2-941f-4673-a472-699ffada4948"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -55,6 +73,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
 					variablename="itemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="043e50d1-02a6-48c0-9f95-ae746262a5e7"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -81,6 +105,12 @@
 					variableid="4c5820b7-c171-479e-a49c-2e3228f3b4ec"
 					variablename="ModuleGroupoptionIndex">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="d23c5122-8fb5-4ed4-896b-59383feb5cde"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -94,6 +124,12 @@
 					variableid="22cee98f-5495-4c4b-ad45-8f5621ad3311"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="2a5c1ab0-e233-4c0f-8ee5-4beb52421aaf"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -106,6 +142,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="807f36a4-b880-418a-adf4-f741419b9b50"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="61ba559d-99d8-4605-8488-6c9609521456"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -139,6 +181,14 @@
 			id="302a9314-7129-43c9-ade2-3d34b7e4c362"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="33bee380-1988-4f6c-a26f-d5d9f8d26337"
@@ -156,6 +206,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="08e56d5c-ecbb-45d4-b044-f2ad6cd4d25b"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="d2d31f64-fe44-4e13-9a2d-ae72eca2ffcd"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -175,6 +231,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="08e56d5c-ecbb-45d4-b044-f2ad6cd4d25b"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="d2d31f64-fe44-4e13-9a2d-ae72eca2ffcd"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -201,6 +263,12 @@
 					variableid="16c2f68f-3d13-44f4-ae96-fde47f290067"
 					variablename="ModuleGrouplinkedCategory">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="3fe6ed9e-fba6-46b8-860c-4a432cdc600a"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -220,6 +288,12 @@
 					variableid="92f6cfdb-af79-4c92-bf48-9c48327c2398"
 					variablename="ModuleGroupedittedName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="06c8c853-f837-41a9-a327-e00398c6d667"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<setup
@@ -236,6 +310,14 @@
 			id="46bd6bba-1e94-41ff-9042-8573f52a83cd"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="473aa68b-177b-4080-8d29-f2c22c266f77"
@@ -254,12 +336,26 @@
 					variableid="481b27d3-e41c-47b7-ba19-d567376d0415"
 					variablename="optionIndex">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="6d88e8a5-0297-459c-886f-d81c7c692ae7"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="4d86cb2a-831a-49fe-943a-478f058d68fe"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="50685a45-53b9-47e1-b7ef-a7f3eaade31f"
@@ -278,12 +374,26 @@
 					variableid="08e56d5c-ecbb-45d4-b044-f2ad6cd4d25b"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="d2d31f64-fe44-4e13-9a2d-ae72eca2ffcd"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="51404392-0096-4bf8-a5c3-67196e5b866b"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="55507a85-e787-40be-a19c-ade8fd89ba63"
@@ -302,6 +412,12 @@
 					variableid="92f6cfdb-af79-4c92-bf48-9c48327c2398"
 					variablename="ModuleGroupedittedName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="06c8c853-f837-41a9-a327-e00398c6d667"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -309,6 +425,14 @@
 			name="navigateToOwnerCode"
 			ref="c873d889-b7a2-4703-9e8e-c780938b6f97"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="5d3ddd94-ffe0-41b5-9eba-67de8940b16b"
@@ -321,24 +445,40 @@
 					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
 					variablename="itemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="043e50d1-02a6-48c0-9f95-ae746262a5e7"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
-			<testmodule
-			id="65d8a8b8-41f2-4367-9da3-bbc8ac410bde"
-			name="newItemName_IfExists"
-			ref="d536bcfb-c597-41ef-a764-641b2ac2bb57"
-			type="UserCode">
-			</testmodule>
 			<testmodule
 			id="65f066d5-ac5f-4353-821c-86b0c72c95f7"
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="73a1b521-117d-4c3b-830a-822b03c2f5fd"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="751016f4-6cfb-48ee-87c0-e088aa2b02b8"
@@ -351,12 +491,26 @@
 					variableid="d13b58b2-941f-4673-a472-699ffada4948"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="761d198e-49f3-4229-8a1c-132d9bfabf5c"
 			name="sortingItems_Column2"
 			ref="372db0ac-72d8-4a78-845d-6511ff11e2e6">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="9fce5ef3-9b6b-434d-8f58-a0c9aae91e20"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<teardown
 			id="778c9f51-eb1c-43e0-83f7-171fa572fb56"
@@ -379,6 +533,12 @@
 					variableid="92f6cfdb-af79-4c92-bf48-9c48327c2398"
 					variablename="ModuleGroupedittedName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="06c8c853-f837-41a9-a327-e00398c6d667"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -386,6 +546,14 @@
 			name="navigateToUniformatDivisionCode"
 			ref="c2a2b527-9cd0-4938-a32a-5fc6f75fb93b"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			id="826324a9-b9f4-4d46-87bd-4c6a944c85ee"
@@ -396,6 +564,14 @@
 			name="navigateToCsiDivisionCode"
 			ref="f1966cd7-b0d5-4989-a8b4-e11f16da004a"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="85c1f4e3-232a-4ad3-a66a-5fbebe2e1312"
@@ -408,6 +584,12 @@
 					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -418,6 +600,14 @@
 				<description>
 					<![CDATA[BLOCKER!!!]]>
 				</description>
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="4a61f4f9-eb60-4c20-819e-97c52f21c0b7"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<smartfoldernode
 			id="89ec788a-fe77-42e6-b3f3-9f57b6324472"
@@ -443,6 +633,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="576b534d-1d6e-4d77-8a9d-e409492d32cc"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="48d686f9-9086-436a-8e8b-cc1c8e3389b3"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -473,12 +669,26 @@
 					variableid="c027b17d-1d44-4c32-989f-1e17840df934"
 					variablename="ModuleGroupoptionIndex">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="aaf004ec-1927-4364-ad25-84c5a5eb80c9"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="942306eb-e906-4e2d-aa97-a9c9bc405472"
 			name="editBudgetItem_Name_Failure_EmptyData"
 			ref="339618f3-981e-4243-a427-8cdd60f658dc">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="350f6afb-63c8-488d-b66b-7a1546cb9c47"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			enabled="False"
@@ -495,6 +705,12 @@
 					variableid="d13b58b2-941f-4673-a472-699ffada4948"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -502,12 +718,28 @@
 			name="navigateToCmGcCode"
 			ref="47547941-635a-47b8-9fd9-ec6def71400e"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="a2b413cc-bc5d-4451-b33e-27ff84339831"
 			name="NavigateToItems"
 			ref="4198f2e5-3663-4214-b49a-e03cf81e03fb"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="a43c6999-1277-46d2-bdac-e8173e007f08"
@@ -520,6 +752,12 @@
 					variableid="b36efc34-25c8-472f-ae14-8546c082bb05"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="4b2abc39-003f-4309-be50-6ffc191b8ec5"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -527,6 +765,14 @@
 			name="navigateToTemplates"
 			ref="e1c12ab6-eb33-435d-907d-fc8f17cd13db"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="ac3e1154-8432-4fe1-a847-a1a4fccc8766"
@@ -545,6 +791,12 @@
 					variableid="6082b518-fe96-480a-814f-d283a2eabc3c"
 					variablename="ModuleGroupedittedName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="56d3eaa3-bd04-4763-b561-c5c8252338d0"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -561,6 +813,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
 					variablename="itemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="043e50d1-02a6-48c0-9f95-ae746262a5e7"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -593,6 +851,12 @@
 					variableid="d9668b95-47f7-4a5e-a767-a3d02085128b"
 					variablename="tagName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="06edca76-0eab-48a3-9887-28d407b94cd0"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -611,6 +875,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="08e56d5c-ecbb-45d4-b044-f2ad6cd4d25b"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="d2d31f64-fe44-4e13-9a2d-ae72eca2ffcd"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -631,6 +901,12 @@
 					variableid="92f6cfdb-af79-4c92-bf48-9c48327c2398"
 					variablename="ModuleGroupedittedName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="06c8c853-f837-41a9-a327-e00398c6d667"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -647,6 +923,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="d13b58b2-941f-4673-a472-699ffada4948"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -685,6 +967,12 @@
 					variableid="85140459-3be7-41e7-960e-786bf6c24239"
 					variablename="ModuleGroupRemovedItem">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="04c7385c-a591-4d27-ae3c-a2b27988278f"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -703,6 +991,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="08e56d5c-ecbb-45d4-b044-f2ad6cd4d25b"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="d2d31f64-fe44-4e13-9a2d-ae72eca2ffcd"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -723,6 +1017,12 @@
 					variableid="481b27d3-e41c-47b7-ba19-d567376d0415"
 					variablename="optionIndex">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="6d88e8a5-0297-459c-886f-d81c7c692ae7"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -736,6 +1036,12 @@
 					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -743,6 +1049,14 @@
 			name="navigateToCategories"
 			ref="c7e7feb1-2bf5-4bad-8941-a93402876ecb"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="da784d56-2ae8-49a8-9e85-805942d5456d"
@@ -754,6 +1068,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="d13b58b2-941f-4673-a472-699ffada4948"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -767,6 +1087,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="fa619092-7df5-42d3-a928-eb6f32860385"
 					variablename="itemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="043e50d1-02a6-48c0-9f95-ae746262a5e7"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -802,6 +1128,10 @@
 					name="elementExists"
 					value="">
 					</param>
+					<param
+					name="domain"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
 			<smartfoldernode
@@ -825,6 +1155,12 @@
 					variableid="92f6cfdb-af79-4c92-bf48-9c48327c2398"
 					variablename="ModuleGroupedittedName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="06c8c853-f837-41a9-a327-e00398c6d667"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -841,6 +1177,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -859,12 +1201,28 @@
 			id="fbdb39eb-fdc2-435f-99bd-1444ae6e2af7"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testmodule
 			id="fd787cf6-3844-4c18-9322-c6f19115dd7f"
 			name="ValidateBudgetItemPage"
 			ref="83b55475-9ce9-45de-bdde-96cfece1fc8b"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			enabled="False"
@@ -880,6 +1238,12 @@
 					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
 					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="e354fe98-d8f2-4eed-9bbf-efe2468e110e"
+					variableid="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -1146,10 +1510,6 @@
 							name="sortingItems_Column1">
 							</modulegroup>
 						</smartfoldernode>
-						<testmodule
-						id="65d8a8b8-41f2-4367-9da3-bbc8ac410bde"
-						name="newItemName_IfExists">
-						</testmodule>
 						<teardown
 						id="778c9f51-eb1c-43e0-83f7-171fa572fb56"
 						name="teardown">
@@ -1199,5 +1559,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

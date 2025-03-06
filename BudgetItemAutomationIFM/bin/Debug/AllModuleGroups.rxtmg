@@ -4,6 +4,12 @@ rxversion="10.1">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="0171d927-d3b8-468b-be7a-b47284ea5912"
+			name="createContact"
+			ref="f0debfc1-cb82-402c-9343-037727c04743"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="0228faf1-72f1-40fc-9a7c-72ef6651955a"
 			name="SortDescendingColumn2"
 			ref="618f49de-478b-432c-a706-beae7657869f"
@@ -148,6 +154,25 @@ rxversion="10.1">
 						variableref="cc98ea5e-4d96-44f9-9b14-e591bd385cb8">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="f141afe5-5464-48c7-b58f-49a70c3d4b8d"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="ad88c971-9c85-4bc0-86db-d17f083aa356"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="fb4d5e3d-d08d-4d3c-b1fc-168bf31f27de"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="85f3dbc5-7544-47da-a72c-b2d07965e3e0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -157,11 +182,203 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="0670c190-2f2a-44c4-b1d8-4eec66712958"
+			name="createIssue_projects"
+			ref="717a6425-06db-414c-928d-9861a93f22c1"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="0816413e-4956-48b8-9ca6-81347aabc5e8"
+			name="createIssues_Projects_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="f075a9bf-6754-4436-8386-73c6fd3f0a36"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="f08019e5-cee8-4845-8228-ff17ca9e92c7"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="99084706-4117-4df3-bfc1-9f4d2cbec138"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="9622c777-5b4e-481c-a62c-d2f69f540a2f"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="f08019e5-cee8-4845-8228-ff17ca9e92c7"
+						name="newTemplateName"
+						variableref="8aea6de2-6208-42ec-a681-7172bed1be7d">
+						</modulevariable>
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="title"
+						variableref="48d8aa6a-497f-4945-ae4f-ba3ad9d837a6">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="title"
+						variableref="a3440a13-41c1-4dff-8386-cdf40eb70ff8">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="43274eeb-e1b3-4745-89f7-131b4b78974c"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="f08019e5-cee8-4845-8228-ff17ca9e92c7"
+						name="itemCount"
+						variableref="fd7f141e-c36a-4120-8f9c-54d71d149929">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="2c63d741-61e2-4d09-b4b0-c243b8363228"
+					name="ModuleGrouptype">
+						<modulevariable
+						moduleref="99084706-4117-4df3-bfc1-9f4d2cbec138"
+						name="selectedType"
+						variableref="9b3415a3-9c20-451b-833f-e6c9a4ffec40">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="type"
+						variableref="287837e0-2c2a-446e-af4b-a30ea1ba93b2">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="e7f321af-764f-4786-9aef-caf057b43613"
+					name="ModuleGroupballinCourt">
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="ballinCourt"
+						variableref="396bbf9b-03e3-4b69-bfc8-6366f5e45e3f">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="ballinCourt"
+						variableref="1e5c90a9-f93b-4d26-8fd7-7a40e2f1c3fc">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="76bd5347-418b-4f45-9255-3b0964a2e8fc"
+					name="ModuleGroupstatus">
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="status"
+						variableref="49657ec1-b358-4fa6-b4a3-bf0a3e725758">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="status"
+						variableref="e6463385-84be-4db5-9c02-e4830bbae46b">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="227e2044-1beb-4430-a2b0-24c5ff568008"
+					name="ModuleGroupdescription">
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="description"
+						variableref="d7c37743-039e-4a7f-98e3-418a5cc3f270">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="description"
+						variableref="a2e104a1-bc6c-4cd6-b976-d54c6068342f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="bed82036-301a-4978-acd8-f319ff8a4040"
+					name="ModuleGroupdocumentId">
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="documentId"
+						variableref="9cd468a5-6ae1-48c0-8024-2414425407d7">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="documentId"
+						variableref="a2ee3420-6f83-4ea1-a3e7-1d3a50649430">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="d2adc5b9-02b7-40dc-841b-2757299c8d6c"
+					name="ModuleGroupamount">
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="amount"
+						variableref="b14d6e41-f37f-4319-8513-c81aca977110">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="amount"
+						variableref="3492b20d-c307-4708-ba79-be1bfa5c3d3b">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="1374a8f2-3497-464d-a0b5-c3a349caea7e"
+					name="ModuleGroupnumberOfDays">
+						<modulevariable
+						moduleref="0670c190-2f2a-44c4-b1d8-4eec66712958"
+						name="numberOfDays"
+						variableref="a4558e4c-f119-451f-a9ea-a1522bf7ee04">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+						name="numberOfDays"
+						variableref="37bd7ae2-0676-4548-9fa1-42d91d434715">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
 			id="08d60d92-7d6a-4263-a1e0-e95af082210e"
 			name="HitSaveButton_2"
 			ref="b2da0fd8-5fb1-4988-9961-09246f152421"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="094c62eb-2cb6-41b7-85b7-f3232a44ccee"
+			name="sortGridTableColumn6">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="8d6ccef0-cd5f-406e-869a-d4de00890fb3"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="e506a5b9-2fcf-4a1c-afeb-bd7de0eb0a16"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="2e30edd3-5fe8-4536-8956-bda1bcfe824f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="09fbe18b-8d02-4638-b801-8759316854e3"
 			name="validateEditItem_Fail"
@@ -177,6 +394,22 @@ rxversion="10.1">
 			<modulegroupdef
 			id="0aca84de-1635-4e13-9c9d-e8ff1c64d683"
 			name="editBudgetItem_Category_Failure_EmptyData">
+				<groupvariables>
+					<groupvariable
+					id="4a61f4f9-eb60-4c20-819e-97c52f21c0b7"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="4eb074f0-296f-4b19-9559-ace6d53988ce"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="1687c534-e046-45c1-af54-5ba49b513239"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
 			id="0b0931ee-8245-4d3c-908d-15a4673ecd23"
@@ -230,6 +463,30 @@ rxversion="10.1">
 						moduleref="a9665cca-f0b9-454f-89cf-b47bdcf7e8c7"
 						name="descriptionText"
 						variableref="edb59dd6-8a77-45f8-a936-c90801e612fb">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="767b45e4-5bb5-4f8a-be97-1d267628ef6c"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="e0ed81f0-2c05-417c-9248-3887bab1361b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="16fc6113-1d39-4a8c-a069-866c81c51f3e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="30613b9e-1f05-452a-b950-a8d3cd585316"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="a9665cca-f0b9-454f-89cf-b47bdcf7e8c7"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -316,6 +573,20 @@ rxversion="10.1">
 						variableref="3b6a3c45-6cee-4a16-8064-6ee6daf7338a">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="4e4d2b78-f125-4603-88b3-2724ea946b9b"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="83ae19b6-54e8-4b53-9838-5f2ff956371d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="299f3146-71fd-4561-a8c3-91068b2701b3"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -361,8 +632,38 @@ rxversion="10.1">
 						variableref="f39fcc15-b45c-423a-a68d-b6d3dfe48d14">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="d23c5122-8fb5-4ed4-896b-59383feb5cde"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="6d788852-5e09-47f4-9adf-749aa3e0b1bb"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="b9a3ef60-5384-484c-9555-9e96a4e0f206"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3360751e-08bc-413a-8844-0ebc147e3691"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="96c1b7e7-3664-47dd-9127-84ee853b38bd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+			name="createRoom_MDC"
+			ref="425253a1-e216-4af8-a7f9-2fe675bbc936"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="0e30b0b5-299f-4022-ab35-d14ae82b6bf6"
 			name="validateEditItem_Name_Success"
@@ -387,6 +688,30 @@ rxversion="10.1">
 						variableref="3b5a833e-9663-48b6-aace-4063f5872023">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="04c7385c-a591-4d27-ae3c-a2b27988278f"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="4c8270d6-541c-41fb-be77-e3b2567bcc1e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c9617df1-7741-4c95-ae3f-af6b89c1ad9a"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="104bd7e2-d361-4204-bbee-dc25d57381f3"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="8a7cee6a-d155-4467-86b5-5dd3e84ba647"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -395,6 +720,140 @@ rxversion="10.1">
 			ref="b2da0fd8-5fb1-4988-9961-09246f152421"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="10cc29d0-7f56-494d-bd15-ba004558feaf"
+			name="createProjects_AllFields_BudgetInformation"
+			ref="acd24729-3642-4d2f-9835-45cd3a519f1a"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="11f48abe-9ed3-48b2-8172-39834c9194ac"
+			name="removeContacts_Projects_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="5bf44e85-210b-4dcc-896f-f94ad49576d0"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="b5e0e8d3-cae3-4787-8216-aeda2f4f0992"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="2635db66-97fb-482f-acb6-2abd78abbb26"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="ff51ff05-a334-4210-83d0-1aa51370bb9f"
+					name="ModuleGrouplatestContact_FullName">
+						<modulevariable
+						moduleref="b5e0e8d3-cae3-4787-8216-aeda2f4f0992"
+						name="contactFullName"
+						variableref="8ec3f095-2e49-4a58-8c15-fcf4cca9c937">
+						</modulevariable>
+						<modulevariable
+						moduleref="2635db66-97fb-482f-acb6-2abd78abbb26"
+						name="contactFullName"
+						variableref="109554e2-b2a5-42d3-92bf-889065dc3ec7">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<modulegroupdef
+			id="122eb4fd-118a-4100-bc34-93ed3aa7845c"
+			name="createPunchList_Project_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="05bf9df3-47d8-422a-82cc-395989ab05d5"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="a7508706-5975-4eec-96a6-abdb8f81c418"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="8698de9d-31a5-44c0-a80c-5b0ad5349562"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="52c77b88-1929-4d56-91c1-3decbe9cb3be"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="10a5d6d6-5177-4abe-a9e4-93606ef7278e"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="a7508706-5975-4eec-96a6-abdb8f81c418"
+						name="newTemplateName"
+						variableref="8aea6de2-6208-42ec-a681-7172bed1be7d">
+						</modulevariable>
+						<modulevariable
+						moduleref="8698de9d-31a5-44c0-a80c-5b0ad5349562"
+						name="itemName"
+						variableref="d237e3be-d2b8-4e2b-829b-b0420cc4f61e">
+						</modulevariable>
+						<modulevariable
+						moduleref="52c77b88-1929-4d56-91c1-3decbe9cb3be"
+						name="itemName"
+						variableref="b21c69f2-ac55-4a56-9528-ec76bd085fcb">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="92cc9ffc-f42b-4ae3-a326-e987064c64a0"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="a7508706-5975-4eec-96a6-abdb8f81c418"
+						name="itemCount"
+						variableref="fd7f141e-c36a-4120-8f9c-54d71d149929">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="b0cfd9d9-9fb2-4b38-8cf6-8c98d2e29996"
+					name="ModuleGrouploaction">
+						<modulevariable
+						moduleref="8698de9d-31a5-44c0-a80c-5b0ad5349562"
+						name="location"
+						variableref="e7c2a111-2ccb-448e-a1c2-8e53816bee2d">
+						</modulevariable>
+						<modulevariable
+						moduleref="52c77b88-1929-4d56-91c1-3decbe9cb3be"
+						name="roomLocation"
+						variableref="85d834ff-a56d-481f-966e-d9a8a56296aa">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="98af417d-135c-4147-b436-f40f5a9813ba"
+					name="ModuleGroupdescription">
+						<modulevariable
+						moduleref="8698de9d-31a5-44c0-a80c-5b0ad5349562"
+						name="description"
+						variableref="903b000a-8101-449a-9b28-5daad7b22085">
+						</modulevariable>
+						<modulevariable
+						moduleref="52c77b88-1929-4d56-91c1-3decbe9cb3be"
+						name="description"
+						variableref="be354ebf-09b4-4c09-a11a-87eae254ac55">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="93e30a25-5dc1-45de-9197-2de04fd78a5b"
+					name="ModuleGroupcurrentUser">
+						<modulevariable
+						moduleref="52c77b88-1929-4d56-91c1-3decbe9cb3be"
+						name="currentUser"
+						variableref="b4920e7c-4fb9-4571-b8e9-0d9f06b03e33">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="1292d4ad-c636-40fd-9850-085a95e2178a"
 			name="createTaskConfigurations_Fail"
@@ -475,6 +934,30 @@ rxversion="10.1">
 						variableref="5ca9df48-03e6-451a-adc1-10f0cb278e60">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="17559fbc-b5c0-4a30-bd93-393b7c818f9f"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="66e9a887-73d7-4860-8850-5e1560d7931c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="8710cf22-a1da-485a-b87e-eb65ae37cb7d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="74745dfc-be4d-41ec-bad5-15139e4ffb7f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="efe62745-2696-4354-bf47-aecb4a8d4c1e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -493,6 +976,12 @@ rxversion="10.1">
 			id="16fc6113-1d39-4a8c-a069-866c81c51f3e"
 			name="editFundingSource_Description"
 			ref="ee7832bf-653e-4b63-a767-1b0f4c87cefd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+			name="createProjects_AllFields_AssociatedOrganization"
+			ref="dbfbc943-bc71-4083-8eab-0c8dc23ec3fb"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -571,6 +1060,30 @@ rxversion="10.1">
 						variableref="279784bd-c405-49d1-b631-f4feae5eee4c">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="6ba7ff0b-8c42-47fc-9ce4-cdb6a0173038"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="cf63af6a-9822-4c49-a7c8-44f1f8d20000"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="72c7ece9-0231-4351-a2d8-32d8a193cb33"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="08d60d92-7d6a-4263-a1e0-e95af082210e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ac88a2e6-b3e5-4fc5-b9ed-8ec15a574e6b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -585,10 +1098,786 @@ rxversion="10.1">
 			ref="063e8c02-f80a-4746-91ba-9fbaae751a8e"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="1f3bb629-f7c1-491a-850b-ed7f9180700f"
+			name="createProject_Module_AllFields">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="1ac1baf8-fdb9-4644-97ce-7e11616d412f"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="3d47913e-68aa-4eef-9040-37559c44af17"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="10cc29d0-7f56-494d-bd15-ba004558feaf"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="f85ab6f0-47ab-4f38-8a2a-5a304b76a5e4"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="9e075238-ed35-4c34-b55f-b6d9ec990d8d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="78270f89-4398-428a-a47c-1a7a0be521ef"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="3d47913e-68aa-4eef-9040-37559c44af17"
+						name="itemCount"
+						variableref="fd7f141e-c36a-4120-8f9c-54d71d149929">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="6f225724-451f-4d68-997c-68738a5fcbbc"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="3d47913e-68aa-4eef-9040-37559c44af17"
+						name="newTemplateName"
+						variableref="8aea6de2-6208-42ec-a681-7172bed1be7d">
+						</modulevariable>
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="projectName"
+						variableref="39c52873-4b5d-4053-acf5-55874f0af919">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="96de5ce1-9c6c-4bed-8ab7-70910f0edd9d"
+					name="ModuleGroupprojectDescription">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="projectDescription"
+						variableref="eb78b400-27ad-4d4e-b693-c109e1078c89">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="e4fd04b3-5d09-4baa-9b78-19b3a0a091f3"
+					name="ModuleGroupfieldName">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="fieldName"
+						variableref="c0f21d87-e705-4cd0-95cc-dc9a7c989e7a">
+						</modulevariable>
+						<modulevariable
+						moduleref="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+						name="fieldName"
+						variableref="f16b0abd-5da0-4310-97f6-dc525d469d82">
+						</modulevariable>
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="fieldName"
+						variableref="b57915f1-5c1a-47b5-9e43-cf78f7c8897b">
+						</modulevariable>
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="fieldName"
+						variableref="61c7de25-781f-40f1-b100-cd704cba912c">
+						</modulevariable>
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="fieldName"
+						variableref="a9677a2f-d460-4627-a3f0-f7090a67e5e2">
+						</modulevariable>
+						<modulevariable
+						moduleref="10cc29d0-7f56-494d-bd15-ba004558feaf"
+						name="fieldName"
+						variableref="bcd665f5-a0ef-4c59-b121-8fb198905bdb">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="f4534b93-280a-4788-a4e4-1a52cd9cfb79"
+					name="ModuleGroupprogram">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="program"
+						variableref="c37d99ae-d3de-4eea-a952-c6c5843da146">
+						</modulevariable>
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="program"
+						variableref="6a36656c-8f71-4476-87a9-556d33996c69">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="d0e262ca-c4c5-4b43-97ee-a8bbd5e0847c"
+					name="ModuleGroupprojectId">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="projectId"
+						variableref="19df51bd-3ab6-4ba1-9118-5e6e1a2850ec">
+						</modulevariable>
+						<modulevariable
+						moduleref="9e075238-ed35-4c34-b55f-b6d9ec990d8d"
+						name="projectNumber"
+						variableref="d10786d4-481f-4128-9bb2-d08886c82854">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="5d845e2c-6a7a-41a2-b7de-f4ce98978c57"
+					name="ModuleGroupprojectType">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="projectType"
+						variableref="79c187ae-6589-45e8-941c-8b9975c336ae">
+						</modulevariable>
+						<modulevariable
+						moduleref="9e075238-ed35-4c34-b55f-b6d9ec990d8d"
+						name="type"
+						variableref="47be2cee-f14c-4011-be11-afe3963592ba">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="4f2680ee-06a4-4ed9-85ea-8da55e046a82"
+					name="ModuleGrouptags">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="tags"
+						variableref="1cbc591a-2589-4b7d-ba21-2c590b3c1a4a">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="f4be3da2-bdd8-4495-b0c9-7a2ffc9a2bbb"
+					name="ModuleGroupcampus">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="campus"
+						variableref="85f9e4f5-601f-47f8-90de-6e5490044f75">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="d0e58ac3-f905-4835-94eb-17343f952bd2"
+					name="ModuleGroupaddress1">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="address1"
+						variableref="60cbcd38-7529-417b-a788-e298183eaf21">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="60446b2d-dc70-4c17-95af-3683633dfea7"
+					name="ModuleGroupaddress2">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="address2"
+						variableref="68082b07-61f8-4b04-bc28-efc32ad26d1c">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="f21810dd-820b-4baf-900a-11937706bd99"
+					name="ModuleGroupcity">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="city"
+						variableref="3428c893-4758-4bfd-989d-a8384d7671d7">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="dd0a32b3-d91e-43ac-b825-7a40c6fae575"
+					name="ModuleGroupstate">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="state"
+						variableref="fbd190e8-23f4-41a7-b98c-06b172dc76d4">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="27d1ee62-f6c7-4f47-b5d4-f9267479081a"
+					name="ModuleGroupcounty">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="county"
+						variableref="f44e0325-3f29-47c9-8946-4fccd3f17b79">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="Tags"
+					id="0a7d7a70-5c16-4056-a5ad-94e88208c130"
+					name="ModuleGroupcountry">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="Country"
+						variableref="575b05a2-20ab-42b1-9d17-7db18164ca5a">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="0fab1d34-943f-408e-9b34-f6d743e43f5a"
+					name="ModuleGroupzipCode">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="zipcode"
+						variableref="2bf99e57-9b06-4b16-8777-87b5ec184fbb">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="17529c70-f4d0-4871-9530-7b33d7ebaf03"
+					name="ModuleGroupterritoryDistrict">
+						<modulevariable
+						moduleref="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+						name="territoryDistrict"
+						variableref="8a1153bd-3441-4fc0-88dc-aa798783bd7f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="92c8936d-58d3-40ff-9f84-96719383faf6"
+					name="ModuleGroupprojectManager">
+						<modulevariable
+						moduleref="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+						name="projectManager"
+						variableref="c2d9a0bd-f53b-4152-8501-459ae3622969">
+						</modulevariable>
+						<modulevariable
+						moduleref="9e075238-ed35-4c34-b55f-b6d9ec990d8d"
+						name="projectManager"
+						variableref="11cc416b-4cb0-4dff-a608-39919e2c6779">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="f0d0faec-5c23-40e9-ad59-74924c37b1b3"
+					name="ModuleGroupassociateProjectManager">
+						<modulevariable
+						moduleref="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+						name="associateProjectManager"
+						variableref="2159bc31-cbf7-450c-941a-bd6ba61a76bc">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="7c5b2b62-922a-41ed-b0bb-2dcbc0cd6322"
+					name="ModuleGroupcloseoutSpecialist">
+						<modulevariable
+						moduleref="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+						name="closeoutSpecialist"
+						variableref="6693516f-79c1-4e24-a840-5c556fab5b0e">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="8c5a6272-0d2e-4ce7-b229-fbfcb8d3b8a8"
+					name="ModuleGroupdirector">
+						<modulevariable
+						moduleref="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+						name="director"
+						variableref="988369a0-b874-4b04-9151-a68859314bbb">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="b55ee514-447f-411d-a6dd-2caa61c366e8"
+					name="ModuleGroupinvoiceManager">
+						<modulevariable
+						moduleref="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+						name="invoiceManager"
+						variableref="d8cb372c-3278-4381-b2f7-4182748dee4a">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="ff0d2612-859b-47ee-ac7c-0ef68ad3e874"
+					name="ModuleGroupAE_Organization">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="AE_Organization"
+						variableref="c96ef05d-2e55-4627-b78a-52beff700d7f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="01894578-bb66-4b85-b54b-ee24641fcf65"
+					name="ModuleGroupAE_PrimaryContact">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="AE_PrimaryContact"
+						variableref="0fd43b2f-daf2-4a38-a5ea-3f920b6e5e27">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="fe29c2f9-46c1-4708-abc5-ad4c4615f23c"
+					name="ModuleGroupAE_SecondaryContact">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="AE_SecondaryContact"
+						variableref="981be6ff-5aca-4a0b-bef3-a19c1ccf85f0">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="d913a597-224d-4f59-a981-04ee5d2572b0"
+					name="ModuleGroupCM_Organization">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="CM_Organization"
+						variableref="99db498c-7ffc-4d60-8a2a-7d382e095886">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="8e9bbf5e-81c0-425c-89af-04d0a00737c2"
+					name="ModuleGroupCM_PrimaryContact">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="CM_PrimaryContact"
+						variableref="7a2cea9e-b677-4b47-b95b-6b543ed7857a">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="935a5fb8-93f2-4178-9125-a309389cd170"
+					name="ModuleGroupCM_SecondaryContact">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="CM_SecondaryContact"
+						variableref="ba110920-76f1-40ba-b30b-54b58e133300">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="62353e25-1138-452f-96c3-027d6e9b6c44"
+					name="ModuleGroupvendorOrganization">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="vendorOrganization"
+						variableref="22e11ada-14ed-41f4-927c-2c698b2112c6">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="3e535d2c-2be8-4e40-a73a-3402fe6083df"
+					name="ModuleGroupclientOrganization">
+						<modulevariable
+						moduleref="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+						name="clientOrganization"
+						variableref="8842d0d5-0ae2-48d4-9858-22ff8ef8e2a2">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="b23e7909-7a7c-46d0-a6e9-7124e4752fe7"
+					name="ModuleGroupfinalCompletion">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="finalCompletion"
+						variableref="6046eee9-b6c0-4726-9c69-6ce0ced52208">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="32d3bec9-790e-4fea-918c-61f2c6a38281"
+					name="ModuleGroupprojectStartDate">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="projectStartDate"
+						variableref="65f1f0f8-ff15-4ba6-8c1b-66ca61c8ba54">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a54357df-3c26-4b5e-aa30-4b5fb84724c4"
+					name="ModuleGroupdesignStartDate">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="designStartDate"
+						variableref="b21dc5a7-55aa-451e-ab44-7b98d75cc920">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="223eaa67-674c-4a68-a893-04c758c74710"
+					name="ModuleGroupconstructionStartDate">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="constructionStartDate"
+						variableref="2c120549-eadd-4899-ba93-f912f3cdbfef">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="83a52bb6-2518-4e37-8688-bae97ad72818"
+					name="ModuleGroupconstructionCompletionDate">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="constructionCompletionDate"
+						variableref="5b3ba459-fcc4-4dc5-ad32-67bfd3c84225">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="797f06be-8d30-4b3c-a5cb-ca69c1fd1317"
+					name="ModuleGroupkeyDateLabel">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="keyDateLabel"
+						variableref="90671625-73d9-47d3-a0b7-b66690dee010">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="f6527647-1512-4dfd-92fd-d3a0433a15e1"
+					name="ModuleGroupkeyDateTemplate">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="keyDateTemplate"
+						variableref="5148c2c8-6c50-4ad6-aff0-1d7056f12fea">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="4b153326-ec18-4fd2-bb67-d9e42888cbc7"
+					name="ModuleGroupaeNtp">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="aeNtp"
+						variableref="ea0fae54-8ccc-4622-be2c-2dac1b3895b3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="854f2c7c-a280-436c-b9fa-f68d7bf64f18"
+					name="ModuleGroupphase1_30">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="phase1_30"
+						variableref="64eaa68d-2d78-407f-8607-5d4c19b5735d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="8395eaf2-4d3d-4ff4-98cb-9b4a5e1e34d1"
+					name="ModuleGroupphase2_60">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="phase2_60"
+						variableref="8f5304fe-af5e-41fb-a084-962f07ff4f22">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="6f709c27-f07e-435a-a83e-e3c65d72b714"
+					name="ModuleGroupphase3_90">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="phase3_90"
+						variableref="10546e1f-20c9-4079-906f-231f3e45d8fb">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="e1068852-53a8-4c58-9a12-0b9b21db8fea"
+					name="ModuleGrouppermitSet">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="permitSet"
+						variableref="4a428b86-9461-49c5-baec-b0a4199879a7">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="f3b63524-ff81-43dc-91d2-e2ef630fd597"
+					name="ModuleGroupownerBoardApproval">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="ownerBoardApproval"
+						variableref="0bd3bf31-648c-468a-8bf5-bd9939a84575">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="eb836b20-fa2b-4876-a4b0-a93f3c683b6e"
+					name="ModuleGroupgcSubBidOpening">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="gcSubBidOpening"
+						variableref="5cd2b2bf-cf41-4868-b09a-9fe46953eac2">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="2b18bc26-b28f-4c0e-8245-19145da15fd8"
+					name="ModuleGroupgmp">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="gmp"
+						variableref="12dd12a9-acc3-48ad-9ef2-722dbed83610">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a3e3e545-f6e7-42b4-a735-7b4b42a2bb7d"
+					name="ModuleGroupconstNtp">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="constNtp"
+						variableref="5741bb18-f844-445d-82a0-840fa6cce56c">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="84aab738-3391-4278-a9c4-83239da8916e"
+					name="ModuleGroupsubstantialCompletion">
+						<modulevariable
+						moduleref="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+						name="substantialCompletion"
+						variableref="5fab47e8-04d4-4f75-8c3a-12914e649256">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="59852f80-5136-42b5-9625-985a7431059a"
+					name="ModuleGroupfundingSourceCategory">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="fundingSourceCategory"
+						variableref="a2ca9e09-444e-4c40-a7d1-42c02171d1e3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="08489f18-9bbf-4cc9-b098-1fe7d2af0a95"
+					name="ModuleGroupfundingSource">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="fundingSource"
+						variableref="ba6de2fa-1bf8-4d3a-b03e-e7c3e88c028d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="502a1494-65dc-487f-a4f3-565ddbd1dac3"
+					name="ModuleGroupprojectName">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="projectName"
+						variableref="792b67c2-288a-47f2-8673-81813ce6d010">
+						</modulevariable>
+						<modulevariable
+						moduleref="9e075238-ed35-4c34-b55f-b6d9ec990d8d"
+						name="projectName"
+						variableref="b5a08cdb-2776-41ec-92a8-00070f4aa505">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="3f9acad4-e232-4737-9d75-30fbebe8edcc"
+					name="ModuleGroupestimateProjectCost">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="estimateProjectCost"
+						variableref="9e7848dd-5983-4c79-b351-c62f795da50c">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="e608badd-64d0-49be-9978-08277753429d"
+					name="ModuleGroupestimateContructionCostPerc">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="estimateContructionCostPerc"
+						variableref="8e609169-bb71-4d20-8cff-ceb692fbd3ba">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="bb7a964b-c6b6-40dd-a1d7-758a0185f352"
+					name="ModuleGroupestimatedConstructionCost">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="estimatedConstructionCost"
+						variableref="60df70b7-acdd-4c0a-9aa8-b1775aaf37bf">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="8ff3bcfd-830c-424e-ac5a-8350237cd139"
+					name="ModuleGroupestimatedSoftCost">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="estimatedSoftCost"
+						variableref="4b14bc52-a4ac-4552-bbee-18e0a9c3a66d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="3db46d71-9a77-42e1-9cab-e90742c6ffcf"
+					name="ModuleGroupestimatedSoftCostPerc">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="estimatedSoftCostPerc"
+						variableref="895dc30d-9696-426a-976e-0472f9c758bd">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="75c888e1-a8e2-4a5c-aac0-429c26af2cc2"
+					name="ModuleGroupapprovedBudgetProject">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="approvedBudgetProject"
+						variableref="3586bd93-3ddd-4438-8532-e13e566281ae">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="fa43d0de-fcba-407c-ab61-60e08dbd7147"
+					name="ModuleGroupapprovedConstructionCost">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="approvedConstructionCost"
+						variableref="0b155986-9746-4906-b777-68f157cdf8ef">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="Estimated Project Cost"
+					id="e19783f3-cd59-490c-aad8-ad89f6aecf8c"
+					name="ModuleGroupapprovedConstructionCostPerc">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="approvedConstructionCostPerc"
+						variableref="2f107379-e042-45e3-9fd5-214f5b3a29fd">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="7199e95a-d014-4c1a-9af9-353fdf8add96"
+					name="ModuleGroupapprovedSoftBudgetPerc">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="approvedSoftBudgetPerc"
+						variableref="d7b95bfe-dda6-47e5-8fe2-2fa69bb2e0d3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="5a9e6424-5754-440c-9bec-51ca266413d6"
+					name="ModuleGroupapprovedSoftCost">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="approvedSoftCost"
+						variableref="ed668de2-1288-4c90-bb5c-313f22ba5af7">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="5458df83-f279-442f-b150-79f354c2b97f"
+					name="ModuleGroupodpReserve">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="odpReserve"
+						variableref="f309caee-00a1-4af9-abb0-453273ec2a39">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a99a36f0-2289-4954-b2c7-87edf62a2a0a"
+					name="ModuleGroupsalesTaxPerc">
+						<modulevariable
+						moduleref="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+						name="salesTaxPerc"
+						variableref="f0381ddc-862e-4b85-9f89-9d0ddd6ebc89">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="791411c2-b0be-4159-b972-f9019792474f"
+					name="ModuleGroupopening">
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="opening"
+						variableref="d4c91cd0-3b05-484e-aa25-2619db1caee5">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="c47feba3-2bce-433f-a04b-11cef4cb3868"
+					name="ModuleGroupgrossSiteAreaAcres">
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="grossSiteAreaAcres"
+						variableref="a93ab3c7-4ef0-453f-bef2-58665ce12d05">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="374b345d-dbba-4cf8-9f6d-d1bc2de25baf"
+					name="ModuleGroupgrossFloorAreaSqft">
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="grossFloorAreaSqft"
+						variableref="5fa48a3b-4b48-4251-9fa4-73dea6630706">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="2c3bd5a3-a785-4b9d-a17b-5688be325ed8"
+					name="ModuleGroupcoreCapacity">
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="coreCapacity"
+						variableref="baa619b9-ad47-45e6-820e-020a0ca310f5">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="271306c2-0cf1-4dc9-b357-c12b1aef706d"
+					name="ModuleGroupbuilding">
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="building"
+						variableref="b5375f3a-d979-42cf-8f5f-24f42d17729f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="c8833491-90c8-4a05-91d1-7603030c5052"
+					name="ModuleGrouproom">
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="room"
+						variableref="ce4b950b-756e-405f-a650-f081104e4612">
+						</modulevariable>
+						<modulevariable
+						moduleref="10cc29d0-7f56-494d-bd15-ba004558feaf"
+						name="room"
+						variableref="cc87d509-1535-41da-a7b5-09e689a2dc94">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="019eab48-55ed-4b28-b3ec-144d8656c19d"
+					name="ModuleGroupwbsCode">
+						<modulevariable
+						moduleref="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+						name="wbsCode"
+						variableref="e0f121f0-5283-4c64-9181-b3fc5f99d8c5">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="04541a26-14bb-4b0f-8df7-bcc280148ac8"
+					name="ModuleGroupbudgetItem">
+						<modulevariable
+						moduleref="10cc29d0-7f56-494d-bd15-ba004558feaf"
+						name="budgetItem"
+						variableref="6e88ef5c-d849-46e3-a5a5-c8c554ba8fdf">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="f3b753f3-1a43-4159-8fc2-b144c20116a2"
+					name="ModuleGroupbudgetTemplate">
+						<modulevariable
+						moduleref="10cc29d0-7f56-494d-bd15-ba004558feaf"
+						name="budgetTemplate"
+						variableref="7a037512-a194-4d98-b40f-fd8d68c3e872">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="1fbbcc35-f59c-452b-8a92-cd74861547bc"
 			name="validateNotDeleted"
 			ref="78485bba-996e-4a40-8457-a79309106640"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1fe0a518-057e-48c1-82e4-b2580cdb3637"
+			name="Pre_createScenario_grid"
+			ref="854d17df-6bf4-4d41-80d9-79dc4deb70d2"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -659,6 +1948,30 @@ rxversion="10.1">
 						variableref="edb59dd6-8a77-45f8-a936-c90801e612fb">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="2d3facd2-d28e-446c-a369-3a35166cf456"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="3815a798-26c0-42fb-9099-a707c0360ecf"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="e2a26697-9587-430c-85d6-9c9fa5d4b38d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="454456bf-d372-4420-b216-399b8edc3484"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="0547be38-7f83-484e-bfae-7e06bd307603"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -674,6 +1987,26 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<modulegroupdef
+			id="23b8635f-16ca-49d7-859f-5bd467255908"
+			name="sortGridTableColumn7">
+				<groupvariables>
+					<groupvariable
+					id="5e0d1b1a-d341-4253-a410-7ab2554bce56"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="b4466b8c-bf29-49ef-9f17-42ce8fce151d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="8db04547-ba85-4c65-abcf-5d86a9cbf6da"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<modulegroupdef
 			id="23bd3eed-4135-423f-bb53-6a7ce84456bf"
 			name="createTaskTemplate_Failure_ExistingName">
 				<groupvariables>
@@ -686,6 +2019,20 @@ rxversion="10.1">
 						variableref="6927a6f3-c55a-43e4-8752-3ae9996e4cf2">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="c67065ac-3b1b-478f-a533-76302c05b6a2"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="95f90f82-b0f1-4288-ab6f-96079181e43c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="920c161c-b028-4493-9ed2-e96872b73e35"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
@@ -694,11 +2041,45 @@ rxversion="10.1">
 				<description>
 					<![CDATA[<---:]]>
 				</description>
+				<groupvariables>
+					<groupvariable
+					id="788562fb-a6f9-4dc3-a1aa-b14d1f647821"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="9a70127b-ed62-4b14-804b-2267dc32fa31"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c1d7edf4-8b17-421b-bfa8-437d546811cf"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="244a40a8-3a4f-404d-a06e-5b1cd8744878"
+			name="sortAscending_grid_Column2"
+			ref="30b7b3dc-9d38-4b2a-8265-93ba0dc8d1c4"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="24552829-72b4-4c4c-b5b5-345117e3212b"
 			name="validateTemplate_existingName"
 			ref="bb9b61dd-1624-4309-b7f8-53816bb86ec8"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="262f4233-7130-4134-8660-de4207f3cddd"
+			name="projectSuccessfulyCreated"
+			ref="80fb5d6b-da76-43c7-8a44-46158a683cc6"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2635db66-97fb-482f-acb6-2abd78abbb26"
+			name="validateContactRemoval_Project"
+			ref="369b8c65-a22e-4e12-9f3c-2f2d1fc95256"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -744,8 +2125,44 @@ rxversion="10.1">
 						variableref="ba0d903b-aba2-4657-81b6-7e8a96f744c2">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="6d88e8a5-0297-459c-886f-d81c7c692ae7"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="f7c6c1c6-18e3-4538-9119-29e540b02a19"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="b5ffc3ee-cd45-41c3-8f38-16254409f74c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="05db14e8-2ad6-49d5-b446-09ee8c45157a"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="53ab307e-d122-48ef-a94c-0587e7005c9c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="2913660c-0468-4bb7-8f1b-c0db6193a2cb"
+			name="enterDetailsProject_requiredFieldsOnly"
+			ref="c5fa27b0-4928-45e8-a995-b3a5706236dc"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="29992f0b-f95b-4e39-9870-fc88943f23b1"
+			name="sortDescending_grid_Column4"
+			ref="f9e1c9e3-e9b0-43e7-b37c-990a9a4f0aca"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="299f3146-71fd-4561-a8c3-91068b2701b3"
 			name="validateCreateTaskItem"
@@ -756,6 +2173,12 @@ rxversion="10.1">
 			id="29ddc7e0-876b-4781-bc99-0b25617cc47b"
 			name="HitSaveButton_1"
 			ref="9e3eef50-2139-45ee-a360-578b1e026f00"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+			name="createTask_project"
+			ref="9afbc7fe-dc24-4830-b4f8-e04ab9e16808"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -799,6 +2222,25 @@ rxversion="10.1">
 						moduleref="60d64c91-f63f-4f48-a2d4-aa33ffd764b0"
 						name="descriptionText"
 						variableref="69facf70-bc49-4631-aa72-2433dbf4c3fd">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="d34fd332-2e8f-4c4a-abe0-ea5c0f807c02"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="60d64c91-f63f-4f48-a2d4-aa33ffd764b0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c5ec1868-db87-470e-a402-c7b76a62dbfb"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="e96f3198-a0c3-4698-8704-e040ab343d43"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -965,8 +2407,33 @@ rxversion="10.1">
 						variableref="e1f2ad95-6e69-4cb3-8882-c4d6e61d2d63">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="707f2fe1-9ac6-40f4-9bc8-c82e5baf88fe"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="ae04f961-95f5-4faa-a0ff-ee265da50a5c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c826d2fb-db65-4e55-b117-5a4cbaa49149"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c90cdd55-25fa-41f9-8aa6-800e4d332662"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="2e30edd3-5fe8-4536-8956-bda1bcfe824f"
+			name="sortDescending_grid_Column6"
+			ref="fac09133-193e-4880-8fdd-fda1376e386e"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="2e74a9e4-6113-412c-adbe-97040ec10c0b"
 			name="validateFundingSource_ExistingItem"
@@ -1001,6 +2468,25 @@ rxversion="10.1">
 						variableref="e322605b-b848-4a3e-831f-b6c8a9f22c43">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="56d3eaa3-bd04-4763-b561-c5c8252338d0"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="44b39a05-e833-44f3-b555-0f45592f6e74"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c3af8e7e-4803-4870-8f42-c99f329be911"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="0e30b0b5-299f-4022-ab35-d14ae82b6bf6"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
@@ -1029,6 +2515,40 @@ rxversion="10.1">
 						moduleref="ad85d92e-55b7-42bd-aa9c-a2801e1befe5"
 						name="secondRecord"
 						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="7d34656d-0899-44ad-b97a-48361f6b2d52"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="1292d4ad-c636-40fd-9850-085a95e2178a"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ad85d92e-55b7-42bd-aa9c-a2801e1befe5"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<modulegroupdef
+			id="2f5ac8bb-4521-4e28-b8e4-92364e9c0a2b"
+			name="sortGridTableColumn8">
+				<groupvariables>
+					<groupvariable
+					id="234bb660-e994-428d-816b-8e45d15d25d5"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="b09eabd6-8947-42eb-bdb4-fe25d0246543"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="debf01be-9b15-4032-a9c1-1005fadd817c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -1081,12 +2601,37 @@ rxversion="10.1">
 						variableref="776f4c2c-76d4-4a1d-87c7-a99597dcd1b1">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="ff0d3e3b-a114-484b-bb40-46922d1f1aa4"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="0a3d65a1-18fa-40b8-9e12-8e3324d24e70"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="d12a8d92-5142-4676-a152-ba90ca7ed78b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="82c6d24d-dfa5-4f3a-b573-f23e78bdd130"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
 			id="32d8f519-eed8-474f-8273-bfe018317cfd"
 			name="validateCreateCloseoutItem_ExistingName"
 			ref="fcc829d7-8148-4589-8452-1daa7a33cb91"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3343992c-524f-42b4-8466-2c8b6963aed8"
+			name="sort_dTable_Ascending_Column3"
+			ref="8f41d08e-2dc4-4577-9788-0a8426eefd8f"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1104,6 +2649,27 @@ rxversion="10.1">
 			<modulegroupdef
 			id="339618f3-981e-4243-a427-8cdd60f658dc"
 			name="editBudgetItem_Name_Failure_EmptyData">
+				<groupvariables>
+					<groupvariable
+					id="350f6afb-63c8-488d-b66b-7a1546cb9c47"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="2339baae-8699-4539-b2f5-086caeb47a14"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="9adaa258-62b2-465e-97b4-09baf1fd6202"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="4135704a-1288-4acf-a0da-479c155892ac"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
 			id="34758f34-1e06-4b32-be9f-85bc57304f9e"
@@ -1133,8 +2699,39 @@ rxversion="10.1">
 						variableref="a48de8e3-ecd8-45b8-891e-66a6f3f508b4">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="4b2abc39-003f-4309-be50-6ffc191b8ec5"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="0c7800ed-f4d1-4a41-b1e6-9302e7a2e40e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="41d10bdf-9553-4cd3-a9f9-ea563c541c0e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3391a58a-0c15-49e2-97d6-821f132da0e8"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="3539fcfb-68f0-4c61-be12-9c33e65333f3"
+			name="sortDescending_grid_Column3"
+			ref="f03ccdd1-0c1e-458d-8050-e52d77a904cc"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+			name="createProjects_AllFields_ProjectTeam"
+			ref="a254e000-9c81-4efe-b38e-c6a24b9ef956"
+			type="Recording">
+			</testmodule>
 			<modulegroupdef
 			id="362289a2-2a69-4d31-b78c-8ff2836eb4c6"
 			name="editBudgetCategory_Failure_sameName">
@@ -1163,6 +2760,20 @@ rxversion="10.1">
 						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="043e50d1-02a6-48c0-9f95-ae746262a5e7"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="e070be74-a0a6-4e67-bf24-2195909d7c4d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="b0dad4b6-12fe-41c3-ade3-77e85034586c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
@@ -1171,6 +2782,22 @@ rxversion="10.1">
 				<description>
 					<![CDATA[<---:]]>
 				</description>
+				<groupvariables>
+					<groupvariable
+					id="9fce5ef3-9b6b-434d-8f58-a0c9aae91e20"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="47771b21-8677-47c2-a96d-1acb568eb3cb"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="0228faf1-72f1-40fc-9a7c-72ef6651955a"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
 			<testmodule
 			id="3815a798-26c0-42fb-9099-a707c0360ecf"
@@ -1190,13 +2817,68 @@ rxversion="10.1">
 			ref="047a7f6a-b198-49a3-a741-b3123e2f9614"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="3b05cde7-ac94-428c-9a44-27d187dd3883"
+			name="sortDescending_grid_Column2"
+			ref="4c0c2a64-a3df-4f95-997f-a192afc91799"
+			type="Recording">
+			</testmodule>
 			<modulegroupdef
 			id="3b137bc0-4d04-4df7-88b6-c04bed638147"
 			name="sortDTable_Column1">
 				<description>
 					<![CDATA[<---:]]>
 				</description>
+				<groupvariables>
+					<groupvariable
+					id="bc09716d-2fb5-49af-84a9-4f8858c69c1d"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="12a7c214-94ca-4afa-90be-e1d3d872c0b7"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="79d12c87-b8be-498c-9b91-44941ce73fe0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="3b451d7c-c790-40c9-b449-969a2cc337d0"
+			name="validateProjects_Failure"
+			ref="9f9263f8-25b3-492e-b73f-83e84bf636d6"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3d47913e-68aa-4eef-9040-37559c44af17"
+			name="Pre_createScenario_grid"
+			ref="854d17df-6bf4-4d41-80d9-79dc4deb70d2"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3d6df1c0-9343-499c-9d71-e9772cb3ee34"
+			name="validateRoom_MDC"
+			ref="2061ac00-4193-45f4-85f1-b51cb75cfbbb"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3e4afb96-e81f-47b1-ab6b-3d5461e511f3"
+			name="validateTask_Project"
+			ref="afc4906c-713b-4396-9bab-f97a7521b401"
+			type="Recording">
+				<description>
+					<![CDATA[BLOCKER!! UI changes expected]]>
+				</description>
+			</testmodule>
+			<testmodule
+			id="3f083044-a076-4b3b-b6a0-1a7b41474591"
+			name="validateProject_requiredFieldsOnly"
+			ref="f0840021-11d6-435f-aa33-575df44997e4"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="40a5f23d-f45a-41d4-a044-9232796da347"
 			name="ValidateCreatedTemplate"
@@ -1219,6 +2901,12 @@ rxversion="10.1">
 			id="41d10bdf-9553-4cd3-a9f9-ea563c541c0e"
 			name="HitSaveButton_1"
 			ref="9e3eef50-2139-45ee-a360-578b1e026f00"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+			name="createProjects_AllFields_AdditionalInformation"
+			ref="e03c24cf-209b-4e41-a9c3-978e2e982011"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1252,6 +2940,165 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<modulegroupdef
+			id="468833a7-bb2b-4ec6-aa0e-be57d49ef710"
+			name="editPunchList_Project_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="447817f3-9d17-4c7b-a5de-adb6458440d8"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="d784fc92-d1ce-4036-bc53-123f03f42075"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="itemName"
+						variableref="625aa43b-42ed-47be-bd56-18dbe1b20502">
+						</modulevariable>
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="visibleItemName"
+						variableref="cbb8ff7a-5cd7-4aae-9b07-956e90c5a142">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="6512c42d-5b95-4548-9892-d06c5b4f4559"
+					name="ModuleGrouploaction">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="location"
+						variableref="b5ab32be-4712-46b8-9cd2-672466adbc00">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="53c7d843-e0fa-44e2-9c02-356c5943d1ae"
+					name="ModuleGroupdescription">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="description"
+						variableref="6cdb50c4-2f8a-4c2d-b1cc-19d452c66ca3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="b24ee1a5-0dea-486c-80c1-791648c75f95"
+					name="ModuleGroupeditedItemName">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="editedItemName"
+						variableref="aac03cd7-cd9f-409b-9cb2-168fbb64cb42">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="itemName"
+						variableref="a7526076-01f6-4a0c-8aab-1c364eed8cda">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="820b1969-9c33-4a14-8aa3-7b9e8a5578de"
+					name="ModuleGroupeditedRoomLocation">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="editedLocation"
+						variableref="fa2c5915-080d-47fa-a6bc-68aa060b2da7">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="roomLocation"
+						variableref="6e8cf905-08b7-4797-82cf-fa7cc612f697">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="53dfcf30-b274-4f02-af49-ec597fdcaf84"
+					name="ModuleGroupeditedDescription">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="editedDescription"
+						variableref="60791fe5-25a3-45cd-bc94-722bd954a05f">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="description"
+						variableref="cc5bef7d-3445-4d36-ab8d-f08d562696d3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="bbc28c7b-3b0f-444a-b022-0f5db1403265"
+					name="ModuleGroupstatus">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="visibleStatus"
+						variableref="1d15ac5d-bc57-4ceb-ae49-2ba186cf4b0a">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="Status"
+						variableref="a89a127c-c3e3-4e04-b1e2-28b4ce72ce75">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="c33b9068-aa10-4474-8a74-a386adbc136e"
+					name="ModuleGroupapprovedStatus">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="visibleApprovedStatus"
+						variableref="f15ab368-4840-402c-872a-431cf6779726">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="approvedStatus"
+						variableref="65fd301f-ca96-4511-970c-9cc3d495346c">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="e963273f-6d95-4805-924a-0adb37384f58"
+					name="ModuleGroupcreatorName">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="visibleCreatorName"
+						variableref="a03ad4ce-f21c-405a-8943-3128de6b62e7">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="currentUser"
+						variableref="c893c1d9-d313-4986-8df8-50c0dbde8853">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="2755068d-8efe-4123-9fde-a82e71b9be22"
+					name="ModuleGroupcreatedDate">
+						<modulevariable
+						moduleref="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+						name="visibleCreatedDate"
+						variableref="7a1a3329-fb12-4455-b937-57cb7054e0b9">
+						</modulevariable>
+						<modulevariable
+						moduleref="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+						name="createdDate"
+						variableref="c6123c1e-eac4-4d7d-81f7-30cae58853d0">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<modulegroupdef
 			id="471614a6-dd08-45ba-8308-0552791a484b"
 			name="editTerritory_Failure">
 				<groupvariables>
@@ -1277,6 +3124,20 @@ rxversion="10.1">
 						moduleref="616c2aa3-fe65-4e4a-978a-f38ec6b23f1e"
 						name="secondRecord"
 						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="4468206d-635a-4c3e-ae50-5ef3e8f8f80d"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="f9fd95e6-8569-4b2c-958c-99c28aa1392e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="616c2aa3-fe65-4e4a-978a-f38ec6b23f1e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -1439,6 +3300,20 @@ rxversion="10.1">
 						variableref="91b7c267-100a-40f0-89e2-5afab94fccac">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="7922f2e1-2cfc-47e3-a458-8a1e0c0a61f0"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="2b3c3de8-547e-4fc5-a201-2d65691a8715"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="f9e876a9-6ccb-4d32-bca5-2e5e8b0cc055"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -1489,8 +3364,36 @@ rxversion="10.1">
 						variableref="856084da-8249-45c6-9735-8ef830ba3d10">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="aaf004ec-1927-4364-ad25-84c5a5eb80c9"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="1dd356dc-323e-4b83-b766-0da11a1ac054"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="29ddc7e0-876b-4781-bc99-0b25617cc47b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="2836b757-ad42-4eab-b6cc-a66eb88dff60"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="47dadf52-c3f1-4745-bbe3-491bf8909e42"
+			name="validateContactCreation"
+			ref="573081ba-136b-40d4-a9d6-975ae4f682ba"
+			type="Recording">
+				<description>
+					<![CDATA[BLOCKER!!!]]>
+				</description>
+			</testmodule>
 			<modulegroupdef
 			id="4924d16d-f457-4b32-a8fd-0a9d2d2cd43b"
 			name="createCategory_1_Failure_ExistingName">
@@ -1522,6 +3425,25 @@ rxversion="10.1">
 						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="731e2881-23fe-4da5-a4d9-7ca616b8d285"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="d382f2bc-1744-4754-9806-7f378cb23ea9"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="574e5dd8-5086-449b-9331-27d1b9d216e1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -1537,6 +3459,12 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="4c27317f-d5fc-4f10-83b8-7b61766a8f89"
+			name="validateAssetsType_MDC"
+			ref="0979a7ac-ea7f-4f08-987a-76aee01f1256"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="4c8270d6-541c-41fb-be77-e3b2567bcc1e"
 			name="editTemplate"
 			ref="33d2a853-b2fa-41c2-986a-e863daf45b40"
@@ -1549,9 +3477,27 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+			name="editPunchList_Project"
+			ref="30c93174-375c-4df4-a42e-aeb16e458b8e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+			name="validatePunchList_Project_Edit"
+			ref="e4ad38ed-0f5e-4520-a298-4e3b00ae48f4"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="4eb074f0-296f-4b19-9559-ace6d53988ce"
 			name="editItem_Category_Failure"
 			ref="5799dc79-e1d2-49dc-b8b6-d980c8d06acd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4ec0ed55-385b-430b-b7db-5d13b76c47db"
+			name="sortAscending_grid_Column5"
+			ref="67a85b9b-100f-4445-8d8f-3dc07e3054e1"
 			type="Recording">
 			</testmodule>
 			<modulegroupdef
@@ -1740,18 +3686,71 @@ rxversion="10.1">
 						variableref="13d01ae2-1053-4db2-a0d6-3a6eb7077076">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="871cac1d-3f52-4b2f-9dd1-0bdf728b8522"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="79a94420-02e2-48ed-8ed9-184f6f26863e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="5ff74ad5-1f39-439c-bdc8-b576f84b3bbd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="52c77b88-1929-4d56-91c1-3decbe9cb3be"
+			name="validatePunchList_Project"
+			ref="41644072-eca5-4283-aac5-19f819c08727"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="530007c2-3d3b-44ff-8e9e-fa813a803194"
 			name="ValidateCreatedTemplate"
 			ref="672ab156-6a12-42e6-9a84-4a12cd87b285"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="5399746b-c742-4aeb-9aee-b6610de776e5"
+			name="sortGridTableColumn4">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="f639e521-6c4b-42b2-bcf6-1db54ca0634e"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="6316e07b-1316-455a-824e-a8a049dcd205"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="29992f0b-f95b-4e39-9870-fc88943f23b1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="53ab307e-d122-48ef-a94c-0587e7005c9c"
 			name="validateEditAddition"
 			ref="a8abbcc4-5202-4c6b-bb1d-f3325104d802"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="54aaa88d-3692-4b64-a77e-c7905c590bcc"
+			name="createProjects_Failure"
+			ref="fa10bcb6-a936-43bc-9124-e550d63bd2c9"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+			name="createProjects_AllFields"
+			ref="71231b94-8df8-481d-9e1f-f4ac502372f6"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1791,6 +3790,25 @@ rxversion="10.1">
 						variableref="42305d6f-da17-4d55-b81a-fbcb1a5183a6">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="824e6362-2d41-4cd8-8112-a5d3fb470261"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="feaf8866-fdde-4891-8155-55eb15cd7260"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ec7af9d2-9cf7-4a06-a847-161caf5a0a5f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="6b12a43d-937c-47a6-b1b1-49e9070cd1dd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
@@ -1822,8 +3840,147 @@ rxversion="10.1">
 						variableref="90fee2a0-5fbe-4475-ac4a-f9fa515042d5">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="a05a5aa6-bd50-48a9-b41a-fecebc9d34e0"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="17f68a06-edfd-478a-bce6-ce05ac59eafc"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ab617b56-db80-46c3-899f-04bc799d8711"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="e685ed5d-f7ec-41dc-8b64-5203f40c211a"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="5a0ba7e5-4c1d-4de2-936f-d133521c8548"
+			name="sortAscending_grid_Column1"
+			ref="c9fccee5-a0a1-4a47-95e7-5e4da6198bad"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="5acbf3d7-fc52-47f4-896d-fbfbaa0af566"
+			name="createRoom_MDC_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="b37be49c-425d-4684-872b-fcc21645fbb4"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3d6df1c0-9343-499c-9d71-e9772cb3ee34"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="38ff7b48-cfc0-4bc2-bc0f-875ae9d39279"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="itemCount"
+						variableref="c2b3d699-6411-4196-83c5-0339ae3455f8">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="6eb5eff5-d907-486f-96bd-fcd01235b714"
+					name="ModuleGrouproomNumber">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="roomNumber"
+						variableref="ec544dd9-1c54-4b47-a7c4-ebe5028e2755">
+						</modulevariable>
+						<modulevariable
+						moduleref="3d6df1c0-9343-499c-9d71-e9772cb3ee34"
+						name="roomNumber"
+						variableref="dd7d63cb-090e-4275-9f98-81964dfd5696">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="c430200d-2b12-4fe3-88ea-69d42890cf2a"
+					name="ModuleGrouproomFloor">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="roomFloor"
+						variableref="7fdf098d-4be6-4958-8387-915918b84de9">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="e98458c3-caa5-44a1-9ee5-ce7cab0c9d3f"
+					name="ModuleGrouproomDepartment">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="roomDepartment"
+						variableref="ef2a8cfd-6f4d-47e2-a7dd-7c90fb55ed6d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="e65d6ce9-1dfd-4dd9-ba29-e8b5e75a45fa"
+					name="ModuleGrouproomBuilding">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="roomBuilding"
+						variableref="a77c7f8c-de08-4a71-9af9-7f1a90f2d6cc">
+						</modulevariable>
+						<modulevariable
+						moduleref="3d6df1c0-9343-499c-9d71-e9772cb3ee34"
+						name="selectedBuilding"
+						variableref="60fd5e78-61d1-4110-aa91-86b1926daf86">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="1b6b19d7-33b1-4850-9778-5d25d6a87400"
+					name="ModuleGrouproomDescription">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="roomDescription"
+						variableref="905ec7de-fe2b-4d53-a64f-6b27061f250d">
+						</modulevariable>
+						<modulevariable
+						moduleref="3d6df1c0-9343-499c-9d71-e9772cb3ee34"
+						name="roomDescription"
+						variableref="82d2494a-ec43-4a41-92f5-d503c5b5e7a1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="bfb18d1d-5ab9-4b1a-a356-ee329d0efc97"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+						name="newTemplateName"
+						variableref="d201279a-bf83-4427-83a7-d6e09baffd77">
+						</modulevariable>
+						<modulevariable
+						moduleref="3d6df1c0-9343-499c-9d71-e9772cb3ee34"
+						name="roomName"
+						variableref="05a5afa8-3ec1-4f5f-beb4-e608358412ba">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
+			id="5bc08045-fb4a-40ce-94e9-ea769e5e8243"
+			name="editAssetsType_MDC"
+			ref="a623ac2f-ca5c-4105-9bd0-cd5efb17e288"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="5c065467-36d5-4dc4-b74a-8651cde675ee"
 			name="editTerritory"
@@ -1836,6 +3993,22 @@ rxversion="10.1">
 				<description>
 					<![CDATA[<---:]]>
 				</description>
+				<groupvariables>
+					<groupvariable
+					id="e19a6784-a598-45b9-9c3e-2e59d483ce6b"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="86bc8c9c-117a-4274-8ee0-15dcf35cbd4e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="de38d352-f6a8-452a-82f5-d4b01e394633"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
 			<testmodule
 			id="5c77cdcd-4c57-440c-a77b-3ca1922473d8"
@@ -1877,6 +4050,20 @@ rxversion="10.1">
 						variableref="12ca68fc-4e91-4ea4-b687-0780a02aaee6">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="544dd4a9-8bee-4a5b-adaa-de783568feb2"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="88085617-6e74-450b-b5d2-359243cc286e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="5f544e25-cdc0-4f1d-9051-f1cad480dddd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -1891,10 +4078,37 @@ rxversion="10.1">
 			ref="a7646de4-b8d6-4ff6-b823-af6c8d19e6ab"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="5fe3e2e8-8341-4a0f-88d3-6cce5581c393"
+			name="sortGridTableColumn1">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="9644d5a6-76fe-41cb-b4dd-b5d35426da5e"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="5a0ba7e5-4c1d-4de2-936f-d133521c8548"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="d796ef99-80e6-4040-85d1-5e7374e18e3a"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="5ff74ad5-1f39-439c-bdc8-b576f84b3bbd"
 			name="validateCL"
 			ref="eb4fb2a6-c2fe-4fc5-af82-89fc7f3a4ea9"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="609dcefa-3aaf-4b35-b9d2-10312688344d"
+			name="validateContact_Projects"
+			ref="23892e9a-6644-4897-8613-c46c6c9e1ed4"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1909,6 +4123,57 @@ rxversion="10.1">
 			ref="540b0bce-7ecf-4fef-8594-5642d50b55a6"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="624b7853-be77-4f0a-9661-ab68a4652970"
+			name="editAssetsType_MDC_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="78e2a39e-ff0d-43ac-9677-29e906a25cbe"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="5bc08045-fb4a-40ce-94e9-ea769e5e8243"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="4c27317f-d5fc-4f10-83b8-7b61766a8f89"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="6d262cb1-f1cd-4826-839c-7ef8752278af"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="5bc08045-fb4a-40ce-94e9-ea769e5e8243"
+						name="assetsType"
+						variableref="1d79b780-bf94-441e-af3f-d4630685dfb8">
+						</modulevariable>
+						<modulevariable
+						moduleref="4c27317f-d5fc-4f10-83b8-7b61766a8f89"
+						name="assetsType"
+						variableref="a110cbcd-bda5-4a0a-97de-ee887e04ed2f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="4c0c1def-ea60-418e-93c0-8bd19911875f"
+					name="ModuleGroupcategory">
+						<modulevariable
+						moduleref="5bc08045-fb4a-40ce-94e9-ea769e5e8243"
+						name="category"
+						variableref="59cab24e-04dd-4c84-b64b-98876c7b315b">
+						</modulevariable>
+						<modulevariable
+						moduleref="4c27317f-d5fc-4f10-83b8-7b61766a8f89"
+						name="category"
+						variableref="6bd2ae6e-5ea0-45c4-8b86-e715a9564ed6">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<modulegroupdef
 			id="62b5ff24-c4de-4431-b95b-72566b6420a5"
 			name="editTaskConfigurations_Success">
@@ -1961,12 +4226,38 @@ rxversion="10.1">
 						variableref="a3cdd564-a0bb-4ef2-8305-b498946275fa">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="a196bd40-fd62-4963-87a5-2943e972a031"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="d6a5a0a8-16a0-445b-a169-2addb75b2418"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="cbcfcc78-222d-4438-9891-480a475240a4"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="6316e07b-1316-455a-824e-a8a049dcd205"
+			name="sortAscending_grid_Column4"
+			ref="a73dbde6-569a-4b43-9e0e-d7659cdf62f7"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="65bb2015-9492-4e1a-93ca-23ed734eb0fc"
 			name="sortAscendingColunm3"
 			ref="8b31a75d-40ee-492a-8c1c-65335478f134"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6641fa01-1524-474e-8a38-1b275e863e66"
+			name="validateBuilding_MDC"
+			ref="4403470f-de4a-4723-80f5-849b2e7b1a0e"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1975,6 +4266,72 @@ rxversion="10.1">
 			ref="c05ce107-e522-425e-b162-927945b8dcd1"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="6803ea98-4176-4b41-976d-636fc00d88f9"
+			name="createCampus_MDC_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="41ba06de-2ff9-42fb-960a-505274bc1405"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="ffb26bb5-f26c-4db2-b047-82d9d398d54d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c91c25e6-2c93-414f-846d-18343c26519e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="55429958-0e1c-46b7-85cf-aad47f0d6d2e"
+					name="ModuleGroupdescription">
+						<modulevariable
+						moduleref="ffb26bb5-f26c-4db2-b047-82d9d398d54d"
+						name="description"
+						variableref="5cfc5d97-1fd1-4d48-b369-170f2f681c4f">
+						</modulevariable>
+						<modulevariable
+						moduleref="c91c25e6-2c93-414f-846d-18343c26519e"
+						name="description"
+						variableref="1dc322ae-50cd-4880-b56c-090bccce3470">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="d7e34783-8151-41e9-9988-6c217cd41270"
+					name="ModuleGroupselectedCampus">
+						<modulevariable
+						moduleref="ffb26bb5-f26c-4db2-b047-82d9d398d54d"
+						name="selectedCampus"
+						variableref="5ca205a7-3fb6-4f1c-80c0-96e387bf846f">
+						</modulevariable>
+						<modulevariable
+						moduleref="c91c25e6-2c93-414f-846d-18343c26519e"
+						name="selectedCampus"
+						variableref="9d9db1ed-808e-44cf-a880-bf655144ca2d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="617881fa-7313-47c8-964a-c8291f5dd11a"
+					name="ModuleGroupselectedZone">
+						<modulevariable
+						moduleref="ffb26bb5-f26c-4db2-b047-82d9d398d54d"
+						name="selectedZone"
+						variableref="5c108b40-2f20-4e8c-b979-368f1c7794d8">
+						</modulevariable>
+						<modulevariable
+						moduleref="c91c25e6-2c93-414f-846d-18343c26519e"
+						name="selectedZone"
+						variableref="dc57825d-0e43-4375-b617-7f54a4843c51">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="69446420-ba6e-49a3-ada5-bb51a1593d9b"
 			name="HitSaveButton_2"
@@ -1998,6 +4355,25 @@ rxversion="10.1">
 						moduleref="23573bbb-3f9c-4066-a7ea-d002390c1fd1"
 						name="existingName"
 						variableref="4837551e-7b56-4a94-8ab0-4ea7f3a7d4e8">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="48d686f9-9086-436a-8e8b-cc1c8e3389b3"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="23573bbb-3f9c-4066-a7ea-d002390c1fd1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="a3e3cd0a-d546-42c0-8a84-3d67fd3b2e38"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="24552829-72b4-4c4c-b5b5-345117e3212b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -2024,6 +4400,12 @@ rxversion="10.1">
 			id="6d788852-5e09-47f4-9adf-749aa3e0b1bb"
 			name="editTemplate"
 			ref="33d2a853-b2fa-41c2-986a-e863daf45b40"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6df9124f-4470-4f4c-b4f7-feb6b98294f5"
+			name="Pre_createScenario_grid"
+			ref="854d17df-6bf4-4d41-80d9-79dc4deb70d2"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -2054,6 +4436,30 @@ rxversion="10.1">
 						moduleref="1fbbcc35-f59c-452b-8a92-cd74861547bc"
 						name="itemPresent"
 						variableref="c29b776f-8b98-477e-9501-c95f03c480b6">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="2a5c1ab0-e233-4c0f-8ee5-4beb52421aaf"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="cd6a6369-6582-47d2-a984-30d363e85af8"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="1c5a7e05-88d3-4b1f-bd05-9946031e57de"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="44a401ee-88a6-4d13-8553-bd39daa4349f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="1fbbcc35-f59c-452b-8a92-cd74861547bc"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -2092,6 +4498,25 @@ rxversion="10.1">
 						variableref="42305d6f-da17-4d55-b81a-fbcb1a5183a6">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="351bd816-2c92-4442-8424-538f64dd527c"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="f7ec580a-d501-4868-8a66-36560cacd551"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="a57a8498-b229-43f0-9bda-5816d2dfad1f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="4c0cc903-a94e-41d0-bd3e-e4b754105939"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -2118,6 +4543,27 @@ rxversion="10.1">
 			ref="b2da0fd8-5fb1-4988-9961-09246f152421"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="747e4288-d385-4f3e-a8ac-f26a4072483d"
+			name="sortGridTableColumn2">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="18e16f82-b030-45da-9adf-f7a4f9875fdb"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="244a40a8-3a4f-404d-a06e-5b1cd8744878"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3b05cde7-ac94-428c-9a44-27d187dd3883"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<modulegroupdef
 			id="75959af0-1a0f-4a16-89bb-231af492bbca"
 			name="createCategory_1_Success">
@@ -2152,6 +4598,25 @@ rxversion="10.1">
 						moduleref="71bdc142-207b-4d8f-a312-3f19b9567021"
 						name="visibleName"
 						variableref="776f4c2c-76d4-4a1d-87c7-a99597dcd1b1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="d2d31f64-fe44-4e13-9a2d-ae72eca2ffcd"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="d601ab87-9302-4b85-b68f-8c68757e7a26"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="5f379dad-6c31-479c-a34a-e65e11ce93d1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="71bdc142-207b-4d8f-a312-3f19b9567021"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>
@@ -2271,6 +4736,20 @@ rxversion="10.1">
 						variableref="018d893f-7691-4f7e-9c8e-fd1fe716d046">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="2ff56c01-3bc6-4754-8d96-9ff07188d4d7"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="5c77cdcd-4c57-440c-a77b-3ca1922473d8"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="dff0a706-8a56-43e4-87a5-2c4d746d1de8"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -2301,6 +4780,12 @@ rxversion="10.1">
 			id="85f3dbc5-7544-47da-a72c-b2d07965e3e0"
 			name="validateCampusLocation_Fail"
 			ref="58d71ed3-f874-49d0-a00a-d85290da916c"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="8698de9d-31a5-44c0-a80c-5b0ad5349562"
+			name="createPunchList_Project"
+			ref="10bdbe18-adb8-4e61-aaff-a72f3a59756b"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -2339,6 +4824,116 @@ rxversion="10.1">
 			ref="25dacbc8-b071-44e1-8519-e95b4c812b84"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="8b50a24e-d35f-4b09-9c65-3f34148c86a8"
+			name="createProjects_Failure">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="4c30956f-c04a-434a-8d1f-adc6c8d75b8b"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="54aaa88d-3692-4b64-a77e-c7905c590bcc"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="2913660c-0468-4bb7-8f1b-c0db6193a2cb"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3b451d7c-c790-40c9-b449-969a2cc337d0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="7b751352-9836-4303-9754-3abb4b5b9cb8"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="54aaa88d-3692-4b64-a77e-c7905c590bcc"
+						name="visibleProjectName"
+						variableref="1f5e38d8-ebeb-4237-a56d-758449903e18">
+						</modulevariable>
+						<modulevariable
+						moduleref="2913660c-0468-4bb7-8f1b-c0db6193a2cb"
+						name="projectName"
+						variableref="7bbeb4f4-cb18-463c-b26e-6901ced6e206">
+						</modulevariable>
+						<modulevariable
+						moduleref="3b451d7c-c790-40c9-b449-969a2cc337d0"
+						name="projectName"
+						variableref="f9d4fb90-15c0-48b7-a347-51feb80795ed">
+						</modulevariable>
+						<modulevariable
+						moduleref="3b451d7c-c790-40c9-b449-969a2cc337d0"
+						name="visibleProjectName"
+						variableref="ffbec2bc-5980-4054-8900-8b31421edad3">
+						</modulevariable>
+						<modulevariable
+						moduleref="3b451d7c-c790-40c9-b449-969a2cc337d0"
+						name="firstRecord"
+						variableref="66a1e5fe-8200-4401-a0b8-5e8c293f8adc">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="5c4cfe98-57a6-460c-8a44-37359987782a"
+					name="ModuleGroupprogram">
+						<modulevariable
+						moduleref="2913660c-0468-4bb7-8f1b-c0db6193a2cb"
+						name="program"
+						variableref="20b2619d-15ec-41ac-ba56-f5ed84e53df2">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="759e43d9-5aaf-4e3b-be8b-67b6285f6dd2"
+					name="ModuleGroupfieldName">
+						<modulevariable
+						moduleref="2913660c-0468-4bb7-8f1b-c0db6193a2cb"
+						name="fieldName"
+						variableref="a856b0e8-5c85-474c-b643-6e20577d0f83">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="67e69d09-1beb-4225-a86f-1624c4d167ca"
+					name="ModuleGroupoptionIndex">
+						<modulevariable
+						moduleref="2913660c-0468-4bb7-8f1b-c0db6193a2cb"
+						name="optionIndex"
+						variableref="3b0fa981-1159-46f8-8e81-3b96b8091a30">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
+			id="8db04547-ba85-4c65-abcf-5d86a9cbf6da"
+			name="sortDescending_grid_Column7"
+			ref="59fcf189-95db-4dc6-994c-064d66fb9e25"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="8dbc1e93-0733-4059-ba74-b3eb6f74e18c"
+			name="sortGridTableColumn5">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="ad79ab06-72c6-41e3-97aa-4c881dd2e2a7"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="4ec0ed55-385b-430b-b7db-5d13b76c47db"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="92d58af7-c1bc-4dee-8149-49ebc8d1ed12"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="8dd3a6a9-84ba-4fa2-861b-328ad0f82dce"
 			name="hitSubmitButton"
@@ -2498,6 +5093,20 @@ rxversion="10.1">
 						variableref="2794a6f7-6f00-4061-b802-5206df843bf7">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="18d90688-87f5-4dc3-ad29-907c98e3e815"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="e3768699-9ac2-4cd9-af8f-4d34822fcd37"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="1eab205f-9338-4bd7-921b-122fdfea0cf4"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -2506,12 +5115,253 @@ rxversion="10.1">
 			ref="b0e74052-1c9e-4cb5-a982-4a935e3410da"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="8fb8330a-c5f6-4291-b36e-3855f55b338c"
+			name="createStatusReport_Project_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="8950bf6f-e2fe-43ba-81c4-36be929ca3db"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="1fe0a518-057e-48c1-82e4-b2580cdb3637"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="75b9f6cf-abe3-4697-95ba-50a99ca41708"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="1fe0a518-057e-48c1-82e4-b2580cdb3637"
+						name="itemCount"
+						variableref="fd7f141e-c36a-4120-8f9c-54d71d149929">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="b815cacb-f4f4-437f-af54-c9c4ba503032"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="1fe0a518-057e-48c1-82e4-b2580cdb3637"
+						name="newTemplateName"
+						variableref="8aea6de2-6208-42ec-a681-7172bed1be7d">
+						</modulevariable>
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="status"
+						variableref="a396a44e-2a2e-4eea-aedc-a8daa05bb729">
+						</modulevariable>
+						<modulevariable
+						moduleref="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+						name="status"
+						variableref="8d5ee146-f44b-4503-8790-567171ed3c1e">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="4ea5b196-3c7e-4912-a535-79757efceb75"
+					name="ModuleGrouptitle0">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="title0"
+						variableref="d01bced1-8ad2-44ef-be99-8642139877d2">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="3c1b248f-644c-469d-9109-0065f272bd31"
+					name="ModuleGroupcurrentStatus0">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="currentStatus0"
+						variableref="8c98f1a8-a599-44eb-afd9-a5e27bf9a73c">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="06a3b403-a78b-4302-859d-42167516a4a2"
+					name="ModuleGrouptitle1">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="title1"
+						variableref="91d48b62-4999-4dab-8bc9-02b0cf4ab744">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a747e5c2-498b-4f26-a6d3-fa7e194b2fdf"
+					name="ModuleGroupcurrentStatus1">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="currentStatus1"
+						variableref="f36191dc-e418-4335-8e8f-b931fe0ed554">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="db7d3ab5-6485-4cc2-9c38-19c99d3b6c25"
+					name="ModuleGroupweeklyMeeting">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="weeklyMeeting"
+						variableref="e4c046bb-09c4-4758-84ed-d8b00da86918">
+						</modulevariable>
+						<modulevariable
+						moduleref="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+						name="weeklyMeeting"
+						variableref="e80b5ab2-aa9d-47bc-8955-64361d5f8873">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="34c13ad1-fccc-4b17-9545-5a4befd9538f"
+					name="ModuleGroupprojectStatus">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="selectProjectStatus"
+						variableref="f5336c0d-8ae7-465d-81a6-ffdd8c1d250f">
+						</modulevariable>
+						<modulevariable
+						moduleref="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+						name="projectStatus"
+						variableref="bf352f97-026c-4893-8e0a-44d58a23214c">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="ebd33686-968d-4c8a-867c-26c7036467e5"
+					name="ModuleGroupStatusType">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="selectStatusType"
+						variableref="0b628752-791f-4c44-8b98-d55625225efa">
+						</modulevariable>
+						<modulevariable
+						moduleref="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+						name="statusType"
+						variableref="1a81278a-7b12-4104-a32f-49c1ea7ef0b8">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="968d1b52-49fc-401f-b76f-7acdf1fc5bd2"
+					name="ModuleGrouptag">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="tag"
+						variableref="ad7146c9-25ee-4d71-b6f4-acb48ed0415b">
+						</modulevariable>
+						<modulevariable
+						moduleref="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+						name="tags"
+						variableref="54daf075-e38e-43b3-bb54-708cfed1c8f1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="2cabffae-2a97-4120-88e4-e0efc2ff3ea7"
+					name="ModuleGroupamount0">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="amount"
+						variableref="4a8c6e00-dee2-4ceb-9f49-0fa43e3b12be">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="091fa517-c0b3-48ac-8ae6-3e6164d22ef5"
+					name="ModuleGroupnumberOfDays0">
+						<modulevariable
+						moduleref="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+						name="numberOfDays"
+						variableref="13fcd5eb-75d2-4749-8abd-8971891b091a">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
+			id="91b5cbfd-97aa-4934-a299-7617a53618c0"
+			name="editCampus_MDC"
+			ref="fb1d9869-904e-4a54-9bca-e5a178a2cb70"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="920c161c-b028-4493-9ed2-e96872b73e35"
 			name="validateTemplate_existingName"
 			ref="bb9b61dd-1624-4309-b7f8-53816bb86ec8"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="92d58af7-c1bc-4dee-8149-49ebc8d1ed12"
+			name="sortDescending_grid_Column5"
+			ref="14c1fa2a-9c65-41dd-8e41-5bc22a3e05dc"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="949d4b36-6dff-4286-8fa3-874fc022c7c6"
+			name="createAssetsType_MDC_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="b5433a81-8e55-460b-90c6-f4254b75d2bc"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="b5e366c3-1b1b-4a72-b1b2-59c933e6bb29"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="cacf298f-ee53-4be4-8d8b-a22f27655c6e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="6f831baf-21d6-454c-a36d-4b54b4612134"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="b5e366c3-1b1b-4a72-b1b2-59c933e6bb29"
+						name="newTemplateName"
+						variableref="f5b229a3-cb7a-41d7-8d36-58dccd94a1a0">
+						</modulevariable>
+						<modulevariable
+						moduleref="cacf298f-ee53-4be4-8d8b-a22f27655c6e"
+						name="assetsType"
+						variableref="a110cbcd-bda5-4a0a-97de-ee887e04ed2f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="b5aef2ff-1869-4d3f-b91f-56385527963c"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="b5e366c3-1b1b-4a72-b1b2-59c933e6bb29"
+						name="itemCount"
+						variableref="b78959b9-b6c5-4da1-b8ff-728038509cc0">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="d3e918cd-b6b9-46d3-b1c6-85bd96701e2e"
+					name="ModuleGroupcategory">
+						<modulevariable
+						moduleref="b5e366c3-1b1b-4a72-b1b2-59c933e6bb29"
+						name="category"
+						variableref="b473b30f-9a64-40d7-9abc-8b66c3dd1711">
+						</modulevariable>
+						<modulevariable
+						moduleref="cacf298f-ee53-4be4-8d8b-a22f27655c6e"
+						name="category"
+						variableref="6bd2ae6e-5ea0-45c4-8b86-e715a9564ed6">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="95f90f82-b0f1-4288-ab6f-96079181e43c"
 			name="createTaskTemplate_Fail"
@@ -2522,6 +5372,12 @@ rxversion="10.1">
 			id="9624d91e-b65a-40a2-84a1-fb437d6dba80"
 			name="validateCreateTerritory"
 			ref="fc71fce1-d4a3-481d-861a-af6b5d07f4f7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+			name="createProjects_AllFields_FinancialInformation"
+			ref="51135eff-d196-4276-b8e4-3b6efff3652e"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -2570,8 +5426,33 @@ rxversion="10.1">
 						variableref="25bab0ba-25af-4b34-84ab-ad19a2fc5e16">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="cbdb09da-68b2-42bb-9b67-a053244562de"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="4d02f391-35cc-45c2-bc58-856b60887a2f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="5d89799b-af7a-4054-9773-f257facfa7d6"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="32d8f519-eed8-474f-8273-bfe018317cfd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="99084706-4117-4df3-bfc1-9f4d2cbec138"
+			name="validateCheckboxesAndFields_Issue_Project"
+			ref="cf8ea8e2-c77d-43fa-abc4-f559b48bdf2b"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="9a70127b-ed62-4b14-804b-2267dc32fa31"
 			name="sort_dTable_Ascending_Column2"
@@ -2644,8 +5525,148 @@ rxversion="10.1">
 						variableref="58b648fe-850e-476c-882d-dcc5f5df6b52">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="a26a2817-fadb-4360-b546-03c59aeede9f"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="4349859b-dc47-40af-9fac-f35369b802c1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="40a5f23d-f45a-41d4-a044-9232796da347"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<modulegroupdef
+			id="9b632a6b-65ec-4597-be35-56dc3234d275"
+			name="createTask_Project_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="a1a0d74e-1c9e-4cd8-8dae-5e64b83e4543"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3e4afb96-e81f-47b1-ab6b-3d5461e511f3"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="b3ebf778-ce15-468d-a154-f105ba7d7a8a"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="itemCount"
+						variableref="112cad4c-f594-4a29-967e-a9e24995e154">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="44d089e3-d417-47f9-9bde-d5ab880fe801"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="newTemplateName"
+						variableref="dc11877c-6e58-4e21-a6fc-f5727a63fa3f">
+						</modulevariable>
+						<modulevariable
+						moduleref="3e4afb96-e81f-47b1-ab6b-3d5461e511f3"
+						name="itemName"
+						variableref="39dae05f-b514-4ea5-9b6a-8953d09fdd5c">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="2e3104bf-f48a-4869-a0fb-aa1b20cfc67f"
+					name="ModuleGroupdescription">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="description"
+						variableref="4c042ac1-f422-4224-bcf8-2e812d61c636">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a1ec8520-5f70-4c11-9f5c-b45c383769d6"
+					name="ModuleGroupassignee">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="selectedAssignee"
+						variableref="3c23af72-1d1a-4140-aa9d-7f5a67b17c56">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="8e676655-a1d8-4a98-8e9f-1543ddbec033"
+					name="ModuleGrouppriority">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="priority"
+						variableref="26582e50-0b41-4121-bfef-8fce33fb3fc2">
+						</modulevariable>
+						<modulevariable
+						moduleref="3e4afb96-e81f-47b1-ab6b-3d5461e511f3"
+						name="priority"
+						variableref="0858391c-d71e-42ab-aacb-0f918e746404">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="9e0c729d-49eb-49d9-b3c8-12dc4bf07f19"
+					name="ModuleGroupestimatedHours">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="estimatedHours"
+						variableref="912b2d73-0814-46f3-949f-45ba5c53aae4">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="0b8e6bf6-de5f-49a0-90a3-eaabf9785fa1"
+					name="ModuleGroupstartDate">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="startDate"
+						variableref="6d20ae21-fdc1-4f4a-aa81-ded79f74ef46">
+						</modulevariable>
+						<modulevariable
+						moduleref="3e4afb96-e81f-47b1-ab6b-3d5461e511f3"
+						name="startDate"
+						variableref="649be7f6-e5e6-46b1-8ea2-8fc5b833be53">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="5acbd38d-291e-400c-bac6-97d0625ad37e"
+					name="ModuleGroupendDate">
+						<modulevariable
+						moduleref="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+						name="endDate"
+						variableref="437d2b40-f7f0-423b-87d1-57764d3de526">
+						</modulevariable>
+						<modulevariable
+						moduleref="3e4afb96-e81f-47b1-ab6b-3d5461e511f3"
+						name="endDate"
+						variableref="31c36904-c808-45c6-bd4d-7f45158b96fd">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
+			id="9e075238-ed35-4c34-b55f-b6d9ec990d8d"
+			name="validateProject_Module"
+			ref="2da0a914-716c-4c01-b3e6-858199a0f697"
+			type="Recording">
+				<description>
+					<![CDATA[BLOCKER!!!]]>
+				</description>
+			</testmodule>
 			<modulegroupdef
 			id="9f35eec6-64f1-4fab-97f7-f5760563ddc0"
 			name="sortingItems_Column3">
@@ -2667,6 +5688,20 @@ rxversion="10.1">
 						variableref="1139552d-6e1b-4134-a6fb-4310b4588b59">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="4e213384-9291-418b-a9d0-4288dd09c684"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="65bb2015-9492-4e1a-93ca-23ed734eb0fc"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="c2cc53ed-a7bc-4243-96d1-44703efcaac7"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -2685,6 +5720,12 @@ rxversion="10.1">
 			id="a57a8498-b229-43f0-9bda-5816d2dfad1f"
 			name="HitSaveButton_2"
 			ref="b2da0fd8-5fb1-4988-9961-09246f152421"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="a7508706-5975-4eec-96a6-abdb8f81c418"
+			name="Pre_createScenario_grid"
+			ref="854d17df-6bf4-4d41-80d9-79dc4deb70d2"
 			type="Recording">
 			</testmodule>
 			<modulegroupdef
@@ -2887,8 +5928,33 @@ rxversion="10.1">
 						variableref="13d01ae2-1053-4db2-a0d6-3a6eb7077076">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="d70502ec-e2b5-4d44-b7fc-f4e2c47fa8d5"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="77ca94e7-dd50-49a6-b69d-22229d0d43e2"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="9f6c5c30-a221-4feb-bed8-cee0b1ef6243"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="edcac995-520b-4cc1-8c71-d52de79ce5f1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+			name="createProjects_AllFields_KeyDates"
+			ref="35031057-ea1d-43e1-bf5d-e077f7d0c06d"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="a94106f2-31e4-456c-8597-aed2f3b2d6bd"
 			name="validateCreateTaskConfigurations"
@@ -2938,9 +6004,21 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="ae23468e-e819-4724-a1ec-d1c07eed6271"
+			name="enterDetailsProject_requiredFieldsOnly"
+			ref="c5fa27b0-4928-45e8-a995-b3a5706236dc"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="b0566f0f-1c77-4a8c-82a0-0493438fa7b4"
 			name="editItem_Fail"
 			ref="aae8202e-5a29-4b73-a3f5-1a73c3951f70"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b09eabd6-8947-42eb-bdb4-fe25d0246543"
+			name="sortAscending_grid_Column8"
+			ref="8a6e5069-9b82-4a82-b505-f4c15850778d"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -2950,11 +6028,89 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="b22c1294-6d68-4aa7-969b-01ff5026a0eb"
+			name="sortAscending_grid_Column3"
+			ref="51f0e1ad-7be8-45d6-9991-0ec6b2b7dcfa"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="b2e965e6-ea25-42e9-b3a6-95a1aec8724c"
 			name="createTerritory"
 			ref="2f1ce2c9-44b1-4b48-b539-32e5048cf0d5"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="b36ccfaf-a7c3-4bf6-8519-92ca76c082e9"
+			name="createContacts_Project_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="97a2a900-6d82-4b08-849f-ac7712a799a0"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="ed4c464d-80c6-45fa-9b02-0721910b70a2"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="609dcefa-3aaf-4b35-b9d2-10312688344d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="97c6f7c3-bfc7-43fc-83bf-aca877539b72"
+					name="ModuleGrouplatestContact_FullName">
+						<modulevariable
+						moduleref="ed4c464d-80c6-45fa-9b02-0721910b70a2"
+						name="contact_FullName"
+						variableref="a849b88f-6b94-42f3-9b73-be031b280919">
+						</modulevariable>
+						<modulevariable
+						moduleref="609dcefa-3aaf-4b35-b9d2-10312688344d"
+						name="contactFullName"
+						variableref="e1d30c10-9ae7-48ca-a8fc-7dba30c8515d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="fe42373f-078b-4fa3-9707-96869f854108"
+					name="ModuleGrouplatestContact_JobTitle">
+						<modulevariable
+						moduleref="609dcefa-3aaf-4b35-b9d2-10312688344d"
+						name="contactJobTitle"
+						variableref="051279a2-f75b-4a63-b58a-ec339a1d94af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="851f5d08-421e-4915-b068-c58faaeccbad"
+					name="ModuleGrouplatestContact_Organisation">
+						<modulevariable
+						moduleref="609dcefa-3aaf-4b35-b9d2-10312688344d"
+						name="contactOrganisation"
+						variableref="e542979d-dd4d-4bdd-9e61-0c7d62dfc48a">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="ab8b18b8-3c58-4b6c-b08c-8bf89a78862d"
+					name="ModuleGrouplatestContact_PhoneNumber">
+						<modulevariable
+						moduleref="609dcefa-3aaf-4b35-b9d2-10312688344d"
+						name="contactPhoneNumber"
+						variableref="41335c72-81e8-4786-a493-34abb465c8c1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a751c6a2-7731-444c-a961-371ee6773630"
+					name="ModuleGrouplatestContact_Email">
+						<modulevariable
+						moduleref="609dcefa-3aaf-4b35-b9d2-10312688344d"
+						name="contactEmail"
+						variableref="588db34d-b0a8-41ce-a9de-e9a4b52f8054">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="b3c2417f-06a9-4c0e-8382-17a6119c555e"
 			name="Pre_createItem"
@@ -2962,9 +6118,54 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="b4466b8c-bf29-49ef-9f17-42ce8fce151d"
+			name="sortAscending_grid_Column7"
+			ref="0ec25d6d-4da2-4bcd-8cc5-beb834328537"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b5e0e8d3-cae3-4787-8216-aeda2f4f0992"
+			name="removeContact_Project"
+			ref="0b57dd86-39df-4c27-9ee3-6f1623fb238d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b5e366c3-1b1b-4a72-b1b2-59c933e6bb29"
+			name="createAssetType_MDC"
+			ref="4093f911-8b55-4582-a6df-ee6c376489d8"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="b5ffc3ee-cd45-41c3-8f38-16254409f74c"
 			name="EditTemplate_addItem"
 			ref="f9e75d9b-5162-4e4d-8f9f-40096161fdd5"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="b6496803-bb37-4848-9bb4-565ac2a25356"
+			name="sortGridTableColumn3">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="5e365dc4-47d0-4d59-b1db-60cb0ee0c388"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="b22c1294-6d68-4aa7-969b-01ff5026a0eb"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3539fcfb-68f0-4c61-be12-9c33e65333f3"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
+			id="b79e170a-ac65-4620-b1be-c03af11e8736"
+			name="validateCampus_MDC"
+			ref="a22969a3-3703-4226-8494-eb66de1a9dc9"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -3029,8 +6230,33 @@ rxversion="10.1">
 						variableref="cca29c36-64c3-4377-b4c5-1791105895e4">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="06edca76-0eab-48a3-9887-28d407b94cd0"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="3aab8bd5-9d35-4d9b-952a-b61b21d16f20"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="8dd3a6a9-84ba-4fa2-861b-328ad0f82dce"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="530007c2-3d3b-44ff-8e9e-fa813a803194"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+			name="createBuilding_MDC"
+			ref="16557317-d4dc-42aa-b350-4f4843732c52"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="c1d7edf4-8b17-421b-bfa8-437d546811cf"
 			name="sort_dTable_Descending_Column2"
@@ -3086,6 +6312,30 @@ rxversion="10.1">
 						variableref="413fd7e2-e8a2-4fbc-a21a-f380be183969">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="5fba934f-73b4-48ae-b232-fe1765d840ab"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="6bfa4449-4463-4441-b4d4-9c4c98253ad4"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="bce11722-7027-44e3-91dd-ca45d81835a4"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="73f3bd27-8b24-41aa-aded-a9aa7590107a"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="7284b9ff-1461-4260-85fc-41e7d2b76f07"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3100,10 +6350,108 @@ rxversion="10.1">
 			ref="07bd4e9f-92f2-4155-b211-f436ef988af0"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="c8d77f7e-786b-4704-9d99-39182273eef5"
+			name="createProjects_requiredFieldsOnly_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="f86a994d-bb7b-476d-88c3-1e002b059fe0"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="6df9124f-4470-4f4c-b4f7-feb6b98294f5"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ae23468e-e819-4724-a1ec-d1c07eed6271"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="262f4233-7130-4134-8660-de4207f3cddd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3f083044-a076-4b3b-b6a0-1a7b41474591"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="5d6717e3-3e5b-4193-9cb1-3e3d82075020"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="6df9124f-4470-4f4c-b4f7-feb6b98294f5"
+						name="itemCount"
+						variableref="fd7f141e-c36a-4120-8f9c-54d71d149929">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="97ea0563-cfb6-43cb-8912-f555ba10d5d4"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="6df9124f-4470-4f4c-b4f7-feb6b98294f5"
+						name="newTemplateName"
+						variableref="8aea6de2-6208-42ec-a681-7172bed1be7d">
+						</modulevariable>
+						<modulevariable
+						moduleref="ae23468e-e819-4724-a1ec-d1c07eed6271"
+						name="projectName"
+						variableref="7bbeb4f4-cb18-463c-b26e-6901ced6e206">
+						</modulevariable>
+						<modulevariable
+						moduleref="3f083044-a076-4b3b-b6a0-1a7b41474591"
+						name="projectName"
+						variableref="36cfc13b-9a21-402f-b22d-e71449625f19">
+						</modulevariable>
+						<modulevariable
+						moduleref="3f083044-a076-4b3b-b6a0-1a7b41474591"
+						name="visibleProjectName"
+						variableref="bb31ff89-8395-42e8-8918-f8bcf864b9d3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="37a4925c-0598-47cd-a879-7afa598e977d"
+					name="ModuleGroupfieldName">
+						<modulevariable
+						moduleref="ae23468e-e819-4724-a1ec-d1c07eed6271"
+						name="fieldName"
+						variableref="a856b0e8-5c85-474c-b643-6e20577d0f83">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="0d13c13b-0b59-4784-9bfd-55aa99838562"
+					name="ModuleGroupprogram">
+						<modulevariable
+						moduleref="ae23468e-e819-4724-a1ec-d1c07eed6271"
+						name="program"
+						variableref="20b2619d-15ec-41ac-ba56-f5ed84e53df2">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="0555a69b-32e1-4f73-b60a-fc88f1c263d0"
+					name="ModuleGroupoptionIndex">
+						<modulevariable
+						moduleref="ae23468e-e819-4724-a1ec-d1c07eed6271"
+						name="optionIndex"
+						variableref="3b0fa981-1159-46f8-8e81-3b96b8091a30">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="c90cdd55-25fa-41f9-8aa6-800e4d332662"
 			name="validateEditCloseoutItem"
 			ref="34f76c73-c9f0-49cf-8d8a-d404d0769d22"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="c91c25e6-2c93-414f-846d-18343c26519e"
+			name="validateCampus_MDC"
+			ref="a22969a3-3703-4226-8494-eb66de1a9dc9"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -3159,8 +6507,44 @@ rxversion="10.1">
 						variableref="23d7026e-e85a-4075-9197-004d3e03d175">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="3fe6ed9e-fba6-46b8-860c-4a432cdc600a"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="30ac1023-cade-4053-917d-f281a10ed7b3"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="20cbde16-61c8-4417-ab5d-828c19518a60"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ee98a2e6-067b-4bbe-acba-748792403dee"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="e690f1ec-32a6-422b-9fff-938ca5a3b3c1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="ca0c6f58-fea7-4c83-9d74-092adca9bdcc"
+			name="sort_dTable_Descending_Column3"
+			ref="ec25618e-bcab-48c1-95bc-96db961d9146"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cacf298f-ee53-4be4-8d8b-a22f27655c6e"
+			name="validateAssetsType_MDC"
+			ref="0979a7ac-ea7f-4f08-987a-76aee01f1256"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="cb0757d4-5c81-4822-ba59-6ea99869fb51"
 			name="HitSaveButton_1"
@@ -3171,6 +6555,12 @@ rxversion="10.1">
 			id="cbcfcc78-222d-4438-9891-480a475240a4"
 			name="validateCreateTaskConfigurations"
 			ref="ec46c0bf-00ee-445d-9f58-a76a01e66c97"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+			name="EditBuilding_MDC"
+			ref="63c197dd-c360-4e61-9b88-ffaa9068308e"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -3222,6 +6612,25 @@ rxversion="10.1">
 						variableref="42305d6f-da17-4d55-b81a-fbcb1a5183a6">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="f4a2b04b-ab07-4e24-ae02-9d63100b626a"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="e3a6e7f4-1800-4f05-943b-76c65bdab855"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="69446420-ba6e-49a3-ada5-bb51a1593d9b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="41577423-457d-48f2-8566-f7f214b9a61f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3268,6 +6677,25 @@ rxversion="10.1">
 						variableref="90fee2a0-5fbe-4475-ac4a-f9fa515042d5">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="46f78540-3fd5-47ab-bf82-b522bb771c78"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="8925ad1b-5e44-469e-b1d7-1d0bc321ec5f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="f39fac8f-4dff-4ad3-bf0d-8a07bd917806"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="e3165764-04ca-46e4-9817-8481e999bc69"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3304,6 +6732,25 @@ rxversion="10.1">
 						variableref="86f00746-40f8-48db-869a-8f035675e2c8">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="61ba559d-99d8-4605-8488-6c9609521456"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="4b7608a1-0339-4694-a54d-f99b5700cee5"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="de55ef15-5315-45e6-9df9-bc6f7a74891b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="6988c63e-8ca0-4164-a449-b0006db2c26d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3316,6 +6763,12 @@ rxversion="10.1">
 			id="d6a5a0a8-16a0-445b-a169-2addb75b2418"
 			name="editTaskConfigurations"
 			ref="fac034f1-16ac-439c-a350-6675b84ed88d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d796ef99-80e6-4040-85d1-5e7374e18e3a"
+			name="sortDescending_grid_Column1"
+			ref="b8339d28-5692-4f06-a402-d24d4e808dcf"
 			type="Recording">
 			</testmodule>
 			<modulegroupdef
@@ -3354,12 +6807,64 @@ rxversion="10.1">
 						variableref="c34698d9-6475-4483-bfda-0872880a1a03">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="06c8c853-f837-41a9-a327-e00398c6d667"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="fa54c208-dcac-4cf8-a46a-797f9788a3f5"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="cb0757d4-5c81-4822-ba59-6ea99869fb51"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="f423eb0b-c365-4ce2-94d6-e17299035f37"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
+			<testmodule
+			id="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+			name="createStatusReport"
+			ref="bf0d99d1-9b89-4bd7-ac07-96b32672259b"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="dd2b4e3d-9200-432d-a741-a1dd173eb146"
 			name="validateEditStatusReportType_Desc"
 			ref="64e448cd-f68c-4384-995e-67b4c1fcf421"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="dd2fdf8d-a84d-4e16-baee-b3ba475f83a0"
+			name="sortDTable_Column3">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="2d4db176-5a09-4480-825a-a7862670d9c5"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="3343992c-524f-42b4-8466-2c8b6963aed8"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ca0c6f58-fea7-4c83-9d74-092adca9bdcc"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
+			id="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+			name="validateIssue_project"
+			ref="d45aff10-fa92-4b17-b01c-4e9ea8f79122"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -3373,6 +6878,22 @@ rxversion="10.1">
 			name="HitSaveButton_1"
 			ref="9e3eef50-2139-45ee-a360-578b1e026f00"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="debf01be-9b15-4032-a9c1-1005fadd817c"
+			name="sortDescending_gird_Column8"
+			ref="6e1e2e90-fc11-4681-9c7d-b268c4960d8a"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+			name="validateStatusReport_Project"
+			ref="a60d4d2f-ff10-4011-ac39-c13514db1bb8"
+			type="Recording">
+				<description>
+					<![CDATA[BLOCKER!!! No unique column to know the latest record and No unique identifier for the small table]]>
+				</description>
 			</testmodule>
 			<modulegroupdef
 			id="df01200b-5097-4eb7-8a6f-8f223d7eaa2e"
@@ -3427,6 +6948,20 @@ rxversion="10.1">
 						variableref="354207e7-bfe3-4ed8-9630-35aa3931b68a">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="6ed9f0d4-bf04-421a-a7e2-ba30f1379f89"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="b2e965e6-ea25-42e9-b3a6-95a1aec8724c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="9624d91e-b65a-40a2-84a1-fb437d6dba80"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3478,14 +7013,27 @@ rxversion="10.1">
 						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="b0566f0f-1c77-4a8c-82a0-0493438fa7b4"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="84322813-ade0-4cce-9a14-5a3221cada82"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="09fbe18b-8d02-4638-b801-8759316854e3"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
-			<testmodule
-			id="e25112c9-d6b8-4595-a26b-c7738754200d"
-			name="newItemName_IfExists"
-			ref="d536bcfb-c597-41ef-a764-641b2ac2bb57"
-			type="UserCode">
-			</testmodule>
 			<testmodule
 			id="e2a26697-9587-430c-85d6-9c9fa5d4b38d"
 			name="fillData_fundingSource"
@@ -3523,6 +7071,12 @@ rxversion="10.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="e506a5b9-2fcf-4a1c-afeb-bd7de0eb0a16"
+			name="sortAscending_grid_Column6"
+			ref="c95178a6-d005-4e91-a718-fa9010a21e3c"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="e685ed5d-f7ec-41dc-8b64-5203f40c211a"
 			name="validateEditItem"
 			ref="50621169-9f1e-4b15-b2c6-cca0bf3ec85b"
@@ -3534,6 +7088,162 @@ rxversion="10.1">
 			ref="c6ba1057-d85b-425e-97a8-7b8533949a87"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="e8fcc3ba-51d4-4eee-bd69-433e5aa766cc"
+			name="createContact_success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="0071e5b2-0644-441c-ace9-e9c4bc58e0f9"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="47dadf52-c3f1-4745-bbe3-491bf8909e42"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="97c1a9dd-a218-4771-a124-9bbf36952aed"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="itemCount"
+						variableref="33e87d36-bb99-4e00-9585-68dde405c558">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="ecfb27db-0f82-4565-b352-22bdcb1ac8ac"
+					name="ModuleGrouproleToAssign">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="roleToAssign"
+						variableref="35d1061f-0542-48d9-bb28-5f86d8bcc8a8">
+						</modulevariable>
+						<modulevariable
+						moduleref="47dadf52-c3f1-4745-bbe3-491bf8909e42"
+						name="roles"
+						variableref="00e01149-04d1-433c-8da5-916abe28c42a">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="cc7b1583-9f79-48c7-9de8-49a24a02b883"
+					name="ModuleGroupemail">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="email"
+						variableref="1eafb2f9-29a8-4885-969c-922757db4b4c">
+						</modulevariable>
+						<modulevariable
+						moduleref="47dadf52-c3f1-4745-bbe3-491bf8909e42"
+						name="email"
+						variableref="aac35ab1-c42f-4525-825b-a84fcd1141cd">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="bc1fca8e-2abe-4bf1-9392-cd414e403dd0"
+					name="ModuleGroupfullName">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="fullName"
+						variableref="d87f7d29-8153-4fde-9a17-272cf9dc823e">
+						</modulevariable>
+						<modulevariable
+						moduleref="47dadf52-c3f1-4745-bbe3-491bf8909e42"
+						name="fullName"
+						variableref="5254f337-d646-4782-9570-d22c892ac65d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="d212d1e1-b9a7-48a1-9994-2423bcc255c3"
+					name="ModuleGroupnewTemplateName">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="newTemplateName"
+						variableref="77feafb6-1148-42e1-b39b-3a79da8cd675">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="827277cf-e720-42a3-b2c1-0e2c7c947202"
+					name="ModuleGroupnewCity">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="city"
+						variableref="76741a76-41ef-4b00-bf46-1af9e336c364">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="c429f46b-5f85-4aeb-8c57-a6f1a469690e"
+					name="ModuleGroupnewCountry">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="country"
+						variableref="f3a2721b-a819-4236-b4af-c4d00e14cbb7">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="68c96380-2713-4324-9869-c0c41ae87e0b"
+					name="ModuleGroupnewAddressLine1">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="addressLine1"
+						variableref="c0dfa7d4-c2fb-41ed-9b0d-94601832d7e0">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="1375166c-2eb6-474d-9426-13e84de22807"
+					name="ModuleGroupnewAddressLin2">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="addressLine2"
+						variableref="e0634997-4f4e-4243-9f22-d9d93641bda1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a78e3003-c780-47a2-a3a0-2ffcbbb23c66"
+					name="ModuleGroupnewPhoneNumber">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="phoneNumber"
+						variableref="faee5e0e-4a33-4699-bc18-27da48bed7b7">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="de98affe-cfbd-4430-b04c-a14df68e1655"
+					name="ModuleGroupnewJobTitle">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="jobTitle"
+						variableref="13ccc78a-cbb5-4ac1-a2fe-6505a77fcc81">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="6392dfc3-7c56-4e5e-b7cd-c8c983d09b42"
+					name="ModuleGroupnewZipCode">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="zipCode"
+						variableref="a42fc47e-ccc2-477b-8a83-04a59889b897">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="dc24da8a-e9df-4c8a-9a77-3354c14252ab"
+					name="ModuleGroupnewOrganisation">
+						<modulevariable
+						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
+						name="organisation"
+						variableref="e162e31d-78b2-4377-b3af-b59318a0a332">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="e96f3198-a0c3-4698-8704-e040ab343d43"
 			name="ValidateCreateCategory_2_Fail"
@@ -3588,12 +7298,158 @@ rxversion="10.1">
 						variableref="2e0e0537-da0d-4fcc-833a-660f02da49be">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="4e062793-5630-4ac0-8449-2adcff2c9b3f"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="d16a7dee-2679-4672-bde8-a767deabf768"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="a94106f2-31e4-456c-8597-aed2f3b2d6bd"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
 			id="ec7af9d2-9cf7-4a06-a847-161caf5a0a5f"
 			name="HitSaveButton_2"
 			ref="b2da0fd8-5fb1-4988-9961-09246f152421"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="ece8b30e-1dd0-4260-9f75-93b7e9ba03f9"
+			name="editBuilding_MDC_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="3be9b6f1-4a19-4d6d-8768-2ce19808480a"
+					name="ModuleGroupeditedArchitect">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="editedArchitect"
+						variableref="a21facc6-7330-4271-ae77-1c39b3f37fa3">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="architect"
+						variableref="6ded8b98-d9ba-4199-a9e9-286ea03134c8">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="dc106842-d03b-4b90-b35b-9793e2588e0f"
+					name="ModuleGroupeditedBuildingName">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="editedBuildingName"
+						variableref="dba61151-2efd-4433-8fa5-a6b0c63cd641">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="BuildingName"
+						variableref="a039ca8d-baef-4b09-8ef3-32f0eccb26e3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="f6cf7a64-82ff-483b-8e3b-2d242fc409c2"
+					name="ModuleGroupeditedContractor">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="editedContractor"
+						variableref="0f2242de-5cbc-46e8-a022-f4ad16b08935">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="Contractor"
+						variableref="333bb2fa-06b6-4139-93a2-3b002661c20f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="bd4978c2-727f-4070-9d94-df3db166c29b"
+					name="ModuleGroupeditedRenovationHistory">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="editedRenovationHistory"
+						variableref="53fe31fd-3b63-4ab9-8da7-e862b57ccb34">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="renovationHistory"
+						variableref="834a460c-ba89-417b-a932-ba14a9f68f1b">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="6e4a3e04-d329-40f8-9606-5251fcf40043"
+					name="ModuleGroupeditedBuildingNumber">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="editedBuildingNumber"
+						variableref="49e1b5c0-c6de-4620-a571-d508b63edc21">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="buildingNumber"
+						variableref="d645dba5-590d-4df3-a64f-9c2a9e5062a9">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="26c712c8-0ed5-4211-8a58-fdbe536532ac"
+					name="ModuleGroupeditedContructionCost">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="editedContructionCost"
+						variableref="b9b241bf-6a8a-421c-a9e0-9844097bfe42">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="constructionCost"
+						variableref="88f292b7-4bfc-4376-b2cd-e9559665d4a1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="cfa8a770-06aa-4953-8324-7b35bc2dbf25"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="e2ca9097-601c-449c-9b69-91dabaf4ceb2"
+					name="ModuleGroupeditedDateConstructed">
+						<modulevariable
+						moduleref="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+						name="oldDateContructed"
+						variableref="e3d2487d-628d-493c-b77d-4dbd50cd0b80">
+						</modulevariable>
+						<modulevariable
+						moduleref="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+						name="dateConstructed"
+						variableref="11d8fbe4-3205-47bd-b7f0-75f6aca8fda5">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<testmodule
+			id="ed4c464d-80c6-45fa-9b02-0721910b70a2"
+			name="createContacts_Project"
+			ref="4a8f53a1-f8d9-4ca8-9029-7537b70e0b71"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -3608,12 +7464,186 @@ rxversion="10.1">
 			ref="9e3eef50-2139-45ee-a360-578b1e026f00"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="eed346b7-8e7f-487a-a0e1-998344e0b83d"
-			name="newItemName_IfExists"
-			ref="d536bcfb-c597-41ef-a764-641b2ac2bb57"
-			type="UserCode">
-			</testmodule>
+			<modulegroupdef
+			id="eeae3103-4500-4765-95b1-8756ea353813"
+			name="createBuilding_MDC_Success">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="72da3950-f25f-4f3c-8f6b-0c0efd14dac0"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a0113388-6d17-4214-a826-974eb5389b14"
+					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="itemCount"
+						variableref="85087945-31a9-4f0b-99fd-62ff61966da7">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="19b488b0-310c-433a-bdd6-8b7bdd302816"
+					name="ModuleGroupitemName">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="newTemplateName"
+						variableref="05493d9f-bae4-44ab-b9f7-1a5c2b994131">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="BuildingName"
+						variableref="a039ca8d-baef-4b09-8ef3-32f0eccb26e3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="35c7ade3-694e-4132-bbf5-7451048efdbe"
+					name="ModuleGroupdateContructed">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="dateContructed"
+						variableref="559edea3-389d-4aea-9e3a-9a47406ca612">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="dateConstructed"
+						variableref="11d8fbe4-3205-47bd-b7f0-75f6aca8fda5">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="f5fe9add-ce0e-4588-8eff-03c1c71422bf"
+					name="ModuleGrouparchitect">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="architect"
+						variableref="26f7a7de-588e-4638-ab4b-21a381de2841">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="architect"
+						variableref="6ded8b98-d9ba-4199-a9e9-286ea03134c8">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="3397bc65-9393-40bc-aaea-69e9ac769e82"
+					name="ModuleGroupcontractor">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="contractor"
+						variableref="2210705c-40c7-4e2f-99a5-7f21905df321">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="Contractor"
+						variableref="333bb2fa-06b6-4139-93a2-3b002661c20f">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="33b56bc4-e499-48ba-9a9f-d18c97515fe3"
+					name="ModuleGrouprenovationHistory">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="renovationHistory"
+						variableref="be013f65-77a0-40b5-b7dc-d5ab85f778b5">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="renovationHistory"
+						variableref="834a460c-ba89-417b-a932-ba14a9f68f1b">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="d808c10a-62c0-47c7-828a-8e0d4f677c61"
+					name="ModuleGroupconstructionCost">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="constructionCost"
+						variableref="33e6d6e1-c80e-4f5c-8eef-fbba038c6be2">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="constructionCost"
+						variableref="88f292b7-4bfc-4376-b2cd-e9559665d4a1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="3621edc3-5a32-4796-9ae7-9d3f35380738"
+					name="ModuleGroupdescription">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="description"
+						variableref="d0139cd5-1d41-4d54-8834-f41605c97662">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="8a4c42d0-eb4c-41cd-a44c-becea676f9b0"
+					name="ModuleGroupbuildingNumber">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="buildingNumber"
+						variableref="12e3fa6a-fdaa-4753-a031-732f683d6d29">
+						</modulevariable>
+						<modulevariable
+						moduleref="6641fa01-1524-474e-8a38-1b275e863e66"
+						name="buildingNumber"
+						variableref="d645dba5-590d-4df3-a64f-9c2a9e5062a9">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="8dd18984-638a-43eb-8b41-7f6747632301"
+					name="ModuleGroupcampus">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="campus"
+						variableref="35a01467-e534-43f9-bac9-fed9994ba102">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="914c88a9-e210-4515-98cc-6695dece6fec"
+					name="ModuleGroupzone">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="zone"
+						variableref="9af52b29-c128-49f5-9285-e8c5fb0db6bc">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="fb06047c-5b1b-4e87-a0de-0a43da677b7c"
+					name="ModuleGroupwing">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="wing"
+						variableref="5422ff1c-81fa-4dfa-9e78-58e61ea7e155">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="f570a685-2623-4463-a27a-d4c63be65110"
+					name="ModuleGroupnoOfFloors">
+						<modulevariable
+						moduleref="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+						name="noOfFloors"
+						variableref="05f234bd-60b5-4806-a868-8e89a471c72e">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<modulegroupdef
 			id="ef73eac8-5a6f-4071-a20a-0475b8ba19bd"
 			name="editCampusLocation_Failure_ExistingName">
@@ -3642,6 +7672,20 @@ rxversion="10.1">
 						variableref="0dae9b11-0cf4-4a63-8a76-94e637a800b1">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="9218ab20-ee8f-48fc-b097-cbb05f65f171"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="aa1dd42b-bd82-4a6c-ae33-60dc52b23034"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="7ccbd7e2-4bd5-4f21-8511-fd465f72695f"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3654,6 +7698,12 @@ rxversion="10.1">
 			id="effe9554-d32a-4bde-a20e-a6200d2c0111"
 			name="AllModuleGroups">
 			</modulegroups>
+			<testmodule
+			id="f08019e5-cee8-4845-8228-ff17ca9e92c7"
+			name="Pre_createScenario_grid"
+			ref="854d17df-6bf4-4d41-80d9-79dc4deb70d2"
+			type="Recording">
+			</testmodule>
 			<modulegroupdef
 			id="f0c7fdee-22df-4a98-b56c-678fbff57c81"
 			name="createFundingSource_Failure_ExistingItem">
@@ -3705,6 +7755,30 @@ rxversion="10.1">
 						variableref="23d7026e-e85a-4075-9197-004d3e03d175">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="352f4205-1954-4d0a-b5ec-2f1bcdcab35b"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="b3c2417f-06a9-4c0e-8382-17a6119c555e"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="1cd38801-ba4c-46ae-8f65-e7f2ae1ba7bb"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="3a98dace-d850-41f8-803e-97519b63b4d1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="2e74a9e4-6113-412c-adbe-97040ec10c0b"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
@@ -3753,6 +7827,25 @@ rxversion="10.1">
 					id="07e500d1-2979-4310-bfcd-3e8e061c4f1c"
 					name="ModuleGroupvisibleName">
 					</groupvariable>
+					<groupvariable
+					id="546bd806-c08f-4859-91c2-9051f61c2b96"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="6b43735b-f6d1-4a4d-a65a-881b34e06ee0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="140f673e-326e-498f-a1a8-89c387f29a35"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="85080f17-8ac8-4acb-8c92-7cf6a39062b1"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
@@ -3761,6 +7854,22 @@ rxversion="10.1">
 				<description>
 					<![CDATA[<---:]]>
 				</description>
+				<groupvariables>
+					<groupvariable
+					id="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="e49170ae-3f93-40c7-bd14-c71444e9ba66"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="8e3af202-8023-4ce1-b45b-e2b7e73cfe31"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
 			<testmodule
 			id="f39fac8f-4dff-4ad3-bf0d-8a07bd917806"
@@ -3841,6 +7950,20 @@ rxversion="10.1">
 						variableref="354207e7-bfe3-4ed8-9630-35aa3931b68a">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="883b8e72-1404-4a0f-b6a7-f9c4902878b4"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="5c065467-36d5-4dc4-b74a-8651cde675ee"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="e3e71839-dc8f-487b-916b-03a5b314cca8"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3854,6 +7977,15 @@ rxversion="10.1">
 			name="editStatusReportType_Name_Fail"
 			ref="95f3384a-2579-4a64-b4fa-4125c7208044"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="f85ab6f0-47ab-4f38-8a2a-5a304b76a5e4"
+			name="hitSubmitButton_Project"
+			ref="1b3783fd-4bae-4428-b634-15d3d57576c4"
+			type="Recording">
+				<description>
+					<![CDATA[BLOCKER!!!]]>
+				</description>
 			</testmodule>
 			<modulegroupdef
 			id="f92c12ec-a7dc-4bc0-b22c-7ac1499c7a93"
@@ -3883,6 +8015,20 @@ rxversion="10.1">
 						variableref="6b582b8c-2d1c-471a-8daf-ea9cba702080">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="96d8645c-5611-48a5-a9cf-ed5b5fe2a0e0"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="97f83935-d3e4-4215-8a45-a5a14decd9c0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="88c16c17-9c7e-44c2-80dd-7d6c57c4a514"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
@@ -3903,6 +8049,76 @@ rxversion="10.1">
 			ref="7c3c270f-c9d4-46e9-8bf1-eca91c9eeae3"
 			type="Recording">
 			</testmodule>
+			<modulegroupdef
+			id="fb20b9be-3f85-4d65-9719-0baab89dd253"
+			name="editCampus_MDC">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="69936f73-0f73-4251-8919-ec9efab282fa"
+					name="ModuleGroupdescription">
+						<modulevariable
+						moduleref="91b5cbfd-97aa-4934-a299-7617a53618c0"
+						name="oldDescription"
+						variableref="29c37606-abe2-436b-ac72-ccf334dc5750">
+						</modulevariable>
+						<modulevariable
+						moduleref="91b5cbfd-97aa-4934-a299-7617a53618c0"
+						name="editedDescription"
+						variableref="dccb9085-1ae0-4976-b746-23dd9b62b438">
+						</modulevariable>
+						<modulevariable
+						moduleref="b79e170a-ac65-4620-b1be-c03af11e8736"
+						name="description"
+						variableref="1dc322ae-50cd-4880-b56c-090bccce3470">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="9dfbf5ae-21eb-4d57-abd6-ab8ee06813bb"
+					name="ModuleGroupdomain">
+						<modulevariable
+						moduleref="91b5cbfd-97aa-4934-a299-7617a53618c0"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="b79e170a-ac65-4620-b1be-c03af11e8736"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					defaultvalue="ModuleGroupDefaultValue"
+					id="75bc2b51-d998-4658-b262-c295f3868cca"
+					name="ModuleGroupselectedCampus">
+						<modulevariable
+						moduleref="91b5cbfd-97aa-4934-a299-7617a53618c0"
+						name="newCampus"
+						variableref="888a1395-3c38-40ee-8caf-b24f9bb64ceb">
+						</modulevariable>
+						<modulevariable
+						moduleref="b79e170a-ac65-4620-b1be-c03af11e8736"
+						name="selectedCampus"
+						variableref="9d9db1ed-808e-44cf-a880-bf655144ca2d">
+						</modulevariable>
+						<modulevariable
+						moduleref="b79e170a-ac65-4620-b1be-c03af11e8736"
+						name="selectedZone"
+						variableref="dc57825d-0e43-4375-b617-7f54a4843c51">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="a2c42320-5032-4846-8a87-9a62077257a5"
+					name="ModuleGroupselectedZone">
+						<modulevariable
+						moduleref="91b5cbfd-97aa-4934-a299-7617a53618c0"
+						name="newZone"
+						variableref="aba58ba3-dc92-406b-b3c7-1ef8a04466f2">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
 			<testmodule
 			id="fb4d5e3d-d08d-4d3c-b1fc-168bf31f27de"
 			name="createCampusLocation"
@@ -3913,6 +8129,18 @@ rxversion="10.1">
 			id="feaf8866-fdde-4891-8155-55eb15cd7260"
 			name="createCategory_existingName"
 			ref="6e51284a-b572-4200-8636-28dd66d9384d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+			name="validateBuilding_MDC"
+			ref="4403470f-de4a-4723-80f5-849b2e7b1a0e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ffb26bb5-f26c-4db2-b047-82d9d398d54d"
+			name="createCampus_MDC"
+			ref="cd11410d-0ddf-44d5-b79b-186c01c0647a"
 			type="Recording">
 			</testmodule>
 			<modulegroupdef
@@ -3954,6 +8182,25 @@ rxversion="10.1">
 						variableref="64da3d8d-1228-4e71-ba80-6cb7cbfccff9">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="22eea6c1-28fb-49b9-851f-50e71acf9992"
+					name="ModuleGroupDomain">
+						<modulevariable
+						moduleref="41f26915-5c68-49c6-a88b-2375ea73eaed"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="cd8e152e-d286-4d8d-88a1-ea621dcd3bfa"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
+						moduleref="dd2b4e3d-9200-432d-a741-a1dd173eb146"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 		</flatlistofchildren>
@@ -3973,10 +8220,6 @@ rxversion="10.1">
 					name="HitSaveButton_1">
 					</testmodule>
 					<testmodule
-					id="e25112c9-d6b8-4595-a26b-c7738754200d"
-					name="newItemName_IfExists">
-					</testmodule>
-					<testmodule
 					id="71bdc142-207b-4d8f-a312-3f19b9567021"
 					name="validateCreatedItem">
 					</testmodule>
@@ -3991,10 +8234,6 @@ rxversion="10.1">
 					<testmodule
 					id="d12a8d92-5142-4676-a152-ba90ca7ed78b"
 					name="HitSaveButton_2">
-					</testmodule>
-					<testmodule
-					id="eed346b7-8e7f-487a-a0e1-998344e0b83d"
-					name="newItemName_IfExists">
 					</testmodule>
 					<testmodule
 					id="82c6d24d-dfa5-4f3a-b573-f23e78bdd130"
@@ -4167,6 +8406,114 @@ rxversion="10.1">
 					<testmodule
 					id="c1d7edf4-8b17-421b-bfa8-437d546811cf"
 					name="sort_dTable_Descending_Column2">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="dd2fdf8d-a84d-4e16-baee-b3ba475f83a0"
+				name="sortDTable_Column3">
+					<testmodule
+					id="3343992c-524f-42b4-8466-2c8b6963aed8"
+					name="sort_dTable_Ascending_Column3">
+					</testmodule>
+					<testmodule
+					id="ca0c6f58-fea7-4c83-9d74-092adca9bdcc"
+					name="sort_dTable_Descending_Column3">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="5fe3e2e8-8341-4a0f-88d3-6cce5581c393"
+				name="sortGridTableColumn1">
+					<testmodule
+					id="5a0ba7e5-4c1d-4de2-936f-d133521c8548"
+					name="sortAscending_grid_Column1">
+					</testmodule>
+					<testmodule
+					id="d796ef99-80e6-4040-85d1-5e7374e18e3a"
+					name="sortDescending_grid_Column1">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="747e4288-d385-4f3e-a8ac-f26a4072483d"
+				name="sortGridTableColumn2">
+					<testmodule
+					id="244a40a8-3a4f-404d-a06e-5b1cd8744878"
+					name="sortAscending_grid_Column2">
+					</testmodule>
+					<testmodule
+					id="3b05cde7-ac94-428c-9a44-27d187dd3883"
+					name="sortDescending_grid_Column2">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="b6496803-bb37-4848-9bb4-565ac2a25356"
+				name="sortGridTableColumn3">
+					<testmodule
+					id="b22c1294-6d68-4aa7-969b-01ff5026a0eb"
+					name="sortAscending_grid_Column3">
+					</testmodule>
+					<testmodule
+					id="3539fcfb-68f0-4c61-be12-9c33e65333f3"
+					name="sortDescending_grid_Column3">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="5399746b-c742-4aeb-9aee-b6610de776e5"
+				name="sortGridTableColumn4">
+					<testmodule
+					id="6316e07b-1316-455a-824e-a8a049dcd205"
+					name="sortAscending_grid_Column4">
+					</testmodule>
+					<testmodule
+					id="29992f0b-f95b-4e39-9870-fc88943f23b1"
+					name="sortDescending_grid_Column4">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="8dbc1e93-0733-4059-ba74-b3eb6f74e18c"
+				name="sortGridTableColumn5">
+					<testmodule
+					id="4ec0ed55-385b-430b-b7db-5d13b76c47db"
+					name="sortAscending_grid_Column5">
+					</testmodule>
+					<testmodule
+					id="92d58af7-c1bc-4dee-8149-49ebc8d1ed12"
+					name="sortDescending_grid_Column5">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="094c62eb-2cb6-41b7-85b7-f3232a44ccee"
+				name="sortGridTableColumn6">
+					<testmodule
+					id="e506a5b9-2fcf-4a1c-afeb-bd7de0eb0a16"
+					name="sortAscending_grid_Column6">
+					</testmodule>
+					<testmodule
+					id="2e30edd3-5fe8-4536-8956-bda1bcfe824f"
+					name="sortDescending_grid_Column6">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="23b8635f-16ca-49d7-859f-5bd467255908"
+				name="sortGridTableColumn7">
+					<testmodule
+					id="b4466b8c-bf29-49ef-9f17-42ce8fce151d"
+					name="sortAscending_grid_Column7">
+					</testmodule>
+					<testmodule
+					id="8db04547-ba85-4c65-abcf-5d86a9cbf6da"
+					name="sortDescending_grid_Column7">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="2f5ac8bb-4521-4e28-b8e4-92364e9c0a2b"
+				name="sortGridTableColumn8">
+					<testmodule
+					id="b09eabd6-8947-42eb-bdb4-fe25d0246543"
+					name="sortAscending_grid_Column8">
+					</testmodule>
+					<testmodule
+					id="debf01be-9b15-4032-a9c1-1005fadd817c"
+					name="sortDescending_gird_Column8">
 					</testmodule>
 				</modulegroupdef>
 				<modulegroupdef
@@ -4859,6 +9206,282 @@ rxversion="10.1">
 					<testmodule
 					id="920c161c-b028-4493-9ed2-e96872b73e35"
 					name="validateTemplate_existingName">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="c8d77f7e-786b-4704-9d99-39182273eef5"
+				name="createProjects_requiredFieldsOnly_Success">
+					<testmodule
+					id="6df9124f-4470-4f4c-b4f7-feb6b98294f5"
+					name="Pre_createScenario_grid">
+					</testmodule>
+					<testmodule
+					id="ae23468e-e819-4724-a1ec-d1c07eed6271"
+					name="enterDetailsProject_requiredFieldsOnly">
+					</testmodule>
+					<testmodule
+					id="262f4233-7130-4134-8660-de4207f3cddd"
+					name="projectSuccessfulyCreated">
+					</testmodule>
+					<testmodule
+					id="3f083044-a076-4b3b-b6a0-1a7b41474591"
+					name="validateProject_requiredFieldsOnly">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="8b50a24e-d35f-4b09-9c65-3f34148c86a8"
+				name="createProjects_Failure">
+					<testmodule
+					id="54aaa88d-3692-4b64-a77e-c7905c590bcc"
+					name="createProjects_Failure">
+					</testmodule>
+					<testmodule
+					id="2913660c-0468-4bb7-8f1b-c0db6193a2cb"
+					name="enterDetailsProject_requiredFieldsOnly">
+					</testmodule>
+					<testmodule
+					id="3b451d7c-c790-40c9-b449-969a2cc337d0"
+					name="validateProjects_Failure">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="e8fcc3ba-51d4-4eee-bd69-433e5aa766cc"
+				name="createContact_success">
+					<testmodule
+					id="0171d927-d3b8-468b-be7a-b47284ea5912"
+					name="createContact">
+					</testmodule>
+					<testmodule
+					id="47dadf52-c3f1-4745-bbe3-491bf8909e42"
+					name="validateContactCreation">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="6803ea98-4176-4b41-976d-636fc00d88f9"
+				name="createCampus_MDC_Success">
+					<testmodule
+					id="ffb26bb5-f26c-4db2-b047-82d9d398d54d"
+					name="createCampus_MDC">
+					</testmodule>
+					<testmodule
+					id="c91c25e6-2c93-414f-846d-18343c26519e"
+					name="validateCampus_MDC">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="fb20b9be-3f85-4d65-9719-0baab89dd253"
+				name="editCampus_MDC">
+					<testmodule
+					id="91b5cbfd-97aa-4934-a299-7617a53618c0"
+					name="editCampus_MDC">
+					</testmodule>
+					<testmodule
+					id="b79e170a-ac65-4620-b1be-c03af11e8736"
+					name="validateCampus_MDC">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="eeae3103-4500-4765-95b1-8756ea353813"
+				name="createBuilding_MDC_Success">
+					<testmodule
+					id="bf6e6bed-4c13-4210-8204-c322f9ab10bf"
+					name="createBuilding_MDC">
+					</testmodule>
+					<testmodule
+					id="6641fa01-1524-474e-8a38-1b275e863e66"
+					name="validateBuilding_MDC">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="ece8b30e-1dd0-4260-9f75-93b7e9ba03f9"
+				name="editBuilding_MDC_Success">
+					<testmodule
+					id="cc49f9ec-78b7-45b5-9411-23250b9b120d"
+					name="EditBuilding_MDC">
+					</testmodule>
+					<testmodule
+					id="ff461b71-77f2-4a8b-b257-8e5299169bd1"
+					name="validateBuilding_MDC">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="5acbf3d7-fc52-47f4-896d-fbfbaa0af566"
+				name="createRoom_MDC_Success">
+					<testmodule
+					id="0dbfbb9b-2aeb-4f6c-bb36-a7ac6b93b6e3"
+					name="createRoom_MDC">
+					</testmodule>
+					<testmodule
+					id="3d6df1c0-9343-499c-9d71-e9772cb3ee34"
+					name="validateRoom_MDC">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="949d4b36-6dff-4286-8fa3-874fc022c7c6"
+				name="createAssetsType_MDC_Success">
+					<testmodule
+					id="b5e366c3-1b1b-4a72-b1b2-59c933e6bb29"
+					name="createAssetType_MDC">
+					</testmodule>
+					<testmodule
+					id="cacf298f-ee53-4be4-8d8b-a22f27655c6e"
+					name="validateAssetsType_MDC">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="624b7853-be77-4f0a-9661-ab68a4652970"
+				name="editAssetsType_MDC_Success">
+					<testmodule
+					id="5bc08045-fb4a-40ce-94e9-ea769e5e8243"
+					name="editAssetsType_MDC">
+					</testmodule>
+					<testmodule
+					id="4c27317f-d5fc-4f10-83b8-7b61766a8f89"
+					name="validateAssetsType_MDC">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="1f3bb629-f7c1-491a-850b-ed7f9180700f"
+				name="createProject_Module_AllFields">
+					<testmodule
+					id="3d47913e-68aa-4eef-9040-37559c44af17"
+					name="Pre_createScenario_grid">
+					</testmodule>
+					<testmodule
+					id="54c5eee0-12c1-46e7-9cb7-713984d7f357"
+					name="createProjects_AllFields">
+					</testmodule>
+					<testmodule
+					id="3610d2a6-1866-4ca9-8c92-e72f38bc27b7"
+					name="createProjects_AllFields_ProjectTeam">
+					</testmodule>
+					<testmodule
+					id="177c40c8-7f1d-46b7-b499-3f1d157ad063"
+					name="createProjects_AllFields_AssociatedOrganization">
+					</testmodule>
+					<testmodule
+					id="a8e70b0c-a7bc-4a66-83e6-b6495be9d96e"
+					name="createProjects_AllFields_KeyDates">
+					</testmodule>
+					<testmodule
+					id="962a6af8-fa2e-4252-a857-e80b9fefa00b"
+					name="createProjects_AllFields_FinancialInformation">
+					</testmodule>
+					<testmodule
+					id="41dfa9d7-e646-4e84-b888-7d457c38b8ab"
+					name="createProjects_AllFields_AdditionalInformation">
+					</testmodule>
+					<testmodule
+					id="10cc29d0-7f56-494d-bd15-ba004558feaf"
+					name="createProjects_AllFields_BudgetInformation">
+					</testmodule>
+					<testmodule
+					id="f85ab6f0-47ab-4f38-8a2a-5a304b76a5e4"
+					name="hitSubmitButton_Project">
+					</testmodule>
+					<testmodule
+					id="9e075238-ed35-4c34-b55f-b6d9ec990d8d"
+					name="validateProject_Module">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="b36ccfaf-a7c3-4bf6-8519-92ca76c082e9"
+				name="createContacts_Project_Success">
+					<testmodule
+					id="ed4c464d-80c6-45fa-9b02-0721910b70a2"
+					name="createContacts_Project">
+					</testmodule>
+					<testmodule
+					id="609dcefa-3aaf-4b35-b9d2-10312688344d"
+					name="validateContact_Projects">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="11f48abe-9ed3-48b2-8172-39834c9194ac"
+				name="removeContacts_Projects_Success">
+					<testmodule
+					id="b5e0e8d3-cae3-4787-8216-aeda2f4f0992"
+					name="removeContact_Project">
+					</testmodule>
+					<testmodule
+					id="2635db66-97fb-482f-acb6-2abd78abbb26"
+					name="validateContactRemoval_Project">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="122eb4fd-118a-4100-bc34-93ed3aa7845c"
+				name="createPunchList_Project_Success">
+					<testmodule
+					id="a7508706-5975-4eec-96a6-abdb8f81c418"
+					name="Pre_createScenario_grid">
+					</testmodule>
+					<testmodule
+					id="8698de9d-31a5-44c0-a80c-5b0ad5349562"
+					name="createPunchList_Project">
+					</testmodule>
+					<testmodule
+					id="52c77b88-1929-4d56-91c1-3decbe9cb3be"
+					name="validatePunchList_Project">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="468833a7-bb2b-4ec6-aa0e-be57d49ef710"
+				name="editPunchList_Project_Success">
+					<testmodule
+					id="4d969bf5-f719-467d-bf0b-4ecc6721dffd"
+					name="editPunchList_Project">
+					</testmodule>
+					<testmodule
+					id="4e0d28b9-f8ce-44bd-a790-5608e5dddadb"
+					name="validatePunchList_Project_Edit">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="0816413e-4956-48b8-9ca6-81347aabc5e8"
+				name="createIssues_Projects_Success">
+					<testmodule
+					id="f08019e5-cee8-4845-8228-ff17ca9e92c7"
+					name="Pre_createScenario_grid">
+					</testmodule>
+					<testmodule
+					id="99084706-4117-4df3-bfc1-9f4d2cbec138"
+					name="validateCheckboxesAndFields_Issue_Project">
+					</testmodule>
+					<testmodule
+					id="0670c190-2f2a-44c4-b1d8-4eec66712958"
+					name="createIssue_projects">
+					</testmodule>
+					<testmodule
+					id="dd8c76b2-96bb-4879-b4e7-07d8ba7583f0"
+					name="validateIssue_project">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="8fb8330a-c5f6-4291-b36e-3855f55b338c"
+				name="createStatusReport_Project_Success">
+					<testmodule
+					id="1fe0a518-057e-48c1-82e4-b2580cdb3637"
+					name="Pre_createScenario_grid">
+					</testmodule>
+					<testmodule
+					id="dccc5707-04f9-492a-88d6-26d9de2e6f92"
+					name="createStatusReport">
+					</testmodule>
+					<testmodule
+					id="decd7bc4-1693-426b-a3ef-18b68d8e7923"
+					name="validateStatusReport_Project">
+					</testmodule>
+				</modulegroupdef>
+				<modulegroupdef
+				id="9b632a6b-65ec-4597-be35-56dc3234d275"
+				name="createTask_Project_Success">
+					<testmodule
+					id="2a4f0b2c-29c5-47fe-8941-58e868ea1506"
+					name="createTask_project">
+					</testmodule>
+					<testmodule
+					id="3e4afb96-e81f-47b1-ab6b-3d5461e511f3"
+					name="validateTask_Project">
 					</testmodule>
 				</modulegroupdef>
 			</modulegroups>

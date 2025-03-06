@@ -94,6 +94,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable optionIndex.
         /// </summary>
         [TestVariable("a8242b29-31b5-4bf0-8ef1-a80af11c1f21")]
@@ -173,8 +183,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Content1.ButtonTagSave.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(12));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
         }
 

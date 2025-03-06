@@ -236,6 +236,20 @@
 			name="signIn"
 			ref="c75304b6-b664-45ee-a43e-816c3604df9a"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="loggedIn"
+					datasourceid="edd68f6b-ed45-40fe-903a-159122d8b043"
+					variableid="c0bd0be0-ecbb-4b35-b974-8b3fb3e89093"
+					variablename="LoggedIn">
+					</var>
+					<var
+					dataname="pageURL"
+					datasourceid="edd68f6b-ed45-40fe-903a-159122d8b043"
+					variableid="cda1795e-e1f9-4b20-8e3f-67a5a9f2125a"
+					variablename="currentUrl">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="c0b4c837-d57d-4a39-8c52-43e94b96728e"

@@ -27,6 +27,14 @@ mode="Global">
 		id="b518b8ba-381b-4d67-ac25-c8d877e74d7c"
 		name="browserName">
 		</var>
+		<var
+		id="7b03eff5-87ef-4422-a282-7b564bb36d10"
+		name="domain">
+		</var>
+		<var
+		id="64533431-8678-4f39-bacd-6c13c322d329"
+		name="url">
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
@@ -48,9 +56,85 @@ mode="Global">
 			id="b0631ace-58ae-40a0-8524-03554d426102">
 			</arguments>
 		</userrecorditem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="getURL_IFM"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="domain">
+				</binding>
+			</bindings>
+			<arguments
+			id="b0631ace-58ae-40a0-8524-03554d426102">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="concatStrings"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="url">
+				</binding>
+			</bindings>
+			<arguments
+			id="b0631ace-58ae-40a0-8524-03554d426102">
+				<argument
+				argname="s1"
+				id="638a103c-8e5f-4cf5-b74a-4ce76db028cb"
+				variable="domain">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="s2"
+				id="58dbfcd7-618a-43ee-8048-d680f3a11079">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						/CampusFacilities
+					</argvalue>
+				</argument>
+				<argument
+				argname="s3"
+				id="b2ed5cc0-7d6f-4434-97a2-31cbcd463f0c">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="s4"
+				id="c7d0422c-e1dd-4345-afd4-d37f76d248a4">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<openwebsiterecorditem
 		args=""
-		browser="Firefox"
+		browser="Chrome"
 		clearcache="False"
 		clearcodecache="False"
 		clearcookies="False"
@@ -68,9 +152,13 @@ mode="Global">
 				target="BrowserName"
 				variable="browserName">
 				</binding>
+				<binding
+				target="Url"
+				variable="url">
+				</binding>
 			</bindings>
 			<url>
-				https://app.ifm360.com/CampusFacilities
+				https://app.ifm360.com/program
 			</url>
 		</openwebsiterecorditem>
 	</recorditems>

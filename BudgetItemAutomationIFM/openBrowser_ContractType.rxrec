@@ -27,6 +27,14 @@ mode="Global">
 		id="ae727fc9-b005-436a-b08a-e3591a7dd11e"
 		name="browserName">
 		</var>
+		<var
+		id="013c382c-2c65-4733-ac88-56fe94cf80b8"
+		name="domain">
+		</var>
+		<var
+		id="36361133-a49f-4ca0-946e-8f26cbd43781"
+		name="url">
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
@@ -48,9 +56,85 @@ mode="Global">
 			id="b0631ace-58ae-40a0-8524-03554d426102">
 			</arguments>
 		</userrecorditem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="getURL_IFM"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="domain">
+				</binding>
+			</bindings>
+			<arguments
+			id="b0631ace-58ae-40a0-8524-03554d426102">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="concatStrings"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="url">
+				</binding>
+			</bindings>
+			<arguments
+			id="b0631ace-58ae-40a0-8524-03554d426102">
+				<argument
+				argname="s1"
+				id="638a103c-8e5f-4cf5-b74a-4ce76db028cb"
+				variable="domain">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="s2"
+				id="58dbfcd7-618a-43ee-8048-d680f3a11079">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						/contracttypes
+					</argvalue>
+				</argument>
+				<argument
+				argname="s3"
+				id="79ab0570-23e2-40d9-8bb3-193e06cc1377">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="s4"
+				id="a2f1b7e1-d17d-4254-b8b4-dd84f76893a3">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<openwebsiterecorditem
 		args=""
-		browser="Firefox"
+		browser="Chrome"
 		clearcache="False"
 		clearcodecache="False"
 		clearcookies="False"
@@ -68,9 +152,13 @@ mode="Global">
 				target="BrowserName"
 				variable="browserName">
 				</binding>
+				<binding
+				target="Url"
+				variable="url">
+				</binding>
 			</bindings>
 			<url>
-				https://app.ifm360.com/contracttypes
+				https://app.ifm360.com/program
 			</url>
 		</openwebsiterecorditem>
 	</recorditems>

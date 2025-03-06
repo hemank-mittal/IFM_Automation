@@ -55,6 +55,16 @@ namespace BudgetItemAutomationIFM
 #region Variables
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable existingName.
         /// </summary>
         [TestVariable("edf22efe-d07c-47fe-8833-71a30867e5bc")]
@@ -90,28 +100,28 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Title' at Center.", repo.ApplicationUnderTest.Content1.TitleInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Content1.Title.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.Title' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.TitleInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.Title.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$existingName' with focus on 'ApplicationUnderTest.Content1.Title'.", repo.ApplicationUnderTest.Content1.TitleInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Content1.Title.PressKeys(existingName);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$existingName' with focus on 'ApplicationUnderTest.Content1.closeoutCreateEditForm.Title'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.TitleInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.Title.PressKeys(existingName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.itemDescriptionTextarea' at Center.", repo.ApplicationUnderTest.Content1.itemDescriptionTextareaInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Content1.itemDescriptionTextarea.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextareaInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test description' with focus on 'ApplicationUnderTest.Content1.itemDescriptionTextarea'.", repo.ApplicationUnderTest.Content1.itemDescriptionTextareaInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Content1.itemDescriptionTextarea.PressKeys("Test description");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test description' with focus on 'ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextareaInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea.PressKeys("Test description");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagSubmit1' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagSubmit1Info, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Content1.ButtonTagSubmit1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.ButtonTagSubmit1' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.ButtonTagSubmit1Info, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.ButtonTagSubmit1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(5));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
         }
 

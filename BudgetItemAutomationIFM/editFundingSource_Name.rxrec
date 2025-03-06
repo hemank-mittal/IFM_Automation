@@ -625,10 +625,10 @@ FFFABRRRQAUUUUAFFFFAH//Z
 			<bindings>
 			</bindings>
 			<info
-			id="6afd94a2-0585-4802-9293-de8d7ca5ccd2"
+			id="4fd7edc3-8a7c-42c5-9b17-4972f3c8689d"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='app.ifm360.com']/body//div[@role='listbox']/tag[$optionIndex]/span
+					/dom[@domain=$domain]//div[@role='listbox']/tag[$optionIndex]/span
 				</path>
 				<robustPath>
 				</robustPath>

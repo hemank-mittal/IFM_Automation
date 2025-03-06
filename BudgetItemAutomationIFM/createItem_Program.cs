@@ -94,6 +94,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable newTemplateName.
         /// </summary>
         [TestVariable("93dd40cc-a181-41d5-92ee-74b34ee1a9ad")]
@@ -139,43 +149,43 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Content1.MatMdcButtonTouchTarget1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ProgramForms_ProgramName' at Center.", repo.ApplicationUnderTest.Content1.ProgramForms_ProgramNameInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Content1.ProgramForms_ProgramName.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramName' at Center.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNameInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramName.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.ProgramForms_ProgramName'.", repo.ApplicationUnderTest.Content1.ProgramForms_ProgramNameInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Content1.ProgramForms_ProgramName.PressKeys(newTemplateName);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramName'.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNameInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramName.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ProgramForms_ProgramNumber' at Center.", repo.ApplicationUnderTest.Content1.ProgramForms_ProgramNumberInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Content1.ProgramForms_ProgramNumber.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNumber' at Center.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNumberInfo, new RecordItemIndex(5));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNumber.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemCount' with focus on 'ApplicationUnderTest.Content1.ProgramForms_ProgramNumber'.", repo.ApplicationUnderTest.Content1.ProgramForms_ProgramNumberInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.Content1.ProgramForms_ProgramNumber.PressKeys(itemCount);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemCount' with focus on 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNumber'.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNumberInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramNumber.PressKeys(itemCount);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ProgramForms_ProgramBudget' at Center.", repo.ApplicationUnderTest.Content1.ProgramForms_ProgramBudgetInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Content1.ProgramForms_ProgramBudget.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramBudget' at Center.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramBudgetInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramBudget.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemCount' with focus on 'ApplicationUnderTest.Content1.ProgramForms_ProgramBudget'.", repo.ApplicationUnderTest.Content1.ProgramForms_ProgramBudgetInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.Content1.ProgramForms_ProgramBudget.PressKeys(itemCount);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemCount' with focus on 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramBudget'.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramBudgetInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_ProgramBudget.PressKeys(itemCount);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ProgramForms_Description' at Center.", repo.ApplicationUnderTest.Content1.ProgramForms_DescriptionInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.Content1.ProgramForms_Description.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_Description' at Center.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_DescriptionInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_Description.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$descriptionText' with focus on 'ApplicationUnderTest.Content1.ProgramForms_Description'.", repo.ApplicationUnderTest.Content1.ProgramForms_DescriptionInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.Content1.ProgramForms_Description.PressKeys(descriptionText);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$descriptionText' with focus on 'ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_Description'.", repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_DescriptionInfo, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_Description.PressKeys(descriptionText);
             Delay.Milliseconds(0);
             
-            Mouse_Click_IsVirtual(repo.ApplicationUnderTest.Content1.ProgramForms_VirtualProgram_CheckboxInfo, ValueConverter.ArgumentFromString<bool>("isVirtual", isVirtual));
+            Mouse_Click_IsVirtual(repo.ApplicationUnderTest.Content1.programCreateEditForm.ProgramForms_VirtualProgram_CheckboxInfo, ValueConverter.ArgumentFromString<bool>("isVirtual", isVirtual));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Submit' at Center.", repo.ApplicationUnderTest.Content1.SubmitInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Content1.Submit.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.programCreateEditForm.Submit' at Center.", repo.ApplicationUnderTest.Content1.programCreateEditForm.SubmitInfo, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.Content1.programCreateEditForm.Submit.Click();
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.generateRandomString();

@@ -15,6 +15,14 @@
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="4259fe1e-b0ee-495c-9dcc-654d519f9474"
@@ -39,12 +47,26 @@
 					variableid="e8150131-3eb3-4aaf-afb8-b86787633cb9"
 					variablename="ModuleGrouplinkedItem">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="6ed9f0d4-bf04-421a-a7e2-ba30f1379f89"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="74165fff-b869-4f43-94b6-14613f880606"
 			name="sortDTable_Column2"
 			ref="23e339fb-a308-4861-9eb5-6ee613fff5f4">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="788562fb-a6f9-4dc3-a1aa-b14d1f647821"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="97feeeb1-4211-43dc-96fa-a44a9c9e275e"
@@ -57,6 +79,12 @@
 					variableid="2182b9f4-2064-40c1-8d38-bd477230c6da"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="96d8645c-5611-48a5-a9cf-ed5b5fe2a0e0"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -64,17 +92,41 @@
 			name="openBrowser_Territory"
 			ref="5b52bc11-1ba5-48c7-b16a-ea38e37e1111"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="77bd29c8-716b-41ba-a864-224b84509b35"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="c4883d08-54a4-4bf6-9bba-b5e84ed19a23"
 			name="sortDTable_Column1"
 			ref="3b137bc0-4d04-4df7-88b6-c04bed638147">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="bc09716d-2fb5-49af-84a9-4f8858c69c1d"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testmodule
 			id="c6592b29-5883-4de8-bd24-f96bb237db02"
 			name="validateFIMTerritory"
 			ref="cef7faf4-c027-43b3-9c2a-a61caf7572e9"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="d1a369f2-bea2-4889-8b86-16d30461f373"
@@ -116,6 +168,12 @@
 					variableid="bfed0011-b491-4496-bae2-8bb75ba48d4d"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="4468206d-635a-4c3e-ae50-5ef3e8f8f80d"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testcase
@@ -144,6 +202,10 @@
 					</param>
 					<param
 					name="editedLinkedItem"
+					value="">
+					</param>
+					<param
+					name="domain"
 					value="">
 					</param>
 				</parameters>
@@ -186,6 +248,12 @@
 					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
 					variableid="482917b8-1ecb-4885-8c0a-23289bff9edd"
 					variablename="ModuleGrouplinkedItem">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="f09f2e78-7160-4b01-9037-6c708168f5a2"
+					variableid="883b8e72-1404-4a0f-b6a7-f9c4902878b4"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -271,5 +339,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

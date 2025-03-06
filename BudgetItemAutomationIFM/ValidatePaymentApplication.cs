@@ -81,6 +81,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable optionIndex.
         /// </summary>
         [TestVariable("6ec2aaa5-271f-4943-98ac-029d57bb7a07")]

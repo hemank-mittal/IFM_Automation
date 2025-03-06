@@ -409,7 +409,7 @@ rxversion="10.1">
 		True
 	</TestCase.Retry.ShowWarning>
 	<TestCase.Autobind.Action>
-		AskUser
+		Never
 	</TestCase.Autobind.Action>
 	<Testing.Data.ExcelDataLoadingPreference>
 		PreferExcel
@@ -424,7 +424,7 @@ rxversion="10.1">
 		ReuseDirectoryForExecution, DetectChangesOnUpload
 	</TestExecution.RemoteAgentOptimizations>
 	<perftracing.tracers>
-		None
+		All
 	</perftracing.tracers>
 	<perftracing.directory>
 		%MyDocuments%\Ranorex\TraceLogs
@@ -457,7 +457,7 @@ rxversion="10.1">
 		True
 	</plugins.win32.EnableDynamicMsaa>
 	<plugins.win32.ProcessWhitelist>
-		chrome;firefox;iexplore;msedge;MicrosoftEdge;MicrosoftEdgeCP;
+		chrome;firefox;
 	</plugins.win32.ProcessWhitelist>
 	<plugins.win32.ProcessBlacklist>
 	</plugins.win32.ProcessBlacklist>

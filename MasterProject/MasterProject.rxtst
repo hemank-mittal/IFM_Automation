@@ -61,5 +61,11 @@
 		<reference>
 			Automation_IFM.exe
 		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
 	</references>
 </testsuitedoc>

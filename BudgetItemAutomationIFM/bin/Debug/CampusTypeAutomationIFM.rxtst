@@ -7,6 +7,7 @@
 			name="setup">
 			</setup>
 			<modulegroup
+			enabled="False"
 			id="37dbc644-7fe5-4ada-93d4-9ec11935fecf"
 			name="editCategory_1_Success"
 			ref="dc69b6d8-dd44-46b6-a29a-0c6dbfcfdbcf">
@@ -23,6 +24,12 @@
 					variableid="92f6cfdb-af79-4c92-bf48-9c48327c2398"
 					variablename="ModuleGroupedittedName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="06c8c853-f837-41a9-a327-e00398c6d667"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -30,11 +37,28 @@
 			name="openBrowser_CampusType"
 			ref="5ffd7baa-e221-4595-8a8f-c5b4d2d1a889"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="8d823a0e-7c4c-47a0-a3c6-2af17158a5bf"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
+			enabled="False"
 			id="6227928c-c6fb-4a2b-b5d1-f7dd6bee9014"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<teardown
 			id="822da461-238e-4276-bbd0-068de300c8de"
@@ -45,6 +69,14 @@
 			name="validateCampusType"
 			ref="a0c4e367-c260-4274-8e48-90df0fa2510d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			id="a5e68ed8-9910-426e-8025-ff106c6cd590"
@@ -67,9 +99,16 @@
 					variableid="08e56d5c-ecbb-45d4-b044-f2ad6cd4d25b"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="d2d31f64-fe44-4e13-9a2d-ae72eca2ffcd"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="b5bdfa54-b91f-4943-ac01-49ca1d4bfe20"
 			name="editCategory_1_Failure_ExistingName"
 			ref="e14f40d3-a52a-49b7-af05-229539725c22">
@@ -79,6 +118,12 @@
 					datasourceid="f724b351-f163-4825-9915-052320441821"
 					variableid="d13b58b2-941f-4673-a472-699ffada4948"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -116,8 +161,17 @@
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
+			enabled="False"
 			id="e37c6ef6-928e-48e6-9f05-d6a92b81e021"
 			name="createCategory_1_Failure_ExistingName"
 			ref="4924d16d-f457-4b32-a8fd-0a9d2d2cd43b">
@@ -127,6 +181,12 @@
 					datasourceid="f724b351-f163-4825-9915-052320441821"
 					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="f724b351-f163-4825-9915-052320441821"
+					variableid="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -144,6 +204,10 @@
 					</param>
 					<param
 					name="edittedName"
+					value="">
+					</param>
+					<param
+					name="domain"
 					value="">
 					</param>
 				</parameters>
@@ -226,5 +290,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

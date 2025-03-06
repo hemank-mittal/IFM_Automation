@@ -42,6 +42,8 @@ namespace BudgetItemAutomationIFM
         public OpenBrowser_PaymentApplication()
         {
             browserName = "";
+            domain = "";
+            url = "";
         }
 
         /// <summary>
@@ -64,6 +66,28 @@ namespace BudgetItemAutomationIFM
         {
             get { return _browserName; }
             set { _browserName = value; }
+        }
+
+        string _url;
+
+        /// <summary>
+        /// Gets or sets the value of variable url.
+        /// </summary>
+        [TestVariable("30905684-f221-42bd-9dfa-7c75a0e89c99")]
+        public string url
+        {
+            get { return _url; }
+            set { _url = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("d85fef1c-5830-4bca-ad76-58d958b42f2b")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
         }
 
 #endregion
@@ -95,8 +119,14 @@ namespace BudgetItemAutomationIFM
             browserName = HelperMethodsCollection.getBrowserName();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://app.ifm360.com/paymentApplication' with browser specified by variable $browserName in normal mode.", new RecordItemIndex(1));
-            Host.Current.OpenBrowser("https://app.ifm360.com/paymentApplication", browserName, "", false, false, false, false, false, false, false, true);
+            domain = HelperMethodsCollection.getURL_IFM();
+            Delay.Milliseconds(0);
+            
+            url = HelperMethodsCollection.concatStrings(domain, "/paymentApplication", "", "");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $url with browser specified by variable $browserName in normal mode.", new RecordItemIndex(3));
+            Host.Current.OpenBrowser(url, browserName, "", false, false, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

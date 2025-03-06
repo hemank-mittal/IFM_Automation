@@ -15,6 +15,7 @@ namespace BudgetItemAutomationIFM
 	/// </summary>
 	public class globalParameters
 	{
+		public static string environment = "test";
 		public static string browserName = "Firefox";
 		public static bool itemExistsFlag = false;
 	}

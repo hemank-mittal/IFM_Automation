@@ -53,6 +53,16 @@ namespace BudgetItemAutomationIFM
 
 #region Variables
 
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -86,8 +96,8 @@ namespace BudgetItemAutomationIFM
             Mouse_Click_TableHeader(repo.ApplicationUnderTest.TableHeader_Column1Info);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(2));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (aria-sort='ascending') on item 'ApplicationUnderTest.TableHeader_Column1'.", repo.ApplicationUnderTest.TableHeader_Column1Info, new RecordItemIndex(3));
             Validate.AttributeEqual(repo.ApplicationUnderTest.TableHeader_Column1Info, "aria-sort", "ascending");

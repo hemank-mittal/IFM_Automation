@@ -198,6 +198,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable CL_Country.
         /// </summary>
         [TestVariable("2339f9e4-b543-4f39-93fd-89960920a82d")]
@@ -236,16 +246,16 @@ namespace BudgetItemAutomationIFM
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.itemCreatedMessageToaster'", repo.ApplicationUnderTest.itemCreatedMessageToasterInfo, new ActionTimeout(30000), new RecordItemIndex(0));
             repo.ApplicationUnderTest.itemCreatedMessageToasterInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.searchBar.Element.SetAttributeValue("TagValue", "");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.searchBar_typeplaceholder.Element.SetAttributeValue("TagValue", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.searchBar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar_typeplaceholder' at Center.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.searchBar_typeplaceholder.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.searchBar.PressKeys(itemName);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itemName' with focus on 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.searchBar_typeplaceholder.PressKeys(itemName);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(4));
@@ -263,7 +273,7 @@ namespace BudgetItemAutomationIFM
             completeAddress = repo.ApplicationUnderTest.integratedCLAddress.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            tempData = HelperMethodsCollection.concatStrings6(CL_address, CL_City, CL_County, CL_Country, _CL_State, CL_Zipcode);
+            tempData = HelperMethodsCollection.concatStrings_spaces(CL_address, CL_City, CL_County, CL_Country, _CL_State, CL_Zipcode);
             Delay.Milliseconds(0);
             
             HelperMethodsCollection.compareStrings(completeAddress, tempData);
@@ -276,13 +286,13 @@ namespace BudgetItemAutomationIFM
             HelperMethodsCollection.compareStrings(CL_Territory, completeTerritories);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(12));
-            Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(12));
+            Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar_typeplaceholder);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.searchBar.PressKeys("{Back}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(13));
+            repo.ApplicationUnderTest.searchBar_typeplaceholder.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(14));

@@ -186,6 +186,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable CL_country.
         /// </summary>
         [TestVariable("90c05d60-d885-470b-bef6-d245459999d5")]
@@ -340,7 +350,7 @@ namespace BudgetItemAutomationIFM
             CL_Territory2 = repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_secondInstance.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            CL_Territories = HelperMethodsCollection.concatStrings2(CL_Territory1, CL_Territory2);
+            CL_Territories = HelperMethodsCollection.concatStrings(CL_Territory1, CL_Territory2, "", "");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CampusLocationForm.campusTerritory_FirstInstance' at Center.", repo.ApplicationUnderTest.CampusLocationForm.campusTerritory_FirstInstanceInfo, new RecordItemIndex(28));
@@ -359,8 +369,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.CampusLocationForm.submitButton.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(32));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
         }
 

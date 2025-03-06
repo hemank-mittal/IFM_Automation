@@ -25,75 +25,21 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
-		<WaitForRecordItem
+		<userrecorditem
+		classname="HelperMethodsCollection"
 		enabled="True"
-		optional="False"
-		searchpropertyid="34a3bd31-c946-4a96-a2e4-07dea928b2e9"
-		waitaction="NotExists"
-		waittimeout="30000ms">
+		isexternaltestmethod="True"
+		methodname="waitForLoading"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="98ce9c4a-76f6-47e0-900e-f3b484726afb"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, itag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="0"
-				prefcap="itag"
-				rect="0,106,0,0"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="False">
-					<attribute
-					name="class"
-					type="System.String">
-						fa fa-spinner fa-spin
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						fa fa-spin fa-spinner
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						i
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="_ngcontent-ng-c2547361310"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</WaitForRecordItem>
+			<arguments
+			id="86fa8706-4298-489d-9aa8-26cb673d0bff">
+			</arguments>
+		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -373,75 +319,21 @@ FAEeZv7if99n/CjM39xP++z/AIVJRQBHmb+4n/fZ/wAKMzf3E/77P+FSUUAR5m/uJ/32f8KKkooA
 AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=
 			</helperscreenshot>
 		</mouseitem>
-		<WaitForRecordItem
+		<userrecorditem
+		classname="HelperMethodsCollection"
 		enabled="True"
-		optional="False"
-		searchpropertyid="34a3bd31-c946-4a96-a2e4-07dea928b2e9"
-		waitaction="NotExists"
-		waittimeout="30000ms">
+		isexternaltestmethod="True"
+		methodname="waitForLoading"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="98ce9c4a-76f6-47e0-900e-f3b484726afb"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, itag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="0"
-				prefcap="itag"
-				rect="0,106,0,0"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="False">
-					<attribute
-					name="class"
-					type="System.String">
-						fa fa-spinner fa-spin
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						fa fa-spin fa-spinner
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						i
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="_ngcontent-ng-c2547361310"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='app.ifm360.com']//div[#'page-container']/?/?/i
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</WaitForRecordItem>
+			<arguments
+			id="86fa8706-4298-489d-9aa8-26cb673d0bff">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="95c24b45-de07-49ea-b484-24e2432a73a7"

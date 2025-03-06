@@ -66,6 +66,16 @@ namespace BudgetItemAutomationIFM
             set { _deletingItem = value; }
         }
 
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -96,8 +106,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(1));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.LiTag01Foundations' and assigning its value to variable 'deletingItem'.", repo.ApplicationUnderTest.Content1.LiTag01FoundationsInfo, new RecordItemIndex(2));
             deletingItem = repo.ApplicationUnderTest.Content1.LiTag01Foundations.Element.GetAttributeValueText("InnerText");

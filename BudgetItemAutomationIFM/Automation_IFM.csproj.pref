@@ -1,19 +1,26 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="emailAllFiles_Grid.rxrec" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="ProjectsModuleAutomationIFM.rxtst" />
+    <Element value="HelperMethodsCollection.cs" />
+    <Element value="emailAllFiles_Grid.rxrec" />
+    <Element value="downloadAsCSV_Grid.rxrec" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <fileNames value="" />
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getCommaSeperatedString_FromRepo(String elementPath)" />
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getListFromRepo(String elementPath)" />
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getListFromRepo(Adapter element)" />
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.getDifferentOption(Adapter element)" />
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.selectDifferentOption(Adapter element)" />
-      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.compareSecondRecord_IfExist(String elementRxPath, String record1)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.closeFileTab_IfOpen()" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.waitForLoading()" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.confirmFileDownloaded(String extension, String expectedContent1, String expectedContent2, String expectedContent3, String expectedContent4)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.confirmFileDownloaded()" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.compareStrings(String compareWith, String compareTo)" />
+      <Element value="BudgetItemAutomationIFM.HelperMethodsCollection.checkFirstRecord_IfExists(String fieldValue, String elementInfoItemRxPath)" />
     </Array>
   </Properties>
 </Properties>

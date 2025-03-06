@@ -146,6 +146,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable newTemplateName.
         /// </summary>
         [TestVariable("7954c3fe-e764-423b-9eec-cefae1fa1831")]
@@ -181,100 +191,100 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.Title' at Center.", repo.ApplicationUnderTest.Content1.TitleInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Content1.Title.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.Title' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.TitleInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.Title.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.Title'.", repo.ApplicationUnderTest.Content1.TitleInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Content1.Title.PressKeys(newTemplateName);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.Content1.closeoutCreateEditForm.Title'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.TitleInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.Title.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn1' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtn1Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Content1.DropdownBtn1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1Info, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.firstItemInstance' at Center.", repo.ApplicationUnderTest.Content1.firstItemInstanceInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Content1.firstItemInstance.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.firstItemInstance' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.firstItemInstanceInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.firstItemInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn1' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtn1Info, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Content1.DropdownBtn1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1Info, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.DropdownBtn1_Val' and assigning its value to variable 'newParentItem'.", repo.ApplicationUnderTest.Content1.DropdownBtn1_ValInfo, new RecordItemIndex(5));
-            newParentItem = repo.ApplicationUnderTest.Content1.DropdownBtn1_Val.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1_Val' and assigning its value to variable 'newParentItem'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1_ValInfo, new RecordItemIndex(5));
+            newParentItem = repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn1_Val.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.SpecificationDocument' at Center.", repo.ApplicationUnderTest.Content1.SpecificationDocumentInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.Content1.SpecificationDocument.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.SpecificationDocument' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.SpecificationDocumentInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.SpecificationDocument.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newSpecificationSection' with focus on 'ApplicationUnderTest.Content1.SpecificationDocument'.", repo.ApplicationUnderTest.Content1.SpecificationDocumentInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Content1.SpecificationDocument.PressKeys(newSpecificationSection);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newSpecificationSection' with focus on 'ApplicationUnderTest.Content1.closeoutCreateEditForm.SpecificationDocument'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.SpecificationDocumentInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.SpecificationDocument.PressKeys(newSpecificationSection);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DrawingDocument' at Center.", repo.ApplicationUnderTest.Content1.DrawingDocumentInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.Content1.DrawingDocument.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DrawingDocument' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DrawingDocumentInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DrawingDocument.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newDrawing' with focus on 'ApplicationUnderTest.Content1.DrawingDocument'.", repo.ApplicationUnderTest.Content1.DrawingDocumentInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.Content1.DrawingDocument.PressKeys(newDrawing);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newDrawing' with focus on 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DrawingDocument'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DrawingDocumentInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DrawingDocument.PressKeys(newDrawing);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn2' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtn2Info, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.Content1.DropdownBtn2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2Info, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.firstCsiDivisionCodeInstance' at Center.", repo.ApplicationUnderTest.Content1.firstCsiDivisionCodeInstanceInfo, new RecordItemIndex(11));
-            repo.ApplicationUnderTest.Content1.firstCsiDivisionCodeInstance.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.firstCsiDivisionCodeInstance' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.firstCsiDivisionCodeInstanceInfo, new RecordItemIndex(11));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.firstCsiDivisionCodeInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn2' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtn2Info, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Content1.DropdownBtn2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2Info, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.DropdownBtn2_Val' and assigning its value to variable 'newCsiDivisionCode'.", repo.ApplicationUnderTest.Content1.DropdownBtn2_ValInfo, new RecordItemIndex(13));
-            newCsiDivisionCode = repo.ApplicationUnderTest.Content1.DropdownBtn2_Val.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2_Val' and assigning its value to variable 'newCsiDivisionCode'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2_ValInfo, new RecordItemIndex(13));
+            newCsiDivisionCode = repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn2_Val.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn3' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtn3Info, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.Content1.DropdownBtn3.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3Info, new RecordItemIndex(14));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.firstUniformatDivisionCodeInstance' at Center.", repo.ApplicationUnderTest.Content1.firstUniformatDivisionCodeInstanceInfo, new RecordItemIndex(15));
-            repo.ApplicationUnderTest.Content1.firstUniformatDivisionCodeInstance.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.firstUniformatDivisionCodeInstance' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.firstUniformatDivisionCodeInstanceInfo, new RecordItemIndex(15));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.firstUniformatDivisionCodeInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn3' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtn3Info, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.Content1.DropdownBtn3.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3Info, new RecordItemIndex(16));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.DropdownBtn3_Val' and assigning its value to variable 'newUniformatCode'.", repo.ApplicationUnderTest.Content1.DropdownBtn3_ValInfo, new RecordItemIndex(17));
-            newUniformatCode = repo.ApplicationUnderTest.Content1.DropdownBtn3_Val.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3_Val' and assigning its value to variable 'newUniformatCode'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3_ValInfo, new RecordItemIndex(17));
+            newUniformatCode = repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn3_Val.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn4' at Center.", repo.ApplicationUnderTest.Content1.DropdownBtn4Info, new RecordItemIndex(18));
-            //repo.ApplicationUnderTest.Content1.DropdownBtn4.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn4' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn4Info, new RecordItemIndex(18));
+            //repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn4.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.NoDataAvailable' at 166;15.", repo.ApplicationUnderTest.Content1.NoDataAvailableInfo, new RecordItemIndex(19));
-            //repo.ApplicationUnderTest.Content1.NoDataAvailable.Click("166;15");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.NoDataAvailable' at 166;15.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.NoDataAvailableInfo, new RecordItemIndex(19));
+            //repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.NoDataAvailable.Click("166;15");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn5' at 75;16.", repo.ApplicationUnderTest.Content1.DropdownBtn5Info, new RecordItemIndex(20));
-            //repo.ApplicationUnderTest.Content1.DropdownBtn5.Click("75;16");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn5' at 75;16.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn5Info, new RecordItemIndex(20));
+            //repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn5.Click("75;16");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.NoDataAvailable1' at 69;8.", repo.ApplicationUnderTest.Content1.NoDataAvailable1Info, new RecordItemIndex(21));
-            //repo.ApplicationUnderTest.Content1.NoDataAvailable1.Click("69;8");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.NoDataAvailable1' at 69;8.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.NoDataAvailable1Info, new RecordItemIndex(21));
+            //repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.NoDataAvailable1.Click("69;8");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.DropdownBtn5' at 91;22.", repo.ApplicationUnderTest.Content1.DropdownBtn5Info, new RecordItemIndex(22));
-            //repo.ApplicationUnderTest.Content1.DropdownBtn5.Click("91;22");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn5' at 91;22.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn5Info, new RecordItemIndex(22));
+            //repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.DropdownBtn5.Click("91;22");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.MatMdcFormFieldInfixNgTnsC12050771' at Center.", repo.ApplicationUnderTest.Content1.MatMdcFormFieldInfixNgTnsC12050771Info, new RecordItemIndex(23));
-            repo.ApplicationUnderTest.Content1.MatMdcFormFieldInfixNgTnsC12050771.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.MatMdcFormFieldInfixNgTnsC12050771' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.MatMdcFormFieldInfixNgTnsC12050771Info, new RecordItemIndex(23));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.MatMdcFormFieldInfixNgTnsC12050771.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'some tags' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(24));
@@ -282,16 +292,16 @@ namespace BudgetItemAutomationIFM
             Keyboard.Press("some tags");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.itemDescriptionTextarea' at Center.", repo.ApplicationUnderTest.Content1.itemDescriptionTextareaInfo, new RecordItemIndex(25));
-            repo.ApplicationUnderTest.Content1.itemDescriptionTextarea.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextareaInfo, new RecordItemIndex(25));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newDescription' with focus on 'ApplicationUnderTest.Content1.itemDescriptionTextarea'.", repo.ApplicationUnderTest.Content1.itemDescriptionTextareaInfo, new RecordItemIndex(26));
-            repo.ApplicationUnderTest.Content1.itemDescriptionTextarea.PressKeys(newDescription);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newDescription' with focus on 'ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea'.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextareaInfo, new RecordItemIndex(26));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.itemDescriptionTextarea.PressKeys(newDescription);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.ButtonTagSubmit1' at Center.", repo.ApplicationUnderTest.Content1.ButtonTagSubmit1Info, new RecordItemIndex(27));
-            repo.ApplicationUnderTest.Content1.ButtonTagSubmit1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.closeoutCreateEditForm.ButtonTagSubmit1' at Center.", repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.ButtonTagSubmit1Info, new RecordItemIndex(27));
+            repo.ApplicationUnderTest.Content1.closeoutCreateEditForm.ButtonTagSubmit1.Click();
             Delay.Milliseconds(0);
             
             //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.DivTagCloseoutItemHasBeenUpdated'", repo.ApplicationUnderTest.DivTagCloseoutItemHasBeenUpdatedInfo, new ActionTimeout(30000), new RecordItemIndex(28));
@@ -300,8 +310,8 @@ namespace BudgetItemAutomationIFM
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s for the attribute 'Path' to equal the specified value '/closeout'. Associated repository item: 'ApplicationUnderTest'", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(29));
             repo.ApplicationUnderTest.SelfInfo.WaitForAttributeEqual(30000, "Path", "/closeout");
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(30));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
         }
 

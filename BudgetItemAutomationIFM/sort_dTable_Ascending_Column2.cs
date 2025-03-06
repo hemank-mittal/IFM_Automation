@@ -53,6 +53,16 @@ namespace BudgetItemAutomationIFM
 
 #region Variables
 
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -90,7 +100,7 @@ namespace BudgetItemAutomationIFM
             Validate.AttributeEqual(repo.ApplicationUnderTest.dTableHeader2Info, "aria-sort", "ascending");
             Delay.Milliseconds(100);
             
-            HelperMethodsCollection.confirmSorting(repo.ApplicationUnderTest.dTableBody, "2", ValueConverter.ArgumentFromString<bool>("isDescending", "False"), ValueConverter.ArgumentFromString<bool>("isInteger", "False"));
+            HelperMethodsCollection.confirmSorting(repo.dTableBody, "2", ValueConverter.ArgumentFromString<bool>("isDescending", "False"), ValueConverter.ArgumentFromString<bool>("isInteger", "False"));
             Delay.Milliseconds(0);
             
         }

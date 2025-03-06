@@ -81,6 +81,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable newTemplateName.
         /// </summary>
         [TestVariable("7d10cca6-e0b4-4551-b52e-776383c2ff88")]
@@ -116,8 +126,8 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(0));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
             itemCount = ValueConverter.ToString(HelperMethodsCollection.getNumberOfRecordsFromFooter(repo.ApplicationUnderTest.showingNumberOfRecords));
             Delay.Milliseconds(0);
@@ -140,13 +150,17 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Content1.CustodialAreaManager.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance' and assigning its value to variable 'linkedItem'.", repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstanceInfo, new RecordItemIndex(7));
-            linkedItem = repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance.Element.GetAttributeValueText("InnerText");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Get Value", "(Optional Action)\r\nGetting attribute 'InnerText' from item 'ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance' and assigning its value to variable 'linkedItem'.", repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstanceInfo, new RecordItemIndex(7));
+                linkedItem = repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance.Element.GetAttributeValueText("InnerText");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance' at Center.", repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstanceInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance.Click();
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance' at Center.", repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstanceInfo, new RecordItemIndex(8));
+                repo.ApplicationUnderTest.Content1.CustodialAreaManager_FirstInstance.Click();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.CustodialAreaManager' at Center.", repo.ApplicationUnderTest.Content1.CustodialAreaManagerInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.Content1.CustodialAreaManager.Click();
@@ -156,8 +170,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Content1.ButtonTagSave.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(11));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
         }
 

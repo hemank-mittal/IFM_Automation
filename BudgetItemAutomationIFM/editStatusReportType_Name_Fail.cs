@@ -55,6 +55,16 @@ namespace BudgetItemAutomationIFM
 #region Variables
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable existingName.
         /// </summary>
         [TestVariable("748ad799-4bbb-4407-96b3-fa66d7f8d2d8")]

@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9f9263f8-25b3-492e-b73f-83e84bf636d6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="validateProjects_Failure"
+	namespace="BudgetItemAutomationIFM">
+	</codegen>
+	<variables>
+		<var
+		id="f9d4fb90-15c0-48b7-a347-51feb80795ed"
+		name="projectName">
+		</var>
+		<var
+		id="ffbec2bc-5980-4054-8900-8b31421edad3"
+		name="visibleProjectName">
+		</var>
+		<var
+		id="66a1e5fe-8200-4401-a0b8-5e8c293f8adc"
+		name="firstRecord">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="waitForLoading"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="86fa8706-4298-489d-9aa8-26cb673d0bff">
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="50f93e33-6e4f-462c-bb1a-674de011234c"
+		sx="1165"
+		sy="669"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="95c41697-abd5-462b-bc70-e8714b7e60d1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@class='swal-modal']//button[@innertext='OK']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2ff79abf-d35e-428d-aee8-85d56a56f2ef"
+		sx="1834"
+		sy="1133"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="16168bd8-bb63-4c42-bb50-f4f94d3855b3"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="2"
+				prefcap="buttontag"
+				rect="1795,1106,63,34"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-secondary
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#32;Cancel&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-secondary
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ng-c1076563961"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='test.ifm360.com']//div[#'content']//form[@action='http://test.ifm360.com/projects/add']/div[18]/?/?/button[@innertext=' Cancel ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="7c8e4ff4-117b-4346-8766-fec8c1e3c257">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADXAOgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDIrrNF
+UHSoDz37n1NcnXW6J/yCYPx/maALmwerf99GjYPVv++jTqKAG7B6t/30aNg9W/76NOooAbsHq3/f
+Ro2D1b/vo06igBuwerf99GjYPVv++jTqKAG7B6t/30aNg9W/76NOooAbsHq3/fRo2D1b/vo06igB
+uwerf99GjYPVv++jTqKAG7B6t/30aNg9W/76NOooAbsHq3/fRo2D1b/vo06igBuwerf99GnAYGKK
+KACiiigAooooAbJ/q2+hqnVyT/Vt9DVOgAooooA5Kut0T/kEwfj/ADNclXW6J/yCYPx/maAL1FFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANk/1bfQ1Tq5J/q2+
+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
+C/7x/kKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="waitForLoading"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="86fa8706-4298-489d-9aa8-26cb673d0bff">
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cac72a03-3166-4b7f-8cff-b87ae68d464f"
+		sx="1712"
+		sy="345"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d3aabef-687a-47cf-b5ff-dffb4ed02247"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@title='Search']//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="test"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="feb528de-ec52-4bd6-9fa7-f0ea6396edc3">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="projectName">
+				</binding>
+			</bindings>
+			<info
+			id="8d3aabef-687a-47cf-b5ff-dffb4ed02247"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@title='Search']//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="527acc7a-68ee-4e19-b616-98b0f51c95e8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d3aabef-687a-47cf-b5ff-dffb4ed02247"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@title='Search']//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="31217f76-e332-4951-b20c-edc3d6fd09e2"
+		varname="visibleProjectName">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7b2a14ca-38e8-4d66-8976-1a5f4469247a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@class='e-gridcontent']//table/tbody/tr[1]/td[2]/?/?
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</getvaluerecorditem>
+		<userrecorditem
+		classname="HelperMethodsCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="compareSecondRecord_IfExist"
+		namespace="BudgetItemAutomationIFM"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="12de7364-7279-4014-8c6c-8da96dabf321">
+				<argument
+				argname="record1"
+				id="a9722c8f-1401-4f62-bced-9a626ea18dcc"
+				variable="visibleProjectName">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="elementInfoItemRxPath"
+				id="40ca1463-92c9-48ba-9012-68ebc243c50a">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						.//div[@class='e-gridcontent']//table//tbody/tr[2]/td[2]/?/?
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keyitem
+		action="Press"
+		data="A, Control"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		scancode="30"
+		searchpropertyid="86c1d209-67f6-4060-b2a5-9a9a84336f52"
+		setModifiers="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d3aabef-687a-47cf-b5ff-dffb4ed02247"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@title='Search']//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keyitem>
+		<keysequenceitem
+		KeySequence="{Back}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="99165160-c8df-459c-b531-1509c73e6441">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d3aabef-687a-47cf-b5ff-dffb4ed02247"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@title='Search']//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="527acc7a-68ee-4e19-b616-98b0f51c95e8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d3aabef-687a-47cf-b5ff-dffb4ed02247"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$domain]//div[@title='Search']//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="95c24b45-de07-49ea-b484-24e2432a73a7"
+	name="BudgetItemAutomationIFMRepository"
+	relativepath="BudgetItemAutomationIFMRepository.rxrep">
+		<codegen
+		classname="BudgetItemAutomationIFMRepository"
+		namespace="BudgetItemAutomationIFM">
+		</codegen>
+		<rootfolder
+		id="bf1b39b4-1124-49e8-bfc8-b2f92bc20b58"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		validateProjects_Failure.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

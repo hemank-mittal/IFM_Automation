@@ -120,6 +120,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable optionIndex.
         /// </summary>
         [TestVariable("5ca9df48-03e6-451a-adc1-10f0cb278e60")]
@@ -178,11 +188,11 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.MatMdcSelectMinLineMatMdcSelectP1.Click();
             Delay.Milliseconds(0);
             
-            optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.editDropdownList));
+            optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.listbox_DropdownList));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.selectableOption' at Center.", repo.ApplicationUnderTest.selectableOptionInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.selectableOption.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.listbox_dynamicOption' at Center.", repo.ApplicationUnderTest.listbox_dynamicOptionInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.listbox_dynamicOption.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FundingWrapperNgStarInsertedRow.MatMdcSelectMinLineMatMdcSelectP' and assigning its value to variable 'linkedCategory'.", repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.MatMdcSelectMinLineMatMdcSelectPInfo, new RecordItemIndex(8));

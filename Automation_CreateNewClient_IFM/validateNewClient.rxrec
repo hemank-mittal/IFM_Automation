@@ -870,7 +870,7 @@ mRSME+vTP61boooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAQdT9aKKKAP/Z
 		classname="HelperMethodsCollection"
 		enabled="True"
 		isexternaltestmethod="True"
-		methodname="concatStrings6"
+		methodname="concatStrings_spaces"
 		namespace="BudgetItemAutomationIFM"
 		optional="False">
 			<comment>

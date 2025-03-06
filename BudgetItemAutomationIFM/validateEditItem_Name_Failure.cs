@@ -53,6 +53,16 @@ namespace BudgetItemAutomationIFM
 
 #region Variables
 
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -95,13 +105,13 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.FundingWrapperNgStarInsertedRow.ButtonTagCancel.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(4));
-            Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(4));
+            Keyboard.PrepareFocus(repo.ApplicationUnderTest.searchBar_typeplaceholder);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.searchBar.PressKeys("{Back}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(5));
+            repo.ApplicationUnderTest.searchBar_typeplaceholder.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
         }

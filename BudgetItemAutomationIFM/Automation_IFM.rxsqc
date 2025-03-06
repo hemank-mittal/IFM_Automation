@@ -1,72 +1,67 @@
 [
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "CloseoutItemAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "ContractTypeAumationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "FileCategoryAutomationIfm",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "BudgetItemAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "FundingSourcesAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "InvoiceCategoryAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "PaymentApplicationAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "ProgramsAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "ProjectTypeAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "RequestReasonAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "ServiceTypeAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "StatusReportTypeAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "CostEventAutomationIFM",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "CampusLocationAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
@@ -76,27 +71,57 @@
   },
   {
     "Enabled": "True",
+    "TestSuite": "CampusLocationAutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
     "TestSuite": "FIMConfigurationsAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "FIMTerritoryAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "TMM_TaskConfigurationsAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "TMM_TaskItemAutomationIFM",
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "OM_OrganisationsAutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Projects_IssueTab_AutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "ProjectsModuleAutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Security_ContactsAutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "SAC_ProjectConfigurationsAutomationIFM",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "FI_MasterDataConfigurationAutomationIFM",
     "RunConfig": "TestRun"
   }
 ]

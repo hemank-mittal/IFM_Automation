@@ -56,6 +56,16 @@ namespace BudgetItemAutomationIFM
 #region Variables
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable optionIndex.
         /// </summary>
         [TestVariable("f39fcc15-b45c-423a-a68d-b6d3dfe48d14")]
@@ -109,15 +119,15 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Content1.MatMdcFormFieldInfixNgTnsC1205077.Click();
             Delay.Milliseconds(0);
             
-            optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.editDropdownList));
+            optionIndex = ValueConverter.ToString(HelperMethodsCollection.selectDifferentOption(repo.ApplicationUnderTest.listbox_DropdownList));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.selectableOption' at Center.", repo.ApplicationUnderTest.selectableOptionInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.selectableOption.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.listbox_dynamicOption' at Center.", repo.ApplicationUnderTest.listbox_dynamicOptionInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.listbox_dynamicOption.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.selectableOption' and assigning its value to variable 'addedItem'.", repo.ApplicationUnderTest.selectableOptionInfo, new RecordItemIndex(4));
-            addedItem = repo.ApplicationUnderTest.selectableOption.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.listbox_dynamicOption' and assigning its value to variable 'addedItem'.", repo.ApplicationUnderTest.listbox_dynamicOptionInfo, new RecordItemIndex(4));
+            addedItem = repo.ApplicationUnderTest.listbox_dynamicOption.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Escape}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(5));

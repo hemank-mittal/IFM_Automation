@@ -33,5 +33,11 @@ namespace BudgetItemAutomationIFM
             // Your recording specific initialization code goes here.
         }
 
+        public void concatStrings2(string s1, string s2)
+        {
+            // TODO: Replace the following line with your code implementation.
+            throw new NotImplementedException();
+        }
+
     }
 }

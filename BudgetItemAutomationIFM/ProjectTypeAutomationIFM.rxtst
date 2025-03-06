@@ -7,6 +7,14 @@
 			name="ValidateProjectTypes"
 			ref="698641ec-2a2b-4c9e-841b-2455bc57c250"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<teardown
 			id="3d90caf4-fcf8-46ed-b9f1-54b6ae905371"
@@ -41,8 +49,17 @@
 			name="OpenBrowser_ProjectType"
 			ref="25c75c77-8d41-4cca-9792-4537252cd7ae"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="e7614500-80c6-4014-af6f-6ce946ae1684"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
+			enabled="False"
 			id="614c5367-4be7-43bc-8bc1-20b54e42b064"
 			name="editCategory_2_Success"
 			ref="d2a8eb44-fbce-4fb3-8f8b-8b78a7618c58">
@@ -53,12 +70,27 @@
 					variableid="abc652f3-a61b-4409-93cf-ac5b7780b2cb"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="46f78540-3fd5-47ab-bf82-b522bb771c78"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="6aa7ee91-ecfc-46af-b454-1549c8f7b563"
 			name="sortDTable_Column1"
 			ref="3b137bc0-4d04-4df7-88b6-c04bed638147">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="bc09716d-2fb5-49af-84a9-4f8858c69c1d"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testcase
 			id="6bcf8b1d-c977-46ef-abcc-23152bf84a44"
@@ -74,6 +106,14 @@
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="a976506f-5f1f-49fc-9ede-ab61e6eb89b7"
@@ -92,9 +132,16 @@
 					variableid="c9c5e04f-82b1-4e0f-9fe9-4059b3dacc30"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="ff0d3e3b-a114-484b-bb40-46922d1f1aa4"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="c3f40add-8156-48a4-90f3-f0458a51c695"
 			name="createCategory_2_Failure_ExistingName"
 			ref="576207c4-0e83-484a-9a85-4b16e1e7fe5c">
@@ -104,6 +151,12 @@
 					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
 					variableid="8863c63e-3ff9-4630-bd0f-2737837cdcc7"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="824e6362-2d41-4cd8-8112-a5d3fb470261"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -119,9 +172,14 @@
 					name="itemName"
 					value="">
 					</param>
+					<param
+					name="domain"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
 			<modulegroup
+			enabled="False"
 			id="d46632d7-e9f4-4cba-93c1-b6832c471e62"
 			name="editCategory_2_Failure_ExistingName"
 			ref="d0b067dd-a00d-497e-ac19-0486e4b6a4ce">
@@ -131,6 +189,12 @@
 					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
 					variableid="68afc10a-4d6f-4b70-b45b-c52d264026b4"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="cd503f55-83de-44ef-895c-53465e7a470d"
+					variableid="f4a2b04b-ab07-4e24-ae02-9d63100b626a"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -216,5 +280,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

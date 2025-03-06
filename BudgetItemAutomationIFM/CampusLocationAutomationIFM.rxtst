@@ -14,6 +14,14 @@
 				<description>
 					<![CDATA[BLOCKER!!!]]>
 				</description>
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="e19a6784-a598-45b9-9c3e-2e59d483ce6b"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testcase
 			id="11f9205d-9e09-45d6-aed5-c934ee6feaff"
@@ -83,6 +91,10 @@
 					name="optionIndex"
 					value="">
 					</param>
+					<param
+					name="domain"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
 			<testmodule
@@ -90,12 +102,28 @@
 			name="openBrowser_CampusLocation"
 			ref="2af62863-bc5c-495c-9eba-1160df691f6f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="7b03eff5-87ef-4422-a282-7b564bb36d10"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="3264d345-a4cc-42b8-884c-2d715399c69b"
 			name="validateCampusLocation"
 			ref="dfa27797-dc0d-47b8-a44c-2dbd2e1fd8ce"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="362c868b-0a1e-4761-a7e7-82954c6afdf5"
@@ -114,12 +142,28 @@
 				<description>
 					<![CDATA[BLOCKER!!!]]>
 				</description>
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="4e213384-9291-418b-a9d0-4288dd09c684"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testmodule
 			id="8c5fdee5-d61c-4285-a0c7-48a58d8ccf45"
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			enabled="False"
@@ -208,6 +252,12 @@
 					variableid="a4b7be26-2928-4722-ba69-1c708582c803"
 					variablename="ModuleGrouptemp">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="871cac1d-3f52-4b2f-9dd1-0bdf728b8522"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -218,8 +268,17 @@
 				<description>
 					<![CDATA[BLOCKER!!!]]>
 				</description>
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="9fce5ef3-9b6b-434d-8f58-a0c9aae91e20"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
+			enabled="False"
 			id="c2f09e0b-aabb-4c12-8bb8-4a70abe549d0"
 			name="editCampusLocation_Failure_ExistingName"
 			ref="ef73eac8-5a6f-4071-a20a-0475b8ba19bd">
@@ -229,6 +288,12 @@
 					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
 					variableid="738d6212-a4d5-4efe-86e9-548196fc292b"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="9218ab20-ee8f-48fc-b097-cbb05f65f171"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -317,10 +382,15 @@
 					variableid="0d617818-9144-46a0-87fc-2bb5cb6d5126"
 					variablename="ModuleGroupcampusType">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="f141afe5-5464-48c7-b58f-49a70c3d4b8d"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="dab74907-9155-4670-ba9b-844e4b08908a"
 			name="createCampusLocation_Success"
 			ref="a844c8e7-a4d3-4923-a837-37d835c509f7">
@@ -412,6 +482,12 @@
 					variableid="0fa62992-97e0-4ea3-84ab-db1e1c6ea96d"
 					variablename="ModuleGrouptemp">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="d70502ec-e2b5-4d44-b7fc-f4e2c47fa8d5"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -422,6 +498,14 @@
 				<description>
 					<![CDATA[BLOCKER!!!]]>
 				</description>
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="11f9205d-9e09-45d6-aed5-c934ee6feaff"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testsuite
 			ReportTime="WallClock"
@@ -537,5 +621,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

@@ -51,6 +51,12 @@
 					variableid="788942b8-ee2e-4470-b82b-d8917e7403b4"
 					variablename="descriptionText">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="47969989-0298-48ba-9dac-d56e33182db0"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
@@ -89,6 +95,10 @@
 					name="itemName"
 					value="">
 					</param>
+					<param
+					name="domain"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
 			<teardown
@@ -101,6 +111,14 @@
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="47969989-0298-48ba-9dac-d56e33182db0"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<setup
 			id="71e22f28-9182-4295-be4d-e7e196d9722c"
@@ -136,6 +154,14 @@
 			name="ValidatePrograms"
 			ref="16a5c7c5-a168-43e2-b375-5be088225ac2"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="47969989-0298-48ba-9dac-d56e33182db0"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			id="7fcd4e54-d0e7-4e1a-8ffe-36de12dc8dee"
@@ -181,6 +207,12 @@
 					variableid="788942b8-ee2e-4470-b82b-d8917e7403b4"
 					variablename="descriptionText">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="47969989-0298-48ba-9dac-d56e33182db0"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
@@ -196,6 +228,14 @@
 			name="navigateToVirtualPrograms"
 			ref="868faa8f-904b-4c78-9fa4-af0f2e45588a"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="47969989-0298-48ba-9dac-d56e33182db0"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -262,5 +302,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

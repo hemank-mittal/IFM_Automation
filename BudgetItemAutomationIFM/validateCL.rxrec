@@ -734,7 +734,7 @@ v/30ajoosHM+5J583/PV/wDvo0VHRRYOZ9z/2Q==
 		classname="HelperMethodsCollection"
 		enabled="True"
 		isexternaltestmethod="True"
-		methodname="concatStrings6"
+		methodname="concatStrings_spaces"
 		namespace="BudgetItemAutomationIFM"
 		optional="False">
 			<comment>

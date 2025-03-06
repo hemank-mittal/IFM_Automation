@@ -42,6 +42,8 @@ namespace BudgetItemAutomationIFM
         public OpenBrowser_FileCategory()
         {
             browserName = "";
+            domain = "";
+            url = "";
         }
 
         /// <summary>
@@ -64,6 +66,28 @@ namespace BudgetItemAutomationIFM
         {
             get { return _browserName; }
             set { _browserName = value; }
+        }
+
+        string _url;
+
+        /// <summary>
+        /// Gets or sets the value of variable url.
+        /// </summary>
+        [TestVariable("afa9346f-3b1f-48c6-b0d6-606300ce2a47")]
+        public string url
+        {
+            get { return _url; }
+            set { _url = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("1082329e-051d-4dcf-8d8b-caeb7bbf5fd3")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
         }
 
 #endregion
@@ -95,8 +119,14 @@ namespace BudgetItemAutomationIFM
             browserName = HelperMethodsCollection.getBrowserName();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://app.ifm360.com/filecategory' with browser specified by variable $browserName in normal mode.", new RecordItemIndex(1));
-            Host.Current.OpenBrowser("https://app.ifm360.com/filecategory", browserName, "", false, false, false, false, false, false, false, true);
+            domain = HelperMethodsCollection.getURL_IFM();
+            Delay.Milliseconds(0);
+            
+            url = HelperMethodsCollection.concatStrings(domain, "/filecategory", "", "");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $url with browser specified by variable $browserName in normal mode.", new RecordItemIndex(3));
+            Host.Current.OpenBrowser(url, browserName, "", false, false, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

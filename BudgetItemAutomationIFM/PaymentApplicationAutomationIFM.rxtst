@@ -7,6 +7,14 @@
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="1eb11771-e96b-430d-a364-f4bf411e3c5d"
@@ -19,12 +27,26 @@
 					variableid="abc652f3-a61b-4409-93cf-ac5b7780b2cb"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="46f78540-3fd5-47ab-bf82-b522bb771c78"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="2437ec51-d395-499f-822e-608a07d628b9"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="2ed5e72b-684f-426e-8163-018415f0a364"
@@ -36,6 +58,12 @@
 					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
 					variableid="8f3bfb25-4077-40c2-9dca-b2b1078f8ee6"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="f3de175b-de55-433f-aa9e-3b000ae13f8a"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -51,6 +79,10 @@
 					name="itemName"
 					value="">
 					</param>
+					<param
+					name="domain"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
 			<testmodule
@@ -58,6 +90,14 @@
 			name="navigateToPATemplates"
 			ref="81e3f18a-a892-4c53-bdbd-06752b38e139"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -93,6 +133,12 @@
 					variableid="b4eb5949-91bb-4358-913e-940199d9a66e"
 					variablename="linkedCategory1">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
 				</databinding>
 			</testmodule>
 			<modulegroup
@@ -106,6 +152,12 @@
 					variableid="d13b58b2-941f-4673-a472-699ffada4948"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="aa4fa6f0-9366-4e2b-a877-3954a7d37870"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testcase
@@ -118,6 +170,14 @@
 			name="ValidatePaymentApplication"
 			ref="75fa8ecb-9d5f-4873-ae24-d175cbc09486"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="974814f5-3e27-41d7-a76c-e62e3496ad2d"
@@ -135,6 +195,12 @@
 					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
 					variableid="c9c5e04f-82b1-4e0f-9fe9-4059b3dacc30"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="ff0d3e3b-a114-484b-bb40-46922d1f1aa4"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -185,6 +251,12 @@
 					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
 					variableid="0c8b6728-831f-4667-8c78-ebb4bcb6def1"
 					variablename="itemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="37c9f9d3-714d-479c-86ac-bfaa69a14812"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
 					</var>
 				</databinding>
 			</testmodule>
@@ -314,5 +386,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

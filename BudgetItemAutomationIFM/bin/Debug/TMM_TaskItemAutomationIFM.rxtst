@@ -7,6 +7,14 @@
 			name="CloseBrowser"
 			ref="0ce1d775-fb3d-4d83-b344-f92660621c0f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="14012881-c73c-4a23-8603-ab0e00f818a4"
@@ -51,6 +59,12 @@
 					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
 					variableid="0fce120a-d889-4ae5-9669-e923eb70878f"
 					variablename="ModuleGroupeditedDescription">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="4e4d2b78-f125-4603-88b3-2724ea946b9b"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -142,6 +156,14 @@
 			name="navigateToTaskTemplates"
 			ref="93fdb047-c427-4c2e-8434-75a2d5484642"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			enabled="False"
@@ -170,6 +192,12 @@
 					variableid="93c95eea-dd90-457c-ba6d-c8b2cf99d6ee"
 					variablename="ModuleGroupaddedLink">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="d23c5122-8fb5-4ed4-896b-59383feb5cde"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<testmodule
@@ -192,6 +220,12 @@
 					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
 					variableid="85140459-3be7-41e7-960e-786bf6c24239"
 					variablename="ModuleGroupRemovedItem">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="04c7385c-a591-4d27-ae3c-a2b27988278f"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -229,6 +263,12 @@
 					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
 					variableid="22cee98f-5495-4c4b-ad45-8f5621ad3311"
 					variablename="ModuleGroupitemName">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="2a5c1ab0-e233-4c0f-8ee5-4beb52421aaf"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -272,6 +312,10 @@
 					name="isInteger"
 					value="True">
 					</param>
+					<param
+					name="domain"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
 			<modulegroup
@@ -284,6 +328,12 @@
 					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
 					variableid="8f03450c-5e07-43e3-89f4-d5b36b4b8c02"
 					variablename="ModuleGroupisInteger">
+					</var>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="4e213384-9291-418b-a9d0-4288dd09c684"
+					variablename="ModuleGroupDomain">
 					</var>
 				</databinding>
 			</modulegroup>
@@ -350,6 +400,12 @@
 					variableid="aa7a0d98-9968-469a-be77-e3897f438a31"
 					variablename="ModuleGroupitemName">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="c67065ac-3b1b-478f-a533-76302c05b6a2"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<smartfoldernode
@@ -366,6 +422,14 @@
 			id="c31e12f0-c734-413b-a094-afc0bfce04ee"
 			name="sortingItems_Column1"
 			ref="f376a958-4056-4ba2-bd0d-50c4337aca85">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="e1fe2bb6-9291-41dd-8a68-4641864b4ff4"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="d39bd7e2-567b-4319-9097-6e3a3dc9d907"
@@ -458,18 +522,40 @@
 					variableid="481b27d3-e41c-47b7-ba19-d567376d0415"
 					variablename="optionIndex">
 					</var>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="6d88e8a5-0297-459c-886f-d81c7c692ae7"
+					variablename="ModuleGroupDomain">
+					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
 			id="ea6174a0-d69f-401d-8a14-99d1f4b581e9"
 			name="sortingItems_Column2"
 			ref="372db0ac-72d8-4a78-845d-6511ff11e2e6">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="9fce5ef3-9b6b-434d-8f58-a0c9aae91e20"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 			<testmodule
 			id="ec0eb806-d6a6-4b5b-b4cf-92975c9f5cbf"
 			name="validateTaskItem"
 			ref="f2290107-c801-4edf-8a8f-bf03eb5877cc"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="0e49bfa6-0c8f-4999-ad77-5babbb4e74af"
+					variablename="domain">
+					</var>
+				</databinding>
 			</testmodule>
 			<modulegroup
 			id="f06e0e3e-74a4-4274-b534-6701c0c6ad9b"
@@ -527,6 +613,14 @@
 			id="f67d0af6-3ccf-4a05-84c6-37445b33f90e"
 			name="sortingItems_Column4"
 			ref="5c329ea3-4754-4ba8-8b47-ae4b3c00d1db">
+				<databinding>
+					<var
+					dataname="domain"
+					datasourceid="87e28427-580d-4e2a-a861-dc7fe7282ce2"
+					variableid="e19a6784-a598-45b9-9c3e-2e59d483ce6b"
+					variablename="ModuleGroupDomain">
+					</var>
+				</databinding>
 			</modulegroup>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -681,5 +775,59 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			BouncyCastle.Crypto.dll
+		</reference>
+		<reference>
+			BouncyCastle.Cryptography.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Conversion.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Engine.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Framework.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Tasks.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.Build.Utilities.v4.0.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Conversion.v3.5.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Build.Utilities.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks.v3.5\3.5.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v3.5.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Tasks\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.dll
+		</reference>
+		<reference>
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Build.Utilities\2.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_32\MSBuild\v4.0_4.0.0.0__b03f5f7f11d50a3a\MSBuild.exe
+		</reference>
+		<reference>
+			EPPlus.dll
+		</reference>
+		<reference>
+			itextsharp.dll
+		</reference>
+		<reference>
+			Microsoft.IO.RecyclableMemoryStream.dll
+		</reference>
 	</references>
 </testsuitedoc>

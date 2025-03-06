@@ -53,6 +53,16 @@ namespace BudgetItemAutomationIFM
 
 #region Variables
 
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -91,7 +101,7 @@ namespace BudgetItemAutomationIFM
             Validate.AttributeEqual(repo.ApplicationUnderTest.dTableHeader1Info, "aria-sort", "descending");
             Delay.Milliseconds(100);
             
-            HelperMethodsCollection.confirmSorting(repo.ApplicationUnderTest.dTableBody, "1", ValueConverter.ArgumentFromString<bool>("isDescending", "True"), ValueConverter.ArgumentFromString<bool>("isInteger", "False"));
+            HelperMethodsCollection.confirmSorting(repo.dTableBody, "1", ValueConverter.ArgumentFromString<bool>("isDescending", "True"), ValueConverter.ArgumentFromString<bool>("isInteger", "False"));
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.dTableHeader1' at Center.", repo.ApplicationUnderTest.dTableHeader1Info, new RecordItemIndex(4));

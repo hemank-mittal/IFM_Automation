@@ -20,6 +20,13 @@ using Ranorex.Core.Testing;
 
 using System.Linq;
 using System.IO;
+using System.Globalization;
+using System.Net;
+using System.Diagnostics;
+
+using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.parser;
+using OfficeOpenXml;
 
 namespace BudgetItemAutomationIFM
 {
@@ -43,8 +50,23 @@ namespace BudgetItemAutomationIFM
         }
         
         /// <summary>
+        /// This method simply fetched the value of "environment" global parameter, and creates a link of that env. for further use.
+        /// </summary>
+        [UserCodeMethod]
+        public static string getURL_IFM()
+        {
+//        	Report.Warn(globalParameters.browserName);
+        	var env = globalParameters.environment;
+        	var url = env + ".ifm360.com";
+        	
+        	return url;
+        }        
+        
+        /// <summary>
         /// The method checks for the count of items in the list, and provides a string (Name) with the index 
         /// of item to be inserted.
+        /// The name is follows pattern : {AC}(Automatically Created){ Ranorex }[today's date (DDMM)][Instance Number], except for the case 
+        /// where email is to be generated dynamically.
         /// </summary>
         [UserCodeMethod]
         public static string getNewCreateItem(int nextCount, string itemType)
@@ -55,17 +77,9 @@ namespace BudgetItemAutomationIFM
         	{
         		newItem = "testEmail" + nextCount.ToString() + ".IFM@yopmail.com";
         	}
-        	else if(itemType.ToLower() == "item")
-        	{
-        		newItem = "test item " + nextCount.ToString();
-        	}
-        	else if(itemType.ToLower() == "template")
-        	{
-        		newItem = "test template " + nextCount.ToString();
-        	}
         	else
         	{
-        		newItem = "test element " + nextCount.ToString();
+        		newItem = "AC Ranorex " + System.DateTime.Now.Day.ToString() + System.DateTime.Now.Month.ToString() + nextCount.ToString();
         	}
         	
 //        	Report.Warn(newItem);
@@ -107,7 +121,7 @@ namespace BudgetItemAutomationIFM
         }
         
         /// <summary>
-        /// This method is created to confirm if the passed strings are not equal.
+        /// This method is created to confirm if the passed strings are not equal. This method trims and lower cases the strings before comparison.
         /// </summary>
         [UserCodeMethod]
         public static void compareStringsNotEqual(string compareWith, string compareTo)
@@ -312,14 +326,19 @@ namespace BudgetItemAutomationIFM
         	
         	if (opts_input.Count == 0)
         	{
-        		IList<WebElement> opts_webElement = element.FindDescendants<WebElement>();
+        		IList<WebElement> opts_webElement = element.FindChildren<WebElement>();
         		
         		if (opts_webElement[0].GetAttributeValue<string>("tagvalue") == "0")
         		{
+        			Report.Warn("-1?");
+        			return -1;
+        		}
+        		else if (opts_webElement.Count == 1)
+        		{
         			return 1;
         		}
+        		
         		isChecked = opts_webElement[0].GetAttributeValue<string>("aria-selected"); 	
-        		Report.Warn(opts_webElement[0].GetAttributeValue<string>("tagvalue"));        		
         	}
         	else if (opts_input.Count == 1)
         	{
@@ -327,7 +346,7 @@ namespace BudgetItemAutomationIFM
         	}
         	else if (opts_input.Count > 1)
         	{
-        		isChecked = opts_input[0].GetAttributeValue<string>("Checked");        	
+        		isChecked = opts_input[0].GetAttributeValue<string>("Checked"); 
         	}  
         	
         	if (isChecked == "True" || isChecked == "true")
@@ -361,16 +380,21 @@ namespace BudgetItemAutomationIFM
         
         /// <summary>
         /// This method is used in case when all options(selected and not selected) are shown to select 
-        /// and the one must be selected which is not selected yet.
+        /// and the one must be selected which is not selected yet, or the first instance if there is no more than one option.
         /// </summary>
         [UserCodeMethod]
         public static int selectDifferentOption(Adapter element)
         {
-        	IList<InputTag> opts_input = element.FindDescendants<InputTag>();        	
+        	IList<InputTag> opts_input = element.FindChildren<InputTag>();        	
         	
-        	if (opts_input.Count == 0)
+        	if (opts_input.Count <= 1)
         	{
-        		IList<WebElement> opts_webElement = element.FindDescendants<WebElement>();
+        		IList<WebElement> opts_webElement = element.FindChildren<WebElement>();        
+        		
+        		if (opts_input.Count == 1 || opts_webElement.Count == 1)
+        		{
+        			return 1;
+        		}
         		
         		foreach (var i in opts_webElement)
 	        	{
@@ -379,7 +403,7 @@ namespace BudgetItemAutomationIFM
 	        			return (opts_webElement.IndexOf(i) + 1);
 	        		}
 	        	}
-        	}
+        	}        	        
 
 			foreach (var i in opts_input)
         	{
@@ -405,10 +429,10 @@ namespace BudgetItemAutomationIFM
         }
         
         /// <summary>
-        /// This method is made for a specific scenario, where you can concatenate 6 strings together seperated by spaces.
+        /// This method is made for a specific scenario, where you can concatenate UP TO 6 strings together seperated by spaces.
         /// </summary>
         [UserCodeMethod]
-        public static string concatStrings6(string s1, string s2, string s3, string s4, string s5, string s6)
+        public static string concatStrings_spaces(string s1, string s2, string s3, string s4, string s5, string s6)
         {        	
         	var l1 = string.IsNullOrEmpty(s1) ? new string[0] : s1.Trim().Split(' ');
         	var tempList = string.IsNullOrEmpty(s2) ? l1 : l1.Concat(s2.Trim().Split(' '));
@@ -426,14 +450,27 @@ namespace BudgetItemAutomationIFM
         /// This method is made for specific scenario where you can concatenate 2 strings seperated by commma.
         /// </summary>
         [UserCodeMethod]
-        public static string concatStrings2(string s1, string s2)
+        public static string concatStrings_comma(string s1, string s2)
         {
         	var result = s1 + "," + s2;
         	return result;
-        }                     
+        }
+
+		/// <summary>
+        /// This method is made for specific scenario where you can concatenate 4 strings unseperated by any character.
+        /// </summary>
+        [UserCodeMethod]
+        public static string concatStrings(string s1, string s2, string s3, string s4)
+        {
+        	var tempResult = string.IsNullOrEmpty(s2) ? s1 : s1+s2;
+        	tempResult = string.IsNullOrEmpty(s3) ? tempResult : tempResult+s3;
+        	tempResult = string.IsNullOrEmpty(s4) ? tempResult: tempResult+s4;
+        	
+        	return tempResult;
+        }         
         
         /// <summary>
-        /// This method is to get a random HEC CODE for some volour
+        /// This method is to get a random HEC CODE for some colour
         /// </summary>
         [UserCodeMethod]
         public static string generateRandomHEXCode()
@@ -457,8 +494,8 @@ namespace BudgetItemAutomationIFM
         /// </summary>
         [UserCodeMethod]
         public static int getEditedNumber(int oldNumber)
-        {
-        	if (oldNumber == null)
+        {       	
+        	if ((string.IsNullOrEmpty(oldNumber.ToString())) || oldNumber == 0)
         	{
         		return 1;
         	}        
@@ -475,25 +512,47 @@ namespace BudgetItemAutomationIFM
         }
         
         /// <summary>
+        /// This method checks if any record with given fieldValue exists or not, checking if there is any record visible or not.
+        /// </summary>
+        [UserCodeMethod]
+        public static void checkFirstRecord_IfExists(string fieldValue, string elementInfoItemRxPath)
+        {
+        	Element recordInfo;
+        	
+        	if (Host.Local.TryFindSingle(elementInfoItemRxPath, 5000, out recordInfo))
+        	{
+        		string recordValue = recordInfo.GetAttributeValueText("InnerText");
+        		HelperMethodsCollection.compareStringsNotEqual(fieldValue, recordValue);
+        	}
+        	else
+        	{
+        		Report.Info("No record to verify.");
+        	}
+        }
+        
+        /// <summary>
         /// This method checks if there is a second record fetched on searching for some item, if found, it compares the first and second
         /// item. They should NOT be equal.
         /// </summary>
         [UserCodeMethod]
         public static void compareSecondRecord_IfExist(string record1, string elementInfoItemRxPath)
         {
-        	Element record2Info;       	
+        	Element record2Info;      
         	
         	if (Host.Local.TryFindSingle(elementInfoItemRxPath, 5000, out record2Info))
         	{
         		string record2 = record2Info.GetAttributeValueText("InnerText");
         		HelperMethodsCollection.compareStringsNotEqual(record1, record2);
         	}
+        	else
+        	{
+        		Report.Info("No second record found to check");
+        	}
         }
         
         /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
+        /// This method is used to get option values in dropdown as a string seperated by comma.
+        /// Mostly used in scenario where selected options are needed to process later.
         /// </summary>
         [UserCodeMethod]
         public static string getCommaSeperatedString_FromRepo(string elementPath)
@@ -511,6 +570,319 @@ namespace BudgetItemAutomationIFM
         	string result = string.Join(",", strElements);
         	Report.Warn(result);
         	return result;
-        }        
+        }
+        
+        /// <summary>
+        /// This method is used to assign some value (your preference, needed to enter in corresponding recording), to some recording variable.
+        /// Needed to create a method since assigning value to any variable on runtime without coding is not possible.
+        /// </summary>
+        [UserCodeMethod]
+        public static string assignVariable(string variableValue)
+        {
+        	return variableValue;
+        }
+        
+        
+        /// <summary>
+        /// This method simply converts any given string to it's corresponding integer. Returns an error and integer '0' in case of failure.
+        /// </summary>
+        [UserCodeMethod]
+        public static int stringToInteger(string stringInput)
+        {        	
+        	int integerOutput;
+        	if (int.TryParse(stringInput, out integerOutput))
+        	{
+        		return integerOutput;
+        	}
+        	else
+        	{
+        		Report.Failure("Invalid string passed to convert to Integer!!");
+        		return 0;
+        	}
+        }
+        
+        
+        /// <summary>
+        /// This method checks if it has been "timePeriod" seconds since "startTime" to now.
+        /// </summary>
+        [UserCodeMethod]
+        public static bool checkForDuration_Timespan(System.DateTime startTime, int timePeriod)
+        {
+        	System.DateTime timeNow = System.DateTime.Now;
+        	
+			TimeSpan duration = timeNow - startTime;
+			
+			return (duration.Seconds < timePeriod);
+        }
+        
+        /// <summary>
+        /// This method is specifically to wait till spinner disappears from the screen. Sometimes the spinner appears frequently within duration
+        /// of 1 second or less, this method considers those durations and still waits if the spinner would appear again.
+        /// </summary>
+        [UserCodeMethod]
+        public static void waitForLoading()
+        {
+        	var element = repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo;
+//			var element = repo.IFM360ProjectInfo.FaFaSpinFaSpinnerInfo;
+        	bool flag = true;
+        	int checkStartTime = System.DateTime.Now.Minute;        	
+        	
+        	do
+        	{
+        		element.WaitForNotExists(120000);
+        		
+				System.DateTime startTime = System.DateTime.Now;
+        		
+        		while (checkForDuration_Timespan(startTime, 3))
+        		{
+        			if (element.Exists(0))
+        			{
+        				flag = true;
+        				break;
+        			}
+
+        			flag = false;
+//        			Delay.Milliseconds(200);
+        		}
+        		
+        		if ((System.DateTime.Now.Minute - checkStartTime) >= 2)
+        		{
+        			Ranorex.Validate.Fail("Some error occurred while processing, please make suer there is no unwanted element on screen.");        			
+        		}
+        	}
+        	while (flag);
+        }  
+        
+        /// <summary>
+        /// This method converts any given number(Interger) to phone number format. The condition is that the given integer should have 10 digits.
+        /// </summary>
+        [UserCodeMethod]
+        public static string convertNumberToPhoneNumber(string number)
+        {       	
+        	if (number.Length != 10)
+        	{
+        		Report.Error("Seems like the 'Phone Number' field is populated with invalid data, please verify and re-run the test.");
+        		return "--ERROR--";
+        	}
+        	
+        	return ("(" + number.Substring(0, 3) + ") " + number.Substring(3, 3) + "-" + number.Substring(6, 4));
+        }
+        
+        /// <summary>
+        /// This method compares the given date to today.
+        /// </summary>
+        [UserCodeMethod]
+        public static string compareDateWithCurrentDate(string displayedDate)
+        {        	
+        	System.DateTime formattedDate = new System.DateTime();
+        	if (System.DateTime.TryParse(displayedDate, System.Globalization.CultureInfo.InvariantCulture, DateTimeStyles.None, out formattedDate))
+        	{
+        		if (formattedDate.ToShortDateString() == System.DateTime.Now.ToShortDateString())
+        		{
+        			Report.Success("Dates matched!");
+        		}
+        		else
+        		{
+        			Report.Warn("The displayed date : " + formattedDate.ToShortDateString().ToString());
+        			Report.Warn("Today's date : " + System.DateTime.Now.ToShortDateString().ToString());
+        			Report.Error("These dates did not match, please confirm the created item.");
+        		}
+        	}
+        	return "";
+        }
+        
+        /// <summary>
+        /// This is a placeholder text. Please describe the purpose of the
+        /// user code method here. The method is published to the user code library
+        /// within a user code collection.
+        /// </summary>
+        [UserCodeMethod]
+        public static string compareTimeWithCurrentTime(string comparingTime, string bufferTime)
+        {        	
+        	System.DateTime formattedTime = new System.DateTime();
+        	System.DateTime currentTime = System.DateTime.Now;
+        	        	        
+        	if (System.DateTime.TryParse(comparingTime, out formattedTime))
+        	{				        	
+        		TimeSpan bufferTime_TS = string.IsNullOrEmpty(bufferTime) ? TimeSpan.FromMinutes(0) : TimeSpan.FromMinutes(double.Parse(bufferTime));
+        		TimeSpan difference = currentTime > formattedTime ? currentTime - formattedTime : formattedTime - currentTime;        		
+        		Report.Warn(bufferTime_TS.ToString());
+        		if (difference.Hours <= bufferTime_TS.Hours && difference.Minutes <= bufferTime_TS.Minutes)
+        		{
+        			Report.Success("The difference between the timestamps is : " + difference.ToString("hh") + " hour(s) " + difference.ToString("mm") + " minute(s), " +
+        			               "which falls under buffer time duration of : " + bufferTime_TS.ToString("hh") + " hour(s) " + bufferTime_TS.ToString("mm") + " minute(s)");
+        		}
+        		else
+        		{        			       			
+        			Report.Warn("The provided timestamp : " + formattedTime.ToString("HH:mm"));
+        			Report.Warn("Current Time : " + currentTime.ToString("HH:mm"));
+        			Ranorex.Validate.Fail("The difference between the timestamps is : " + difference.ToString("hh") + " hour(s) " + difference.ToString("mm") + " minutes");
+        		}
+        	}
+        	
+        	return "";
+        }
+        
+        /// <summary>
+        /// This method generates a random Password, that would satisfy common creterias. 
+        /// The method calls an API from third-party site to get such password.
+        /// </summary>
+        [UserCodeMethod]
+        public static string generateRandomPassword()
+        {
+        	string url = "https://www.passwordrandom.com/query?command=password&count=1&length=8";
+            
+            using (var wb = new WebClient())
+            {
+                var response = wb.DownloadString(url);
+                Report.Success("Your new password is : " + response);
+                
+                return response;
+            }
+        }
+        
+        /// <summary>
+        /// This method finds a file that is downloaded after the method is called (5 seconds buffer time) and validates it's content for the data passed from the recording to confirm the file content.
+        /// It can check for PDFs, Excels, and CSVs (XLS format).
+        /// </summary>
+        [UserCodeMethod]
+        public static void confirmFileDownloaded(string extension, 
+                                                 string expectedContent1 = "", 
+                                                 string expectedContent2 = "", 
+                                                 string expectedContent3 = "", 
+                                                 string expectedContent4 = "")
+        {       
+        	var currentDateTime = System.DateTime.Now.Subtract((System.TimeSpan.FromSeconds(5)));
+        	
+        	string downloadPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\Downloads";
+        	string filePath = null;
+
+        	while (string.IsNullOrEmpty(filePath))
+        	{
+        		filePath = Directory.GetFiles(downloadPath, "*." + extension.ToLower())
+					        		.OrderByDescending(f => File.GetLastWriteTime(f))
+					        		.Where(f => File.GetLastWriteTime(f) > currentDateTime)
+        							.FirstOrDefault();
+        		
+        		if ((System.DateTime.Now - currentDateTime) > System.TimeSpan.FromMinutes(3))
+        		{
+        			Ranorex.Validate.Fail("Either file is not downloaded in the defined time limit, or the file is not downloaded at all. Please check the download status.");
+        			break;
+        		}
+        	}
+        	
+			if (!string.IsNullOrEmpty(filePath))
+			{
+				if (extension.ToLower() == "pdf")
+        		{
+					string fileContent = string.Empty;
+	        		
+	        		using (var pdfReader = new PdfReader(filePath))
+	        		{
+	        			fileContent = PdfTextExtractor.GetTextFromPage(pdfReader, 1);
+	        		}	        		
+					
+	        		if (fileContent.Contains(expectedContent1.Trim()) &&
+	        		    fileContent.Contains(expectedContent2.Trim()) && 
+	        		    fileContent.Contains(expectedContent3.Trim()) && 
+	        		    fileContent.Contains(expectedContent4.Trim()))
+	        		{
+	        			Report.Success("Correct file downloaded");
+	        		}
+	        		else
+	        		{	        			
+	        			Report.Error("Seems to be wrong file");
+	        			Report.Warn("Here is the file Content to validate : ");
+	        			Report.Warn(fileContent);
+	        			Report.Warn("And here are the expected terms that were searched in the file : ");
+	        			Report.Warn("Expected terms : " + expectedContent1 + ", " + expectedContent2 + ", " + expectedContent3 + ", " + expectedContent4);
+	        			
+	        			Ranorex.Validate.Fail("Please confirm the file and the content.");
+	        		}        		
+        		}
+        	
+	        	else if (extension.ToLower() == "xlsx")
+	        	{
+	        		FileInfo fileInfo = new FileInfo(filePath);
+	        		
+	        		using (ExcelPackage package = new ExcelPackage(fileInfo))
+	        		{
+	        			var workSheet = package.Workbook.Worksheets[0];
+	        			string fileContentSample = "";        			
+	        			
+	        			for (var i=1; i<=(Math.Min(2, (workSheet.Dimension.End.Row))); i++)
+	        			{
+	        				for (var j=1; j<=workSheet.Dimension.End.Column; j++)
+	        				{
+	        					fileContentSample += (workSheet.Cells[i, j].Text + " ");
+	        				}
+	        			}	
+	        			        			        		
+	        			if (fileContentSample.Contains(expectedContent1.Trim()) && 
+	        		    fileContentSample.Contains(expectedContent2.Trim()) && 
+	        		    fileContentSample.Contains(expectedContent3.Trim()) && 
+	        		    fileContentSample.Contains(expectedContent4.Trim()))
+		        		{
+		        			Report.Success("Correct file downloaded");
+		        		}
+		        		else
+		        		{
+		        			Report.Error("Seems to be wrong file");
+		        			Report.Warn("Here is the file Content to validate : ");
+		        			Report.Warn(fileContentSample);
+		        			Report.Warn("And here are the expected terms that were searched in the file : ");
+		        			Report.Warn("Expected terms : " + expectedContent1 + ", " + expectedContent2 + ", " + expectedContent3 + ", " + expectedContent4);
+		        		}
+	        		}
+	        	}
+	        	
+	        	else if (extension.ToLower() == "csv")
+	        	{
+	        		var fileContent = File.ReadAllText(filePath);
+	        		
+	        		if (fileContent.Contains(expectedContent1.Trim()) && 
+	        		    fileContent.Contains(expectedContent2.Trim()) && 
+	        		    fileContent.Contains(expectedContent3.Trim()) && 
+	        		    fileContent.Contains(expectedContent4.Trim()))
+	        		{
+	        			Report.Warn("Correct file downloaded");
+	        		}
+	        		else
+	        		{
+	        			Report.Error("Seems to be wrong file");
+	        			Report.Warn("Here is the file Content to validate : ");
+	        			Report.Warn(fileContent);
+	        			Report.Warn("And here are the expected terms that were searched in the file : ");
+	        			Report.Warn("Expected terms : " + expectedContent1 + ", " + expectedContent2 + ", " + expectedContent3 + ", " + expectedContent4);
+	        		}
+	        	}
+			}
+        	else
+        	{
+        		Ranorex.Validate.Fail("Seems like file is not downloaded yet.");
+        		Report.Warn("Execution started at : " + currentDateTime.ToString());        		
+        	}        	
+        }
+        
+        /// <summary>
+        /// This method closes all the PDF files opened in browser as a tab.
+        /// That's it.
+        /// </summary>
+        [UserCodeMethod]
+        public static void closeFileTab_IfOpen()
+        {
+        	string _browserName = globalParameters.browserName;
+        	var tabs = Host.Local.Find<Ranorex.WebDocument>("/dom[@browsername='" + _browserName + "']");
+        	
+        	foreach (var tab in tabs)
+        	{        		
+        		if (tab.PageUrl.Contains(".pdf"))
+        		{
+        			tab.Close();
+        		}
+        	}
+        }
+        
     }
+    
 }

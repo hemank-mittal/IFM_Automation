@@ -94,6 +94,16 @@ namespace BudgetItemAutomationIFM
         }
 
         /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable newTemplateName.
         /// </summary>
         [TestVariable("6b123570-0b63-40fc-b7c5-cd3a0110c6ff")]
@@ -139,8 +149,8 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.createButtonTag.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.FaFaSpinFaSpinner'", repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo, new ActionTimeout(30000), new RecordItemIndex(3));
-            repo.ApplicationUnderTest.FaFaSpinFaSpinnerInfo.WaitForNotExists(30000);
+            HelperMethodsCollection.waitForLoading();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TitleInputBar' at Center.", repo.ApplicationUnderTest.TitleInputBarInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.TitleInputBar.Click();
@@ -154,28 +164,28 @@ namespace BudgetItemAutomationIFM
             repo.ApplicationUnderTest.Content1.PACategory_dropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.PACategory_firstInstance' and assigning its value to variable 'linkedCategory1'.", repo.ApplicationUnderTest.PACategory_firstInstanceInfo, new RecordItemIndex(7));
-            linkedCategory1 = repo.ApplicationUnderTest.PACategory_firstInstance.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_firstInstance' and assigning its value to variable 'linkedCategory1'.", repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_firstInstanceInfo, new RecordItemIndex(7));
+            linkedCategory1 = repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_firstInstance.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.PACategory_secondInstance' and assigning its value to variable 'linkedCategory2'.", repo.ApplicationUnderTest.PACategory_secondInstanceInfo, new RecordItemIndex(8));
-            linkedCategory2 = repo.ApplicationUnderTest.PACategory_secondInstance.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_secondInstance' and assigning its value to variable 'linkedCategory2'.", repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_secondInstanceInfo, new RecordItemIndex(8));
+            linkedCategory2 = repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_secondInstance.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PACategory_firstInstance' at Center.", repo.ApplicationUnderTest.PACategory_firstInstanceInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.PACategory_firstInstance.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_firstInstance' at Center.", repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_firstInstanceInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_firstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PACategory_secondInstance' at Center.", repo.ApplicationUnderTest.PACategory_secondInstanceInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.PACategory_secondInstance.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_secondInstance' at Center.", repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_secondInstanceInfo, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.PaymentApplicationTemplateData.PACategory_secondInstance.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Content1.PACategory_dropdown' at Center.", repo.ApplicationUnderTest.Content1.PACategory_dropdownInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.Content1.PACategory_dropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at Center.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Submit.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PaymentApplicationTemplateData.Submit' at Center.", repo.ApplicationUnderTest.PaymentApplicationTemplateData.SubmitInfo, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.PaymentApplicationTemplateData.Submit.Click();
             Delay.Milliseconds(0);
             
         }

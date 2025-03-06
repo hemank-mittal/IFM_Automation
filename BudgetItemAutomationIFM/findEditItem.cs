@@ -53,6 +53,16 @@ namespace BudgetItemAutomationIFM
 
 #region Variables
 
+        /// <summary>
+        /// Gets or sets the value of variable domain.
+        /// </summary>
+        [TestVariable("0e49bfa6-0c8f-4999-ad77-5babbb4e74af")]
+        public string domain
+        {
+            get { return repo.domain; }
+            set { repo.domain = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -79,16 +89,16 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(0));
-            //repo.ApplicationUnderTest.searchBar.Element.SetAttributeValue("TagValue", "");
+            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '' on item 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.searchBar_typeplaceholder.Element.SetAttributeValue("TagValue", "");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar' at Center.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(1));
-            //repo.ApplicationUnderTest.searchBar.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.searchBar_typeplaceholder' at Center.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(1));
+            //repo.ApplicationUnderTest.searchBar_typeplaceholder.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Edit This Item' with focus on 'ApplicationUnderTest.searchBar'.", repo.ApplicationUnderTest.searchBarInfo, new RecordItemIndex(2));
-            //repo.ApplicationUnderTest.searchBar.PressKeys("Edit This Item");
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Edit This Item' with focus on 'ApplicationUnderTest.searchBar_typeplaceholder'.", repo.ApplicationUnderTest.searchBar_typeplaceholderInfo, new RecordItemIndex(2));
+            //repo.ApplicationUnderTest.searchBar_typeplaceholder.PressKeys("Edit This Item");
             //Delay.Milliseconds(0);
             
             //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.lastRecord_secondColumnData' at Center.", repo.ApplicationUnderTest.lastRecord_secondColumnDataInfo, new RecordItemIndex(3));

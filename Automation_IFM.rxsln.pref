@@ -6,12 +6,11 @@
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{1F9B4987-2111-4943-A289-5AB789AFD91D}</string>
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>{ACDE8D52-E638-4017-88D7-895F490CB84E}</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Automation_IFM[Automation_IFM[]]]&#xD;&#xA;Solution Automation_IFM\Automation_IFM&#xD;&#xA;Solution Automation_IFM" />
-  <StartupProject value="{1F9B4987-2111-4943-A289-5AB789AFD91D}" />
+  <ProjectBrowserState value="[Solution Automation_IFM[Automation_IFM[References[]]]]&#xD;&#xA;Solution Automation_IFM\Automation_IFM\emailAllFiles_Grid.rxrec&#xD;&#xA;Solution Automation_IFM" />
+  <StartupProject value="{ACDE8D52-E638-4017-88D7-895F490CB84E}" />
 </Properties>
