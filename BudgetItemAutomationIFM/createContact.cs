@@ -46,7 +46,7 @@ namespace BudgetItemAutomationIFM
             roleToAssign = "";
             email = "";
             fullName = "";
-            jobTitle = "";
+            jobTitle = "Test Account";
             addressLine1 = "";
             addressLine2 = "";
             city = "";

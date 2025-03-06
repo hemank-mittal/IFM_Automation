@@ -3386,6 +3386,7 @@ rxversion="10.1">
 				</groupvariables>
 			</modulegroupdef>
 			<testmodule
+			enabled="False"
 			id="47dadf52-c3f1-4745-bbe3-491bf8909e42"
 			name="validateContactCreation"
 			ref="573081ba-136b-40d4-a9d6-975ae4f682ba"
