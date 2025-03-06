@@ -254,204 +254,189 @@ namespace BudgetItemAutomationIFM
 
             Init();
 
-            HelperMethodsCollection.waitForLoading();
-            Delay.Milliseconds(0);
-            
-            itemCount = ValueConverter.ToString(HelperMethodsCollection.getNumberOfRecordsFromFooter(repo.ApplicationUnderTest.showingNumberOfRecords));
-            Delay.Milliseconds(0);
-            
-            newTemplateName = HelperMethodsCollection.getNewCreateItem(ValueConverter.ArgumentFromString<int>("nextCount", itemCount), "category");
-            Delay.Milliseconds(0);
-            
-            Mouse_Click_createSpanTag();
-            Delay.Milliseconds(0);
-            
-            HelperMethodsCollection.waitForLoading();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.FirstName' at Center.", repo.ApplicationUnderTest.contactsForm.FirstNameInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.FirstName' at Center.", repo.ApplicationUnderTest.contactsForm.FirstNameInfo, new RecordItemIndex(0));
             repo.ApplicationUnderTest.contactsForm.FirstName.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.contactsForm.FirstName'.", repo.ApplicationUnderTest.contactsForm.FirstNameInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$newTemplateName' with focus on 'ApplicationUnderTest.contactsForm.FirstName'.", repo.ApplicationUnderTest.contactsForm.FirstNameInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.contactsForm.FirstName.PressKeys(newTemplateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.LastName' at Center.", repo.ApplicationUnderTest.contactsForm.LastNameInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.LastName' at Center.", repo.ApplicationUnderTest.contactsForm.LastNameInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.contactsForm.LastName.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$roleToAssign' with focus on 'ApplicationUnderTest.contactsForm.LastName'.", repo.ApplicationUnderTest.contactsForm.LastNameInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$roleToAssign' with focus on 'ApplicationUnderTest.contactsForm.LastName'.", repo.ApplicationUnderTest.contactsForm.LastNameInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.contactsForm.LastName.PressKeys(roleToAssign);
             Delay.Milliseconds(0);
             
             fullName = HelperMethodsCollection.concatStrings_spaces(newTemplateName, roleToAssign, "", "", "", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.IFMRolesDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.IFMRolesDropdownInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.IFMRolesDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.IFMRolesDropdownInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.contactsForm.IFMRolesDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchIFMRoles' at Center.", repo.ApplicationUnderTest.contactsForm.searchIFMRolesInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchIFMRoles' at Center.", repo.ApplicationUnderTest.contactsForm.searchIFMRolesInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.contactsForm.searchIFMRoles.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$roleToAssign' with focus on 'ApplicationUnderTest.contactsForm.searchIFMRoles'.", repo.ApplicationUnderTest.contactsForm.searchIFMRolesInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$roleToAssign' with focus on 'ApplicationUnderTest.contactsForm.searchIFMRoles'.", repo.ApplicationUnderTest.contactsForm.searchIFMRolesInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.contactsForm.searchIFMRoles.PressKeys(roleToAssign);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchedRole' at Center.", repo.ApplicationUnderTest.contactsForm.searchedRoleInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchedRole' at Center.", repo.ApplicationUnderTest.contactsForm.searchedRoleInfo, new RecordItemIndex(8));
             repo.ApplicationUnderTest.contactsForm.searchedRole.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.IFMRolesDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.IFMRolesDropdownInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.IFMRolesDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.IFMRolesDropdownInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.contactsForm.IFMRolesDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.OrganizationDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.OrganizationDropdownInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.OrganizationDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.OrganizationDropdownInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.contactsForm.OrganizationDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.contactsForm.organizatiion_firstInstance' and assigning its value to variable 'organisation'.", repo.ApplicationUnderTest.contactsForm.organizatiion_firstInstanceInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.contactsForm.organizatiion_firstInstance' and assigning its value to variable 'organisation'.", repo.ApplicationUnderTest.contactsForm.organizatiion_firstInstanceInfo, new RecordItemIndex(11));
             organisation = repo.ApplicationUnderTest.contactsForm.organizatiion_firstInstance.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.organizatiion_firstInstance' at Center.", repo.ApplicationUnderTest.contactsForm.organizatiion_firstInstanceInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.organizatiion_firstInstance' at Center.", repo.ApplicationUnderTest.contactsForm.organizatiion_firstInstanceInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.contactsForm.organizatiion_firstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.OrganizationDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.OrganizationDropdownInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.OrganizationDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.OrganizationDropdownInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.contactsForm.OrganizationDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.Jobtitle' at Center.", repo.ApplicationUnderTest.contactsForm.JobtitleInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.Jobtitle' at Center.", repo.ApplicationUnderTest.contactsForm.JobtitleInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.contactsForm.Jobtitle.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$jobTitle' with focus on 'ApplicationUnderTest.contactsForm.Jobtitle'.", repo.ApplicationUnderTest.contactsForm.JobtitleInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$jobTitle' with focus on 'ApplicationUnderTest.contactsForm.Jobtitle'.", repo.ApplicationUnderTest.contactsForm.JobtitleInfo, new RecordItemIndex(15));
             repo.ApplicationUnderTest.contactsForm.Jobtitle.PressKeys(jobTitle);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.Address1' at Center.", repo.ApplicationUnderTest.contactsForm.Address1Info, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.Address1' at Center.", repo.ApplicationUnderTest.contactsForm.Address1Info, new RecordItemIndex(16));
             repo.ApplicationUnderTest.contactsForm.Address1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$addressLine1' with focus on 'ApplicationUnderTest.contactsForm.Address1'.", repo.ApplicationUnderTest.contactsForm.Address1Info, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$addressLine1' with focus on 'ApplicationUnderTest.contactsForm.Address1'.", repo.ApplicationUnderTest.contactsForm.Address1Info, new RecordItemIndex(17));
             repo.ApplicationUnderTest.contactsForm.Address1.PressKeys(addressLine1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.Address2' at Center.", repo.ApplicationUnderTest.contactsForm.Address2Info, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.Address2' at Center.", repo.ApplicationUnderTest.contactsForm.Address2Info, new RecordItemIndex(18));
             repo.ApplicationUnderTest.contactsForm.Address2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$addressLine2' with focus on 'ApplicationUnderTest.contactsForm.Address2'.", repo.ApplicationUnderTest.contactsForm.Address2Info, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$addressLine2' with focus on 'ApplicationUnderTest.contactsForm.Address2'.", repo.ApplicationUnderTest.contactsForm.Address2Info, new RecordItemIndex(19));
             repo.ApplicationUnderTest.contactsForm.Address2.PressKeys(addressLine2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.City' at Center.", repo.ApplicationUnderTest.contactsForm.CityInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.City' at Center.", repo.ApplicationUnderTest.contactsForm.CityInfo, new RecordItemIndex(20));
             repo.ApplicationUnderTest.contactsForm.City.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$city' with focus on 'ApplicationUnderTest.contactsForm.City'.", repo.ApplicationUnderTest.contactsForm.CityInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$city' with focus on 'ApplicationUnderTest.contactsForm.City'.", repo.ApplicationUnderTest.contactsForm.CityInfo, new RecordItemIndex(21));
             repo.ApplicationUnderTest.contactsForm.City.PressKeys(city);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.CountryDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.CountryDropdownInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.CountryDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.CountryDropdownInfo, new RecordItemIndex(22));
             repo.ApplicationUnderTest.contactsForm.CountryDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchCountry' at Center.", repo.ApplicationUnderTest.contactsForm.searchCountryInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchCountry' at Center.", repo.ApplicationUnderTest.contactsForm.searchCountryInfo, new RecordItemIndex(23));
             repo.ApplicationUnderTest.contactsForm.searchCountry.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$country' with focus on 'ApplicationUnderTest.contactsForm.searchCountry'.", repo.ApplicationUnderTest.contactsForm.searchCountryInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$country' with focus on 'ApplicationUnderTest.contactsForm.searchCountry'.", repo.ApplicationUnderTest.contactsForm.searchCountryInfo, new RecordItemIndex(24));
             repo.ApplicationUnderTest.contactsForm.searchCountry.PressKeys(country);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchedCountry' at Center.", repo.ApplicationUnderTest.contactsForm.searchedCountryInfo, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.searchedCountry' at Center.", repo.ApplicationUnderTest.contactsForm.searchedCountryInfo, new RecordItemIndex(25));
             repo.ApplicationUnderTest.contactsForm.searchedCountry.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.CountryDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.CountryDropdownInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.CountryDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.CountryDropdownInfo, new RecordItemIndex(26));
             repo.ApplicationUnderTest.contactsForm.CountryDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.StateDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.StateDropdownInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.StateDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.StateDropdownInfo, new RecordItemIndex(27));
             repo.ApplicationUnderTest.contactsForm.StateDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.StateDropdown_firstInstance' at Center.", repo.ApplicationUnderTest.contactsForm.StateDropdown_firstInstanceInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.StateDropdown_firstInstance' at Center.", repo.ApplicationUnderTest.contactsForm.StateDropdown_firstInstanceInfo, new RecordItemIndex(28));
             repo.ApplicationUnderTest.contactsForm.StateDropdown_firstInstance.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.StateDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.StateDropdownInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.StateDropdown' at Center.", repo.ApplicationUnderTest.contactsForm.StateDropdownInfo, new RecordItemIndex(29));
             repo.ApplicationUnderTest.contactsForm.StateDropdown.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.ZipCode' at Center.", repo.ApplicationUnderTest.contactsForm.ZipCodeInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.ZipCode' at Center.", repo.ApplicationUnderTest.contactsForm.ZipCodeInfo, new RecordItemIndex(30));
             repo.ApplicationUnderTest.contactsForm.ZipCode.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$zipCode' with focus on 'ApplicationUnderTest.contactsForm.ZipCode'.", repo.ApplicationUnderTest.contactsForm.ZipCodeInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$zipCode' with focus on 'ApplicationUnderTest.contactsForm.ZipCode'.", repo.ApplicationUnderTest.contactsForm.ZipCodeInfo, new RecordItemIndex(31));
             repo.ApplicationUnderTest.contactsForm.ZipCode.PressKeys(zipCode);
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.FacebookURL' at Center.", repo.ApplicationUnderTest.contactsForm.FacebookURLInfo, new RecordItemIndex(37));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.FacebookURL' at Center.", repo.ApplicationUnderTest.contactsForm.FacebookURLInfo, new RecordItemIndex(32));
             //repo.ApplicationUnderTest.contactsForm.FacebookURL.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'face' with focus on 'ApplicationUnderTest.contactsForm.FacebookURL'.", repo.ApplicationUnderTest.contactsForm.FacebookURLInfo, new RecordItemIndex(38));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'face' with focus on 'ApplicationUnderTest.contactsForm.FacebookURL'.", repo.ApplicationUnderTest.contactsForm.FacebookURLInfo, new RecordItemIndex(33));
             //repo.ApplicationUnderTest.contactsForm.FacebookURL.PressKeys("face");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.LinkedinURL' at Center.", repo.ApplicationUnderTest.contactsForm.LinkedinURLInfo, new RecordItemIndex(39));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.LinkedinURL' at Center.", repo.ApplicationUnderTest.contactsForm.LinkedinURLInfo, new RecordItemIndex(34));
             //repo.ApplicationUnderTest.contactsForm.LinkedinURL.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'link' with focus on 'ApplicationUnderTest.contactsForm.LinkedinURL'.", repo.ApplicationUnderTest.contactsForm.LinkedinURLInfo, new RecordItemIndex(40));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'link' with focus on 'ApplicationUnderTest.contactsForm.LinkedinURL'.", repo.ApplicationUnderTest.contactsForm.LinkedinURLInfo, new RecordItemIndex(35));
             //repo.ApplicationUnderTest.contactsForm.LinkedinURL.PressKeys("link");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.TwitterURL' at Center.", repo.ApplicationUnderTest.contactsForm.TwitterURLInfo, new RecordItemIndex(41));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.TwitterURL' at Center.", repo.ApplicationUnderTest.contactsForm.TwitterURLInfo, new RecordItemIndex(36));
             //repo.ApplicationUnderTest.contactsForm.TwitterURL.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'twit' with focus on 'ApplicationUnderTest.contactsForm.TwitterURL'.", repo.ApplicationUnderTest.contactsForm.TwitterURLInfo, new RecordItemIndex(42));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'twit' with focus on 'ApplicationUnderTest.contactsForm.TwitterURL'.", repo.ApplicationUnderTest.contactsForm.TwitterURLInfo, new RecordItemIndex(37));
             //repo.ApplicationUnderTest.contactsForm.TwitterURL.PressKeys("twit");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'ApplicationUnderTest.contactsForm.submitButton'.", repo.ApplicationUnderTest.contactsForm.submitButtonInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'ApplicationUnderTest.contactsForm.submitButton'.", repo.ApplicationUnderTest.contactsForm.submitButtonInfo, new RecordItemIndex(38));
             repo.ApplicationUnderTest.contactsForm.submitButton.EnsureVisible();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.ContactEmail' at Center.", repo.ApplicationUnderTest.contactsForm.ContactEmailInfo, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.ContactEmail' at Center.", repo.ApplicationUnderTest.contactsForm.ContactEmailInfo, new RecordItemIndex(39));
             repo.ApplicationUnderTest.contactsForm.ContactEmail.Click();
             Delay.Milliseconds(0);
             
             email = HelperMethodsCollection.getNewCreateItem(ValueConverter.ArgumentFromString<int>("nextCount", itemCount), "email");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$email' with focus on 'ApplicationUnderTest.contactsForm.ContactEmail'.", repo.ApplicationUnderTest.contactsForm.ContactEmailInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$email' with focus on 'ApplicationUnderTest.contactsForm.ContactEmail'.", repo.ApplicationUnderTest.contactsForm.ContactEmailInfo, new RecordItemIndex(41));
             repo.ApplicationUnderTest.contactsForm.ContactEmail.PressKeys(email);
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.ContactFax' at Center.", repo.ApplicationUnderTest.contactsForm.ContactFaxInfo, new RecordItemIndex(47));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.ContactFax' at Center.", repo.ApplicationUnderTest.contactsForm.ContactFaxInfo, new RecordItemIndex(42));
             //repo.ApplicationUnderTest.contactsForm.ContactFax.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'fax' with focus on 'ApplicationUnderTest.contactsForm.ContactFax'.", repo.ApplicationUnderTest.contactsForm.ContactFaxInfo, new RecordItemIndex(48));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'fax' with focus on 'ApplicationUnderTest.contactsForm.ContactFax'.", repo.ApplicationUnderTest.contactsForm.ContactFaxInfo, new RecordItemIndex(43));
             //repo.ApplicationUnderTest.contactsForm.ContactFax.PressKeys("fax");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.PhoneNo0' at Center.", repo.ApplicationUnderTest.contactsForm.PhoneNo0Info, new RecordItemIndex(49));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.PhoneNo0' at Center.", repo.ApplicationUnderTest.contactsForm.PhoneNo0Info, new RecordItemIndex(44));
             repo.ApplicationUnderTest.contactsForm.PhoneNo0.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$phoneNumber' with focus on 'ApplicationUnderTest.contactsForm.PhoneNo0'.", repo.ApplicationUnderTest.contactsForm.PhoneNo0Info, new RecordItemIndex(50));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$phoneNumber' with focus on 'ApplicationUnderTest.contactsForm.PhoneNo0'.", repo.ApplicationUnderTest.contactsForm.PhoneNo0Info, new RecordItemIndex(45));
             repo.ApplicationUnderTest.contactsForm.PhoneNo0.PressKeys(phoneNumber);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.submitButton' at Center.", repo.ApplicationUnderTest.contactsForm.submitButtonInfo, new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.contactsForm.submitButton' at Center.", repo.ApplicationUnderTest.contactsForm.submitButtonInfo, new RecordItemIndex(46));
             repo.ApplicationUnderTest.contactsForm.submitButton.Click();
             Delay.Milliseconds(0);
             

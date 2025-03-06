@@ -4645,6 +4645,12 @@ rxversion="10.1">
 			ref="58d71ed3-f874-49d0-a00a-d85290da916c"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="7dd4ef61-cf0e-4021-8fe8-e1d0989d6a1c"
+			name="Pre_createScenario_grid"
+			ref="854d17df-6bf4-4d41-80d9-79dc4deb70d2"
+			type="Recording">
+			</testmodule>
 			<modulegroupdef
 			id="826c64e7-3da1-421d-be7b-242db27e7d73"
 			name="createTaskItem_Success">
@@ -7097,6 +7103,11 @@ rxversion="10.1">
 					id="0071e5b2-0644-441c-ace9-e9c4bc58e0f9"
 					name="ModuleGroupdomain">
 						<modulevariable
+						moduleref="7dd4ef61-cf0e-4021-8fe8-e1d0989d6a1c"
+						name="domain"
+						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
+						</modulevariable>
+						<modulevariable
 						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
 						name="domain"
 						variableref="0e49bfa6-0c8f-4999-ad77-5babbb4e74af">
@@ -7110,6 +7121,11 @@ rxversion="10.1">
 					<groupvariable
 					id="97c1a9dd-a218-4771-a124-9bbf36952aed"
 					name="ModuleGroupitemCount">
+						<modulevariable
+						moduleref="7dd4ef61-cf0e-4021-8fe8-e1d0989d6a1c"
+						name="itemCount"
+						variableref="fd7f141e-c36a-4120-8f9c-54d71d149929">
+						</modulevariable>
 						<modulevariable
 						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
 						name="itemCount"
@@ -7164,6 +7180,11 @@ rxversion="10.1">
 					<groupvariable
 					id="d212d1e1-b9a7-48a1-9994-2423bcc255c3"
 					name="ModuleGroupnewTemplateName">
+						<modulevariable
+						moduleref="7dd4ef61-cf0e-4021-8fe8-e1d0989d6a1c"
+						name="newTemplateName"
+						variableref="8aea6de2-6208-42ec-a681-7172bed1be7d">
+						</modulevariable>
 						<modulevariable
 						moduleref="0171d927-d3b8-468b-be7a-b47284ea5912"
 						name="newTemplateName"
@@ -9247,6 +9268,10 @@ rxversion="10.1">
 				<modulegroupdef
 				id="e8fcc3ba-51d4-4eee-bd69-433e5aa766cc"
 				name="createContact_success">
+					<testmodule
+					id="7dd4ef61-cf0e-4021-8fe8-e1d0989d6a1c"
+					name="Pre_createScenario_grid">
+					</testmodule>
 					<testmodule
 					id="0171d927-d3b8-468b-be7a-b47284ea5912"
 					name="createContact">
